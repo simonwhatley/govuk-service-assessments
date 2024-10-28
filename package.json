@@ -1,0 +1,66 @@
+{
+  "name": "govuk-service-assessments",
+  "description": "",
+  "engines": {
+    "node": "20.11.0"
+  },
+  "keywords": [
+    "govuk",
+    "service-assessments",
+    "service-standard"
+  ],
+  "author": "Simon Whatley",
+  "funding": {
+    "type": "patreon",
+    "url": "https://patreon.com/simonwhatley"
+  },
+  "license": "MIT",
+  "scripts": {
+    "dev": "ELEVENTY_ENV=development npx @11ty/eleventy --serve",
+    "start": "npx @11ty/eleventy",
+    "lint:scripts": "standard",
+    "lint:scripts:fix": "standard --fix",
+    "lint:markdown": "markdownlint 'src/content/**/*.md' --disable MD013",
+    "lint:markdown:fix": "markdownlint 'src/content/**/*.md' --disable MD013 --fix",
+    "lint:styles": "stylelint 'src/assets/styles/**/*.scss'",
+    "test": "npm run test:dependencies",
+    "test:dependencies": "npm ls --depth=0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/simonwhatley/govuk-service-assessments.git"
+  },
+  "bugs": {
+    "url": "https://github.com/simonwhatley/govuk-service-assessments/issues"
+  },
+  "homepage": "https://github.com/simonwhatley/govuk-service-assessments#readme",
+  "dependencies": {
+    "@11ty/eleventy": "^3.0.0",
+    "dotenv": "^16.4.5",
+    "html-minifier": "^4.0.0",
+    "markdown-it": "^14.1.0",
+    "markdown-it-abbr": "^2.0.0",
+    "markdown-it-anchor": "^9.2.0",
+    "markdown-it-deflist": "^3.0.0",
+    "markdown-it-emoji": "^2.0.2",
+    "markdown-it-footnote": "^4.0.0",
+    "markdown-it-ins": "^4.0.0",
+    "markdown-it-mark": "^4.0.0",
+    "markdown-it-sub": "^2.0.0",
+    "markdown-it-sup": "^2.0.0",
+    "markdown-it-table-of-contents": "^0.8.0"
+  },
+  "devDependencies": {
+    "markdownlint-cli": "^0.42.0",
+    "standard": "^17.1.2",
+    "stylelint": "^16.10.0",
+    "stylelint-config-recommended-scss": "^14.1.0",
+    "stylelint-config-standard": "^36.0.1",
+    "stylelint-order": "^6.0.4"
+  },
+  "standard": {
+    "ignore": [
+      ".eleventy.js"
+    ]
+  }
+}
