@@ -1,0 +1,4 @@
+// GOV.UK Frontend styles
+$govuk-global-styles: true;
+
+@import "../../../node_modules/govuk-frontend/dist/govuk/all";
