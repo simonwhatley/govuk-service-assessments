@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    {% include 'partials/head.njk' %}
+  </head>
+  <body>
+    {# <script>document.body.className = ((document.body.className) ? document.body.className + ' js-enabled' : 'js-enabled');</script> #}
+
+    <a class="skip-link" href="#content">Skip to main content</a>
+
+    {%- include 'partials/header.njk' -%}
+
+    <main id="content" class="container">
+
+      {%- block content %}
+        {{- content | safe -}}
+      {% endblock -%}
+
+    </main>
+
+    {%- include 'partials/footer.njk' -%}
+
+    {%- include 'partials/foot.njk' -%}
+
+  </body>
+</html>

@@ -1,0 +1,49 @@
+<header class="header">
+
+  <div class="header__container">
+
+    <div class="header__logo">
+      <a class="header__logo-link" href="/" {%- if page.url == '/' %} aria-current="page"{% endif %}>{{- site.name | default('GOV.UK Service Assessments') -}}</a>
+      {# <button class="toggle" aria-expanded="false" aria-controls="nav"><span class="visually-hidden">Show </span>menu</button> #}
+    </div>
+
+    {# <div class="header__navigation">
+
+      <nav class="header-navigation" id="header-navigation" aria-label="Primary navigation">
+        <ul class="header-navigation__list">
+          {%- if collections.books | length %}
+            <li class="header-navigation__item">
+              <a class="header-navigation__link" href="/reading/" {%- if '/reading/' in page.url %} aria-current="page"{% endif %}>Reading</a>
+            </li>
+          {% endif -%}
+          {%- if collections.posts | length %}
+            <li class="header-navigation__item">
+              <a class="header-navigation__link" href="/writing/" {%- if '/writing/' in page.url %} aria-current="page"{% endif %}>Writing</a>
+            </li>
+          {% endif -%}
+          {%- if collections.podcasts | length %}
+            <li class="header-navigation__item">
+              <a class="header-navigation__link" href="/listening/" {%- if '/listening/' in page.url %} aria-current="page"{% endif %}>Listening</a>
+            </li>
+          {% endif -%}
+          <!-- <li class="header-navigation__item">
+            <a class="header-navigation__link" href="/talking/" {%- if '/talking/' in page.url %} aria-current="page"{% endif %}>Talking</a>
+          </li> -->
+          {%- if collections.projects | length %}
+          <li class="header-navigation__item">
+            <a class="header-navigation__link" href="/making/" {%- if '/making/' in page.url %} aria-current="page"{% endif %}>Making</a>
+          </li>
+          {% endif -%}
+          {%- if collections.jobs | length %}
+            <li class="header-navigation__item">
+              <a class="header-navigation__link" href="/doing/" {%- if '/doing/' in page.url %} aria-current="page"{% endif %}>Doing</a>
+            </li>
+          {% endif -%}
+        </ul>
+      </nav>
+
+    </div> #}
+
+  </div>
+
+</header>
