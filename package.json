@@ -1,0 +1,32 @@
+{
+  "name": "govuk-service-assessments",
+  "description": "",
+  "engines": {
+    "node": "20.11.0"
+  },
+  "keywords": [
+    "govuk",
+    "service-assessments",
+    "service-standard"
+  ],
+  "author": "Simon Whatley",
+  "funding": {
+    "type": "patreon",
+    "url": "https://patreon.com/simonwhatley"
+  },
+  "license": "MIT",
+  "scripts": {
+    "start": "http-server ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/simonwhatley/govuk-service-assessments.git"
+  },
+  "bugs": {
+    "url": "https://github.com/simonwhatley/govuk-service-assessments/issues"
+  },
+  "homepage": "https://github.com/simonwhatley/govuk-service-assessments#readme",
+  "dependencies": {
+    "http-server": "^14.1.1"
+  }
+}
