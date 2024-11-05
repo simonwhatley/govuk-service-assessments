@@ -1,5 +1,4 @@
 const fs = require('fs')
-const htmlmin = require('html-minifier')
 
 module.exports = eleventyConfig => {
   // add support for RSS/atom
@@ -13,25 +12,26 @@ module.exports = eleventyConfig => {
     return str.replace(/\.html/g, '')
   })
 
+  eleventyConfig.addFilter('date', require('./src/utils/filters/date'))
   eleventyConfig.addFilter('excerpt', require('./src/utils/filters/excerpt'))
   eleventyConfig.addFilter('markdown', require('./src/utils/filters/markdown'))
   eleventyConfig.addFilter('slugify', require('./src/utils/filters/slugify'))
   eleventyConfig.addFilter('squash', require('./src/utils/filters/squash'))
 
   // Browsersync Overrides
-  eleventyConfig.setBrowserSyncConfig({
-    callbacks: {
-      ready: (err, browserSync) => {
-        const content = fs.readFileSync('dist/404.html')
+  // eleventyConfig.setBrowserSyncConfig({
+  //   callbacks: {
+  //     ready: (err, browserSync) => {
+  //       const content = fs.readFileSync('dist/404.html')
 
-        browserSync.addMiddleware('*', (req, res) => {
-          // Provides the 404 content without redirect.
-          res.write(content)
-          res.end()
-        })
-      }
-    }
-  })
+  //       browserSync.addMiddleware('*', (req, res) => {
+  //         // Provides the 404 content without redirect.
+  //         res.write(content)
+  //         res.end()
+  //       })
+  //     }
+  //   }
+  // })
 
   eleventyConfig.addCollection('home', (collection) => {
     return collection
@@ -53,23 +53,8 @@ module.exports = eleventyConfig => {
   // eleventyConfig.addLayoutAlias('posts', 'layouts/posts.njk')
   // eleventyConfig.addLayoutAlias('tags', 'layouts/tags.njk')
 
-  eleventyConfig.addTransform('htmlmin', (content, outputPath) => {
-    if (outputPath.endsWith('.html')) {
-      const minified = htmlmin.minify(content, {
-        useShortDoctype: true,
-        removeComments: true,
-        collapseWhitespace: true
-      })
-      return minified
-    }
-    return content
-  })
-
-  // eleventyConfig.setFrontMatterParsingOptions({
-  //   excerpt: true,
-  //   // Optional, default is '---'
-  //   excerpt_separator: '<!-- excerpt -->'
-  // })
+  eleventyConfig.addShortcode('now', () => `${new Date()}`)
+  eleventyConfig.addShortcode('year', () => `${new Date().getFullYear()}`)
 
   return {
     templateFormats: ['njk', 'md', 'html', 'png', 'ico', 'svg', 'jpg', 'jpeg', 'gif', 'pdf', 'mp4', 'webm', 'vtt'],
