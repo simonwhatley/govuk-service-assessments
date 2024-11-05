@@ -2,13 +2,13 @@
 
   <div class="footer__container">
 
-    <small class="copyright">&copy; 2018 – {#{ now | date('YYYY') }#} {{ site.name | default('Simon Whatley') }}</small>
+    <small class="copyright">&copy; 2018 – {% year %} {{ site.name | default('Simon Whatley') }}</small>
 
-    {# <div class="footer__navigation">
+    <div class="footer__navigation">
 
       <nav class="footer-navigation" id="footer-navigation">
         <ul class="footer-navigation__list">
-          <li class="footer-navigation__item">
+          {# <li class="footer-navigation__item">
             <a class="footer-navigation__link" href="/about/" {%- if '/about/' in page.url %} aria-current="page"{% endif %}>About</a>
           </li>
           <li class="footer-navigation__item">
@@ -16,22 +16,22 @@
           </li>
           <!-- <li class="footer-navigation__item">
             <a class="footer-navigation__link" href="/accessibility/" {%- if '/accessibility/' in page.url %} aria-current="page"{% endif %}>Accessibility</a>
-          </li> -->
+          </li> --> #}
           <li class="footer-navigation__item">
             <a class="footer-navigation__link" href="/cookies/" {%- if '/cookies/' in page.url %} aria-current="page"{% endif %}>Cookie policy</a>
           </li>
           <li class="footer-navigation__item">
             <a class="footer-navigation__link" href="/privacy/" {%- if '/privacy/' in page.url %} aria-current="page"{% endif %}>Privacy policy</a>
           </li>
-          {%- if collections.posts | length %}
+          {# {%- if collections.posts | length %}
             <li class="footer-navigation__item">
               <a class="footer-navigation__link" href="/atom.xml">Feed</a>
             </li>
-          {% endif -%}
+          {% endif -%} #}
         </ul>
       </nav>
 
-    </div> #}
+    </div>
 
   </div>
 
