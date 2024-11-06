@@ -1,26 +1,59 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    {% include 'partials/head.njk' %}
-  </head>
-  <body>
-    {# <script>document.body.className = ((document.body.className) ? document.body.className + ' js-enabled' : 'js-enabled');</script> #}
+{%- set assetPath = "../../../node_modules/govuk-frontend/dist/govuk/assets" -%}
 
-    <a class="govuk-skip-link" href="#content">Skip to main content</a>
+{%- extends "../../../node_modules/govuk-frontend/dist/govuk/template.njk" -%}
 
-    {%- include 'partials/header.njk' -%}
+{%- from "../../../node_modules/govuk-frontend/dist/govuk/components/accordion/macro.njk"           import govukAccordion -%}
+{%- from "../../../node_modules/govuk-frontend/dist/govuk/components/back-link/macro.njk"           import govukBackLink -%}
+{%- from "../../../node_modules/govuk-frontend/dist/govuk/components/breadcrumbs/macro.njk"         import govukBreadcrumbs -%}
+{%- from "../../../node_modules/govuk-frontend/dist/govuk/components/button/macro.njk"              import govukButton -%}
+{%- from "../../../node_modules/govuk-frontend/dist/govuk/components/character-count/macro.njk"     import govukCharacterCount -%}
+{%- from "../../../node_modules/govuk-frontend/dist/govuk/components/checkboxes/macro.njk"          import govukCheckboxes -%}
+{%- from "../../../node_modules/govuk-frontend/dist/govuk/components/date-input/macro.njk"          import govukDateInput -%}
+{%- from "../../../node_modules/govuk-frontend/dist/govuk/components/details/macro.njk"             import govukDetails -%}
+{%- from "../../../node_modules/govuk-frontend/dist/govuk/components/error-message/macro.njk"       import govukErrorMessage -%}
+{%- from "../../../node_modules/govuk-frontend/dist/govuk/components/error-summary/macro.njk"       import govukErrorSummary -%}
+{%- from "../../../node_modules/govuk-frontend/dist/govuk/components/fieldset/macro.njk"            import govukFieldset -%}
+{%- from "../../../node_modules/govuk-frontend/dist/govuk/components/file-upload/macro.njk"         import govukFileUpload -%}
+{%- from "../../../node_modules/govuk-frontend/dist/govuk/components/input/macro.njk"               import govukInput -%}
+{%- from "../../../node_modules/govuk-frontend/dist/govuk/components/inset-text/macro.njk"          import govukInsetText -%}
+{%- from "../../../node_modules/govuk-frontend/dist/govuk/components/notification-banner/macro.njk" import govukNotificationBanner -%}
+{%- from "../../../node_modules/govuk-frontend/dist/govuk/components/panel/macro.njk"               import govukPanel -%}
+{%- from "../../../node_modules/govuk-frontend/dist/govuk/components/phase-banner/macro.njk"        import govukPhaseBanner -%}
+{%- from "../../../node_modules/govuk-frontend/dist/govuk/components/radios/macro.njk"              import govukRadios -%}
+{%- from "../../../node_modules/govuk-frontend/dist/govuk/components/select/macro.njk"              import govukSelect -%}
+{%- from "../../../node_modules/govuk-frontend/dist/govuk/components/skip-link/macro.njk"           import govukSkipLink -%}
+{%- from "../../../node_modules/govuk-frontend/dist/govuk/components/summary-list/macro.njk"        import govukSummaryList -%}
+{%- from "../../../node_modules/govuk-frontend/dist/govuk/components/table/macro.njk"               import govukTable -%}
+{%- from "../../../node_modules/govuk-frontend/dist/govuk/components/tabs/macro.njk"                import govukTabs -%}
+{%- from "../../../node_modules/govuk-frontend/dist/govuk/components/tag/macro.njk"                 import govukTag -%}
+{%- from "../../../node_modules/govuk-frontend/dist/govuk/components/textarea/macro.njk"            import govukTextarea -%}
+{%- from "../../../node_modules/govuk-frontend/dist/govuk/components/warning-text/macro.njk"        import govukWarningText -%}
 
-    <main id="content" class="govuk-container">
+{% block pageTitle -%}
+  {{ title + " - " if title }}{{ caption + " - " if caption }}{{ site.name }} - GOV.UK
+{%- endblock %}
 
-      {%- block content %}
-        {{- content | safe -}}
-      {% endblock -%}
+{% block head %}
+  {% include "../partials/head.njk" %}
+{% endblock %}
 
-    </main>
+{% block header %}
+  {{ govukHeader({
+    homepageUrl: "/",
+    productName: site.name,
+    containerClasses: "govuk-width-container"
+  }) }}
 
-    {%- include 'partials/footer.njk' -%}
+  {{ govukPhaseBanner({
+    tag: {
+      text: "Prototype"
+    },
+    html: 'This is a new service – your <a class="govuk-link govuk-link--no-visited-state" href="/feedback">feedback (opens in new tab)</a> will help us to improve it.',
+    classes: "govuk-width-container"
+  }) }}
 
-    {%- include 'partials/foot.njk' -%}
+{% endblock %}
 
-  </body>
-</html>
+{% block footer %}
+  {% include "../partials/footer.njk" %}
+{% endblock %}
