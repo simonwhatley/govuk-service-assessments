@@ -16,11 +16,36 @@
         {% endif %}
         {{ title }}
       </h1>
+
       {%- if content | length  %}
         <div class="app-markdown">
           {{- content | safe -}}
         </div>
       {% endif -%}
+
+      {% if pagination.items.length > 0 %}
+        <ol class="govuk-list">
+        {% for item in pagination.items %}
+          <li class="app-service-standard-point">
+            <h2 class="govuk-heading-m govuk-!-margin-bottom-3 app-service-standard-point__title">
+              <span class="app-service-standard-point__number">{{ loop.index }}.</span>
+              {{ item.data.title | nl2br | safe }}
+            </h2>
+            <div class="app-service-standard-point__details">
+              {% if item.data.description %}
+                <p class="govuk-body">{{ item.data.description | markdown("inline") | safe }}</p>
+              {% endif %}
+              <p class="govuk-body app-service-standard-point__link">
+                <a class="govuk-link" href="{{ item.url | url | pretty }}">Read more about point {{ loop.index }}</a>
+              </p>
+            </div>
+          </li>
+        {% endfor %}
+        </ol>
+      {% else %}
+        <p class="govuk-body">No standards found.</p>
+      {% endif %}
+
     </div>
   </div>
 {% endblock %}
