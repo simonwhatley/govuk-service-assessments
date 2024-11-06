@@ -1,7 +1,7 @@
 ---
 caption: Standard 13
 title: Standard 13
-description:
+description: Build a service consistent with the user experience of the rest of GOV.UK by using the design patterns and style guide.
 tags:
   - standard
   - version-1

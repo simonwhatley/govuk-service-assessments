@@ -1,7 +1,7 @@
 ---
 caption: Standard 25
 title: Standard 25
-description:
+description: Make a plan for the event of the service being taken temporarily offline.
 tags:
   - standard
   - version-1

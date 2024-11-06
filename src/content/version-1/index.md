@@ -1,6 +1,6 @@
 ---
 caption: Service standard
-title: Version 1
+title: Version 1 (pre-June 2015)
 tags:
   - version
 layout: collection

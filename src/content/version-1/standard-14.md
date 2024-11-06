@@ -1,7 +1,7 @@
 ---
 caption: Standard 14
 title: Standard 14
-description:
+description: Make sure that you have the capacity and technical flexibility to update and improve the service on a very frequent basis.
 tags:
   - standard
   - version-1

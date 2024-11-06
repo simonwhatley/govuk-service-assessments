@@ -1,6 +1,6 @@
 ---
 caption: Service standard
-title: Version 3
+title: Version 3 - current
 tags:
   - version
 layout: collection

@@ -1,7 +1,7 @@
 ---
 caption: Standard 16
 title: Standard 16
-description:
+description: Use open standards and common government platforms (eg identity assurance) where available.
 tags:
   - standard
   - version-1

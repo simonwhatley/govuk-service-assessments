@@ -1,7 +1,7 @@
 ---
 caption: Standard 7
 title: Standard 7
-description:
+description: Establish performance benchmarks, in consultation with GDS, using the 4 key performance indicators (KPIs) defined in the manual, against which the service will be measured.
 tags:
   - standard
   - version-1

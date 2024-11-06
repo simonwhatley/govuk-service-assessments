@@ -1,6 +1,6 @@
 ---
 caption: Service standard
-title: Version 2
+title: Version 2 (pre-July 2019)
 tags:
   - version
 layout: collection
