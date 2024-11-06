@@ -2,6 +2,9 @@
 caption: Standard 18
 title: Test with the minister
 description: Test the service from beginning to end with the minister responsible for it.
+tags:
+  - standard
+  - version-2
 layout: page
 permalink: /version-2/standard-18/
 back: /version-2/

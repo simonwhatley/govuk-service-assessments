@@ -15,6 +15,7 @@ module.exports = eleventyConfig => {
   eleventyConfig.addFilter('date', require('./src/utils/filters/date'))
   eleventyConfig.addFilter('excerpt', require('./src/utils/filters/excerpt'))
   eleventyConfig.addFilter('markdown', require('./src/utils/filters/markdown'))
+  eleventyConfig.addFilter('pretty', require('./src/utils/filters/pretty'))
   eleventyConfig.addFilter('slugify', require('./src/utils/filters/slugify'))
   eleventyConfig.addFilter('squash', require('./src/utils/filters/squash'))
 
@@ -41,10 +42,24 @@ module.exports = eleventyConfig => {
     //   .slice(0, 5)
   })
 
-  eleventyConfig.addCollection('posts', (collection) => {
-    return collection.getFilteredByTag('post')
+  // eleventyConfig.addCollection('versions', (collection) => {
+  //   return collection.getFilteredByTag('version')
+  // })
+
+  eleventyConfig.addCollection('version-1', (collection) => {
+    return collection
+      .getFilteredByTags('version-1', 'standard')
+    })
+
+  eleventyConfig.addCollection('version-2', (collection) => {
+    return collection
+      .getFilteredByTags('version-2', 'standard')
   })
 
+  eleventyConfig.addCollection('version-3', (collection) => {
+    return collection
+      .getFilteredByTags('version-3', 'standard')
+  })
 
   // add layout aliases to make templates more portable
   eleventyConfig.addLayoutAlias('home', 'layouts/home.njk')

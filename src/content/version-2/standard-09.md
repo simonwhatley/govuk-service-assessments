@@ -2,6 +2,9 @@
 caption: Standard 9
 title: Use open standards and common platforms
 description: Use open standards and common government platforms where available, including GOV.UK Verify as an option for identity assurance.
+tags:
+  - standard
+  - version-2
 layout: page
 permalink: /version-2/standard-9/
 back: /version-2/
