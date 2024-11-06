@@ -55,7 +55,7 @@ const markdownItAnchorOptions = {
       }),
       Object.assign(new state.Token('span_close', 'span', -1), {}),
       Object.assign(new state.Token('span_open', 'span', 1), {
-        attrs: [['class', 'visually-hidden']]
+        attrs: [['class', 'govuk-visually-hidden']]
       }),
       Object.assign(new state.Token('html_block', '', 0), {
         content: `Permalink to section titled ${linkContent}`
