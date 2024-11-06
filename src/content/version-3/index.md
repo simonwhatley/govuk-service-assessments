@@ -1,7 +1,9 @@
 ---
+caption: Service standard
 title: Version 3
 layout: collection
 permalink: /version-3/
+back: /
 ---
 
 - [Standard 1](/version-3/standard-1/)

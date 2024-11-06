@@ -1,4 +1,5 @@
 ---
+caption: Service standard
 title: Version 2
 layout: collection
 permalink: /version-2/
