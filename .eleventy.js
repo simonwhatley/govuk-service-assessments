@@ -48,7 +48,8 @@ module.exports = eleventyConfig => {
 
   // add layout aliases to make templates more portable
   eleventyConfig.addLayoutAlias('home', 'layouts/home.njk')
-  // eleventyConfig.addLayoutAlias('page', 'layouts/page.njk')
+  eleventyConfig.addLayoutAlias('page', 'layouts/page.njk')
+  eleventyConfig.addLayoutAlias('collection', 'layouts/collection.njk')
   // eleventyConfig.addLayoutAlias('post', 'layouts/post.njk')
   // eleventyConfig.addLayoutAlias('posts', 'layouts/posts.njk')
   // eleventyConfig.addLayoutAlias('tags', 'layouts/tags.njk')
