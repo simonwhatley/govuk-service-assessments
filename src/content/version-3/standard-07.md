@@ -1,0 +1,6 @@
+---
+caption: Standard 7
+title: Use agile ways of working
+layout: page
+permalink: /version-3/standard-7/
+---
