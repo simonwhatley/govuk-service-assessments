@@ -49,16 +49,19 @@ module.exports = eleventyConfig => {
   eleventyConfig.addCollection('version-1', (collection) => {
     return collection
       .getFilteredByTags('version-1', 'standard')
+      .sort((a, b) => a.fileSlug.toLowerCase().localeCompare(b.fileSlug.toLowerCase()))
     })
 
   eleventyConfig.addCollection('version-2', (collection) => {
     return collection
       .getFilteredByTags('version-2', 'standard')
+      .sort((a, b) => a.fileSlug.toLowerCase().localeCompare(b.fileSlug.toLowerCase()))
   })
 
   eleventyConfig.addCollection('version-3', (collection) => {
     return collection
       .getFilteredByTags('version-3', 'standard')
+      .sort((a, b) => a.fileSlug.toLowerCase().localeCompare(b.fileSlug.toLowerCase()))
   })
 
   // add layout aliases to make templates more portable
