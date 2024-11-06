@@ -2,6 +2,7 @@
 title: Version 2
 layout: collection
 permalink: /version-2/
+back: /
 ---
 
 The Digital Service Standard is a set of 18 criteria to help government create and run good digital services.
