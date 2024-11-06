@@ -15,7 +15,7 @@ gulp.task('generate:dev', shell.task('ELEVENTY_ENV=development npx @11ty/elevent
 gulp.task('assets', gulp.parallel(
   // 'fonts',
   // 'images',
-  'scripts',
+  // 'scripts',
   'styles'
 ))
 
