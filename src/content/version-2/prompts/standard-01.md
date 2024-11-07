@@ -9,3 +9,9 @@ layout: prompt
 permalink: /version-2/standard-1/prompts/
 back: /version-2/
 ---
+
+## Alpha
+
+## Beta
+
+## Live
