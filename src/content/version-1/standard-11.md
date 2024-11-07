@@ -1,7 +1,6 @@
 ---
 caption: Standard 11
-title: Standard 11
-description: Plan (with GDS) for the phasing out of any existing alternative channels, where appropriate.
+title: Plan (with GDS) for the phasing out of any existing alternative channels, where appropriate.
 tags:
   - standard
   - version-1

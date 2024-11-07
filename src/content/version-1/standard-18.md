@@ -1,7 +1,6 @@
 ---
 caption: Standard 18
-title: Standard 18
-description: Use analytics tools that collect performance data.
+title: Use analytics tools that collect performance data.
 tags:
   - standard
   - version-1

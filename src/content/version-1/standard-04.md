@@ -1,7 +1,6 @@
 ---
 caption: Standard 4
-title: Standard 4
-description: Evaluate the privacy risks to make sure that personal data collection requirements are appropriate.
+title: Evaluate the privacy risks to make sure that personal data collection requirements are appropriate.
 tags:
   - standard
   - version-1

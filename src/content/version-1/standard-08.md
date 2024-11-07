@@ -1,7 +1,6 @@
 ---
 caption: Standard 8
-title: Standard 8
-description: Analyse the prototype service’s success, and translate user feedback into features and tasks for the next phase of development.
+title: Analyse the prototype service’s success, and translate user feedback into features and tasks for the next phase of development.
 tags:
   - standard
   - version-1

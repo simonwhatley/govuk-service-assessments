@@ -1,7 +1,6 @@
 ---
 caption: Standard 16
-title: Standard 16
-description: Use open standards and common government platforms (eg identity assurance) where available.
+title: Use open standards and common government platforms (for example, identity assurance) where available.
 tags:
   - standard
   - version-1

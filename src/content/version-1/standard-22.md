@@ -1,7 +1,6 @@
 ---
 caption: Standard 22
-title: Standard 22
-description:
+title: Establish a benchmark for completion rates across the digital and assisted digital service. Report performance data on the Performance Platform.
 tags:
   - standard
   - version-1

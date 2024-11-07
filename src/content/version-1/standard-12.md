@@ -1,7 +1,6 @@
 ---
 caption: Standard 12
-title: Standard 12
-description:
+title: Integrate the service with any non-digital sections required for legal reasons.
 tags:
   - standard
   - version-1

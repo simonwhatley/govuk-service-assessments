@@ -1,7 +1,6 @@
 ---
 caption: Standard 20
-title: Standard 20
-description: Put a plan in place for ongoing user research and usability testing to continuously seek feedback from users.
+title: Put a plan in place for ongoing user research and usability testing to continuously seek feedback from users.
 tags:
   - standard
   - version-1
