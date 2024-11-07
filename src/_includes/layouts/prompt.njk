@@ -26,12 +26,12 @@
         label: "Sub navigation",
         items: [
           {
-            href: overview,
+            href: page.url | replace("prompts/", ""),
             text: "Overview",
             active: false
           },
           {
-            href: prompts,
+            href: page.url,
             text: "Prompts",
             active: true
           }
