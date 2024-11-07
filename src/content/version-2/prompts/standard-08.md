@@ -15,6 +15,20 @@ eleventyNavigation:
 
 ## Alpha
 
+### Questions
+
+- Talk us through your plan for making all new source code open and reusable?
+- Do you own the intellectual property?
+- Will I be able to reuse your code in another department?
+
+### Evidence
+
+Service Manager able to:
+
+- explain their plan for making all new source code open and reusable.
+- confirm that they own the intellectual property.
+- explain how a team in another department can reuse their code.
+
 ## Beta
 
 ## Live

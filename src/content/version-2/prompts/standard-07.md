@@ -15,6 +15,18 @@ eleventyNavigation:
 
 ## Alpha
 
+### Questions
+
+- Describe the perceived threats to your service and how you are designing the prototype to mitigate them?
+- What fraud vectors exist and what controls are you prototyping?
+
+### Evidence
+
+Service Manager able to:
+
+- describe the perceived threats to the service and explain how they are designing the prototype to mitigate them.
+- explain what fraud vectors exist and what controls they are prototyping.
+
 ## Beta
 
 ## Live

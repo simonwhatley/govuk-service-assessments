@@ -15,6 +15,16 @@ eleventyNavigation:
 
 ## Alpha
 
+### Questions
+
+- Have you registered your service with the Performance Platform?
+
+### Evidence
+
+Service Manager able to:
+
+- demonstrate they have registered the service with the Performance Platform and validated that the platform can support the metrics the service dashboard should present.
+
 ## Beta
 
 ## Live

@@ -15,6 +15,20 @@ eleventyNavigation:
 
 ## Alpha
 
+### Questions
+
+- What environments do you have?
+- What are the common devices and browsers for users of your service?
+- How have you designed the system around that?
+
+### Evidence
+
+Service Manager able to:
+
+- explain what environments they have.
+- explain what the common devices and browsers are for users of their service.
+- explain how they have designed the system around the common devices and browsers for users of their service.
+
 ## Beta
 
 ## Live

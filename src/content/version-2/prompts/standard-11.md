@@ -15,6 +15,16 @@ eleventyNavigation:
 
 ## Alpha
 
+### Questions
+
+- Explain the impact upon the user of the proposed service being unavailable?
+
+### Evidence
+
+Service Manager able to:
+
+- explain the impact upon the user of the proposed service being unavailable.
+
 ## Beta
 
 ## Live
