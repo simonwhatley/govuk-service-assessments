@@ -1,10 +1,12 @@
 {% extends "layouts/base.njk" %}
 
 {% block beforeContent %}
-{{ govukBackLink({
-  text: "Back",
-  href: back
-}) }}
+{{ appBreadcrumbs({
+  title: title,
+  items: collections.all,
+  key: eleventyNavigation.key,
+  classes: "govuk-!-display-none-print"
+}) if eleventyNavigation and eleventyNavigation.key and eleventyNavigation.parent }}
 {% endblock %}
 
 {% block content %}

@@ -1,5 +1,14 @@
 {% extends "layouts/base.njk" %}
 
+{% block beforeContent %}
+{{ appBreadcrumbs({
+  title: title,
+  items: collections.all,
+  key: eleventyNavigation.key,
+  classes: "govuk-!-display-none-print"
+}) if eleventyNavigation and eleventyNavigation.key and eleventyNavigation.parent }}
+{% endblock %}
+
 {% block content %}
   <div class="govuk-grid-row">
     <div class="govuk-grid-column-two-thirds">
