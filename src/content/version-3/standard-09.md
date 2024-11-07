@@ -7,7 +7,10 @@ tags:
   - version-3
 layout: standard
 permalink: /version-3/standard-9/
-back: /version-3/
+eleventyNavigation:
+  key: version-3-standard-9
+  title: Standard 9
+  parent: version-3
 ---
 
 Understand how government classifies the data, the organisation’s legal responsibilities, and security risks associated with the service. Consult experts where you need to.

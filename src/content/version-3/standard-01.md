@@ -7,7 +7,10 @@ tags:
   - version-3
 layout: standard
 permalink: /version-3/standard-1/
-back: /version-3/
+eleventyNavigation:
+  key: version-3-standard-1
+  title: Standard 1
+  parent: version-3
 ---
 
 Look at the full context to understand what the user is trying to achieve, not just the part where they have to interact with government.

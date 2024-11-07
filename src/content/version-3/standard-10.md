@@ -7,7 +7,10 @@ tags:
   - version-3
 layout: standard
 permalink: /version-3/standard-10/
-back: /version-3/
+eleventyNavigation:
+  key: version-3-standard-10
+  title: Standard 10
+  parent: version-3
 ---
 
 Collect and use performance data from all channels, online and offline.

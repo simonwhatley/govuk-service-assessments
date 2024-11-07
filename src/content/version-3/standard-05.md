@@ -7,7 +7,10 @@ tags:
   - version-3
 layout: standard
 permalink: /version-3/standard-5/
-back: /version-3/
+eleventyNavigation:
+  key: version-3-standard-5
+  title: Standard 5
+  parent: version-3
 ---
 
 ## Why it’s important

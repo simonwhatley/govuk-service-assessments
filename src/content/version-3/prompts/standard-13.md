@@ -7,7 +7,10 @@ tags:
   - version-3
 layout: prompt
 permalink: /version-3/standard-13/prompts/
-back: /version-3/
+eleventyNavigation:
+  key: version-3-standard-13-prompts
+  title: Standard 13 prompts
+  parent: version-3
 ---
 
 ## Alpha

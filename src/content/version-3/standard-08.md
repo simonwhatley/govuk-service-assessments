@@ -7,7 +7,10 @@ tags:
   - version-3
 layout: standard
 permalink: /version-3/standard-8/
-back: /version-3/
+eleventyNavigation:
+  key: version-3-standard-8
+  title: Standard 8
+  parent: version-3
 ---
 
 Work with your organisation to make sure that you’re able to focus on improvements that have the most value.

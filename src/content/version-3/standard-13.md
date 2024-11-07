@@ -7,7 +7,10 @@ tags:
   - version-3
 layout: standard
 permalink: /version-3/standard-13/
-back: /version-3/
+eleventyNavigation:
+  key: version-3-standard-13
+  title: Standard 13
+  parent: version-3
 ---
 
 If you develop your own patterns or components, share them publicly so others can use them.
