@@ -11,6 +11,10 @@ pagination:
   size: 50
 permalink: /version-3/
 back: /
+eleventyNavigation:
+  key: version-3
+  title: Service Standard
+  parent: home
 ---
 
 The Service Standard helps teams to create and run great public services.

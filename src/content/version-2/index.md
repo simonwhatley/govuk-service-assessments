@@ -11,6 +11,10 @@ pagination:
   size: 50
 permalink: /version-2/
 back: /
+eleventyNavigation:
+  key: version-2
+  title: Digital Service Standard
+  parent: home
 ---
 
 The Digital Service Standard is a set of 18 criteria to help government create and run good digital services.

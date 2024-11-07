@@ -6,7 +6,10 @@ tags:
   - version-1
 layout: prompt
 permalink: /version-1/standard-8/prompts/
-back: /version-1/
+eleventyNavigation:
+  key: version-1-standard-8-prompts
+  title: Standard 8 prompts
+  parent: version-1
 ---
 
 ## Alpha

@@ -6,5 +6,8 @@ tags:
   - version-1
 layout: standard
 permalink: /version-1/standard-25/
-back: /version-1/
+eleventyNavigation:
+  key: version-1-standard-25
+  title: Standard 25
+  parent: version-1
 ---
