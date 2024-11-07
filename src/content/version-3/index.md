@@ -15,6 +15,7 @@ eleventyNavigation:
   key: version-3
   title: Service Standard
   parent: home
+order: 3
 ---
 
 The Service Standard helps teams to create and run great public services.

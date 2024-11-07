@@ -43,6 +43,7 @@ module.exports = eleventyConfig => {
   eleventyConfig.addCollection('home', (collection) => {
     return collection
       .getFilteredByTags('overview', 'version')
+      .sort((a, b) => a.order - b.order)
   })
 
   eleventyConfig.addCollection('version-1', (collection) => {

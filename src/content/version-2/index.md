@@ -15,6 +15,7 @@ eleventyNavigation:
   key: version-2
   title: Digital Service Standard
   parent: home
+order: 2
 ---
 
 The Digital Service Standard is a set of 18 criteria to help government create and run good digital services.
