@@ -231,7 +231,7 @@
     text-decoration: none;
   }
 
-  .header-anchor {
+  .app-header-anchor {
     color: govuk-colour("mid-grey");
     font-style: italic;
     font-weight: normal;
@@ -244,9 +244,9 @@
     }
   }
 
-  h2:hover .header-anchor,
-  h3:hover .header-anchor,
-  h4:hover .header-anchor {
+  h2:hover .app-header-anchor,
+  h3:hover .app-header-anchor,
+  h4:hover .app-header-anchor {
     visibility: visible;
   }
 

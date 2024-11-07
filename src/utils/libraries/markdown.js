@@ -6,7 +6,7 @@ const slugify = require('../filters/slugify')
 // https://nicolas-hoizey.com/articles/2021/02/25/accessible-anchor-links-with-markdown-it-and-eleventy/
 const markdownItAnchorOptions = {
   permalink: true,
-  permalinkClass: 'header-anchor',
+  permalinkClass: 'app-header-anchor',
   permalinkSymbol: '#',
   level: [2, 3, 4],
   slugify,
@@ -17,7 +17,7 @@ const markdownItAnchorOptions = {
     const headingWrapperTokenOpen = Object.assign(
       new state.Token('div_open', 'div', 1),
       {
-        attrs: [['class', 'heading-wrapper']]
+        attrs: [['class', 'app-heading-wrapper']]
       }
     )
 
@@ -25,12 +25,12 @@ const markdownItAnchorOptions = {
     const headingWrapperTokenClose = Object.assign(
       new state.Token('div_close', 'div', -1),
       {
-        attrs: [['class', 'heading-wrapper']]
+        attrs: [['class', 'app-heading-wrapper']]
       }
     )
 
     // Create the tokens for the full accessible anchor link
-    // <a class="header-anchor" href="#your-own-platform-is-the-nearest-you-can-get-help-to-setup">
+    // <a class="app-header-anchor" href="#your-own-platform-is-the-nearest-you-can-get-help-to-setup">
     //   <span aria-hidden="true">
     //     ${opts.permalinkSymbol}
     //   </span>
@@ -103,7 +103,7 @@ module.exports = (() => {
     .use(require('markdown-it-sub'))
     .use(require('markdown-it-sup'))
     .use(require('markdown-it-table-of-contents'), {
-      containerHeaderHtml: '<h2 class="heading-l" id="contents">Contents</h2>',
+      containerHeaderHtml: '<h2 class="govuk-heading-s" id="contents">Contents</h2>',
       includeLevel: [2, 3]
     })
 
