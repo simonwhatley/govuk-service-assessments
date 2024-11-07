@@ -5,5 +5,6 @@ $govuk-global-styles: true;
 
 @import "../../_includes/components/all";
 
+@import "components/header-anchor";
 @import "components/markdown";
 @import "components/service-standard-point";
