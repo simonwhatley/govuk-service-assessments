@@ -43,7 +43,7 @@ module.exports = eleventyConfig => {
   eleventyConfig.addCollection('home', (collection) => {
     return collection
       .getFilteredByTags('overview', 'version')
-      .sort((a, b) => a.order - b.order)
+      .sort((a, b) => a.fileSlug.toLowerCase().localeCompare(b.fileSlug.toLowerCase()))
   })
 
   eleventyConfig.addCollection('version-1', (collection) => {
