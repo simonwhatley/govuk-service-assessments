@@ -29,7 +29,7 @@
                 <p class="govuk-body">{{ item.data.description | markdown("inline") | safe }}</p>
               {% endif %}
               <p class="govuk-body app-service-standard-point__link">
-                <a class="govuk-link" href="{{ item.url | url | pretty }}">Read more about {{ item.data.title | nl2br | safe }}</a>
+                <a class="govuk-link" href="{{ item.url | url | pretty }}">Read more about the {{ item.data.title | nl2br | safe }}</a>
               </p>
             </div>
           </li>
