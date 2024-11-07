@@ -41,3 +41,15 @@ Service Manager able to:
 - explain how they currently measure the performance of the old service to provide a baseline for the new service
 
 ## Live
+
+### Questions
+
+- Can you show us how you are reporting data on the 4 KPI’s on your dashboard?
+- How are you measuring the performance of the old service to provide a baseline for the new service?
+
+### Evidence
+
+Service Manager able to:
+
+- explain how they are reporting the 4 KPI’s on their dashboard
+- explain how they currently measure the performance of the old service to provide a baseline for the new service

@@ -37,3 +37,13 @@ Service Manager able to:
 - confirm the minister responsible for the service will test it before the service moves into Live
 
 ## Live
+
+### Questions
+
+- Has the minister responsible for the service tested it?
+
+### Evidence
+
+Service Manager able to:
+
+- show a video of the responsible minister testing the service or provide written confirmation signed by the responsible minister to confirm they have tested the service

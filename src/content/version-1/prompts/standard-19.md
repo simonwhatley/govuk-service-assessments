@@ -45,3 +45,19 @@ Service Manager able to:
 - explain what they have thrown away during the alpha
 
 ## Live
+
+### Questions
+
+- How has the service being iterated frequently during the beta and how will this continue after the service is live?
+- Who in the team was responsible for user research, usability testing and identifying actionable data insights during the beta, and who will be responsible after the service is live?
+- Do you have access to the data sets you need e.g. analytics, call centre data?
+- What have you thrown away or changed during the beta?
+
+### Evidence
+
+Service Manager able to:
+
+- show that the service has being iterated on a frequent basis during the beta, based on user research, usability testing and analytics, and explain how this will continue after the service is live
+- explain who in the team was responsible for user research, usability testing and identifying actionable data insights during the beta, and who will be responsible after the service is live
+- show they have access to the data sets they need e.g. analytics, call centre data
+- explain what they have thrown away or changed during the beta

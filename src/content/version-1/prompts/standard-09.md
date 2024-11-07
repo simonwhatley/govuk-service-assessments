@@ -44,3 +44,21 @@ Service Manager able to:
 - explain other paths in the alpha service and demonstrate that they work
 
 ## Live
+
+### Questions
+
+- What evidence can you provide that users are, in the majority of cases, succeeding first time?
+- Are less digitally minded and non subject area experts able to use the beta service?
+- How were the design and content decisions made for the beta?
+- Has the service been tested for accessibility?
+- Are you demonstrating the happy path - can you show us other paths in the service?
+
+### Evidence
+
+Service Manager able to:
+
+- show the majority of users of the beta service are succeeding first time
+- show video of a less digitally minded user and non subject area experts succeeding to use the beta service
+- explain how the design and content decisions for the beta were made, and relate back to user research, usability testing and analytics
+- show the beta service is accessible
+- explain other paths in the beta service and demonstrate that they work
