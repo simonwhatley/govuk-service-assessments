@@ -31,4 +31,24 @@ Service Manager able to:
 
 ## Beta
 
+### Questions
+
+- What environments do you have?
+- How quickly and easily can you create a new environment?
+- What data exists in your pre-production environments?
+- How are you gaining confidence that your service will perform under expected loads?
+- How are you checking that your system works on all the supported devices?
+
+### Evidence
+
+Service Manager able to:
+
+- explain what environments they have.
+- explain how quickly and easily they can create a new environment.
+- explain what data exists in their pre-production environments.
+- explain how they are gaining confidence that their service will perform under expected loads (including assisted digital routes).
+- describe testing environments, systems, and approaches for non-digital parts of the service (including assisted digital routes).
+- explain how they are checking that their system works on all the supported devices.
+- demonstrate their service in a live-like environment.
+
 ## Live

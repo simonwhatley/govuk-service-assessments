@@ -31,4 +31,24 @@ Service Manager able to:
 
 ## Beta
 
+### Questions
+
+- Are you locking yourself into any proprietary solutions where an open standard is available?
+- What does the system output to the users and in what format?
+- Describe your use of common government platforms
+- Describe the integration mechanisms with any external systems
+- What common user needs does your service meet and what are you reusing from across government to help meet that user need?
+- What data do you hold and what is your open data responsibility?
+
+### Evidence
+
+Service Manager able to:
+
+- explain how they are avoiding locking themselves into any proprietary solutions where an open standard is available.
+- explain what the system outputs to users and in what format.
+- describe their use of common government platforms.
+- describe the integration mechanisms with any external systems.
+- explain any common user needs their service meets and what they are reusing from across government to help meet that user need.
+- explain what common data they hold and their open data responsibility.
+
 ## Live

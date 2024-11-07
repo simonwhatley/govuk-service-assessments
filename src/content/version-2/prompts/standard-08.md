@@ -31,4 +31,23 @@ Service Manager able to:
 
 ## Beta
 
+### Questions
+
+- Describe how you are making new source code open and reuseable?
+- What licences are you using to release code during beta?
+- Do you own the intellectual property?
+- Describe how a team in another department can reuse your code.
+- What code from other teams/services are you using?
+
+### Evidence
+
+Service Manager able to:
+
+- explain how they are making new source code open and reusable.
+- show their code in an open internet source code repository.
+- explain what licences they are using to release code during beta.
+- confirm that they own the intellectual property.
+- explain how a team in another department can reuse their code.
+- explain what code from other teams/service they are using.
+
 ## Live
