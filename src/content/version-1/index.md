@@ -12,3 +12,5 @@ pagination:
 permalink: /version-1/
 back: /
 ---
+
+The Digital by Default Service Standard is a set of criteria for digital teams building government services to meet. Meeting the standard will mean digital services are of a consistently high quality. This includes creating services that are easily improved, safe, secure and fulfill user needs.

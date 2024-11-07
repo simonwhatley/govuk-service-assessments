@@ -1,7 +1,7 @@
 ---
 caption: Version 3 - current
 title: Service Standard
-description: The current 14 point standard used from July 2019
+description: The current 14 point standard used from July 2019.
 tags:
   - version
   - overview
