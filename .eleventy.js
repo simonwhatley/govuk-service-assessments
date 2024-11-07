@@ -1,4 +1,4 @@
-const fs = require('fs')
+// const fs = require('fs')
 
 module.exports = eleventyConfig => {
   // add support for RSS/atom
@@ -36,15 +36,8 @@ module.exports = eleventyConfig => {
 
   eleventyConfig.addCollection('home', (collection) => {
     return collection
-    // collection
-    //   .getFilteredByTags('post', 'highlight')
-    //   .reverse()
-    //   .slice(0, 5)
+      .getFilteredByTags('overview', 'version')
   })
-
-  // eleventyConfig.addCollection('versions', (collection) => {
-  //   return collection.getFilteredByTag('version')
-  // })
 
   eleventyConfig.addCollection('version-1', (collection) => {
     return collection
