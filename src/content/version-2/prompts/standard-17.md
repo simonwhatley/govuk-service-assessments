@@ -43,3 +43,14 @@ Service Manager able to:
 - show published performance dashboard.
 
 ## Live
+
+### Questions
+
+Can you demonstrate your service dashboard?
+
+### Evidence
+
+Service manager able to:
+
+- show published performance platform dashboard, including metrics for the 4 KPIs, and other key metrics.
+- explain metrics and reason why they have been chosen.

@@ -61,7 +61,7 @@ Service Manager able to:
 - explain changes to the metrics collected since alpha and the reasons for change (if any).
 - show how they currently measure the performance of the existing service (if applicable) and which measures will provide a baseline for the new service.
 - show how they are collecting users journey data for the new service during beta (using a chosen analytics package).
-- show how they are collecting and calculating cost per transaction (or equivalent*) during beta.
+- show how they are collecting and calculating cost per transaction (or equivalent†) during beta.
 - show how they are collecting user satisfaction data during beta (GOV.UK ‘done page’ questionnaire or other).
 - show how they are collecting completion rate (or equivalent†) data during beta.
 - show how they are collecting other metrics data (including journey stage information) during beta.
@@ -73,3 +73,35 @@ Service Manager able to:
 † non-transactional user journeys
 
 ## Live
+
+### Questions
+
+- Have you changed the behaviour, characteristics and dependencies of the new service and the factors that influence the choice of metrics and data sources for those metrics?
+- Have these metrics changed since beta assessment and if so why?
+- How are you measuring the performance of the existing (if applicable) and new service across digital, non-digital and assisted-digital channels?
+
+### Evidence
+
+Using the Performance Platform dashboard, the Service Manager is able to:
+
+- explain and show how they are reporting user satisfaction on their dashboard.
+- explain how they are planning to increase user satisfaction after the service goes live.
+- explain who will monitor user satisfaction after the service is live.
+- explain and show how they are reporting completion rates (or equivalent†) on their dashboard.
+- explain how they are planning to increase completion rates after the service goes live.
+- explain who will monitor completion rates after the service is live.
+- explain and show how they are reporting cost per transaction (or equivalent*) on their dashboard.
+- explain how they are planning to achieve a low cost per transaction after the service goes live.
+- explain who will monitor cost per transaction after the service is live.
+- explain and show how they are reporting digital take up on their dashboard, and - explain how it measures channel shift.
+- explain how they are planning to increase digital uptake after the service goes live.
+- explain realistic planning to increase digital uptake (thereby reducing reliance on assisted digital) after the service goes live.
+- explain who will monitor digital take up after the service is live.
+- explain and show other additional metrics supporting the service on their dashboard.
+- explain how they are planning to use these metrics to improve the service.
+- explain who will monitor these metrics.
+- demonstrate that delivery partners and other stakeholders are actively promoting/supporting digital delivery.
+- identify future metrics and how they will be used to improve the service.
+- outline a timescale when these metrics will be available.
+
+† non-transactional user journeys

@@ -52,3 +52,17 @@ Service Manager able to:
 - explain what common data they hold and their open data responsibility.
 
 ## Live
+
+### Questions
+
+- Describe your use of common government platforms?
+- Describe the integration mechanisms with any external systems.
+- What common user needs does your service meet and what are you reusing from across government to help meet that user need?
+
+### Evidence
+
+Service Manager able to:
+
+- describe their use of common government platforms.
+- describe the integration mechanisms with any external systems.
+- explain any common user needs their service meets and what they are reusing from across government to help meet that user need.

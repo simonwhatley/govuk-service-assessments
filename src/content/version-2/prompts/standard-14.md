@@ -57,3 +57,20 @@ Service Manager able to:
 - explain engagement across all delivery channels and planning for promoting digital take-up.
 
 ## Live
+
+### Questions
+
+- How have you used analytics and user research to reduce dropout rates for your digital service?
+- How do you know significant channel shift is happening?
+- What is your plan for phasing out non-digital channels?
+- What is your plan for increasing digital take up when live?
+- Tell us about your evidence base to support these plans?
+
+### Evidence
+
+Service Manager able to:
+
+- explain their plan for moving users to the digital service including year by year targets for increasing digital take up for the next 5 years.
+- explain their plan to phase out non-digital channels as digital take up increases over the next 5 years.
+- explain the evidence base behind their plans for increasing digital take up and phasing out non-digital channels.
+- show and explain usage volumes (and trends) per channel.
