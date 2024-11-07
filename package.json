@@ -36,6 +36,7 @@
   "homepage": "https://github.com/simonwhatley/govuk-service-assessments#readme",
   "dependencies": {
     "@11ty/eleventy": "^3.0.0",
+    "@11ty/eleventy-navigation": "^0.3.5",
     "dotenv": "^16.4.5",
     "govuk-frontend": "^5.7.1",
     "gulp": "^5.0.0",

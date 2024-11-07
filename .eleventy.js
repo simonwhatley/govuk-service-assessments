@@ -1,8 +1,6 @@
-// const fs = require('fs')
-
 module.exports = eleventyConfig => {
-  // add support for RSS/atom
-  // eleventyConfig.addPlugin(rss)
+  // Plugins
+  eleventyConfig.addPlugin(require('@11ty/eleventy-navigation'))
 
   // Template libraries
   eleventyConfig.setLibrary('md', require('./src/utils/libraries/markdown'))
