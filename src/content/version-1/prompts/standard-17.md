@@ -14,6 +14,24 @@ eleventyNavigation:
 
 ## Alpha
 
+### Questions
+
+- How do you deploy in the alpha service and how do you test before deploying?
+- Where do you do performance testing?
+- Do you have an environment for previewing new features?
+- Are you doing ongoing penetration testing?
+- What browsers and devices do you support and why?
+
+### Evidence
+
+Service Manager able to:
+
+- explain how they deploy during the alpha and test before deploying
+- explain how and where they do performance testing for the alpha service
+- explain how they preview new features before deploying them to the alpha service
+- explain their ongoing penetration testing during the alpha
+- explain their browser and device testing during the alpha
+
 ## Beta
 
 ## Live

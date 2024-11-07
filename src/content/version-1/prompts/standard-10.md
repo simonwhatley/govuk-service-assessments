@@ -14,6 +14,22 @@ eleventyNavigation:
 
 ## Alpha
 
+### Questions
+
+- What user research have you conducted with assisted digital users and what have you learnt that will inform the design of your assisted digital support?
+- What are your plans to test, measure and iterate your assisted digital support during beta?
+- Will your assisted digital support be sustainably funded and free to the user?
+
+### Evidence
+
+Service Manager able to:
+
+- explain what types of research, when, with how many people, including recruitment specification
+- explain how the assisted digital support might be tailored according to research carried out so far
+- explain why, if relevant, your service does not have to provide assisted digital in line with GDS policy, and what alternative will be in place for any assisted digital users
+- explain how you will test, measure and iterate your assisted digital support during beta with assisted digital users for the end-to-end user journey, including identity assurance
+- explain how you plan to ensure assisted digital support is sustainably funded (including support not delivered by government) and free to the user
+
 ## Beta
 
 ## Live

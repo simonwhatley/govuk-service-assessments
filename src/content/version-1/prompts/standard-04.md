@@ -14,6 +14,22 @@ eleventyNavigation:
 
 ## Alpha
 
+### Questions
+
+- What have you done to ensure compliance with the Data Protection Act?
+- What data goes where and why?
+- Who is the data controller for the service?
+- How have you ensured you follow cookie policy?
+
+### Evidence
+
+Service Manager able to:
+
+- explain how the service complies with the Data Protection Act
+- explain data flows i.e., what data goes where and why
+- confirm who the data controller is for the service
+- eExplain how the service complies with cookie policy
+
 ## Beta
 
 ## Live
