@@ -28,4 +28,16 @@ Service Manager able to:
 
 ## Beta
 
+### Questions
+
+- How will you collect data on the 4 KPI’s during the beta?
+- How are you measuring the performance of the old service to provide a baseline for the new service?
+
+### Evidence
+
+Service Manager able to:
+
+- explain how they will collect data on the 4 KPI’s during the beta
+- explain how they currently measure the performance of the old service to provide a baseline for the new service
+
 ## Live

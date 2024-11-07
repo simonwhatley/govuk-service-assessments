@@ -30,4 +30,22 @@ Service manager able to:
 
 ## Beta
 
+### Questions
+
+- Do you have a policy in place for making new source code open and reuseable during the beta?
+- What licences are you using to release code during the beta?
+- Do you own the intellectual property?
+- Can I reuse your code in another department?
+- What have you open sourced for the beta?
+
+### Evidence
+
+Service Manager able to:
+
+- explain their policy for making all new source code open and reusable during the beta
+- explain what licences they are using to release code during the beta
+- confirm that the service owns the intellectual property or give a valid explanation why not
+- explain how other departments will be able to reuse their code during the beta
+- show an example of something that is open sourced for the beta
+
 ## Live
