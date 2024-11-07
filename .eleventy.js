@@ -7,7 +7,7 @@ module.exports = eleventyConfig => {
   // Template libraries
   eleventyConfig.setLibrary('md', require('./src/utils/libraries/markdown'))
 
-  // add some utility filters
+  // Filters
   eleventyConfig.addFilter('permalink', str => {
     return str.replace(/\.html/g, '')
   })
@@ -18,6 +18,13 @@ module.exports = eleventyConfig => {
   eleventyConfig.addFilter('pretty', require('./src/utils/filters/pretty'))
   eleventyConfig.addFilter('slugify', require('./src/utils/filters/slugify'))
   eleventyConfig.addFilter('squash', require('./src/utils/filters/squash'))
+
+  // Passthrough
+  // eleventyConfig.addPassthroughCopy('./src/assets/images')
+  eleventyConfig.addPassthroughCopy({ 'node_modules/govuk-frontend/dist/govuk/assets': 'assets' })
+
+  // Enable data deep merge
+  eleventyConfig.setDataDeepMerge(true)
 
   // Browsersync Overrides
   // eleventyConfig.setBrowserSyncConfig({
@@ -34,6 +41,7 @@ module.exports = eleventyConfig => {
   //   }
   // })
 
+  // Collections
   eleventyConfig.addCollection('home', (collection) => {
     return collection
       .getFilteredByTags('overview', 'version')
@@ -57,16 +65,18 @@ module.exports = eleventyConfig => {
       .sort((a, b) => a.fileSlug.toLowerCase().localeCompare(b.fileSlug.toLowerCase()))
   })
 
-  // add layout aliases to make templates more portable
+  // Layouts
   eleventyConfig.addLayoutAlias('home', 'layouts/home.njk')
   eleventyConfig.addLayoutAlias('page', 'layouts/page.njk')
   eleventyConfig.addLayoutAlias('standards', 'layouts/standards.njk')
   eleventyConfig.addLayoutAlias('standard', 'layouts/standard.njk')
   eleventyConfig.addLayoutAlias('prompt', 'layouts/prompt.njk')
 
+  // Short codes
   eleventyConfig.addShortcode('now', () => `${new Date()}`)
   eleventyConfig.addShortcode('year', () => `${new Date().getFullYear()}`)
 
+  // Configuration
   return {
     templateFormats: ['njk', 'md', 'html', 'png', 'ico', 'svg', 'jpg', 'jpeg', 'gif', 'pdf', 'mp4', 'webm', 'vtt'],
     dir: {
