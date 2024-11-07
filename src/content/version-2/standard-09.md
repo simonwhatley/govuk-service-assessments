@@ -7,7 +7,10 @@ tags:
   - version-2
 layout: standard
 permalink: /version-2/standard-9/
-back: /version-2/
+eleventyNavigation:
+  key: version-2-standard-9
+  title: Standard 9
+  parent: version-2
 ---
 
 You must use open standards and common platforms to meet point 9 of the Digital Service Standard.

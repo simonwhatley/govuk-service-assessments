@@ -7,7 +7,10 @@ tags:
   - version-2
 layout: standard
 permalink: /version-2/standard-2/
-back: /version-2/
+eleventyNavigation:
+  key: version-2-standard-2
+  title: Standard 2
+  parent: version-2
 ---
 
 You must do ongoing user research to meet point 2 of the Digital Service Standard.

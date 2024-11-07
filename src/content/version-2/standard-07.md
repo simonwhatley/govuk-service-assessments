@@ -7,7 +7,10 @@ tags:
   - version-2
 layout: standard
 permalink: /version-2/standard-7/
-back: /version-2/
+eleventyNavigation:
+  key: version-2-standard-7
+  title: Standard 7
+  parent: version-2
 ---
 
 You must understand security and privacy issues to meet point 7 of the Digital Service Standard.

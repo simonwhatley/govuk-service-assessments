@@ -7,7 +7,10 @@ tags:
   - version-2
 layout: standard
 permalink: /version-2/standard-12/
-back: /version-2/
+eleventyNavigation:
+  key: version-2-standard-12
+  title: Standard 12
+  parent: version-2
 ---
 
 You must create a service that users find easy to use to meet point 12 of the Digital Service Standard.

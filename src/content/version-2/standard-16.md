@@ -7,7 +7,10 @@ tags:
   - version-2
 layout: standard
 permalink: /version-2/standard-16/
-back: /version-2/
+eleventyNavigation:
+  key: version-2-standard-16
+  title: Standard 16
+  parent: version-2
 ---
 
 You must identify performance indicators to meet point 16 of the Digital Service Standard.

@@ -7,7 +7,10 @@ tags:
   - version-2
 layout: standard
 permalink: /version-2/standard-4/
-back: /version-2/
+eleventyNavigation:
+  key: version-2-standard-4
+  title: Standard 4
+  parent: version-2
 ---
 
 You must use agile methods to meet point 4 of the Digital Service Standard.

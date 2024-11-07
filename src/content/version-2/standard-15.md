@@ -7,7 +7,10 @@ tags:
   - version-2
 layout: standard
 permalink: /version-2/standard-15/
-back: /version-2/
+eleventyNavigation:
+  key: version-2-standard-15
+  title: Standard 15
+  parent: version-2
 ---
 
 You must collect performance data to meet point 15 of the Digital Service Standard.

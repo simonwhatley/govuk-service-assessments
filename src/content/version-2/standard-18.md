@@ -7,7 +7,10 @@ tags:
   - version-2
 layout: standard
 permalink: /version-2/standard-18/
-back: /version-2/
+eleventyNavigation:
+  key: version-2-standard-18
+  title: Standard 18
+  parent: version-2
 ---
 
 You must test your service with the minister to meet point 18 of the Digital Service Standard.

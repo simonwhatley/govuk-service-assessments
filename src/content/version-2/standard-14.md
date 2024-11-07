@@ -7,7 +7,10 @@ tags:
   - version-2
 layout: standard
 permalink: /version-2/standard-14/
-back: /version-2/
+eleventyNavigation:
+  key: version-2-standard-14
+  title: Standard 14
+  parent: version-2
 ---
 
 You must encourage everyone to use the digital service to meet point 14 of the Digital Service Standard.

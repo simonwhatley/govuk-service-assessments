@@ -7,7 +7,10 @@ tags:
   - version-2
 layout: standard
 permalink: /version-2/standard-11/
-back: /version-2/
+eleventyNavigation:
+  key: version-2-standard-11
+  title: Standard 11
+  parent: version-2
 ---
 
 You must make a plan for your service going offline, to meet point 11 of the Digital Service Standard.

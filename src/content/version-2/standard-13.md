@@ -7,7 +7,10 @@ tags:
   - version-2
 layout: standard
 permalink: /version-2/standard-13/
-back: /version-2/
+eleventyNavigation:
+  key: version-2-standard-13
+  title: Standard 13
+  parent: version-2
 ---
 
 You must make the user experience consistent with GOV.UK to meet point 13 of the Digital Service Standard.

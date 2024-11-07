@@ -7,7 +7,10 @@ tags:
   - version-2
 layout: standard
 permalink: /version-2/standard-5/
-back: /version-2/
+eleventyNavigation:
+  key: version-2-standard-5
+  title: Standard 5
+  parent: version-2
 ---
 
 You must iterate your service and improve it frequently to meet point 5 of the Digital Service Standard.

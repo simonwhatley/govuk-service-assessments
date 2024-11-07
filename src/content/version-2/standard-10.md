@@ -7,7 +7,10 @@ tags:
   - version-2
 layout: standard
 permalink: /version-2/standard-10/
-back: /version-2/
+eleventyNavigation:
+  key: version-2-standard-10
+  title: Standard 10
+  parent: version-2
 ---
 
 You must test the end-to-end service to meet point 10 of the Digital Service Standard.

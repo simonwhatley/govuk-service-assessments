@@ -7,7 +7,10 @@ tags:
   - version-2
 layout: standard
 permalink: /version-2/standard-3/
-back: /version-2/
+eleventyNavigation:
+  key: version-2-standard-3
+  title: Standard 3
+  parent: version-2
 ---
 
 You must have a multidisciplinary team to meet point 3 of the Digital Service Standard.

@@ -7,7 +7,10 @@ tags:
   - version-2
 layout: standard
 permalink: /version-2/standard-8/
-back: /version-2/
+eleventyNavigation:
+  key: version-2-standard-8
+  title: Standard 8
+  parent: version-2
 ---
 
 You must make all new source code open to meet point 8 of the Digital Service Standard.

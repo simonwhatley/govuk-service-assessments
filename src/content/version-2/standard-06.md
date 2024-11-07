@@ -7,7 +7,10 @@ tags:
   - version-2
 layout: standard
 permalink: /version-2/standard-6/
-back: /version-2/
+eleventyNavigation:
+  key: version-2-standard-6
+  title: Standard 6
+  parent: version-2
 ---
 
 You must spend time checking the value of tools and systems to meet point 6 of the Digital Service Standard.

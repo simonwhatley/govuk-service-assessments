@@ -7,7 +7,10 @@ tags:
   - version-2
 layout: standard
 permalink: /version-2/standard-17/
-back: /version-2/
+eleventyNavigation:
+  key: version-2-standard-17
+  title: Standard 17
+  parent: version-2
 ---
 
 You must report your performance data to meet point 17 of the Digital Service Standard.

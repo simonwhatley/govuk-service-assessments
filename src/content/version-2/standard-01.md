@@ -7,7 +7,10 @@ tags:
   - version-2
 layout: standard
 permalink: /version-2/standard-1/
-back: /version-2/
+eleventyNavigation:
+  key: version-2-standard-1
+  title: Standard 1
+  parent: version-2
 ---
 
 You must understand user needs to meet point 1 of the Digital Service Standard.
