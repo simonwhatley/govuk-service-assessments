@@ -3,9 +3,15 @@ caption: Standard 7
 title: Use agile ways of working
 description: Create the service using agile, iterative user-centred methods.
 tags:
-  - standard
+  - prompt
   - version-3
-layout: standard
-permalink: /version-3/standard-7/
+layout: prompt
+permalink: /version-3/standard-7/prompts/
 back: /version-3/
 ---
+
+## Alpha
+
+## Beta
+
+## Live

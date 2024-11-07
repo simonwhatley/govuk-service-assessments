@@ -5,7 +5,7 @@ description: Make a plan (with supporting evidence) to achieve a high digital ta
 tags:
   - standard
   - version-1
-layout: page
+layout: standard
 permalink: /version-1/standard-24/
 back: /version-1/
 ---

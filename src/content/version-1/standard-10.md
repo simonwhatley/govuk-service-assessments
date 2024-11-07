@@ -5,7 +5,7 @@ description: Put appropriate assisted digital support in place that’s aimed to
 tags:
   - standard
   - version-1
-layout: page
+layout: standard
 permalink: /version-1/standard-10/
 back: /version-1/
 ---

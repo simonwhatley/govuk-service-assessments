@@ -5,7 +5,7 @@ description: Put in place a sustainable multidisciplinary team that can design, 
 tags:
   - standard
   - version-2
-layout: page
+layout: standard
 permalink: /version-2/standard-3/
 back: /version-2/
 ---

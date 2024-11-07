@@ -5,7 +5,7 @@ description: Test the service from beginning to end with the minister responsibl
 tags:
   - standard
   - version-1
-layout: page
+layout: standard
 permalink: /version-1/standard-26/
 back: /version-1/
 ---

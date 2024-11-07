@@ -5,7 +5,7 @@ description: Evaluate what tools and systems will be used to build, host, operat
 tags:
   - standard
   - version-2
-layout: page
+layout: standard
 permalink: /version-2/standard-6/
 back: /version-2/
 ---

@@ -5,7 +5,7 @@ description: Why you should report data and how you’ll be assessed.
 tags:
   - standard
   - version-2
-layout: page
+layout: standard
 permalink: /version-2/standard-17/
 back: /version-2/
 ---

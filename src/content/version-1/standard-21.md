@@ -5,7 +5,7 @@ description: Establish a benchmark for user satisfaction across the digital and 
 tags:
   - standard
   - version-1
-layout: page
+layout: standard
 permalink: /version-1/standard-21/
 back: /version-1/
 ---

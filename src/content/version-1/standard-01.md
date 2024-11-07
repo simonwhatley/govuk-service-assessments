@@ -5,7 +5,7 @@ description: Understand user needs. Research to develop a deep knowledge of who 
 tags:
   - standard
   - version-1
-layout: page
+layout: standard
 permalink: /version-1/standard-1/
 back: /version-1/
 ---

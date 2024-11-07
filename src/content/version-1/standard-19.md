@@ -5,7 +5,7 @@ description: Build a service that can be iterated on a frequent basis and make s
 tags:
   - standard
   - version-1
-layout: page
+layout: standard
 permalink: /version-1/standard-19/
 back: /version-1/
 ---

@@ -5,7 +5,7 @@ description: Be able to test the end-to-end service in an environment identical 
 tags:
   - standard
   - version-2
-layout: page
+layout: standard
 permalink: /version-2/standard-10/
 back: /version-2/
 ---

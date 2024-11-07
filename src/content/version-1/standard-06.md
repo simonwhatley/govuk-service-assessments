@@ -5,7 +5,7 @@ description: Build the service using the agile, iterative and user-centred metho
 tags:
   - standard
   - version-1
-layout: page
+layout: standard
 permalink: /version-1/standard-6/
 back: /version-1/
 ---

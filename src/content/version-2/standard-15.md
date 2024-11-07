@@ -5,7 +5,7 @@ description: Use tools for analysis that collect performance data. Use this data
 tags:
   - standard
   - version-2
-layout: page
+layout: standard
 permalink: /version-2/standard-15/
 back: /version-2/
 ---

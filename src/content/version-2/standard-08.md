@@ -5,7 +5,7 @@ description: Make all new source code open and reusable, and publish it under ap
 tags:
   - standard
   - version-2
-layout: page
+layout: standard
 permalink: /version-2/standard-8/
 back: /version-2/
 ---

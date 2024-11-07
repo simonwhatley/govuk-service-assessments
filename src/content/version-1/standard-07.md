@@ -5,7 +5,7 @@ description: Establish performance benchmarks, in consultation with GDS, using t
 tags:
   - standard
   - version-1
-layout: page
+layout: standard
 permalink: /version-1/standard-7/
 back: /version-1/
 ---

@@ -5,7 +5,7 @@ description: Build a service consistent with the user experience of the rest of 
 tags:
   - standard
   - version-1
-layout: page
+layout: standard
 permalink: /version-1/standard-13/
 back: /version-1/
 ---

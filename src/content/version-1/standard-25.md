@@ -5,7 +5,7 @@ description: Make a plan for the event of the service being taken temporarily of
 tags:
   - standard
   - version-1
-layout: page
+layout: standard
 permalink: /version-1/standard-25/
 back: /version-1/
 ---

@@ -5,7 +5,7 @@ description:
 tags:
   - standard
   - version-1
-layout: page
+layout: standard
 permalink: /version-1/standard-22/
 back: /version-1/
 ---

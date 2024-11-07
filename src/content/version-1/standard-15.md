@@ -5,7 +5,7 @@ description: Make all new source code open and reuseable, and publish it under a
 tags:
   - standard
   - version-1
-layout: page
+layout: standard
 permalink: /version-1/standard-15/
 back: /version-1/
 ---

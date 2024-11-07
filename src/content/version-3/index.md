@@ -1,9 +1,9 @@
 ---
-caption: Service standard
-title: Version 3 - current
+caption: Version 3 - current
+title: Service Standard
 tags:
   - version
-layout: collection
+layout: standards
 pagination:
   data: collections.version-3
   size: 50

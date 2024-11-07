@@ -5,7 +5,7 @@ description: Make sure that you have the capacity and technical flexibility to u
 tags:
   - standard
   - version-1
-layout: page
+layout: standard
 permalink: /version-1/standard-14/
 back: /version-1/
 ---

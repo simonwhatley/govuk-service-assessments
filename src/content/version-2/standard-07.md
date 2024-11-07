@@ -5,7 +5,7 @@ description: Evaluate what user data and information the digital service will be
 tags:
   - standard
   - version-2
-layout: page
+layout: standard
 permalink: /version-2/standard-7/
 back: /version-2/
 ---

@@ -5,9 +5,15 @@ description: Develop a deep understanding of users and the problem you’re tryi
 tags:
   - prompt
   - version-3
-layout: standard
-permalink: /version-3/standard-1/
+layout: prompt
+permalink: /version-3/standard-1/prompts/
 back: /version-3/
 overview: /version-3/standard-1/
 prompts: /version-3/standard-1/prompts/
 ---
+
+## Alpha
+
+## Beta
+
+## Live

@@ -5,7 +5,7 @@ description: Evaluate what user data and information the service will be providi
 tags:
   - standard
   - version-1
-layout: page
+layout: standard
 permalink: /version-1/standard-3/
 back: /version-1/
 ---

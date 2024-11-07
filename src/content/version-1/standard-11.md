@@ -5,7 +5,7 @@ description: Plan (with GDS) for the phasing out of any existing alternative cha
 tags:
   - standard
   - version-1
-layout: page
+layout: standard
 permalink: /version-1/standard-11/
 back: /version-1/
 ---

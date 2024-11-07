@@ -1,9 +1,9 @@
 ---
-caption: Service standard
-title: Version 2 (pre-July 2019)
+caption: Version 2 - pre-July 2019
+title: Digital Service Standard
 tags:
   - version
-layout: collection
+layout: standards
 pagination:
   data: collections.version-2
   size: 50

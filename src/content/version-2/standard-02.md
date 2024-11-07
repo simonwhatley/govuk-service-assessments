@@ -5,7 +5,7 @@ description: Put a plan in place for ongoing user research and usability testing
 tags:
   - standard
   - version-2
-layout: page
+layout: standard
 permalink: /version-2/standard-2/
 back: /version-2/
 ---

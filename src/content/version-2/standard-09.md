@@ -5,7 +5,7 @@ description: Use open standards and common government platforms where available,
 tags:
   - standard
   - version-2
-layout: page
+layout: standard
 permalink: /version-2/standard-9/
 back: /version-2/
 ---

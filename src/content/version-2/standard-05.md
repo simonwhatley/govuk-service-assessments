@@ -5,7 +5,7 @@ description: Build a service that can be iterated and improved on a frequent bas
 tags:
   - standard
   - version-2
-layout: page
+layout: standard
 permalink: /version-2/standard-5/
 back: /version-2/
 ---

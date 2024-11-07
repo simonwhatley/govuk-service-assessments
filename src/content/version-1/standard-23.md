@@ -5,7 +5,7 @@ description: Make a plan (with supporting evidence) to achieve a low cost per tr
 tags:
   - standard
   - version-1
-layout: page
+layout: standard
 permalink: /version-1/standard-23/
 back: /version-1/
 ---

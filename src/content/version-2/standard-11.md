@@ -5,7 +5,7 @@ description: Make a plan for the event of the digital service being taken tempor
 tags:
   - standard
   - version-2
-layout: page
+layout: standard
 permalink: /version-2/standard-11/
 back: /version-2/
 ---

@@ -5,7 +5,7 @@ description: Create a service which is simple to use and intuitive enough that u
 tags:
   - standard
   - version-2
-layout: page
+layout: standard
 permalink: /version-2/standard-12/
 back: /version-2/
 ---

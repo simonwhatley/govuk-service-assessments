@@ -5,7 +5,7 @@ description: Analyse the prototype service’s success, and translate user feedb
 tags:
   - standard
   - version-1
-layout: page
+layout: standard
 permalink: /version-1/standard-8/
 back: /version-1/
 ---

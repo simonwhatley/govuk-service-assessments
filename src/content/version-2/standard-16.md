@@ -5,7 +5,7 @@ description: Identify performance indicators for the service, including the 4 ma
 tags:
   - standard
   - version-2
-layout: page
+layout: standard
 permalink: /version-2/standard-16/
 back: /version-2/
 ---

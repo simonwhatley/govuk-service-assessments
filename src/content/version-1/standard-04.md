@@ -5,7 +5,7 @@ description: Evaluate the privacy risks to make sure that personal data collecti
 tags:
   - standard
   - version-1
-layout: page
+layout: standard
 permalink: /version-1/standard-4/
 back: /version-1/
 ---

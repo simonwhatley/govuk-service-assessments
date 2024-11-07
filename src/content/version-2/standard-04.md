@@ -5,7 +5,7 @@ description: Build your service using the agile, iterative and user-centred meth
 tags:
   - standard
   - version-2
-layout: page
+layout: standard
 permalink: /version-2/standard-4/
 back: /version-2/
 ---

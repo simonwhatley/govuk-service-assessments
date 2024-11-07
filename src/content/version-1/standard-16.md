@@ -5,7 +5,7 @@ description: Use open standards and common government platforms (eg identity ass
 tags:
   - standard
   - version-1
-layout: page
+layout: standard
 permalink: /version-1/standard-16/
 back: /version-1/
 ---

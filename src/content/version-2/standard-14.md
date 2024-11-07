@@ -5,7 +5,7 @@ description: Encourage all users to use the digital service (with assisted digit
 tags:
   - standard
   - version-2
-layout: page
+layout: standard
 permalink: /version-2/standard-14/
 back: /version-2/
 ---
