@@ -67,10 +67,9 @@ module.exports = eleventyConfig => {
   // add layout aliases to make templates more portable
   eleventyConfig.addLayoutAlias('home', 'layouts/home.njk')
   eleventyConfig.addLayoutAlias('page', 'layouts/page.njk')
-  eleventyConfig.addLayoutAlias('collection', 'layouts/collection.njk')
-  // eleventyConfig.addLayoutAlias('post', 'layouts/post.njk')
-  // eleventyConfig.addLayoutAlias('posts', 'layouts/posts.njk')
-  // eleventyConfig.addLayoutAlias('tags', 'layouts/tags.njk')
+  eleventyConfig.addLayoutAlias('standards', 'layouts/standards.njk')
+  eleventyConfig.addLayoutAlias('standard', 'layouts/standard.njk')
+  eleventyConfig.addLayoutAlias('prompt', 'layouts/prompt.njk')
 
   eleventyConfig.addShortcode('now', () => `${new Date()}`)
   eleventyConfig.addShortcode('year', () => `${new Date().getFullYear()}`)
@@ -80,7 +79,7 @@ module.exports = eleventyConfig => {
     dir: {
       data: '_data',
       includes: '_includes',
-      // components: '_includes/components',
+      components: '_includes/components',
       input: 'src',
       output: 'dist'
     },
