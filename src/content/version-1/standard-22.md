@@ -1,13 +1,31 @@
 ---
 caption: Standard 22
 title: Establish a benchmark for completion rates across the digital and assisted digital service. Report performance data on the Performance Platform.
+version: "version-1"
+standard: "standard-22"
 tags:
   - standard
   - version-1
 layout: standard
-permalink: /version-1/standard-22/
-eleventyNavigation:
-  key: version-1-standard-22
-  title: Standard 22
-  parent: version-1
+eleventyComputed:
+  permalink: "/{{ version }}/{{ standard }}/"
+  eleventyNavigation:
+    key: "{{ version }}-{{ standard }}"
+    title: "{{ title }}"
+    parent: "{{ version }}"
+    subNavigation:
+      label: "Sub-navigation"
+      items:
+        - text: Overview
+          href: "/{{ version }}/{{ standard }}/"
+          active: true
+        - text: Alpha
+          href: "/{{ version }}/{{ standard }}/alpha/"
+          active: false
+        - text: Beta
+          href: "/{{ version }}/{{ standard }}/beta/"
+          active: false
+        - text: Live
+          href: "/{{ version }}/{{ standard }}/live"
+          active: false
 ---
