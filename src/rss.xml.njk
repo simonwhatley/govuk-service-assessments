@@ -1,0 +1,23 @@
+---
+permalink: rss.xml
+eleventyExcludeFromCollections: true
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <title>{{ site.name }}</title>
+  <description>{{ site.description }}</description>
+  <link>{{ site.url }}</link>
+  <language>en-gb</language>
+  {%- if collections.all | length %}
+  {%- for page in collections.all %}
+  {%- set absolutePostUrl %}{{ page.url | url | absoluteUrl(site.url) }}{% endset %}
+  <item>
+    <title>{{ page.data.title }}</title>
+    <description>{{ page.data.description }}</description>
+    <link>{{ absolutePostUrl }}</link>
+    <dc:creator>{{ page.data.author | default(site.author)}}</dc:creator>
+    <dc:date>{{ page.date | dateToRfc822 }}</dc:date>
+  </item>
+  {%- endfor %}
+  {%- endif %}
+</rss>
