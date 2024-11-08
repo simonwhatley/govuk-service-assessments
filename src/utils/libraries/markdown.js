@@ -96,7 +96,6 @@ module.exports = (() => {
     .use(require('markdown-it-abbr'))
     .use(markdownItAnchor, markdownItAnchorOptions)
     .use(require('markdown-it-deflist'))
-    .use(require('markdown-it-emoji'))
     .use(require('markdown-it-footnote'))
     .use(require('markdown-it-ins'))
     .use(require('markdown-it-mark'))
