@@ -2,15 +2,33 @@
 caption: Standard 18
 title: Test with the minister
 description: Test the service from beginning to end with the minister responsible for it.
+version: "version-2"
+standard: "standard-18"
 tags:
   - standard
   - version-2
 layout: standard
-permalink: /version-2/standard-18/
-eleventyNavigation:
-  key: version-2-standard-18
-  title: Standard 18
-  parent: version-2
+eleventyComputed:
+  permalink: "/{{ version }}/{{ standard }}/"
+  eleventyNavigation:
+    key: "{{ version }}-{{ standard }}"
+    title: "{{ title }}"
+    parent: "{{ version }}"
+    subNavigation:
+      label: "Sub-navigation"
+      items:
+        - text: Overview
+          href: "/{{ version }}/{{ standard }}/"
+          active: true
+        - text: Alpha
+          href: "/{{ version }}/{{ standard }}/alpha/"
+          active: false
+        - text: Beta
+          href: "/{{ version }}/{{ standard }}/beta/"
+          active: false
+        - text: Live
+          href: "/{{ version }}/{{ standard }}/live"
+          active: false
 ---
 
 You must test your service with the minister to meet point 18 of the Digital Service Standard.

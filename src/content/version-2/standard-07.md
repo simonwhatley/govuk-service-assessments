@@ -2,15 +2,33 @@
 caption: Standard 7
 title: Understand security and privacy issues
 description: Evaluate what user data and information the digital service will be providing or storing and address the security level, legal responsibilities, privacy issues and risks associated with the service (consulting with experts where appropriate).
+version: "version-2"
+standard: "standard-7"
 tags:
   - standard
   - version-2
 layout: standard
-permalink: /version-2/standard-7/
-eleventyNavigation:
-  key: version-2-standard-7
-  title: Standard 7
-  parent: version-2
+eleventyComputed:
+  permalink: "/{{ version }}/{{ standard }}/"
+  eleventyNavigation:
+    key: "{{ version }}-{{ standard }}"
+    title: "{{ title }}"
+    parent: "{{ version }}"
+    subNavigation:
+      label: "Sub-navigation"
+      items:
+        - text: Overview
+          href: "/{{ version }}/{{ standard }}/"
+          active: true
+        - text: Alpha
+          href: "/{{ version }}/{{ standard }}/alpha/"
+          active: false
+        - text: Beta
+          href: "/{{ version }}/{{ standard }}/beta/"
+          active: false
+        - text: Live
+          href: "/{{ version }}/{{ standard }}/live"
+          active: false
 ---
 
 You must understand security and privacy issues to meet point 7 of the Digital Service Standard.

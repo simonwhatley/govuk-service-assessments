@@ -2,15 +2,33 @@
 caption: Standard 17
 title: Report performance data on the Performance Platform
 description: Why you should report data and how you’ll be assessed.
+version: "version-2"
+standard: "standard-17"
 tags:
   - standard
   - version-2
 layout: standard
-permalink: /version-2/standard-17/
-eleventyNavigation:
-  key: version-2-standard-17
-  title: Standard 17
-  parent: version-2
+eleventyComputed:
+  permalink: "/{{ version }}/{{ standard }}/"
+  eleventyNavigation:
+    key: "{{ version }}-{{ standard }}"
+    title: "{{ title }}"
+    parent: "{{ version }}"
+    subNavigation:
+      label: "Sub-navigation"
+      items:
+        - text: Overview
+          href: "/{{ version }}/{{ standard }}/"
+          active: true
+        - text: Alpha
+          href: "/{{ version }}/{{ standard }}/alpha/"
+          active: false
+        - text: Beta
+          href: "/{{ version }}/{{ standard }}/beta/"
+          active: false
+        - text: Live
+          href: "/{{ version }}/{{ standard }}/live"
+          active: false
 ---
 
 You must report your performance data to meet point 17 of the Digital Service Standard.

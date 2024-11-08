@@ -2,15 +2,33 @@
 caption: Standard 11
 title: Make a plan for being offline
 description: Make a plan for the event of the digital service being taken temporarily offline.
+version: "version-2"
+standard: "standard-11"
 tags:
   - standard
   - version-2
 layout: standard
-permalink: /version-2/standard-11/
-eleventyNavigation:
-  key: version-2-standard-11
-  title: Standard 11
-  parent: version-2
+eleventyComputed:
+  permalink: "/{{ version }}/{{ standard }}/"
+  eleventyNavigation:
+    key: "{{ version }}-{{ standard }}"
+    title: "{{ title }}"
+    parent: "{{ version }}"
+    subNavigation:
+      label: "Sub-navigation"
+      items:
+        - text: Overview
+          href: "/{{ version }}/{{ standard }}/"
+          active: true
+        - text: Alpha
+          href: "/{{ version }}/{{ standard }}/alpha/"
+          active: false
+        - text: Beta
+          href: "/{{ version }}/{{ standard }}/beta/"
+          active: false
+        - text: Live
+          href: "/{{ version }}/{{ standard }}/live"
+          active: false
 ---
 
 You must make a plan for your service going offline, to meet point 11 of the Digital Service Standard.
