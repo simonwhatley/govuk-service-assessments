@@ -10,11 +10,11 @@ pagination:
   data: collections.version-3
   size: 50
 permalink: /version-3/
-back: /
-eleventyNavigation:
-  key: version-3
-  title: Service Standard
-  parent: home
+eleventyComputed:
+  eleventyNavigation:
+    key: version-3
+    title: "{{ title }}"
+    parent: home
 order: 3
 ---
 

@@ -10,11 +10,11 @@ pagination:
   data: collections.version-2
   size: 50
 permalink: /version-2/
-back: /
-eleventyNavigation:
-  key: version-2
-  title: Digital Service Standard
-  parent: home
+eleventyComputed:
+  eleventyNavigation:
+    key: version-2
+    title: "{{ title }}"
+    parent: home
 order: 2
 ---
 
