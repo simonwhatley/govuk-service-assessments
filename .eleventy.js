@@ -1,6 +1,7 @@
 module.exports = eleventyConfig => {
   // Plugins
   eleventyConfig.addPlugin(require('@11ty/eleventy-navigation'))
+  eleventyConfig.addPlugin(require('@11ty/eleventy-plugin-rss'))
 
   // Template libraries
   eleventyConfig.setLibrary('md', require('./src/utils/libraries/markdown'))
