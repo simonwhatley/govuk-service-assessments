@@ -69,7 +69,6 @@ module.exports = eleventyConfig => {
   eleventyConfig.addLayoutAlias('page', 'layouts/page.njk')
   eleventyConfig.addLayoutAlias('standards', 'layouts/standards.njk')
   eleventyConfig.addLayoutAlias('standard', 'layouts/standard.njk')
-  eleventyConfig.addLayoutAlias('prompt', 'layouts/prompt.njk')
 
   // Short codes
   eleventyConfig.addShortcode('now', () => `${new Date()}`)
