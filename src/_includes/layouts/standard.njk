@@ -25,19 +25,8 @@
   <div class="govuk-grid-row">
     <div class="govuk-grid-column-full">
       {{ appSecondaryNavigation({
-        label: "Sub navigation",
-        items: [
-          {
-            href: page.url,
-            text: "Overview",
-            active: true
-          },
-          {
-            href: page.url + "prompts/",
-            text: "Prompts",
-            active: false
-          }
-        ]
+        label: eleventyNavigation.subNavigation.label,
+        items: eleventyNavigation.subNavigation.items
       }) }}
     </div>
   </div>

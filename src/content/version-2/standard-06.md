@@ -2,15 +2,33 @@
 caption: Standard 6
 title: Evaluate tools and systems
 description: Evaluate what tools and systems will be used to build, host, operate and measure the service, and how to procure them.
+version: "version-2"
+standard: "standard-6"
 tags:
   - standard
   - version-2
 layout: standard
-permalink: /version-2/standard-6/
-eleventyNavigation:
-  key: version-2-standard-6
-  title: Standard 6
-  parent: version-2
+eleventyComputed:
+  permalink: "/{{ version }}/{{ standard }}/"
+  eleventyNavigation:
+    key: "{{ version }}-{{ standard }}"
+    title: "{{ title }}"
+    parent: "{{ version }}"
+    subNavigation:
+      label: "Sub-navigation"
+      items:
+        - text: Overview
+          href: "/{{ version }}/{{ standard }}/"
+          active: true
+        - text: Alpha
+          href: "/{{ version }}/{{ standard }}/alpha/"
+          active: false
+        - text: Beta
+          href: "/{{ version }}/{{ standard }}/beta/"
+          active: false
+        - text: Live
+          href: "/{{ version }}/{{ standard }}/live"
+          active: false
 ---
 
 You must spend time checking the value of tools and systems to meet point 6 of the Digital Service Standard.

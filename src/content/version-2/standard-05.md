@@ -2,15 +2,33 @@
 caption: Standard 5
 title: Iterate and improve frequently
 description: Build a service that can be iterated and improved on a frequent basis and make sure that you have the capacity, resources and technical flexibility to do so.
+version: "version-2"
+standard: "standard-5"
 tags:
   - standard
   - version-2
 layout: standard
-permalink: /version-2/standard-5/
-eleventyNavigation:
-  key: version-2-standard-5
-  title: Standard 5
-  parent: version-2
+eleventyComputed:
+  permalink: "/{{ version }}/{{ standard }}/"
+  eleventyNavigation:
+    key: "{{ version }}-{{ standard }}"
+    title: "{{ title }}"
+    parent: "{{ version }}"
+    subNavigation:
+      label: "Sub-navigation"
+      items:
+        - text: Overview
+          href: "/{{ version }}/{{ standard }}/"
+          active: true
+        - text: Alpha
+          href: "/{{ version }}/{{ standard }}/alpha/"
+          active: false
+        - text: Beta
+          href: "/{{ version }}/{{ standard }}/beta/"
+          active: false
+        - text: Live
+          href: "/{{ version }}/{{ standard }}/live"
+          active: false
 ---
 
 You must iterate your service and improve it frequently to meet point 5 of the Digital Service Standard.

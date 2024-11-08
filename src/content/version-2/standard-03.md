@@ -2,15 +2,33 @@
 caption: Standard 3
 title: Have a multidisciplinary team
 description: Put in place a sustainable multidisciplinary team that can design, build and operate the service, led by a suitably skilled and senior service owner with decision-making responsibility.
+version: "version-2"
+standard: "standard-3"
 tags:
   - standard
   - version-2
 layout: standard
-permalink: /version-2/standard-3/
-eleventyNavigation:
-  key: version-2-standard-3
-  title: Standard 3
-  parent: version-2
+eleventyComputed:
+  permalink: "/{{ version }}/{{ standard }}/"
+  eleventyNavigation:
+    key: "{{ version }}-{{ standard }}"
+    title: "{{ title }}"
+    parent: "{{ version }}"
+    subNavigation:
+      label: "Sub-navigation"
+      items:
+        - text: Overview
+          href: "/{{ version }}/{{ standard }}/"
+          active: true
+        - text: Alpha
+          href: "/{{ version }}/{{ standard }}/alpha/"
+          active: false
+        - text: Beta
+          href: "/{{ version }}/{{ standard }}/beta/"
+          active: false
+        - text: Live
+          href: "/{{ version }}/{{ standard }}/live"
+          active: false
 ---
 
 You must have a multidisciplinary team to meet point 3 of the Digital Service Standard.
@@ -56,4 +74,4 @@ Find out more about:
 
 - [user research](https://www.gov.uk/service-manual/user-research)
 - [service assessments](https://www.gov.uk/service-manual/service-assessments)
-- [setting up the right team](https://www.gov.ukhttps://www.gov.uk/service-manual/the-team)
+- [setting up the right team](https://www.gov.uk/service-manual/the-team)

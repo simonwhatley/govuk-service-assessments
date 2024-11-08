@@ -2,15 +2,33 @@
 caption: Standard 15
 title: Collect performance data
 description: Use tools for analysis that collect performance data. Use this data to analyse the success of the service and to translate this into features and tasks for the next phase of development.
+version: "version-2"
+standard: "standard-15"
 tags:
   - standard
   - version-2
 layout: standard
-permalink: /version-2/standard-15/
-eleventyNavigation:
-  key: version-2-standard-15
-  title: Standard 15
-  parent: version-2
+eleventyComputed:
+  permalink: "/{{ version }}/{{ standard }}/"
+  eleventyNavigation:
+    key: "{{ version }}-{{ standard }}"
+    title: "{{ title }}"
+    parent: "{{ version }}"
+    subNavigation:
+      label: "Sub-navigation"
+      items:
+        - text: Overview
+          href: "/{{ version }}/{{ standard }}/"
+          active: true
+        - text: Alpha
+          href: "/{{ version }}/{{ standard }}/alpha/"
+          active: false
+        - text: Beta
+          href: "/{{ version }}/{{ standard }}/beta/"
+          active: false
+        - text: Live
+          href: "/{{ version }}/{{ standard }}/live"
+          active: false
 ---
 
 You must collect performance data to meet point 15 of the Digital Service Standard.

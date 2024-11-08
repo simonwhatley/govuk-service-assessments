@@ -2,15 +2,33 @@
 caption: Standard 8
 title: Iterate and improve frequently
 description: Make sure you have the capacity, resources and technical flexibility to iterate and improve the service frequently.
+version: "version-3"
+standard: "standard-8"
 tags:
   - standard
   - version-3
 layout: standard
-permalink: /version-3/standard-8/
-eleventyNavigation:
-  key: version-3-standard-8
-  title: Standard 8
-  parent: version-3
+eleventyComputed:
+  permalink: "/{{ version }}/{{ standard }}/"
+  eleventyNavigation:
+    key: "{{ version }}-{{ standard }}"
+    title: "{{ title }}"
+    parent: "{{ version }}"
+    subNavigation:
+      label: "Sub-navigation"
+      items:
+        - text: Overview
+          href: "/{{ version }}/{{ standard }}/"
+          active: true
+        - text: Alpha
+          href: "/{{ version }}/{{ standard }}/alpha/"
+          active: false
+        - text: Beta
+          href: "/{{ version }}/{{ standard }}/beta/"
+          active: false
+        - text: Live
+          href: "/{{ version }}/{{ standard }}/live"
+          active: false
 ---
 
 Work with your organisation to make sure that you’re able to focus on improvements that have the most value.

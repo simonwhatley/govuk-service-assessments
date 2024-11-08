@@ -2,15 +2,33 @@
 caption: Standard 16
 title: Identify performance indicators
 description: Identify performance indicators for the service, including the 4 mandatory key performance indicators (KPIs) defined in the manual. Establish a benchmark for each metric and make a plan to enable improvements.
+version: "version-2"
+standard: "standard-16"
 tags:
   - standard
   - version-2
 layout: standard
-permalink: /version-2/standard-16/
-eleventyNavigation:
-  key: version-2-standard-16
-  title: Standard 16
-  parent: version-2
+eleventyComputed:
+  permalink: "/{{ version }}/{{ standard }}/"
+  eleventyNavigation:
+    key: "{{ version }}-{{ standard }}"
+    title: "{{ title }}"
+    parent: "{{ version }}"
+    subNavigation:
+      label: "Sub-navigation"
+      items:
+        - text: Overview
+          href: "/{{ version }}/{{ standard }}/"
+          active: true
+        - text: Alpha
+          href: "/{{ version }}/{{ standard }}/alpha/"
+          active: false
+        - text: Beta
+          href: "/{{ version }}/{{ standard }}/beta/"
+          active: false
+        - text: Live
+          href: "/{{ version }}/{{ standard }}/live"
+          active: false
 ---
 
 You must identify performance indicators to meet point 16 of the Digital Service Standard.

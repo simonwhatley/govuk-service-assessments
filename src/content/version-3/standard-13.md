@@ -2,15 +2,33 @@
 caption: Standard 13
 title: Use and contribute to open standards, common components and patterns
 description: Build on open standards and common components and patterns from inside and outside government.
+version: "version-3"
+standard: "standard-13"
 tags:
   - standard
   - version-3
 layout: standard
-permalink: /version-3/standard-13/
-eleventyNavigation:
-  key: version-3-standard-13
-  title: Standard 13
-  parent: version-3
+eleventyComputed:
+  permalink: "/{{ version }}/{{ standard }}/"
+  eleventyNavigation:
+    key: "{{ version }}-{{ standard }}"
+    title: "{{ title }}"
+    parent: "{{ version }}"
+    subNavigation:
+      label: "Sub-navigation"
+      items:
+        - text: Overview
+          href: "/{{ version }}/{{ standard }}/"
+          active: true
+        - text: Alpha
+          href: "/{{ version }}/{{ standard }}/alpha/"
+          active: false
+        - text: Beta
+          href: "/{{ version }}/{{ standard }}/beta/"
+          active: false
+        - text: Live
+          href: "/{{ version }}/{{ standard }}/live"
+          active: false
 ---
 
 If you develop your own patterns or components, share them publicly so others can use them.

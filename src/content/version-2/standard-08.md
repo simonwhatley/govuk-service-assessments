@@ -2,15 +2,33 @@
 caption: Standard 8
 title: Make all new source code open
 description: Make all new source code open and reusable, and publish it under appropriate licences (or provide a convincing explanation as to why this cannot be done for specific subsets of the source code).
+version: "version-2"
+standard: "standard-8"
 tags:
   - standard
   - version-2
 layout: standard
-permalink: /version-2/standard-8/
-eleventyNavigation:
-  key: version-2-standard-8
-  title: Standard 8
-  parent: version-2
+eleventyComputed:
+  permalink: "/{{ version }}/{{ standard }}/"
+  eleventyNavigation:
+    key: "{{ version }}-{{ standard }}"
+    title: "{{ title }}"
+    parent: "{{ version }}"
+    subNavigation:
+      label: "Sub-navigation"
+      items:
+        - text: Overview
+          href: "/{{ version }}/{{ standard }}/"
+          active: true
+        - text: Alpha
+          href: "/{{ version }}/{{ standard }}/alpha/"
+          active: false
+        - text: Beta
+          href: "/{{ version }}/{{ standard }}/beta/"
+          active: false
+        - text: Live
+          href: "/{{ version }}/{{ standard }}/live"
+          active: false
 ---
 
 You must make all new source code open to meet point 8 of the Digital Service Standard.

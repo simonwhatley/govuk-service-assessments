@@ -2,15 +2,33 @@
 caption: Standard 9
 title: Create a secure service which protects users’ privacy
 description: Evaluate what data the service will be collecting, storing and providing.
+version: "version-3"
+standard: "standard-9"
 tags:
   - standard
   - version-3
 layout: standard
-permalink: /version-3/standard-9/
-eleventyNavigation:
-  key: version-3-standard-9
-  title: Standard 9
-  parent: version-3
+eleventyComputed:
+  permalink: "/{{ version }}/{{ standard }}/"
+  eleventyNavigation:
+    key: "{{ version }}-{{ standard }}"
+    title: "{{ title }}"
+    parent: "{{ version }}"
+    subNavigation:
+      label: "Sub-navigation"
+      items:
+        - text: Overview
+          href: "/{{ version }}/{{ standard }}/"
+          active: true
+        - text: Alpha
+          href: "/{{ version }}/{{ standard }}/alpha/"
+          active: false
+        - text: Beta
+          href: "/{{ version }}/{{ standard }}/beta/"
+          active: false
+        - text: Live
+          href: "/{{ version }}/{{ standard }}/live"
+          active: false
 ---
 
 Understand how government classifies the data, the organisation’s legal responsibilities, and security risks associated with the service. Consult experts where you need to.

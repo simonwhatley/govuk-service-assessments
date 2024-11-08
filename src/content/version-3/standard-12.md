@@ -2,15 +2,33 @@
 caption: Standard 12
 title: Make new source code open
 description: Make all new source code open and reusable, and publish it under appropriate licences. Or if this is not possible, provide a convincing explanation of why this cannot be done for specific subsets of the source code.
+version: "version-3"
+standard: "standard-12"
 tags:
   - standard
   - version-3
 layout: standard
-permalink: /version-3/standard-12/
-eleventyNavigation:
-  key: version-3-standard-12
-  title: Standard 12
-  parent: version-3
+eleventyComputed:
+  permalink: "/{{ version }}/{{ standard }}/"
+  eleventyNavigation:
+    key: "{{ version }}-{{ standard }}"
+    title: "{{ title }}"
+    parent: "{{ version }}"
+    subNavigation:
+      label: "Sub-navigation"
+      items:
+        - text: Overview
+          href: "/{{ version }}/{{ standard }}/"
+          active: true
+        - text: Alpha
+          href: "/{{ version }}/{{ standard }}/alpha/"
+          active: false
+        - text: Beta
+          href: "/{{ version }}/{{ standard }}/beta/"
+          active: false
+        - text: Live
+          href: "/{{ version }}/{{ standard }}/live"
+          active: false
 ---
 
 ## Why it’s important

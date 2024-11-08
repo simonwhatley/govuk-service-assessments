@@ -2,15 +2,33 @@
 caption: Standard 3
 title: Provide a joined up experience across all channels
 description: Work towards creating a service that meets users’ needs across all channels, including online, phone, paper and face to face.
+version: "version-3"
+standard: "standard-3"
 tags:
   - standard
   - version-3
 layout: standard
-permalink: /version-3/standard-3/
-eleventyNavigation:
-  key: version-3-standard-3
-  title: Standard 3
-  parent: version-3
+eleventyComputed:
+  permalink: "/{{ version }}/{{ standard }}/"
+  eleventyNavigation:
+    key: "{{ version }}-{{ standard }}"
+    title: "{{ title }}"
+    parent: "{{ version }}"
+    subNavigation:
+      label: "Sub-navigation"
+      items:
+        - text: Overview
+          href: "/{{ version }}/{{ standard }}/"
+          active: true
+        - text: Alpha
+          href: "/{{ version }}/{{ standard }}/alpha/"
+          active: false
+        - text: Beta
+          href: "/{{ version }}/{{ standard }}/beta/"
+          active: false
+        - text: Live
+          href: "/{{ version }}/{{ standard }}/live"
+          active: false
 ---
 
 ## Why it’s important

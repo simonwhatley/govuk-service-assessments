@@ -2,15 +2,33 @@
 caption: Standard 12
 title: Make sure users succeed first time
 description: Create a service which is simple to use and intuitive enough that users succeed the first time.
+version: "version-2"
+standard: "standard-12"
 tags:
   - standard
   - version-2
 layout: standard
-permalink: /version-2/standard-12/
-eleventyNavigation:
-  key: version-2-standard-12
-  title: Standard 12
-  parent: version-2
+eleventyComputed:
+  permalink: "/{{ version }}/{{ standard }}/"
+  eleventyNavigation:
+    key: "{{ version }}-{{ standard }}"
+    title: "{{ title }}"
+    parent: "{{ version }}"
+    subNavigation:
+      label: "Sub-navigation"
+      items:
+        - text: Overview
+          href: "/{{ version }}/{{ standard }}/"
+          active: true
+        - text: Alpha
+          href: "/{{ version }}/{{ standard }}/alpha/"
+          active: false
+        - text: Beta
+          href: "/{{ version }}/{{ standard }}/beta/"
+          active: false
+        - text: Live
+          href: "/{{ version }}/{{ standard }}/live"
+          active: false
 ---
 
 You must create a service that users find easy to use to meet point 12 of the Digital Service Standard.
@@ -21,7 +39,7 @@ You’ll have to explain how you’ve done this at your [service assessments](ht
 
 All users should be able to complete the task your service provides the first time they try, as quickly and easily as possible.
 
-This includes [disabled users](https://www.gov.ukhttps://www.gov.uk/service-manual/helping-people-to-use-your-service/making-your-service-accessible-an-introduction) or those who need [assisted digital support](https://www.gov.ukhttps://www.gov.uk/service-manual/helping-people-to-use-your-service/assisted-digital-support-introduction).
+This includes [disabled users](https://www.gov.uk/service-manual/helping-people-to-use-your-service/making-your-service-accessible-an-introduction) or those who need [assisted digital support](https://www.gov.uk/service-manual/helping-people-to-use-your-service/assisted-digital-support-introduction).
 
 If users find it difficult to complete the task the first time, they may avoid using your service or contact your organisation to get help.
 
@@ -68,7 +86,7 @@ Read these guides to help you create a service that’s simple:
 - [Start by learning user needs](https://www.gov.uk/service-manual/user-research/start-by-learning-user-needs)
 - [Understanding users who do not use digital services](https://www.gov.uk/service-manual/user-research/understanding-users-who-dont-use-digital-services)
 - [Assisted digital support: an introduction](https://www.gov.uk/service-manual/helping-people-to-use-your-service/assisted-digital-support-introduction)
-- [Making your service accessible: an introduction](https://www.gov.ukhttps://www.gov.uk/service-manual/helping-people-to-use-your-service/making-your-service-accessible-an-introduction)
+- [Making your service accessible: an introduction](https://www.gov.uk/service-manual/helping-people-to-use-your-service/making-your-service-accessible-an-introduction)
 
 Find out more about:
 

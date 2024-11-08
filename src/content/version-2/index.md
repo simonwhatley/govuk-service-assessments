@@ -2,20 +2,20 @@
 caption: Version 2 - pre-July 2019
 title: Digital Service Standard
 description: The 18 point standard used between June 2015 and July 2019.
+version: "version-2"
 tags:
   - version
   - overview
 layout: standards
 pagination:
-  data: collections.version-2
+  data: collections["version-2"]
   size: 50
-permalink: /version-2/
-back: /
-eleventyNavigation:
-  key: version-2
-  title: Digital Service Standard
-  parent: home
-order: 2
+eleventyComputed:
+  permalink: "/{{ version }}/"
+  eleventyNavigation:
+    key: "{{ version }}"
+    title: "{{ title }}"
+    parent: home
 ---
 
 The Digital Service Standard is a set of 18 criteria to help government create and run good digital services.
