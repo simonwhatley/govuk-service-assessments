@@ -2,15 +2,33 @@
 caption: Standard 7
 title: Use agile ways of working
 description: Create the service using agile, iterative user-centred methods.
+version: "version-3"
+standard: "standard-7"
 tags:
   - standard
   - version-3
 layout: standard
-permalink: /version-3/standard-7/
-eleventyNavigation:
-  key: version-3-standard-7
-  title: Standard 7
-  parent: version-3
+eleventyComputed:
+  permalink: "/{{ version }}/{{ standard }}/"
+  eleventyNavigation:
+    key: "{{ version }}-{{ standard }}"
+    title: "{{ title }}"
+    parent: "{{ version }}"
+    subNavigation:
+      label: "Sub-navigation"
+      items:
+        - text: Overview
+          href: "/{{ version }}/{{ standard }}/"
+          active: true
+        - text: Alpha
+          href: "/{{ version }}/{{ standard }}/alpha/"
+          active: false
+        - text: Beta
+          href: "/{{ version }}/{{ standard }}/beta/"
+          active: false
+        - text: Live
+          href: "/{{ version }}/{{ standard }}/live"
+          active: false
 ---
 
 ## Why it’s important

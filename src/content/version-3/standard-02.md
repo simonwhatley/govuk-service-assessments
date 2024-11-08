@@ -2,15 +2,33 @@
 caption: Standard 2
 title: Solve a whole problem for users
 description: Work towards creating a service that solves a whole problem for users, working with other teams and organisations where necessary.
+version: "version-3"
+standard: "standard-2"
 tags:
   - standard
   - version-3
 layout: standard
-permalink: /version-3/standard-2/
-eleventyNavigation:
-  key: version-3-standard-2
-  title: Standard 2
-  parent: version-3
+eleventyComputed:
+  permalink: "/{{ version }}/{{ standard }}/"
+  eleventyNavigation:
+    key: "{{ version }}-{{ standard }}"
+    title: "{{ title }}"
+    parent: "{{ version }}"
+    subNavigation:
+      label: "Sub-navigation"
+      items:
+        - text: Overview
+          href: "/{{ version }}/{{ standard }}/"
+          active: true
+        - text: Alpha
+          href: "/{{ version }}/{{ standard }}/alpha/"
+          active: false
+        - text: Beta
+          href: "/{{ version }}/{{ standard }}/beta/"
+          active: false
+        - text: Live
+          href: "/{{ version }}/{{ standard }}/live"
+          active: false
 ---
 
 ## Why it’s important

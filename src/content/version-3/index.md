@@ -2,20 +2,20 @@
 caption: Version 3 - current
 title: Service Standard
 description: The current 14 point standard used from July 2019.
+version: "version-3"
 tags:
   - version
   - overview
 layout: standards
 pagination:
-  data: collections.version-3
+  data: collections["version-3"]
   size: 50
-permalink: /version-3/
 eleventyComputed:
+  permalink: "/{{ version }}/"
   eleventyNavigation:
-    key: version-3
+    key: "{{ version }}"
     title: "{{ title }}"
     parent: home
-order: 3
 ---
 
 The Service Standard helps teams to create and run great public services.

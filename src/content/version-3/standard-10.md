@@ -2,15 +2,33 @@
 caption: Standard 10
 title: Define what success looks like and publish performance data
 description: Work out what success looks like for your service and identify metrics which will tell you what’s working and what can be improved, combined with user research.
+version: "version-3"
+standard: "standard-10"
 tags:
   - standard
   - version-3
 layout: standard
-permalink: /version-3/standard-10/
-eleventyNavigation:
-  key: version-3-standard-10
-  title: Standard 10
-  parent: version-3
+eleventyComputed:
+  permalink: "/{{ version }}/{{ standard }}/"
+  eleventyNavigation:
+    key: "{{ version }}-{{ standard }}"
+    title: "{{ title }}"
+    parent: "{{ version }}"
+    subNavigation:
+      label: "Sub-navigation"
+      items:
+        - text: Overview
+          href: "/{{ version }}/{{ standard }}/"
+          active: true
+        - text: Alpha
+          href: "/{{ version }}/{{ standard }}/alpha/"
+          active: false
+        - text: Beta
+          href: "/{{ version }}/{{ standard }}/beta/"
+          active: false
+        - text: Live
+          href: "/{{ version }}/{{ standard }}/live"
+          active: false
 ---
 
 Collect and use performance data from all channels, online and offline.

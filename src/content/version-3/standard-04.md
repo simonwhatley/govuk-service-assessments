@@ -2,15 +2,33 @@
 caption: Standard 4
 title: Make the service simple to use
 description: Build a service that’s simple, intuitive and comprehensible. And test it with users to make sure it works for them.
+version: "version-3"
+standard: "standard-4"
 tags:
   - standard
   - version-3
 layout: standard
-permalink: /version-3/standard-4/
-eleventyNavigation:
-  key: version-3-standard-4
-  title: Standard 4
-  parent: version-3
+eleventyComputed:
+  permalink: "/{{ version }}/{{ standard }}/"
+  eleventyNavigation:
+    key: "{{ version }}-{{ standard }}"
+    title: "{{ title }}"
+    parent: "{{ version }}"
+    subNavigation:
+      label: "Sub-navigation"
+      items:
+        - text: Overview
+          href: "/{{ version }}/{{ standard }}/"
+          active: true
+        - text: Alpha
+          href: "/{{ version }}/{{ standard }}/alpha/"
+          active: false
+        - text: Beta
+          href: "/{{ version }}/{{ standard }}/beta/"
+          active: false
+        - text: Live
+          href: "/{{ version }}/{{ standard }}/live"
+          active: false
 ---
 
 ## Why it’s important

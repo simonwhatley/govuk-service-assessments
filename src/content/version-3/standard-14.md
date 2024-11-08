@@ -2,15 +2,33 @@
 caption: Standard 14
 title: Operate a reliable service
 description: Minimise service downtime and have a plan to deal with it when it does happen.
+version: "version-3"
+standard: "standard-14"
 tags:
   - standard
   - version-3
 layout: standard
-permalink: /version-3/standard-14/
-eleventyNavigation:
-  key: version-3-standard-14
-  title: Standard 14
-  parent: version-3
+eleventyComputed:
+  permalink: "/{{ version }}/{{ standard }}/"
+  eleventyNavigation:
+    key: "{{ version }}-{{ standard }}"
+    title: "{{ title }}"
+    parent: "{{ version }}"
+    subNavigation:
+      label: "Sub-navigation"
+      items:
+        - text: Overview
+          href: "/{{ version }}/{{ standard }}/"
+          active: true
+        - text: Alpha
+          href: "/{{ version }}/{{ standard }}/alpha/"
+          active: false
+        - text: Beta
+          href: "/{{ version }}/{{ standard }}/beta/"
+          active: false
+        - text: Live
+          href: "/{{ version }}/{{ standard }}/live"
+          active: false
 ---
 
 ## Why it’s important

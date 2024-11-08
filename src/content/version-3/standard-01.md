@@ -2,15 +2,33 @@
 caption: Standard 1
 title: Understand users and their needs
 description: Develop a deep understanding of users and the problem you’re trying to solve for them.
+version: "version-3"
+standard: "standard-1"
 tags:
   - standard
   - version-3
 layout: standard
-permalink: /version-3/standard-1/
-eleventyNavigation:
-  key: version-3-standard-1
-  title: Standard 1
-  parent: version-3
+eleventyComputed:
+  permalink: "/{{ version }}/{{ standard }}/"
+  eleventyNavigation:
+    key: "{{ version }}-{{ standard }}"
+    title: "{{ title }}"
+    parent: "{{ version }}"
+    subNavigation:
+      label: "Sub-navigation"
+      items:
+        - text: Overview
+          href: "/{{ version }}/{{ standard }}/"
+          active: true
+        - text: Alpha
+          href: "/{{ version }}/{{ standard }}/alpha/"
+          active: false
+        - text: Beta
+          href: "/{{ version }}/{{ standard }}/beta/"
+          active: false
+        - text: Live
+          href: "/{{ version }}/{{ standard }}/live"
+          active: false
 ---
 
 Look at the full context to understand what the user is trying to achieve, not just the part where they have to interact with government.
