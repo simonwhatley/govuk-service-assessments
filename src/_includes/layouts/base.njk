@@ -1,0 +1,33 @@
+{%- set assetPath = "../../../node_modules/govuk-frontend/dist/govuk/assets" -%}
+
+{%- extends "../../../node_modules/govuk-frontend/dist/govuk/template.njk" -%}
+
+{%- from "../../../node_modules/govuk-frontend/dist/govuk/components/back-link/macro.njk" import govukBackLink -%}
+{%- from "../../../node_modules/govuk-frontend/dist/govuk/components/breadcrumbs/macro.njk" import govukBreadcrumbs -%}
+{%- from "../../../node_modules/govuk-frontend/dist/govuk/components/details/macro.njk" import govukDetails -%}
+{%- from "../../../node_modules/govuk-frontend/dist/govuk/components/inset-text/macro.njk" import govukInsetText -%}
+{%- from "../../../node_modules/govuk-frontend/dist/govuk/components/notification-banner/macro.njk" import govukNotificationBanner -%}
+{%- from "../../../node_modules/govuk-frontend/dist/govuk/components/phase-banner/macro.njk" import govukPhaseBanner -%}
+{%- from "../../../node_modules/govuk-frontend/dist/govuk/components/skip-link/macro.njk" import govukSkipLink -%}
+{%- from "../../../node_modules/govuk-frontend/dist/govuk/components/tabs/macro.njk" import govukTabs -%}
+{%- from "../../../node_modules/govuk-frontend/dist/govuk/components/tag/macro.njk" import govukTag -%}
+{%- from "../../../node_modules/govuk-frontend/dist/govuk/components/warning-text/macro.njk" import govukWarningText -%}
+
+{%- from "components/breadcrumbs/macro.njk" import appBreadcrumbs -%}
+{%- from "components/secondary-navigation/macro.njk" import appSecondaryNavigation -%}
+
+{% block pageTitle -%}
+  {{ title + " - " if title }}{{ caption + " - " if caption }}{{ site.name }} - GOV.UK
+{%- endblock %}
+
+{% block head %}
+  {% include "../partials/head.njk" %}
+{% endblock %}
+
+{% block header %}
+  {% include "../partials/header.njk" %}
+{% endblock %}
+
+{% block footer %}
+  {% include "../partials/footer.njk" %}
+{% endblock %}

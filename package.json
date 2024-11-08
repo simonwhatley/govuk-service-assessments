@@ -16,7 +16,17 @@
   },
   "license": "MIT",
   "scripts": {
-    "start": "http-server ."
+    "dev": "gulp build:dev & gulp watch",
+    "start": "gulp build",
+    "lint:scripts": "standard",
+    "lint:scripts:fix": "standard --fix",
+    "lint:markdown": "markdownlint 'src/content/**/*.md' --disable MD013 MD024",
+    "lint:markdown:fix": "markdownlint 'src/content/**/*.md' --disable MD013 MD024 --fix",
+    "lint:styles": "stylelint 'src/assets/styles/**/*.scss'",
+    "lint": "npm-run-all lint:scripts lint:markdown",
+    "lint:fix": "npm-run-all lint:scripts:fix lint:markdown:fix",
+    "test": "npm run test:dependencies",
+    "test:dependencies": "npm ls --depth=0"
   },
   "repository": {
     "type": "git",
@@ -27,6 +37,42 @@
   },
   "homepage": "https://github.com/simonwhatley/govuk-service-assessments#readme",
   "dependencies": {
-    "http-server": "^14.1.1"
+    "@11ty/eleventy": "^3.0.0",
+    "@11ty/eleventy-navigation": "^0.3.5",
+    "dotenv": "^16.4.5",
+    "govuk-frontend": "^5.7.1",
+    "gulp": "^5.0.0",
+    "gulp-autoprefixer": "^9.0.0",
+    "gulp-sass": "^5.1.0",
+    "gulp-shell": "^0.8.0",
+    "luxon": "^3.5.0",
+    "markdown-it": "^14.1.0",
+    "markdown-it-abbr": "^2.0.0",
+    "markdown-it-anchor": "^9.2.0",
+    "markdown-it-deflist": "^3.0.0",
+    "markdown-it-emoji": "^2.0.2",
+    "markdown-it-footnote": "^4.0.0",
+    "markdown-it-ins": "^4.0.0",
+    "markdown-it-mark": "^4.0.0",
+    "markdown-it-sub": "^2.0.0",
+    "markdown-it-sup": "^2.0.0",
+    "markdown-it-table-of-contents": "^0.8.0",
+    "npm-run-all": "^4.1.5",
+    "require-dir": "^1.2.0",
+    "rimraf": "^6.0.1",
+    "sass": "^1.80.4"
+  },
+  "devDependencies": {
+    "markdownlint-cli": "^0.42.0",
+    "standard": "^17.1.2",
+    "stylelint": "^16.10.0",
+    "stylelint-config-recommended-scss": "^14.1.0",
+    "stylelint-config-standard": "^36.0.1",
+    "stylelint-order": "^6.0.4"
+  },
+  "standard": {
+    "ignore": [
+      ".eleventy.js"
+    ]
   }
 }

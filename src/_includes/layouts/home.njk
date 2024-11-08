@@ -1,0 +1,53 @@
+{% extends "layouts/base.njk" %}
+
+{% block beforeContent %}
+{{ appBreadcrumbs({
+  title: title,
+  items: collections.all,
+  key: eleventyNavigation.key,
+  classes: "govuk-!-display-none-print"
+}) if eleventyNavigation and eleventyNavigation.key and eleventyNavigation.parent }}
+{% endblock %}
+
+{% block content %}
+  <div class="govuk-grid-row">
+    <div class="govuk-grid-column-two-thirds">
+      <h1 class="govuk-heading-xl">
+        {{ title }}
+      </h1>
+      {%- if content | length  %}
+        <div class="app-markdown">
+          {{- content | safe -}}
+        </div>
+      {% endif -%}
+
+      {% if collections.home.length > 0 %}
+        <ol class="govuk-list">
+        {% for item in collections.home %}
+          <li class="app-service-standard-point">
+            <h2 class="govuk-heading-m govuk-!-margin-bottom-3 app-service-standard-point__title">
+              <span class="app-service-standard-point__number">{{ loop.index }}.</span>
+              {{ item.data.title | nl2br | safe }} {# {{ ' - current' if loop.last }} #}
+              {{ govukTag({
+                text: "Current",
+                classes: "govuk-tag--turquoise"
+              }) if loop.last }}
+            </h2>
+            <div class="app-service-standard-point__details">
+              {% if item.data.description %}
+                <p class="govuk-body">{{ item.data.description | markdown("inline") | safe }}</p>
+              {% endif %}
+              <p class="govuk-body app-service-standard-point__link">
+                <a class="govuk-link" href="{{ item.url | url | pretty }}">Read more about the {{ item.data.title | nl2br | safe }}</a>
+              </p>
+            </div>
+          </li>
+        {% endfor %}
+        </ol>
+      {% else %}
+        <p class="govuk-body">No versions found.</p>
+      {% endif %}
+
+    </div>
+  </div>
+{% endblock %}
