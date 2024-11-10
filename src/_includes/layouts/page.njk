@@ -3,7 +3,7 @@
 {% block beforeContent %}
 {{ govukBackLink({
   text: "Back",
-  href: back
+  href: back if back else "javascript:history.back()"
 }) }}
 {% endblock %}
 
@@ -15,6 +15,7 @@
           <span class="govuk-caption-xl">{{ caption }}</span>
         {% endif %}
         {{ title }}
+        <span class="govuk-caption-l">{{ subtitle }}</span>
       </h1>
 
       <p class="govuk-body-l">{{ description }}</p>
