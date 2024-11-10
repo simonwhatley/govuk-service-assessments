@@ -21,6 +21,7 @@ module.exports = eleventyConfig => {
   // Passthrough
   // eleventyConfig.addPassthroughCopy('./src/assets/images')
   eleventyConfig.addPassthroughCopy({ 'node_modules/govuk-frontend/dist/govuk/assets': 'assets' })
+  eleventyConfig.addPassthroughCopy({'src/content/**/*.{jpg,jpeg,png,gif,svg,pdf,odt,docx,xlsx,pptx}': 'assets/content'})
 
   // Enable data deep merge
   eleventyConfig.setDataDeepMerge(true)
@@ -77,7 +78,7 @@ module.exports = eleventyConfig => {
 
   // Configuration
   return {
-    templateFormats: ['njk', 'md', 'html', 'png', 'ico', 'svg', 'jpg', 'jpeg', 'gif', 'pdf', 'mp4', 'webm', 'vtt'],
+    templateFormats: ['njk', 'md'],
     dir: {
       data: '_data',
       includes: '_includes',
