@@ -28,4 +28,19 @@ eleventyComputed:
         - text: Live
           href: "/{{ version }}/{{ standard }}/live"
           active: false
+  related:
+    items:
+      - text: Cost per transaction
+        href: "/{{ version }}/guides/cost-per-transaction/"
+      - text: Performance Platform
+        href: "/{{ version }}/guides/performance-platform/"
 ---
+
+{% if related.items.length %}
+Related guides:
+
+{% for item in related.items %}
+- [{{item.text}}]({{item.href}})
+  {{ item.description if item.description.length }}
+{% endfor %}
+{% endif %}

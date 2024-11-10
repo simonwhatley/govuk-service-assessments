@@ -29,4 +29,17 @@ eleventyComputed:
         - text: Live
           href: "/{{ version }}/{{ standard }}/live"
           active: false
+  related:
+    items:
+      - text: Retirement phase
+        href: "/{{ version }}/guides/retirement-phase/"
 ---
+
+{% if related.items.length %}
+Related guides:
+
+{% for item in related.items %}
+- [{{item.text}}]({{item.href}})
+  {{ item.description if item.description.length }}
+{% endfor %}
+{% endif %}

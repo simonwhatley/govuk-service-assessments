@@ -28,4 +28,17 @@ eleventyComputed:
         - text: Live
           href: "/{{ version }}/{{ standard }}/live"
           active: false
+  related:
+    items:
+      - text: Completion rate
+        href: "/{{ version }}/guides/completion-rate/"
 ---
+
+{% if related.items.length %}
+Related guides:
+
+{% for item in related.items %}
+- [{{item.text}}]({{item.href}})
+  {{ item.description if item.description.length }}
+{% endfor %}
+{% endif %}

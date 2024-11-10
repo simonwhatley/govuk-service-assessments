@@ -28,4 +28,19 @@ eleventyComputed:
         - text: Live
           href: "/{{ version }}/{{ standard }}/live"
           active: false
+  related:
+    items:
+      - text: Cookies
+        href: "/{{ version }}/guides/cookies/"
+      - text: Information security
+        href: "/{{ version }}/guides/information-security/"
 ---
+
+{% if related.items.length %}
+Related guides:
+
+{% for item in related.items %}
+- [{{item.text}}]({{item.href}})
+  {{ item.description if item.description.length }}
+{% endfor %}
+{% endif %}
