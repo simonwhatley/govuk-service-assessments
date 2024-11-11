@@ -41,6 +41,7 @@
     "@11ty/eleventy-navigation": "^0.3.5",
     "@11ty/eleventy-plugin-rss": "^2.0.2",
     "dotenv": "^16.4.5",
+    "glob": "^11.0.0",
     "govuk-frontend": "^5.7.1",
     "gulp": "^5.0.0",
     "gulp-autoprefixer": "^9.0.0",
