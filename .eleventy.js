@@ -1,3 +1,5 @@
+const glob = require("glob")
+
 module.exports = eleventyConfig => {
   // Plugins
   eleventyConfig.addPlugin(require('@11ty/eleventy-navigation'))
@@ -21,7 +23,15 @@ module.exports = eleventyConfig => {
   // Passthrough
   // eleventyConfig.addPassthroughCopy('./src/assets/images')
   eleventyConfig.addPassthroughCopy({ 'node_modules/govuk-frontend/dist/govuk/assets': 'assets' })
-  eleventyConfig.addPassthroughCopy({'src/content/**/*.{jpg,jpeg,png,gif,svg,pdf,odt,docx,xlsx,pptx}': 'assets/content'})
+
+  // Pass-through copy of images, PDFs, and other assets from content
+  const assetFiles = glob.sync('src/content/**/*.{jpg,jpeg,png,gif,svg,pdf,odt,docx,xlsx,pptx}')
+
+  assetFiles.forEach((file) => {
+    // Get destination path based on the source file
+    const destinationPath = file.replace(/^src\/content/, 'assets/content')
+    eleventyConfig.addPassthroughCopy({ [file]: destinationPath })
+  })
 
   // Enable data deep merge
   eleventyConfig.setDataDeepMerge(true)
