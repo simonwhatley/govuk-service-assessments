@@ -6,6 +6,7 @@ version: "version-3"
 tags:
   - version
   - overview
+  - current
 layout: standards
 pagination:
   data: collections["version-3"]

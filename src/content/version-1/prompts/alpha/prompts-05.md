@@ -31,8 +31,6 @@ eleventyComputed:
           active: false
 ---
 
-## Alpha
-
 ### Questions
 
 - How did you choose technology for the alpha?

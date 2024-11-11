@@ -31,8 +31,6 @@ eleventyComputed:
           active: false
 ---
 
-## Beta
-
 ### Questions
 
 - Do you have a policy in place for making new source code open and reuseable during the beta?

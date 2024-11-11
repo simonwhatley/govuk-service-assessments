@@ -31,8 +31,6 @@ eleventyComputed:
           active: true
 ---
 
-## Live
-
 ### Questions
 
 - How has the service being iterated frequently during the beta and how will this continue after the service is live?

@@ -32,8 +32,6 @@ eleventyComputed:
           active: true
 ---
 
-## Beta
-
 ### Questions
 
 - What is your plan for increasing digital take up during beta?

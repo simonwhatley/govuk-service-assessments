@@ -32,8 +32,6 @@ eleventyComputed:
           active: false
 ---
 
-## Alpha
-
 ### Questions
 
 - What data and analysis have you done during discovery from existing or legacy systems or the wider digital landscape?

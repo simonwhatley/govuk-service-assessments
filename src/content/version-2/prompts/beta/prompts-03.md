@@ -32,8 +32,6 @@ eleventyComputed:
           active: false
 ---
 
-## Beta
-
 ### Questions
 
 - Can you talk us through the team that was in place during alpha and what the team looks like in beta?

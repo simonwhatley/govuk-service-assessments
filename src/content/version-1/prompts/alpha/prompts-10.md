@@ -31,8 +31,6 @@ eleventyComputed:
           active: false
 ---
 
-## Alpha
-
 ### Questions
 
 - What user research have you conducted with assisted digital users and what have you learnt that will inform the design of your assisted digital support?

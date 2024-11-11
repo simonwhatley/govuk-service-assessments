@@ -32,8 +32,6 @@ eleventyComputed:
           active: true
 ---
 
-## Live
-
 ### Questions
 
 - Describe any changes to the number and nature of the environments you’re using for testing.

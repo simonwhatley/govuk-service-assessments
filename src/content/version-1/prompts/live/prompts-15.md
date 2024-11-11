@@ -31,8 +31,6 @@ eleventyComputed:
           active: true
 ---
 
-## Live
-
 ### Questions
 
 - Do you have a policy in place for making new source code open and reuseable after the service is live?

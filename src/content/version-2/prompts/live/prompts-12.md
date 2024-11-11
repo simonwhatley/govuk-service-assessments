@@ -32,8 +32,6 @@ eleventyComputed:
           active: true
 ---
 
-## Live
-
 ### Questions
 
 - What evidence can you provide that users are, in the majority of cases, succeeding first time?

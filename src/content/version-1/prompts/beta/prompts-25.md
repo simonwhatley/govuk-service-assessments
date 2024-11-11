@@ -31,8 +31,6 @@ eleventyComputed:
           active: false
 ---
 
-## Beta
-
 ### Questions
 
 - Do you have a disaster recovery plan in place for the beta and have you tested it?

@@ -31,8 +31,6 @@ eleventyComputed:
           active: false
 ---
 
-## Alpha
-
 ### Questions
 
 - What user research has been completed during discovery and alpha? (should be more than just a one off survey)

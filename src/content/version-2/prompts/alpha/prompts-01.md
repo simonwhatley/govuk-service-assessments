@@ -32,8 +32,6 @@ eleventyComputed:
           active: false
 ---
 
-## Alpha
-
 In the alpha phase, the main objective is to establish whether the team has a good understanding of user needs that has come from observing and engaging with end users, that they understand what users are trying to do when they engage with the current service (the user context, whether currently digital or not) and they they understand the user needs - not just functional requirements - that the service will have to achieve in order to be successful. Responses should cover both the digital and assisted digital support.
 
 Further, the team need to demonstrate how they have explored design options that will best meet these needs, what concepts they have discarded and why they believe their final prototype has the potential to meet users needs effectively.

@@ -31,8 +31,6 @@ eleventyComputed:
           active: true
 ---
 
-## Live
-
 ### Questions
 
 - Do you have a disaster recovery plan in place for after the service is live and have you tested it?

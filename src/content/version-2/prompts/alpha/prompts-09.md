@@ -32,8 +32,6 @@ eleventyComputed:
           active: false
 ---
 
-## Alpha
-
 ### Questions
 
 - Are you locking yourself into any proprietary solutions where an open standard is available?

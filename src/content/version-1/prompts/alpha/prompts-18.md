@@ -31,8 +31,6 @@ eleventyComputed:
           active: false
 ---
 
-## Alpha
-
 ### Question
 
 - What analytics tool have you installed for the alpha?

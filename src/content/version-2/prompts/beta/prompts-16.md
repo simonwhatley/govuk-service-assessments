@@ -32,8 +32,6 @@ eleventyComputed:
           active: false
 ---
 
-## Beta
-
 ### Questions
 
 - Have you identified the behaviour, characteristics and dependencies of the new service and the factors that influence the choice of metrics and data sources for those metrics?

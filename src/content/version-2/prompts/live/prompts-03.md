@@ -32,8 +32,6 @@ eleventyComputed:
           active: true
 ---
 
-## Live
-
 ### Questions
 
 - Can you talk us through the team that was in place during beta and what the team will look like after the service is live?

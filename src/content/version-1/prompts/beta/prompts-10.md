@@ -31,8 +31,6 @@ eleventyComputed:
           active: false
 ---
 
-## Beta
-
 ### Questions
 
 - What user research have you conducted with assisted digital users during the beta, and what have you learnt?
