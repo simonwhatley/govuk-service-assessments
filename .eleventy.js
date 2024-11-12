@@ -80,6 +80,7 @@ module.exports = eleventyConfig => {
   eleventyConfig.addLayoutAlias('home', 'layouts/home.njk')
   eleventyConfig.addLayoutAlias('page', 'layouts/page.njk')
   eleventyConfig.addLayoutAlias('standards', 'layouts/standards.njk')
+  eleventyConfig.addLayoutAlias('standards-v1', 'layouts/standards-v1.njk')
   eleventyConfig.addLayoutAlias('standard', 'layouts/standard.njk')
 
   // Short codes
