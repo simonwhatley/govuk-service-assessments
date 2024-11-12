@@ -6,7 +6,7 @@ version: "version-1"
 tags:
   - version
   - overview
-layout: standards
+layout: standards-v1
 pagination:
   data: collections["version-1"]
   size: 50

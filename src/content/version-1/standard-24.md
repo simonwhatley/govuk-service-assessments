@@ -3,6 +3,7 @@ caption: Standard 24
 title: Make a plan (with supporting evidence) to achieve a high digital take-up and assisted digital support for users who really need it. Report performance data on the Performance Platform.
 version: "version-1"
 standard: "standard-24"
+section: "overview"
 tags:
   - standard
   - version-1
