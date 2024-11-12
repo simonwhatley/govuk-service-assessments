@@ -15,10 +15,12 @@
           <span class="govuk-caption-xl">{{ caption }}</span>
         {% endif %}
         {{ title }}
-        <span class="govuk-caption-l">{{ subtitle }}</span>
+        {% if subtitle %}
+          <span class="govuk-caption-l govuk-!-margin-top-2">{{ subtitle }}</span>
+        {% endif %}
       </h1>
 
-      <p class="govuk-body-l">{{ description }}</p>
+      <p class="govuk-body-l">{{ description | markdown("inline") | safe }}</p>
 
       {%- if content | length  %}
         <div class="app-markdown">
