@@ -103,7 +103,7 @@ Completion rate should be measured continuously. Once the service is live this w
 
 Before launch, measure completion rates with usability testing. This should be iteratively tested with at least 5 people.
 
-This should identify [over 85%](https://web.archive.org/web/20150324140533/http://www.nngroup.com/articles/why-you-only-need-to-test-with-5-users/) of usability problems. Users will be given a pre-determined set of tasks that reflect what needs to be done to use the service. These tasks will include all aspects of using the service that apply, like:
+This should identify [over 85%](http://www.nngroup.com/articles/why-you-only-need-to-test-with-5-users/) of usability problems. Users will be given a pre-determined set of tasks that reflect what needs to be done to use the service. These tasks will include all aspects of using the service that apply, like:
 
 - registering
 - applying
@@ -118,9 +118,6 @@ If users are having difficulty completing tasks, carry out more user testing aft
 
 Digital analytics will be the primary method for measuring task completion rates post launch. Please note that this relies on extra configuration in the analytics tool. It will not be available by default.
 
-The aim of your service team’s activities will be to continually improve completion rates by monitoring where users are dropping out of the transaction process, and testing out new designs for those pages. End-to-end completion rates will be piped automatically from GOV.UK’s digital analytics into the [Performance Platform](https://web.archive.org/web/20150324140533/https://www.gov.uk/service-manual/measurement/performance-platform.html) and will be publicly available from the point of launch.
+The aim of your service team’s activities will be to continually improve completion rates by monitoring where users are dropping out of the transaction process, and testing out new designs for those pages. End-to-end completion rates will be piped automatically from GOV.UK’s digital analytics into the [Performance Platform](/version-1/guides/performance-platform/) and will be publicly available from the point of launch.
 
 Further usability testing should also be carried out once a service has gone live to measure use of the service and identify any issues and improvements that can be made.
-
-1. [Page history](https://web.archive.org/web/20150324140533/https://github.com/alphagov/government-service-design-manual/commits/master/service-manual/measurement/completion-rate.md "View the page history on GitHub")
-2. [Page source](https://web.archive.org/web/20150324140533/https://github.com/alphagov/government-service-design-manual/blob/master/service-manual/measurement/completion-rate.md "View and suggest changes to the page source on GitHub")

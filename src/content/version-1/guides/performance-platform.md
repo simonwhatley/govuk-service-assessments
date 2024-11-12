@@ -53,7 +53,7 @@ Your service can also send additional data. For instance, there might be data th
 
 Designed by the Performance Platform team, the platform will be made up of a series of modules that you can choose from. The team will work closely with you and your service in this process.
 
-![Licensing performance dashboard](/assets/content/version-1/guides/licensing.png)
+![Licensing performance dashboard](/assets/content/version-1/guides/images/licensing.png)
 
 When a new module is added, it will be offered to all services on the platform. Each service will have the ability to decide whether or not to use it.
 

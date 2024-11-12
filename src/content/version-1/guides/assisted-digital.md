@@ -22,7 +22,7 @@ Here you will be able to find out:
 
 Assisted digital is support for people who can’t use online government services on their own. The support can be someone guiding a user through the digital service or entering a user’s information into the digital service on their behalf. It can be provided by the private, voluntary or public sectors.
 
-![Diagram showing the digital and assisted digital routes to a digital service](/assets/content/version-1/guides/assisted-digital.jpg)
+![Diagram showing the digital and assisted digital routes to a digital service](/assets/content/version-1/guides/images/assisted-digital.jpg)
 
 Assisted digital support must include advice on how to use the digital service. This could be information already on GOV.UK (or on an alternative domain for departments that are exempt from GOV.UK) about the service or the policy decisions behind it. The person giving assisted digital support must only need to use information already available to do their job.
 

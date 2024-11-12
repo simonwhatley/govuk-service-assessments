@@ -12,7 +12,7 @@ Before you start building a service you need to build up a picture of what the c
 
 ## Objectives
 
-[Watch Aleks Maricic, GDS Proposition Manager, describe the discovery phase.](https://web.archive.org/web/20150414150114/https://www.youtube.com/watch?v=UVX1BT0oxWU)
+[Watch Aleks Maricic, GDS Proposition Manager, describe the discovery phase.](https://www.youtube.com/watch?v=UVX1BT0oxWU)
 
 The discovery phase will give you a high-level understanding of [user needs](https://web.archive.org/web/20150414150114/https://www.gov.uk/service-manual/user-centred-design/user-needs.html), what the existing service landscape looks like and a sense of what your [initial prototypes](https://web.archive.org/web/20150414150114/https://www.gov.uk/service-manual/user-centred-design/working-with-prototypes.html) will explore.
 

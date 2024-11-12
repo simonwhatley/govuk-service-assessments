@@ -27,7 +27,7 @@ Discuss the stories ahead of sprint planning with:
 
 ## User story cards
 
-![A user story index card](/assets/content/version-1/guides/user-story-index-card.jpg)
+![A user story index card](/assets/content/version-1/guides/images/user-story-index-card.jpg)
 
 A user story is represented through a story card that has a title and a few lines of text.
 
@@ -131,4 +131,4 @@ See [Chapter 4 of User Stories Applied](http://www.mountaingoatsoftware.com/book
 
 1.  Mastering the Requirements Process, 3rd Ed, Suzanne Robertson & James Robertson, 2012
 2.  Twelve Principles of the Agile Manifesto – [http://agilemanifesto.org/principles.html](http://agilemanifesto.org/principles.html)
-3.  User Stories Applied, Mike Cohn, 2004. Free chapter on “[Writing User Stories](/assets/content/version-1/guides/User-Stories-Applied-Mike-Cohn.pdf)” available at [http://www.mountaingoatsoftware.com/books/user-stories-applied](http://www.mountaingoatsoftware.com/books/user-stories-applied)
+3.  User Stories Applied, Mike Cohn, 2004. Free chapter on “[Writing User Stories](/assets/content/version-1/guides/documents/User-Stories-Applied-Mike-Cohn.pdf)” available at [http://www.mountaingoatsoftware.com/books/user-stories-applied](http://www.mountaingoatsoftware.com/books/user-stories-applied)

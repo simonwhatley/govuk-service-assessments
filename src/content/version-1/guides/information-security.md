@@ -120,7 +120,7 @@ Business impact levels, often shortened to impact levels (IL) are a set of numbe
 - integrity - the potential consequences of having the accuracy or completeness of information compromised
 - availability - the potential consequences of information becoming inaccessible
 
-More details about identifying these numbers can be found in this [extract from HMG IA Standard No. 1](/assets/content/version-1/guides/business_impact_tables.pdf).
+More details about identifying these numbers can be found in this [extract from HMG IA Standard No. 1](/assets/content/version-1/guides/documents/business_impact_tables.pdf).
 
 ### Agile design
 
@@ -202,6 +202,6 @@ Aim for a system where the risks are known, and have your team work with risk pr
 ## Further reading
 
 - [Security Engineering — Ross Anderson](http://www.cl.cam.ac.uk/~rja14/book.html) is a comprehensive textbook covering the theory and practice of building secure systems
-- [HMG IA Standard No. 1 – Technical Risk Assessment](/assets/content/version-1/guides/is1_risk_assessment.pdf), the CESG guide to assessing risk in information systems
-- [Business Impact Level Tables](/assets/content/version-1/guides/business_impact_tables.pdf)
+- [HMG IA Standard No. 1 – Technical Risk Assessment](/assets/content/version-1/guides/documents/is1_risk_assessment.pdf), the CESG guide to assessing risk in information systems
+- [Business Impact Level Tables](/assets/content/version-1/guides/documents/business_impact_tables.pdf)
 - [Guidance on Information Asset Owner role](/web/20150330042352/https://www.gov.uk/government/publications/information-asset-owner-role-guidance)

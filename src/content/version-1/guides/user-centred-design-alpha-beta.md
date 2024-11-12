@@ -37,7 +37,7 @@ Each 2-week iteration should comprise of 3 stages:
 - [measure](#measure)
 - [learn](#learn)
 
-![A sketch of the Identity Assurance (IDA) team’s fortnightly iteration plan](/assets/content/version-1/guides/process-wheel.png)
+![A sketch of the Identity Assurance (IDA) team’s fortnightly iteration plan](/assets/content/version-1/guides/images/process-wheel.png)
 
 ## Build
 
@@ -171,7 +171,7 @@ Work with anyone that’s seen the user testing session to analyse observations,
 - confirm things that people have seen
 - form a consensus on the findings
 
-![Picture of post it notes on wall](/assets/content/version-1/guides/post-it-wall.png)
+![Picture of post it notes on wall](/assets/content/version-1/guides/images/post-it-wall.png)
 
 #### Actions
 

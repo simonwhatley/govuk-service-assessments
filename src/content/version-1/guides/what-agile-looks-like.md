@@ -11,7 +11,7 @@ Agile can be a liberating way of working. It won’t stop you from using existin
 
 ## Understand your users
 
-![Real people will use your product](/assets/content/version-1/guides/understand-your-users.jpg)
+![Real people will use your product](/assets/content/version-1/guides/images/understand-your-users.jpg)
 
 Prioritise features for users over everyone else – including your big, scary stakeholders – and ask for their feedback early and often. Really listen to your users. Even when they tell you things you don’t want to hear or disagree with.
 
@@ -19,7 +19,7 @@ If possible, use data from real people that are using your product and let it in
 
 ## “What do you want next Friday? What have we learned last week?”
 
-![A sprint backlog, courtesy of http://www.flickr.com/photos/psd/](/assets/content/version-1/guides/what-do-you-want.jpg)
+![A sprint backlog, courtesy of http://www.flickr.com/photos/psd/](/assets/content/version-1/guides/images/what-do-you-want.jpg)
 
 Iterate often. Build something that strives to achieve the most valuable user need and show it to the users, listen to their feedback and improve it. Keep doing this until you have something so useful that they wouldn’t be without it.
 
@@ -38,7 +38,7 @@ Your team will continue to learn through delivery cycles and improve throughout 
 
 ## Small, agile teams
 
-![The unit of delivery is the team](/assets/content/version-1/guides/unit-of-delivery.jpg)
+![The unit of delivery is the team](/assets/content/version-1/guides/images/unit-of-delivery.jpg)
 
 Small teams of between 5 to 10 people are often more productive and predictable than larger teams. Forget man-days (the amount of work produced by an average worker in a day) and think about your team as a unit.
 
@@ -58,7 +58,7 @@ A good team means you’re able to estimate your output, or speed, very effectiv
 
 ## Fail fast
 
-![Failing, so fix it!](/assets/content/version-1/guides/fail-fast.jpg)
+![Failing, so fix it!](/assets/content/version-1/guides/images/fail-fast.jpg)
 
 Regularly releasing little pieces of code will:
 
@@ -79,7 +79,7 @@ Don’t be afraid to fail or experiment. Learn to fail, and create a culture tha
 
 ## Continuous planning
 
-![Planning session](/assets/content/version-1/guides/continuous-planning.jpg)
+![Planning session](/assets/content/version-1/guides/images/continuous-planning.jpg)
 
 It’s a myth that you don’t plan on agile projects. The freedom of agile projects does not come free: you have to plan. You just plan differently and continuously.
 
@@ -97,7 +97,7 @@ Review these plans after every sprint and adjust them based on:
 
 ## Common situations to look out for
 
-![Do go here!](/assets/content/version-1/guides/do-not-press-this.jpg)
+![Do go here!](/assets/content/version-1/guides/images/do-not-press-this.jpg)
 
 If your team is new to agile, be wary of familiar situations and reactions from having to do things differently. These situations have a bad smell about them and will undermine your project and its chances of success:
 

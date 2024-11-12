@@ -11,7 +11,7 @@ A central principle of agile is quick feedback loops – you demonstrate somethi
 
 ## Retrospectives
 
-![X-prop retrospective](/assets/content/version-1/guides/retrospectives.jpg)
+![X-prop retrospective](/assets/content/version-1/guides/images/retrospectives.jpg)
 
 A retrospective is a meeting at the end of a [sprint](/web/20150928005414/https://www.gov.uk/service-manual/agile/features-of-agile.html) where your team get a chance to talk about what went well and badly in that sprint, and take some actions to improve matters. It can also cover a larger scope, eg a full project retrospective.
 
@@ -25,7 +25,7 @@ This is a chance for everyone in your team to contribute to improving process/pr
 
 ## The facilitator
 
-![A retrospective plan](/assets/content/version-1/guides/planning-retro.jpg)
+![A retrospective plan](/assets/content/version-1/guides/images/planning-retro.jpg)
 
 All retrospectives must be facilitated. The facilitator’s role is to give everyone a chance to talk about their concerns and give positive feedback.
 
@@ -51,7 +51,7 @@ Working agreements could be that:
 
 ## Outcomes of a retrospective
 
-![Retrospective Sections](/assets/content/version-1/guides/outcomes-of-a-retrospective.jpg)
+![Retrospective Sections](/assets/content/version-1/guides/images/outcomes-of-a-retrospective.jpg)
 
 During the discussion you will uncover some successes you can celebrate, as well as some problems that you can fix or things you can improve.
 
@@ -70,7 +70,7 @@ Retrospectives should follow up on the actions of previous retrospectives to mak
 
 ## Template
 
-![Voting with stickers](/assets/content/version-1/guides/redirects.jpeg)
+![Voting with stickers](/assets/content/version-1/guides/images/redirects.jpeg)
 
 You can use this template for your retrospectives. It’s based on a team of 8 to 10 and covers a 2-week sprint. 90 minutes is a reasonable amount of time to use for this scope and amount of people.
 
@@ -89,7 +89,7 @@ Make sure they’ve been completed. If any haven’t, ask if:
 - they still need to be done
 - why haven’t they been completed – set a new deadline if necessary, but don’t keep carrying actions over
 
-![A Bad](/assets/content/version-1/guides/watch-the-timeline.jpg)
+![A Bad](/assets/content/version-1/guides/images/watch-the-timeline.jpg)
 
 ### The good: 00:10 to 00:20 (10 minutes)
 
@@ -121,7 +121,7 @@ Again, group the post-its, prioritise if necessary, and discuss the main areas:
 - can we work out what we need to do to improve matters, or prevent specific things happening again?
 - can we draw out specific actions that someone here can take that will help?
 
-![Post-its](/assets/content/version-1/guides/discussion.jpg)
+![Post-its](/assets/content/version-1/guides/images/discussion.jpg)
 
 ### Actions: 01:05 to 01:20 (15 minutes)
 
