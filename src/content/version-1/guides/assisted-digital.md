@@ -7,8 +7,6 @@ eleventyComputed:
   permalink: "{{ page.filePathStem | replace('/content','') }}/"
 ---
 
-[[toc]]
-
 Your service will need to pass point 10 of the [Digital by Default Service Standard](/version-1/), which is to “Put appropriate assisted digital support in place that’s aimed towards those who genuinely need it”.
 
 Here you will be able to find out:
@@ -41,7 +39,7 @@ Good assisted digital support:
 - meets users’ accessibility and legal language requirements
 - securely stores and handles users’ personal data in line with the Data Protection Act, ensuring users’ privacy is maintained
 
-Find out how to [create an assisted digital action plan](/web/20150505161027/https://www.gov.uk/service-manual/assisted-digital/action-plan).
+Find out how to [create an assisted digital action plan](https://web.archive.org/web/20150505161027/https://www.gov.uk/service-manual/assisted-digital/action-plan).
 
 ## Who needs assisted digital support
 
@@ -52,7 +50,7 @@ And [Lloyds Bank UK Business Digital Index 2014](https://web.archive.org/web/201
 - people or businesses who are offline
 - people or businesses who are online but have limited digital capability - ie low experience, skills, confidence, ability and/or motivation
 
-Every service will have a different proportion of users who need assisted digital support. You will need to [carry out user research to understand your users](/web/20150505161027/https://www.gov.uk/service-manual/assisted-digital/assisted-digital-user-research), including those with very low or no digital skills.
+Every service will have a different proportion of users who need assisted digital support. You will need to [carry out user research to understand your users](https://web.archive.org/web/20150505161027/https://www.gov.uk/service-manual/assisted-digital/assisted-digital-user-research), including those with very low or no digital skills.
 
 ## When you don’t need to offer assisted digital support
 
@@ -124,7 +122,7 @@ When procuring for assisted digital services, departments should use the Front O
 
 ## How assisted digital, digital take-up and digital inclusion are related
 
-Some people can use digital services but for a range of reasons prefer other channels. [Digital take-up](/web/20150505161027/https://www.gov.uk/service-manual/communications/increasing-digital-takeup) is about encouraging them to start using digital government services instead.
+Some people can use digital services but for a range of reasons prefer other channels. [Digital take-up](https://web.archive.org/web/20150505161027/https://www.gov.uk/service-manual/communications/increasing-digital-takeup) is about encouraging them to start using digital government services instead.
 
 [Assisted digital](https://web.archive.org/web/20150505161027/https://www.gov.uk/government/publications/government-approach-to-assisted-digital) is about supporting people who can’t use government digital services on their own.
 
