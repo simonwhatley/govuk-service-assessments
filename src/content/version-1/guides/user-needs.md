@@ -63,7 +63,7 @@ Expressing a user need mustn’t imply the solution. The user need should be exp
 3. Define the acceptance criteria
 4. Solution is explored and delivered by the service team
 
-[Read more detailed guidance about writing user stories](https://web.archive.org/web/20150505160957/https://www.gov.uk/service-manual/agile/writing-user-stories.html).
+[Read more detailed guidance about writing user stories](/version-1/guides/writing-user-stories/).
 
 ## Further reading
 
