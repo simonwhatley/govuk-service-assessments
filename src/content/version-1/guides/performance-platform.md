@@ -4,7 +4,7 @@ subtitle: Displaying performance metrics
 description:
 layout: page
 eleventyComputed:
-  permalink: "{{ page.filePathStem | replace('/content','') }}/"
+  permalink: "{{ page.filePathStem | replace('/content/','/') }}/"
 ---
 
 The [Performance Platform](https://www.gov.uk/performance) is for service managers that need to be able to make data-driven decisions based on both digital and non‑digital sources.

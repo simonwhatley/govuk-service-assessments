@@ -5,7 +5,7 @@ description: |
   You’ve tested your solutions to [user needs](https://web.archive.org/web/20150328073638/https://www.gov.uk/service-manual/user-centred-design/user-needs) and built up a clear picture of what it will take to [build](https://web.archive.org/web/20150328073638/https://www.gov.uk/service-manual/making-software) and [operate](https://web.archive.org/web/20150328073638/https://www.gov.uk/service-manual/operations) your service. Now you will build an end-to-end prototype, test it in public and prepare to run it.
 layout: page
 eleventyComputed:
-  permalink: "{{ page.filePathStem | replace('/content','') }}/"
+  permalink: "{{ page.filePathStem | replace('/content/','/') }}/"
 ---
 
 [Watch Martyn Inglis, GDS technical architect, describe what happens during the beta phase.](https://www.youtube.com/watch?v=s0l8HauO_PM)

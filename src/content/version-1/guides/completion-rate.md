@@ -4,7 +4,7 @@ subtitle: Services all users can finish
 description:
 layout: page
 eleventyComputed:
-  permalink: "{{ page.filePathStem | replace('/content','') }}/"
+  permalink: "{{ page.filePathStem | replace('/content/','/') }}/"
 ---
 
 When users are unable to complete a digital transaction, they can be pushed to use other channels. This leads to low levels of digital take-up and customer satisfaction, and a higher cost per transaction.

@@ -4,7 +4,7 @@ subtitle: Reading age, reading online, plain English, and learning disabilities
 description:
 layout: page
 eleventyComputed:
-  permalink: "{{ page.filePathStem | replace('/content','') }}/"
+  permalink: "{{ page.filePathStem | replace('/content/','/') }}/"
 ---
 
 The [content design guidance](https://web.archive.org/web/20151027163341/https://www.gov.uk/guidance/content-design) and [style guide](https://web.archive.org/web/20151027163341/https://www.gov.uk/guidance/style-guide) are set in best practice and relate to how users read. This is an explanation of some of our guidance and the reasons behind the rules.

@@ -3,7 +3,7 @@ title: Cost per transaction
 description:
 layout: page
 eleventyComputed:
-  permalink: "{{ page.filePathStem | replace('/content','') }}/"
+  permalink: "{{ page.filePathStem | replace('/content/','/') }}/"
 ---
 
 Cost per transaction is an important measure of a service’s efficiency. As services become more efficient, the cost per transaction will fall.

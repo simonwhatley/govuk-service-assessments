@@ -4,7 +4,7 @@ subtitle: What you'll need to build a successful service
 description: The right team needs to be in place to deliver a digital by default service. Teams are multidisciplinary, meet regularly, and often work close together to deliver rapid iterations of user-centred products.
 layout: page
 eleventyComputed:
-  permalink: "{{ page.filePathStem | replace('/content','') }}/"
+  permalink: "{{ page.filePathStem | replace('/content/','/') }}/"
 ---
 
 They combine designers, developers, researchers and content specialists to deliver a project, and may expand or contract in size as services are developed. The exact shape of the team will vary across departments, and depend on various factors including the number and scale of any transactional services the department is redesigning and running, and the extent to which each will be delivered in house.
@@ -59,7 +59,7 @@ There is no hard and fast rule on the roles or team structure needed to fulfil t
 - one or more [user researchers](/version-1/guides/user-researcher/)
 - one or more [developers](/version-1/guides/developer)
 - one or more [content designers](/version-1/guides/content-designer/)
-- the support of a [technical architect](/assets/content/version-1/guides/Technicalarchitect-generic.docx)
+- the support of a [technical architect](/assets/content/version-1/guides/documents/Technicalarchitect-generic.docx)
 - the support of some [web ops expertise](/version-1/guides/web-operations)
 
 The team will also have a shared understanding of the [accessibility needs](/version-1/guides/accessibility) and possible [assisted digital](/version-1/guides/assisted-digital/) needs of a service’s users.

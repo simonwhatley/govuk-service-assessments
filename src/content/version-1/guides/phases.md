@@ -4,7 +4,7 @@ subtitle: Learn about the discover, alpha, beta, and live phases of service desi
 description:
 layout: page
 eleventyComputed:
-  permalink: "{{ page.filePathStem | replace('/content','') }}/"
+  permalink: "{{ page.filePathStem | replace('/content/','/') }}/"
 ---
 
 [Watch Richard Pope, GDS product manager, describe the different phases of service design.](https://www.youtube.com/watch?v=_cyI7DMhgYc)

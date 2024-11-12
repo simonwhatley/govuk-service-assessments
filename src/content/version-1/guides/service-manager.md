@@ -4,7 +4,7 @@ subtitle: Learn what a service manager does, and how to be a good one
 description:
 layout: page
 eleventyComputed:
-  permalink: "{{ page.filePathStem | replace('/content','') }}/"
+  permalink: "{{ page.filePathStem | replace('/content/','/') }}/"
 ---
 
 [Carolyn Williams, service manager at DVLA, talks about her role.](https://www.youtube.com/watch?v=bfH4nJNtv_g)

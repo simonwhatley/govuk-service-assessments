@@ -4,7 +4,7 @@ subtitle: What user researchers do and what to look for
 description:
 layout: page
 eleventyComputed:
-  permalink: "{{ page.filePathStem | replace('/content','') }}/"
+  permalink: "{{ page.filePathStem | replace('/content/','/') }}/"
 ---
 
 [Watch Angela Collins-Rees, GDS User Research Specialist, describing the importance of user research.](https://www.youtube.com/watch?v=1hbnPCdM4ls)

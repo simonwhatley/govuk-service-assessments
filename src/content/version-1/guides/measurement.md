@@ -5,7 +5,7 @@ description: |
   It’s essential to measure how your service is performing, so you can make sure that your service continues to meet user needs in a cost-effective and efficient way.
 layout: page
 eleventyComputed:
-  permalink: "{{ page.filePathStem | replace('/content','') }}/"
+  permalink: "{{ page.filePathStem | replace('/content/','/') }}/"
 ---
 
 Do this by monitoring your metrics. Your metrics are a way to start discussing the strengths and weaknesses of your service, and will help your team to find ways of improving your service over time.

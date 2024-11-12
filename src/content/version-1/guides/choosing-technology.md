@@ -4,7 +4,7 @@ subtitle: How to go about choosing what software tools to use
 description:
 layout: page
 eleventyComputed:
-  permalink: "{{ page.filePathStem | replace('/content','') }}/"
+  permalink: "{{ page.filePathStem | replace('/content/','/') }}/"
 ---
 
 This is for guidance purposes only, so don’t take it as legal advice.

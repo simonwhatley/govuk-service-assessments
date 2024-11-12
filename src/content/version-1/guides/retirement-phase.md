@@ -5,7 +5,7 @@ description: |
   Even the best services may eventually reach retirement. Changes in policy may mean that the service is no longer offered or new understanding may mean that those user needs are better provided through a different service.
 layout: page
 eleventyComputed:
-  permalink: "{{ page.filePathStem | replace('/content','') }}/"
+  permalink: "{{ page.filePathStem | replace('/content/','/') }}/"
 ---
 
 Whatever the reason, the retirement of digital services should be handled with the same degree of care as their creation, concentrating on user needs.

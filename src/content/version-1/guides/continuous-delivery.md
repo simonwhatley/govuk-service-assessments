@@ -4,7 +4,7 @@ subtitle: Making releases boring
 description:
 layout: page
 eleventyComputed:
-  permalink: "{{ page.filePathStem | replace('/content','') }}/"
+  permalink: "{{ page.filePathStem | replace('/content/','/') }}/"
 ---
 
 Continuous delivery is about producing regular iterations of your software that’s ready to be released (deployed), though you don’t have to release these iterations to the public.

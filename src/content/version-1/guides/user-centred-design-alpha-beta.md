@@ -4,7 +4,7 @@ subtitle:
 description:
 layout: page
 eleventyComputed:
-  permalink: "{{ page.filePathStem | replace('/content','') }}/"
+  permalink: "{{ page.filePathStem | replace('/content/','/') }}/"
 ---
 
 Carry out user research during every stage of your project. Do it continuously through each stage — don’t leave it as something that happens at the beginning and end of phases.

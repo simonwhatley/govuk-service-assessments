@@ -4,7 +4,7 @@ subtitle: Writing high quality content for sites and services
 description:
 layout: page
 eleventyComputed:
-  permalink: "{{ page.filePathStem | replace('/content','') }}/"
+  permalink: "{{ page.filePathStem | replace('/content/','/') }}/"
 ---
 
 [Watch Padma Gillen, content designer for GOV.UK mainstream, describing what his work entails.](https://www.youtube.com/watch?v=kUlL1AU_CO0)

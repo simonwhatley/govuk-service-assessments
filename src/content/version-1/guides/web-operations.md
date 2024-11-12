@@ -4,7 +4,7 @@ subtitle: Helping develop secure, maintainable and available systems
 description:
 layout: page
 eleventyComputed:
-  permalink: "{{ page.filePathStem | replace('/content','') }}/"
+  permalink: "{{ page.filePathStem | replace('/content/','/') }}/"
 ---
 
 [Nick Stenning talks about what it means to be in web operations.](https://www.youtube.com/watch?v=qLR1LnxplAY)

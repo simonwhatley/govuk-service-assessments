@@ -4,7 +4,7 @@ subtitle: How to focus a service on users
 description:
 layout: page
 eleventyComputed:
-  permalink: "{{ page.filePathStem | replace('/content','') }}/"
+  permalink: "{{ page.filePathStem | replace('/content/','/') }}/"
 ---
 
 Deep understanding of your users’ needs is crucial for building a successful digital service.

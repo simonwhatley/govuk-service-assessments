@@ -4,7 +4,7 @@ subtitle: What developer do and what to look for
 description:
 layout: page
 eleventyComputed:
-  permalink: "{{ page.filePathStem | replace('/content','') }}/"
+  permalink: "{{ page.filePathStem | replace('/content/','/') }}/"
 ---
 
 [Dafydd Vaughan, Developer at GDS, talks about what his work involves.](https://www.youtube.com/watch?v=xEcsGlZn__w)

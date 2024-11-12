@@ -4,7 +4,7 @@ subtitle: What designers do and what to look for
 description:
 layout: page
 eleventyComputed:
-  permalink: "{{ page.filePathStem | replace('/content','') }}/"
+  permalink: "{{ page.filePathStem | replace('/content/','/') }}/"
 ---
 
 [Watch GDS Designer Mark Hurrell talk about his work.](https://www.youtube.com/watch?v=d_Om02sbn_c)

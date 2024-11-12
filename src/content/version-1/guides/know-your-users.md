@@ -5,7 +5,7 @@ description: |
   People come to GOV.UK with specific needs. Anything that gets between our users and meeting those needs should be stripped away. The design of GOV.UK reflects this, existing primarily as a way of providing the right content and services to our users. Find out here how we approach this challenge.
 layout: page
 eleventyComputed:
-  permalink: "{{ page.filePathStem | replace('/content','') }}/"
+  permalink: "{{ page.filePathStem | replace('/content/','/') }}/"
 ---
 
 - [User-centred design in alpha and beta](/version-1/guides/user-centred-design-alpha-beta/) Combining design and research to create user-focused services

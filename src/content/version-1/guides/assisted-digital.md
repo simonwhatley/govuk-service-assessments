@@ -4,7 +4,7 @@ subtitle: Information for service managers
 description:
 layout: page
 eleventyComputed:
-  permalink: "{{ page.filePathStem | replace('/content','') }}/"
+  permalink: "{{ page.filePathStem | replace('/content/','/') }}/"
 ---
 
 Your service will need to pass point 10 of the [Digital by Default Service Standard](/version-1/), which is to “Put appropriate assisted digital support in place that’s aimed towards those who genuinely need it”.

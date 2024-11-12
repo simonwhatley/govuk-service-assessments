@@ -4,7 +4,7 @@ subtitle: How to do them and how to avoid them
 description:
 layout: page
 eleventyComputed:
-  permalink: "{{ page.filePathStem | replace('/content','') }}/"
+  permalink: "{{ page.filePathStem | replace('/content/','/') }}/"
 ---
 
 GDS advise that teams do not build login systems.

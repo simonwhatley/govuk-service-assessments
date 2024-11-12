@@ -4,7 +4,7 @@ subtitle: The physical space and tools that bring out the best in a team
 description:
 layout: page
 eleventyComputed:
-  permalink: "{{ page.filePathStem | replace('/content','') }}/"
+  permalink: "{{ page.filePathStem | replace('/content/','/') }}/"
 ---
 
 Working spaces for digital projects will vary, but there are some things you can do to ensure that the space you have available can be used in the way your team needs.

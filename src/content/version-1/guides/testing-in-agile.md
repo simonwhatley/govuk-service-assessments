@@ -4,7 +4,7 @@ subtitle: How to get testing right
 description:
 layout: page
 eleventyComputed:
-  permalink: "{{ page.filePathStem | replace('/content','') }}/"
+  permalink: "{{ page.filePathStem | replace('/content/','/') }}/"
 ---
 
 The basics of any testing approach still apply in the agile world, but the aim of testing can be quite different.

@@ -4,7 +4,7 @@ subtitle: How people outside government can help build your service
 description:
 layout: page
 eleventyComputed:
-  permalink: "{{ page.filePathStem | replace('/content','') }}/"
+  permalink: "{{ page.filePathStem | replace('/content/','/') }}/"
 ---
 
 You may need specialist help to design, develop, build or improve your service. When buying in these services, there’s support GDS may be able to provide.

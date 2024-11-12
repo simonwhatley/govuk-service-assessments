@@ -4,7 +4,7 @@ subtitle: Common features of agile projects
 description:
 layout: page
 eleventyComputed:
-  permalink: "{{ page.filePathStem | replace('/content','') }}/"
+  permalink: "{{ page.filePathStem | replace('/content/','/') }}/"
 ---
 
 Agile can be a liberating way of working. It won’t stop you from using existing skills and knowledge, but it will require your team, users and stakeholders to start working together in new ways.

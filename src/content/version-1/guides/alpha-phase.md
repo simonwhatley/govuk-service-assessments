@@ -5,7 +5,7 @@ description: |
   When designing a service it’s impossible to predict everything upfront. Each project features many challenges, and in your alpha you will start exploring solutions for these.
 layout: page
 eleventyComputed:
-  permalink: "{{ page.filePathStem | replace('/content','') }}/"
+  permalink: "{{ page.filePathStem | replace('/content/','/') }}/"
 ---
 
 You may need to bring more [developers](https://web.archive.org/web/20150505160658/https://www.gov.uk/service-manual/the-team/developer) and [designers](https://web.archive.org/web/20150505160658/https://www.gov.uk/service-manual/the-team/designer) into [the team](https://web.archive.org/web/20150505160658/https://www.gov.uk/service-manual/the-team), who will help you to build and test [prototypes](https://web.archive.org/web/20150505160658/https://www.gov.uk/service-manual/user-centred-design/working-with-prototypes) and possible solutions for your [users needs](https://web.archive.org/web/20150505160658/https://www.gov.uk/service-manual/user-centred-design/user-needs).

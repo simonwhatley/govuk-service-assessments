@@ -4,7 +4,7 @@ subtitle: How to write a useful user story
 description:
 layout: page
 eleventyComputed:
-  permalink: "{{ page.filePathStem | replace('/content','') }}/"
+  permalink: "{{ page.filePathStem | replace('/content/','/') }}/"
 ---
 
 A user story briefly explains:

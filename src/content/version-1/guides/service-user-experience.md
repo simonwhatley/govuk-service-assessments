@@ -4,7 +4,7 @@ subtitle: Guidance for creating a consistent user experience
 description:
 layout: page
 eleventyComputed:
-  permalink: "{{ page.filePathStem | replace('/content','') }}/"
+  permalink: "{{ page.filePathStem | replace('/content/','/') }}/"
 ---
 
 The [service standard](/version-1/standard-13/) states that you should build your service to be “consistent with the user experience of the rest of GOV.UK by using the design patterns.”

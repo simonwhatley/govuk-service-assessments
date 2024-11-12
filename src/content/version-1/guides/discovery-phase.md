@@ -5,7 +5,7 @@ description: |
   What are the [needs of your users](https://web.archive.org/web/20150414150114/https://www.gov.uk/service-manual/user-centred-design/user-needs.html)? What services currently meet those? How are they [performing](https://web.archive.org/web/20150414150114/https://www.gov.uk/service-manual/measurement/performance-platform)? What technological or policy related constraints might there be?
 layout: page
 eleventyComputed:
-  permalink: "{{ page.filePathStem | replace('/content','') }}/"
+  permalink: "{{ page.filePathStem | replace('/content/','/') }}/"
 ---
 
 Before you start building a service you need to build up a picture of what the context for that service is. That means lots of [user research](https://web.archive.org/web/20150414150114/https://www.gov.uk/service-manual/user-centred-design/user-research/index.html), close analysis of policies, laws and business needs, and workshops and interviews which establish the criteria for success of your service.

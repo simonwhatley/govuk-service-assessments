@@ -4,7 +4,7 @@ subtitle: Making sure user data stays secure
 description:
 layout: page
 eleventyComputed:
-  permalink: "{{ page.filePathStem | replace('/content','') }}/"
+  permalink: "{{ page.filePathStem | replace('/content/','/') }}/"
 ---
 
 When building your service, you’ll need to make sure that appropriate steps are taken to guarantee its security.

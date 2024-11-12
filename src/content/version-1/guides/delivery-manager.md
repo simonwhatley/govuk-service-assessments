@@ -4,7 +4,7 @@ subtitle: Enabling teams to deliver high-quality services
 description:
 layout: page
 eleventyComputed:
-  permalink: "{{ page.filePathStem | replace('/content','') }}/"
+  permalink: "{{ page.filePathStem | replace('/content/','/') }}/"
 ---
 
 [Watch Peter Herlihy, Delivery Manager for Inside Government, describing what his work entails.](https://web.archive.org/web/20150912033731/https://www.youtube.com/watch?v=ipHEn97mws4)

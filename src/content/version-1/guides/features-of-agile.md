@@ -4,7 +4,7 @@ subtitle: Sprints, stand-ups and other regular meetings
 description:
 layout: page
 eleventyComputed:
-  permalink: "{{ page.filePathStem | replace('/content','') }}/"
+  permalink: "{{ page.filePathStem | replace('/content/','/') }}/"
 ---
 
 Some common features of the agile development methods we’ve used at GDS.

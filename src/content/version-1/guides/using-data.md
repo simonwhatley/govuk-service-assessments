@@ -4,7 +4,7 @@ subtitle: How to mak euse of the performance information your service collects
 description:
 layout: page
 eleventyComputed:
-  permalink: "{{ page.filePathStem | replace('/content','') }}/"
+  permalink: "{{ page.filePathStem | replace('/content/','/') }}/"
 ---
 
 Simply collecting information about how your service is running isn’t enough to make judgements about how to improve it. A process of continual iteration and close measurement will help you to see what needs improvement and how to investigate ways of improving your service.

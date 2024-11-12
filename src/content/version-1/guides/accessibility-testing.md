@@ -4,7 +4,7 @@ subtitle: Testing to see if your sevice is inclusive
 description:
 layout: page
 eleventyComputed:
-  permalink: "{{ page.filePathStem | replace('/content','') }}/"
+  permalink: "{{ page.filePathStem | replace('/content/','/') }}/"
 ---
 
 Accessibility testing is very similar to [usability testing](/version-1/guides/user-research/), in that it is about making sure that a product or service is easy for its intended audience to use. That audience includes users who access the service via a range of assistive technologies like:

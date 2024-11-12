@@ -4,7 +4,7 @@ subtitle: What it is, why it works and how to do it
 description: Agile methodologies will help you and your team to build world-class, user-centred services quickly and affordably.
 layout: page
 eleventyComputed:
-  permalink: "{{ page.filePathStem | replace('/content','') }}/"
+  permalink: "{{ page.filePathStem | replace('/content/','/') }}/"
 ---
 
 This way of working can be very different for those used to long specifications and procurement processes, but it’s essential for producing high-quality services to a standard that many users expect.

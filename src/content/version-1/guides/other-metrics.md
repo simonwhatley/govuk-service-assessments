@@ -3,7 +3,7 @@ title: Other metrics
 description:
 layout: page
 eleventyComputed:
-  permalink: "{{ page.filePathStem | replace('/content','') }}/"
+  permalink: "{{ page.filePathStem | replace('/content/','/') }}/"
 ---
 
 Your service must measure [the 4 key performance indicators](https://web.archive.org/web/20151012003935/https://www.gov.uk/service-manual/measurement/index.html).

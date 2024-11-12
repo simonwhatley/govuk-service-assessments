@@ -4,7 +4,7 @@ subtitle: Choosing the right tools for your service
 description:
 layout: page
 eleventyComputed:
-  permalink: "{{ page.filePathStem | replace('/content','') }}/"
+  permalink: "{{ page.filePathStem | replace('/content/','/') }}/"
 ---
 
 There are various web analytics tools available to help you measure how people are using your service. Be sure to assess how well a particular tool meets your needs before deciding on which tools to use.

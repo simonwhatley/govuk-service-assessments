@@ -5,7 +5,7 @@ description: |
   You’ve been building a service to meet [users needs](https://web.archive.org/web/20150327102711/https://www.gov.uk/service-manual/user-centred-design/user-needs.html), and after your [public beta](https://web.archive.org/web/20150327102711/https://www.gov.uk/service-manual/phases/beta.html) you have a tested solution that is ready to release.
 layout: page
 eleventyComputed:
-  permalink: "{{ page.filePathStem | replace('/content','') }}/"
+  permalink: "{{ page.filePathStem | replace('/content/','/') }}/"
 ---
 
 ## Going live
