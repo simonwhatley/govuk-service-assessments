@@ -1,6 +1,6 @@
 ---
 title: Features of agile
-subtitle: Sprints, stand-ups and other regular meetings.
+subtitle: Sprints, stand-ups and other regular meetings
 description:
 layout: page
 eleventyComputed:

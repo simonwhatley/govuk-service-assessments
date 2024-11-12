@@ -1,6 +1,6 @@
 ---
 title: Measurement
-subtitle: Data you need to measure and monitor.
+subtitle: Data you need to measure and monitor
 description: |
   It’s essential to measure how your service is performing, so you can make sure that your service continues to meet user needs in a cost-effective and efficient way.
 layout: page
@@ -14,10 +14,10 @@ Do this by monitoring your metrics. Your metrics are a way to start discussing t
 
 The [digital by default service standard](/version-1/) states 4 key performance indicators (KPIs) which should be used to measure the success of your service:
 
--   [cost per transaction](/version-1/guides/cost-per-transaction/)
--   [user satisfaction](/version-1/guides/user-satisfaction/)
--   [completion rate](/version-1/guides/completion-rate/)
--   [digital take-up](/version-1/guides/digital-takeup/)
+- [cost per transaction](/version-1/guides/cost-per-transaction/)
+- [user satisfaction](/version-1/guides/user-satisfaction/)
+- [completion rate](/version-1/guides/completion-rate/)
+- [digital take-up](/version-1/guides/digital-takeup/)
 
 These aren’t the only things your service should measure. Identify unique indicators to your service to help judge its effectiveness. Read our [guidance on establishing KPIs specific to your service](/version-1/guides/other-metrics/).
 

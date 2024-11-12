@@ -1,6 +1,6 @@
 ---
 title: Live phase
-subtitle: Learn how to continuously improve your live service.
+subtitle: Learn how to continuously improve your live service
 description: |
   You’ve been building a service to meet [users needs](https://web.archive.org/web/20150327102711/https://www.gov.uk/service-manual/user-centred-design/user-needs.html), and after your [public beta](https://web.archive.org/web/20150327102711/https://www.gov.uk/service-manual/phases/beta.html) you have a tested solution that is ready to release.
 layout: page
@@ -22,9 +22,9 @@ This is not the end of the process. The service should now be improved continuou
 
 [Operational support](https://web.archive.org/web/20150327102711/https://www.gov.uk/service-manual/operations) – both technical and customer-focused – is in place, and you have implemented pro-active monitoring methods. These will help you to:
 
--   monitor system performance
--   optimise the code
--   ensure the service remains secure
+- monitor system performance
+- optimise the code
+- ensure the service remains secure
 
 You’ll repeat the whole process (discovery, alpha, beta and live) for smaller pieces of work as the service continues running. Find something that needs improvement, research solutions, iterate, release. That should be a constant rhythm for the [operating team](https://web.archive.org/web/20150327102711/https://www.gov.uk/service-manual/the-team), and done rapidly.
 
@@ -32,5 +32,5 @@ You’ll repeat the whole process (discovery, alpha, beta and live) for smaller 
 
 You’ll have identified the roles required to run your service, including the [service manager](https://web.archive.org/web/20150327102711/https://www.gov.uk/service-manual/the-team/service-manager.html) and [user support](https://web.archive.org/web/20150327102711/https://www.gov.uk/service-manual/operations/managing-user-support.html) teams, while building the service. As different areas of your service are iterated and improved the team size will expand and contract, accommodating specialists as appropriate.
 
--   **[Final phase: retirement](/version-1/guides/retirement-phase/)**
--   [Previous phase: beta](/version-1/guides/beta-phase/)
+- **[Final phase: retirement](/version-1/guides/retirement-phase/)**
+- [Previous phase: beta](/version-1/guides/beta-phase/)

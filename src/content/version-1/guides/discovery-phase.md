@@ -1,6 +1,6 @@
 ---
 title: Discovery phase
-subtitle: Find out what your users need, what to measure and what your constraints are.
+subtitle: Find out what your users need, what to measure and what your constraints are
 description: |
   What are the [needs of your users](https://web.archive.org/web/20150414150114/https://www.gov.uk/service-manual/user-centred-design/user-needs.html)? What services currently meet those? How are they [performing](https://web.archive.org/web/20150414150114/https://www.gov.uk/service-manual/measurement/performance-platform)? What technological or policy related constraints might there be?
 layout: page
@@ -24,10 +24,10 @@ You’ll also get a better understanding of the legacy interfaces and infrastruc
 
 This information is found through:
 
--   workshops
--   simple mock ups
--   paper prototypes
--   plenty of whiteboard diagrams
+- workshops
+- simple mock ups
+- paper prototypes
+- plenty of whiteboard diagrams
 
 ## The team
 
@@ -41,15 +41,15 @@ The phase should not take longer than 4 to 8 weeks. During the final week you sh
 
 You will leave the discovery phase with:
 
--   a prioritised list of [user needs](https://web.archive.org/web/20150414150114/https://www.gov.uk/service-manual/user-centred-design/user-needs.html)
--   a prioritised list of [story cards](https://web.archive.org/web/20150414150114/https://www.gov.uk/service-manual/agile/writing-user-stories.html) to feed into project teams
--   understanding of [team](https://web.archive.org/web/20150414150114/https://www.gov.uk/service-manual/the-team) and capability required to complete the project
--   ability to scope and plan an [alpha](https://web.archive.org/web/20150414150114/https://www.gov.uk/service-manual/phases/alpha.html)
--   a decision to progress to next phase
--   maybe some rough prototypes
--   maybe some user personas
--   a list of stakeholders and input from them about existing services
--   understanding of existing services, including those run by non-government sources
--   understanding of how many of your users will need assisted digital support, and what their user needs are
+- a prioritised list of [user needs](https://web.archive.org/web/20150414150114/https://www.gov.uk/service-manual/user-centred-design/user-needs.html)
+- a prioritised list of [story cards](https://web.archive.org/web/20150414150114/https://www.gov.uk/service-manual/agile/writing-user-stories.html) to feed into project teams
+- understanding of [team](https://web.archive.org/web/20150414150114/https://www.gov.uk/service-manual/the-team) and capability required to complete the project
+- ability to scope and plan an [alpha](https://web.archive.org/web/20150414150114/https://www.gov.uk/service-manual/phases/alpha.html)
+- a decision to progress to next phase
+- maybe some rough prototypes
+- maybe some user personas
+- a list of stakeholders and input from them about existing services
+- understanding of existing services, including those run by non-government sources
+- understanding of how many of your users will need assisted digital support, and what their user needs are
 
--   **[Next phase: alpha](/version-1/guides/alpha-phase/)**
+- **[Next phase: alpha](/version-1/guides/alpha-phase/)**

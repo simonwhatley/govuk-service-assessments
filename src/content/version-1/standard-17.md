@@ -34,7 +34,7 @@ eleventyComputed:
       - text: Testing in agile
         href: "/{{ version }}/guides/testing-in-agile/"
       - text: Operating a service
-        href: "/{{ version }}/guides/operating a service/"
+        href: "/{{ version }}/guides/operating-a-service/"
 ---
 
 {% if related.items.length %}

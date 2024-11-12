@@ -1,6 +1,6 @@
 ---
 title: Information security
-subtitle: Making sure user data stays secure.
+subtitle: Making sure user data stays secure
 description:
 layout: page
 eleventyComputed:
@@ -155,7 +155,7 @@ The Risk Management Document Set or RMADS is the result of your formal accredita
 
 ### IT Health Check
 
-The IT Health Check (ITHC) forms part of the formal Accreditation. In essence it’s a penetration test carried out by a CESG approved supplier (specifically a CHECK certified individual). Read guidance on [penetration and vulnerability testing](/web/20150330042352/https://www.gov.uk/service-manual/operations/penetration-testing) for more details.
+The IT Health Check (ITHC) forms part of the formal Accreditation. In essence it’s a penetration test carried out by a CESG approved supplier (specifically a CHECK certified individual). Read guidance on [penetration and vulnerability testing](https://web.archive.org/web/20150330042352/https://www.gov.uk/service-manual/operations/penetration-testing) for more details.
 
 ### Ongoing
 
@@ -204,4 +204,4 @@ Aim for a system where the risks are known, and have your team work with risk pr
 - [Security Engineering — Ross Anderson](http://www.cl.cam.ac.uk/~rja14/book.html) is a comprehensive textbook covering the theory and practice of building secure systems
 - [HMG IA Standard No. 1 – Technical Risk Assessment](/assets/content/version-1/guides/documents/is1_risk_assessment.pdf), the CESG guide to assessing risk in information systems
 - [Business Impact Level Tables](/assets/content/version-1/guides/documents/business_impact_tables.pdf)
-- [Guidance on Information Asset Owner role](/web/20150330042352/https://www.gov.uk/government/publications/information-asset-owner-role-guidance)
+- [Guidance on Information Asset Owner role](https://web.archive.org/web/20150330042352/https://www.gov.uk/government/publications/information-asset-owner-role-guidance)

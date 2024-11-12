@@ -1,6 +1,6 @@
 ---
 title: Testing in an agile environment
-subtitle: How to get testing right.
+subtitle: How to get testing right
 description:
 layout: page
 eleventyComputed:
@@ -49,7 +49,7 @@ Your team should be able to see a problem in the quality of your system. Every p
 
 A successful agile project relies on fast feedback loops. Getting feedback and getting it fast means you can actually be agile and change when you need to change.
 
-Your testing should be about giving and getting that fast feedback – at a time when it’s useful. [Automated code testing techniques](/web/20150324173659/https://www.gov.uk/service-manual/making-software/code-testing) have their place and you can use them, but don’t make them the centre of your approach to testing.
+Your testing should be about giving and getting that fast feedback – at a time when it’s useful. [Automated code testing techniques](https://web.archive.org/web/20150324173659/https://www.gov.uk/service-manual/making-software/code-testing) have their place and you can use them, but don’t make them the centre of your approach to testing.
 
 ## Tests are an asset of the product
 
@@ -91,23 +91,23 @@ These tests run in continuous integration, which means that they form part of yo
 
 ### Code testing
 
-Read the guidance about [testing code](/web/20150324173659/https://www.gov.uk/service-manual/making-software/code-testing.html).
+Read the guidance about [testing code](https://web.archive.org/web/20150324173659/https://www.gov.uk/service-manual/making-software/code-testing.html).
 
 ### Exploratory testing
 
-Read the guidance about [exploratory testing](/web/20150324173659/https://www.gov.uk/service-manual/making-software/exploratory-testing.html).
+Read the guidance about [exploratory testing](https://web.archive.org/web/20150324173659/https://www.gov.uk/service-manual/making-software/exploratory-testing.html).
 
 ### Load and performance testing
 
-Read the guidance about [load and performance testing](/web/20150324173659/https://www.gov.uk/service-manual/operations/load-and-performance-testing.html)
+Read the guidance about [load and performance testing](https://web.archive.org/web/20150324173659/https://www.gov.uk/service-manual/operations/load-and-performance-testing.html)
 
 ### Penetration testing
 
-Read the guidance about [penetration testing](/web/20150324173659/https://www.gov.uk/service-manual/operations/penetration-testing.html)
+Read the guidance about [penetration testing](https://web.archive.org/web/20150324173659/https://www.gov.uk/service-manual/operations/penetration-testing.html)
 
 ### Accessibility testing
 
-Read the guidance about [accessibility testing](/web/20150324173659/https://www.gov.uk/service-manual/user-centred-design/user-research/accessibility-testing.html)
+Read the guidance about [accessibility testing](https://web.archive.org/web/20150324173659/https://www.gov.uk/service-manual/user-centred-design/user-research/accessibility-testing.html)
 
 ### Crowdsourced testing
 
@@ -127,4 +127,4 @@ Examples of where GDS used this effectively include:
 
 ### Test your ideas
 
-Don’t forget, don’t just test the product itself – test your ideas. For information on how to do this read [the guidance about user research](/web/20150324173659/https://www.gov.uk/service-manual/user-centred-design/user-research/index.html).
+Don’t forget, don’t just test the product itself – test your ideas. For information on how to do this read [the guidance about user research](https://web.archive.org/web/20150324173659/https://www.gov.uk/service-manual/user-centred-design/user-research/index.html).

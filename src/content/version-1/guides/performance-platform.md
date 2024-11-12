@@ -1,6 +1,6 @@
 ---
 title: Performance platform
-subtitle: Displaying performance metrics.
+subtitle: Displaying performance metrics
 description:
 layout: page
 eleventyComputed:
@@ -11,37 +11,37 @@ The [Performance Platform](https://www.gov.uk/performance) is for service manage
 
 It’s a toolkit that allows you to supply service data in return for alerts, visualisations and structured data, which can then be used to:
 
--   improve services
--   meet [the service standard](/version-1/)
--   gain insight by comparing data across multiple services and sources
+- improve services
+- meet [the service standard](/version-1/)
+- gain insight by comparing data across multiple services and sources
 
 ## What the platform will offer
 
 The Performance Platform will provide:
 
--   visualisations
--   alerts
--   dashboards
--   feeds
+- visualisations
+- alerts
+- dashboards
+- feeds
 
 This will help with making timely and transparent decisions about your service and the content that government offers.
 
 The platform will combine different sources of information:
 
--   service desks
--   infrastructure
--   analytics
--   surveys
--   finance data
+- service desks
+- infrastructure
+- analytics
+- surveys
+- finance data
 
 Combining these sources will produce information that encourages a greater understanding of the data, rather than simply communicating facts. It will:
 
--   make it possible for government to make decisions based on data
--   do the hard work to make data collection, retrieval, and presentation simple for users
--   be open to any government service supplying their data and customising their outputs
--   be open to the public
--   be independent of proprietary monitoring software, eg Google Analytics
--   automate routine analysis and visualisation, and use insights to provoke further detailed analysis
+- make it possible for government to make decisions based on data
+- do the hard work to make data collection, retrieval, and presentation simple for users
+- be open to any government service supplying their data and customising their outputs
+- be open to the public
+- be independent of proprietary monitoring software, eg Google Analytics
+- automate routine analysis and visualisation, and use insights to provoke further detailed analysis
 
 ## Put data in
 
@@ -59,13 +59,13 @@ When a new module is added, it will be offered to all services on the platform. 
 
 There will be default modules that are:
 
--   relevant to all services
--   relevant to similar groups of services (eg applying for something, requesting information, booking an appointment)
--   [Key Performance Indicators](/version-1/guides/measurement/)
+- relevant to all services
+- relevant to similar groups of services (eg applying for something, requesting information, booking an appointment)
+- [Key Performance Indicators](/version-1/guides/measurement/)
 
 You’ll also have the ability to develop your own custom modules for your service.
 
 ## Further information
 
--   [The Performance Platform](https://www.gov.uk/performance)
--   [Contact the team](mailto:performance@digital.cabinet-office.gov.uk)
+- [The Performance Platform](https://www.gov.uk/performance)
+- [Contact the team](mailto:performance@digital.cabinet-office.gov.uk)

@@ -1,6 +1,6 @@
 ---
 title: Continuous delivery
-subtitle: Making releases boring.
+subtitle: Making releases boring
 description:
 layout: page
 eleventyComputed:
@@ -23,9 +23,9 @@ The [Lean software development philosophy](https://en.wikipedia.org/wiki/Lean_so
 
 ## Deployment
 
-Automate your deployment process so you are forced to fully understand it. Then any issues with moving code from your [version control system](/web/20150324173644/https://www.gov.uk/service-manual/making-software/version-control.html) into production (when it’s gone live) can be dealt with early on.
+Automate your deployment process so you are forced to fully understand it. Then any issues with moving code from your [version control system](https://web.archive.org/web/20150324173644/https://www.gov.uk/service-manual/making-software/version-control.html) into production (when it’s gone live) can be dealt with early on.
 
-Automating it early also means that code will be tested and any bugs fixed so that [releases become frequent](/web/20150324173644/https://www.gov.uk/service-manual/making-software/release-strategies.html), low-risk, almost boring events.
+Automating it early also means that code will be tested and any bugs fixed so that [releases become frequent](https://web.archive.org/web/20150324173644/https://www.gov.uk/service-manual/making-software/release-strategies.html), low-risk, almost boring events.
 
 Don’t plan production release slots far in advance. You can’t be certain what will be ready in 6 months’ time.
 
@@ -39,7 +39,7 @@ What happens to code between it being written by a developer and deployed to pro
 
 Understand your end-to-end deployment pipeline. Knowing how it works and how each element works together will have implications for:
 
-- [configuration management](/web/20150324173644/https://www.gov.uk/service-manual/making-software/configuration-management.html) (how you maintain consistency with your product’s performance and functionality)
+- [configuration management](https://web.archive.org/web/20150324173644/https://www.gov.uk/service-manual/making-software/configuration-management.html) (how you maintain consistency with your product’s performance and functionality)
 - the automation of your build, deploy, test and release processes
 
 The deployment pipeline has 4 stages:
@@ -51,11 +51,11 @@ The deployment pipeline has 4 stages:
 
 ### The commit stage
 
-When your developer checks into [version control](/web/20150324173644/https://www.gov.uk/service-manual/making-software/version-control) (where all code, including previous versions, are stored), [a range of tests](/web/20150324173644/https://www.gov.uk/service-manual/making-software/testing-in-agile) should be run against the latest version of the code. Any quick, easy-to-identify defects, like [compile errors](/https://en.wikipedia.org/wiki/Compilation_error) or [unit test failures](https://en.wikipedia.org/wiki/Unit_testing) will be found at this stage. If the tests pass, the code progresses to the next stage and should be considered for release into production.
+When your developer checks into [version control](https://web.archive.org/web/20150324173644/https://www.gov.uk/service-manual/making-software/version-control) (where all code, including previous versions, are stored), [a range of tests](https://web.archive.org/web/20150324173644/https://www.gov.uk/service-manual/making-software/testing-in-agile) should be run against the latest version of the code. Any quick, easy-to-identify defects, like [compile errors](/https://en.wikipedia.org/wiki/Compilation_error) or [unit test failures](https://en.wikipedia.org/wiki/Unit_testing) will be found at this stage. If the tests pass, the code progresses to the next stage and should be considered for release into production.
 
 ### Shared sandbox environment
 
-Send the code to a shared [sandbox](/web/20150324173644/https://www.gov.uk/service-manual/making-software/sandbox-and-staging-servers.html) (testing) environment. This is the first environment where the application is deployed and run. It’s also the first stage where it can be visually inspected for [quality](/web/20150324173644/https://www.gov.uk/service-manual/agile/quality.html) by anybody on the team.
+Send the code to a shared [sandbox](https://web.archive.org/web/20150324173644/https://www.gov.uk/service-manual/making-software/sandbox-and-staging-servers.html) (testing) environment. This is the first environment where the application is deployed and run. It’s also the first stage where it can be visually inspected for [quality](https://web.archive.org/web/20150324173644/https://www.gov.uk/service-manual/agile/quality.html) by anybody on the team.
 
 Make the sandbox environment as similar to the production (live) version as far as is practical. For example, if production uses Postgres, the sandbox should also use Postgres and not another database like MySQL or SQLite.
 
@@ -63,7 +63,7 @@ The purpose is to find any defects in the code. If a defect is found, stop the v
 
 ### Specialist testing environments
 
-You may need to perform additional testing for specialist requirements, like [load and performance testing](/web/20150324173644/https://www.gov.uk/service-manual/operations/load-and-performance-testing.html), [penetration testing](/web/20150324173644/https://www.gov.uk/service-manual/operations/penetration-testing.html), or [accessibility testing](/web/20150324173644/https://www.gov.uk/service-manual/user-centred-design/user-research/accessibility-testing.html). The amount of environments you’ll need will depend on the requirements and conditions of your individual projects.
+You may need to perform additional testing for specialist requirements, like [load and performance testing](https://web.archive.org/web/20150324173644/https://www.gov.uk/service-manual/operations/load-and-performance-testing.html), [penetration testing](https://web.archive.org/web/20150324173644/https://www.gov.uk/service-manual/operations/penetration-testing.html), or [accessibility testing](https://web.archive.org/web/20150324173644/https://www.gov.uk/service-manual/user-centred-design/user-research/accessibility-testing.html). The amount of environments you’ll need will depend on the requirements and conditions of your individual projects.
 
 When you are satisfied with the quality of the code, move it to the live production environment.
 
@@ -75,4 +75,4 @@ Your code is ready to go live if it has passed:
 - the shared sandbox environment
 - any necessary specialist testing
 
-Deploy to production the same way as you deploy to any other environment – use the same scripts, same [configuration management](/web/20150324173644/https://www.gov.uk/service-manual/making-software/configuration-management.html) tooling, and the same version of the code. This means you’re not releasing code for the first time – you’re performing a task that’s been validated at each stage throughout the deployment pipeline.
+Deploy to production the same way as you deploy to any other environment – use the same scripts, same [configuration management](https://web.archive.org/web/20150324173644/https://www.gov.uk/service-manual/making-software/configuration-management.html) tooling, and the same version of the code. This means you’re not releasing code for the first time – you’re performing a task that’s been validated at each stage throughout the deployment pipeline.

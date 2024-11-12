@@ -37,17 +37,15 @@ Click either of the options below to download a template service manager job des
 
 [Download as OpenDocument Format](/assets/content/version-1/guides/documents/Service-Manager-pack-SM.odt) / [Download as MS Word doc](/assets/content/version-1/guides/documents/Service-Manager-pack-SM.docx)
 
-Cabinet Office will help departments to recruit suitably skilled individuals through the [Recruitment Hub](https://www.gov.uk/service-manual/the-team/recruitment/hub.html).
-
 ## Learning and development
 
-Newly appointed service managers are supported by GDS through [specialist learning and development](https://www.gov.uk/service-manual/the-team/learning-and-development).
+Newly appointed service managers are supported by GDS through [specialist learning and development](https://web.archive.org/web/20150324151307/https://www.gov.uk/service-manual/the-team/learning-and-development).
 
 ## Guidance
 
 Read [guidance within the manual of particular interest to service managers](https://www.gov.uk/service-manual/service-managers).
 
-Read more about how service managers should interact with other technology leaders in our [organisation design guidance](https://www.gov.uk/service-manual/the-team/recruitment/scs-orgdesign.html).
+Read more about how service managers should interact with other technology leaders in our [organisation design guidance](https://web.archive.org/web/20150324151307/https://www.gov.uk/service-manual/the-team/recruitment/scs-orgdesign.html).
 
 ## Further reading
 

@@ -1,6 +1,6 @@
 ---
 title: Running retrospectives
-subtitle: Reviewing a team’s work and the way it was done.
+subtitle: Reviewing a team’s work and the way it was done
 description:
 layout: page
 eleventyComputed:
@@ -13,7 +13,7 @@ A central principle of agile is quick feedback loops – you demonstrate somethi
 
 ![X-prop retrospective](/assets/content/version-1/guides/images/retrospectives.jpg)
 
-A retrospective is a meeting at the end of a [sprint](/web/20150928005414/https://www.gov.uk/service-manual/agile/features-of-agile.html) where your team get a chance to talk about what went well and badly in that sprint, and take some actions to improve matters. It can also cover a larger scope, eg a full project retrospective.
+A retrospective is a meeting at the end of a [sprint](https://web.archive.org/web/20150928005414/https://www.gov.uk/service-manual/agile/features-of-agile.html) where your team get a chance to talk about what went well and badly in that sprint, and take some actions to improve matters. It can also cover a larger scope, eg a full project retrospective.
 
 A retrospective takes this form:
 

@@ -21,7 +21,7 @@ You service should be tested for technical accessibility by an accessibility exp
 
 Your service should be tested with disabled people, older people, and people who use assistive technologies. You should aim to do this at least twice as your service is developed.
 
-[Find out more about how to conduct accessibility testing](/web/20150910114156/https://www.gov.uk/service-manual/user-centred-design/user-research/accessibility-testing.html)
+[Find out more about how to conduct accessibility testing](https://web.archive.org/web/20150910114156/https://www.gov.uk/service-manual/user-centred-design/user-research/accessibility-testing.html)
 
 ## Accessibility statements and policies
 

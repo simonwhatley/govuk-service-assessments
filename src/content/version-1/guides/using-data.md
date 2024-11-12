@@ -1,6 +1,6 @@
 ---
 title: Using data
-subtitle: How to mak euse of the performance information your service collects.
+subtitle: How to mak euse of the performance information your service collects
 description:
 layout: page
 eleventyComputed:

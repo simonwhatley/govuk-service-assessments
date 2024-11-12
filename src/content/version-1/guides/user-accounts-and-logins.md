@@ -64,5 +64,5 @@ The Electronic License Management System (ELMS) license application system on Bu
 ## Also see
 
 - [Wikipedia on password policies](https://en.wikipedia.org/wiki/Password_policy#Password_length_and_formation)
-- [CESG Good Practice Guide 44: authentication credentials in support of HMG online services](/web/20150325053955/https://www.gov.uk/government/collections/identity-assurance-enabling-trusted-transactions)
+- [CESG Good Practice Guide 44: authentication credentials in support of HMG online services](https://web.archive.org/web/20150325053955/https://www.gov.uk/government/collections/identity-assurance-enabling-trusted-transactions)
 - [xkcd cartoon explaining password vs. passphrase](https://xkcd.com/936/)

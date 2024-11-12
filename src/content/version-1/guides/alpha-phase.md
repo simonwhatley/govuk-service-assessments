@@ -1,6 +1,6 @@
 ---
 title: Alpha phase
-subtitle: Build a prototype, test it with users and learn from it.
+subtitle: Build a prototype, test it with users and learn from it
 description: |
   When designing a service it’s impossible to predict everything upfront. Each project features many challenges, and in your alpha you will start exploring solutions for these.
 layout: page
@@ -18,12 +18,12 @@ By the end of the alpha you should have a clear idea of what’s required to bui
 
 The objective is to build a working prototype. This will be used by stakeholders or a closed group of end users to:
 
--   gain greater understanding of a service
--   test [design approach](https://web.archive.org/web/20150505160658/https://www.gov.uk/service-manual/user-centred-design/working-with-prototypes)
--   test some [technologies](https://web.archive.org/web/20150505160658/https://www.gov.uk/service-manual/making-software/choosing-technology)
--   begin to form [the team](https://web.archive.org/web/20150505160658/https://www.gov.uk/service-manual/the-team)
--   gain shared understanding of the service at a coding and integrations level
--   understand what or who you will need to deliver a [beta](https://web.archive.org/web/20150505160658/https://www.gov.uk/service-manual/phases/beta)
+- gain greater understanding of a service
+- test [design approach](https://web.archive.org/web/20150505160658/https://www.gov.uk/service-manual/user-centred-design/working-with-prototypes)
+- test some [technologies](https://web.archive.org/web/20150505160658/https://www.gov.uk/service-manual/making-software/choosing-technology)
+- begin to form [the team](https://web.archive.org/web/20150505160658/https://www.gov.uk/service-manual/the-team)
+- gain shared understanding of the service at a coding and integrations level
+- understand what or who you will need to deliver a [beta](https://web.archive.org/web/20150505160658/https://www.gov.uk/service-manual/phases/beta)
 
 Continue to build upon and analyse the research you have commissioned on user needs and use this to set up an open, engagement process with your stakeholders. Involve a wide range of stakeholders from the private, voluntary and other parts of the public sector. Run a series of workshops with these stakeholders to develop your options.
 
@@ -37,9 +37,9 @@ The alpha doesn’t need to be a complete, end-to-end transaction. You’re look
 
 Think of it as a proof of concept:
 
--   is the solution appropriate?
--   is your approach viable?
--   do you have enough understanding of your users’ needs to meet them?
+- is the solution appropriate?
+- is your approach viable?
+- do you have enough understanding of your users’ needs to meet them?
 
 If not, find out more and make a new prototype.
 
@@ -57,18 +57,18 @@ This core team will be a mix of stakeholders, and makers (designers and develope
 
 The outputs for the alpha phase are:
 
--   high level [story cards](https://web.archive.org/web/20150505160658/https://www.gov.uk/service-manual/agile/writing-user-stories)
--   plan for [beta](https://web.archive.org/web/20150505160658/https://www.gov.uk/service-manual/phases/beta) and running of the [live](https://web.archive.org/web/20150505160658/https://www.gov.uk/service-manual/phases/live) service (decreasingly detailed)
--   working basic system that provides limited functionality that can be shown to a number of users
--   understanding around legacy systems to replace or wrap or integrate with
--   cross-functional requirements
--   decision to progress to [beta phase](https://web.archive.org/web/20150505160658/https://www.gov.uk/service-manual/phases/beta)
--   final analysis on the research you have commissioned on user needs
--   options for the assisted digital support for your service
+- high level [story cards](https://web.archive.org/web/20150505160658/https://www.gov.uk/service-manual/agile/writing-user-stories)
+- plan for [beta](https://web.archive.org/web/20150505160658/https://www.gov.uk/service-manual/phases/beta) and running of the [live](https://web.archive.org/web/20150505160658/https://www.gov.uk/service-manual/phases/live) service (decreasingly detailed)
+- working basic system that provides limited functionality that can be shown to a number of users
+- understanding around legacy systems to replace or wrap or integrate with
+- cross-functional requirements
+- decision to progress to [beta phase](https://web.archive.org/web/20150505160658/https://www.gov.uk/service-manual/phases/beta)
+- final analysis on the research you have commissioned on user needs
+- options for the assisted digital support for your service
 
 ## An ideal alpha
 
 For a worked example, we have written up some information on an [ideal alpha](https://web.archive.org/web/20150505160658/https://www.gov.uk/service-manual/phases/ideal-alphas).
 
--   **[Next phase: beta](/version-1/guides/beta-phase/)**
--   [Previous phase: discovery](/version-1/guides/discovery-phase/)
+- **[Next phase: beta](/version-1/guides/beta-phase/)**
+- [Previous phase: discovery](/version-1/guides/discovery-phase/)

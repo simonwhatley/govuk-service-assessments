@@ -1,6 +1,6 @@
 ---
 title: What agile looks like
-subtitle: Common features of agile projects.
+subtitle: Common features of agile projects
 description:
 layout: page
 eleventyComputed:
@@ -32,7 +32,7 @@ The process of producing incremental, production-ready software allows your team
 - think about what features are the next most important to produce
 - direct their efforts on creating usable software
 
-Run a [retrospective](/web/20150828204231/https://www.gov.uk/service-manual/agile/running-retrospectives.html) at the end of each delivery cycle or [sprint](/web/20150828204231/https://www.gov.uk/service-manual/agile/features-of-agile.html) to review what worked or what could be improved.
+Run a [retrospective](https://web.archive.org/web/20150828204231/https://www.gov.uk/service-manual/agile/running-retrospectives.html) at the end of each delivery cycle or [sprint](https://web.archive.org/web/20150828204231/https://www.gov.uk/service-manual/agile/features-of-agile.html) to review what worked or what could be improved.
 
 Your team will continue to learn through delivery cycles and improve throughout the project.
 
@@ -44,9 +44,9 @@ Small teams of between 5 to 10 people are often more productive and predictable 
 
 A good team includes members with all of the skills necessary to successfully produce software. A fully functioning team has 3 main roles:
 
-- product manager – (a role probably performed by the [Service manager](/web/20150828204231/https://www.gov.uk/service-manual/the-team/service-manager.html)) responsible for delivering return on investment, usually by creating products that users love
-- [delivery manager](/web/20150828204231/https://www.gov.uk/service-manual/the-team/delivery-manager.html) (aka Scrum master or project manager) – the agile expert responsible for removing blockers (things slowing a team down), they also act as a facilitator at team meetings
-- [team members](/web/20150828204231/https://www.gov.uk/service-manual/the-team/index.html) – self-organising and multi-disciplinary, they produce user stories, carry out the product manager’s vision and are responsible for estimating their output and speed
+- product manager – (a role probably performed by the [Service manager](https://web.archive.org/web/20150828204231/https://www.gov.uk/service-manual/the-team/service-manager.html)) responsible for delivering return on investment, usually by creating products that users love
+- [delivery manager](https://web.archive.org/web/20150828204231/https://www.gov.uk/service-manual/the-team/delivery-manager.html) (aka Scrum master or project manager) – the agile expert responsible for removing blockers (things slowing a team down), they also act as a facilitator at team meetings
+- [team members](https://web.archive.org/web/20150828204231/https://www.gov.uk/service-manual/the-team/index.html) – self-organising and multi-disciplinary, they produce user stories, carry out the product manager’s vision and are responsible for estimating their output and speed
 
 Encourage your team members to pair up, as working together is beneficial. 2 people working on 1 thing will:
 

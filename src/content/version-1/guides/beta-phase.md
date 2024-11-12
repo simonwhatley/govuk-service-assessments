@@ -1,6 +1,6 @@
 ---
 title: Beta phase
-subtitle: Scaling up and going public.
+subtitle: Scaling up and going public
 description: |
   You’ve tested your solutions to [user needs](https://web.archive.org/web/20150328073638/https://www.gov.uk/service-manual/user-centred-design/user-needs) and built up a clear picture of what it will take to [build](https://web.archive.org/web/20150328073638/https://www.gov.uk/service-manual/making-software) and [operate](https://web.archive.org/web/20150328073638/https://www.gov.uk/service-manual/operations) your service. Now you will build an end-to-end prototype, test it in public and prepare to run it.
 layout: page
@@ -28,16 +28,16 @@ There are various ways of running the beta phase. In all instances, it should in
 
 This is a beta that is not open to everyone – either regional, or invite only etc. You might want to choose this option because it:
 
--   gives more control over the audience demographic that gets to use the beta
--   allows you to restrict the volume of transactions that go through the beta
--   lets you start small and get feedback faster before rolling it out to a wider audience
+- gives more control over the audience demographic that gets to use the beta
+- allows you to restrict the volume of transactions that go through the beta
+- lets you start small and get feedback faster before rolling it out to a wider audience
 
 ### Public beta
 
 A public beta is made open to everyone. It can exist alongside an existing version of the service and you might:
 
--   use something like AB-testing to funnel some traffic to the beta
--   invite people with a separate call to action to use the beta
+- use something like AB-testing to funnel some traffic to the beta
+- invite people with a separate call to action to use the beta
 
 ## Duration of the beta phase
 
@@ -53,12 +53,12 @@ You’ll now know [what size team](https://web.archive.org/web/20150328073638/ht
 
 At the end of the beta phase, you’ll have:
 
--   delivered a (private or public) end-to-end prototype of the service
--   a collection of prioritised work to be done (your backlog)
--   a [user testing plan](https://web.archive.org/web/20150328073638/https://www.gov.uk/service-manual/user-centred-design/user-research)
--   [accurate metrics and measurements](https://web.archive.org/web/20150328073638/https://www.gov.uk/service-manual/measurement) to monitor your KPIs
--   tested the assisted digital support for your service
--   a working system that can be used, for real, by end users
+- delivered a (private or public) end-to-end prototype of the service
+- a collection of prioritised work to be done (your backlog)
+- a [user testing plan](https://web.archive.org/web/20150328073638/https://www.gov.uk/service-manual/user-centred-design/user-research)
+- [accurate metrics and measurements](https://web.archive.org/web/20150328073638/https://www.gov.uk/service-manual/measurement) to monitor your KPIs
+- tested the assisted digital support for your service
+- a working system that can be used, for real, by end users
 
--   **[Next phase: live](/version-1/guides/live-phase/)**
--   [Previous phase: alpha](/version-1/guides/alpha-phase/)
+- **[Next phase: live](/version-1/guides/live-phase/)**
+- [Previous phase: alpha](/version-1/guides/alpha-phase/)

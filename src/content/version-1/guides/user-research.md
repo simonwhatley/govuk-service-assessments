@@ -1,6 +1,6 @@
 ---
 title: An introduction to user research techniques
-subtitle: Ways to understand your users and their needs.
+subtitle: Ways to understand your users and their needs
 description:
 layout: page
 eleventyComputed:
@@ -43,7 +43,7 @@ Typically this will involve some initial fact finding in the early stages to und
 | Ethnography | Guerrilla testing | Remote usability testing | Remote usability testing |
 | Focus Groups |  | Focus groups |  |
 | Card Sorting |  | One-to-one interviews | |
-| User surveys |  |  |  | 
+| User surveys |  |  |  |
 
 ## Assisted digital research
 
@@ -51,9 +51,9 @@ Each service/product will have a different proportion of users who are not onlin
 
 The services/product will need to consider the digital skills of their users to understand which users who currently don’t use digital channels:
 
--   can’t ever use the digital service independently and will always need assisted digital support
--   could use the digital service independently but will require initial assisted digital support to build their confidence in using the service
--   should use the digital service (ie have the digital skills but currently use other channels) and don’t need assisted digital support
+- can’t ever use the digital service independently and will always need assisted digital support
+- could use the digital service independently but will require initial assisted digital support to build their confidence in using the service
+- should use the digital service (ie have the digital skills but currently use other channels) and don’t need assisted digital support
 
 Some services, eg where users are large corporations, will not require assisted digital. The [Digital Landscape Research](https://www.gov.uk/government/publications/digital-landscape-research) contains a demographic breakdown of who is offline and online and service teams and these techniques may be useful for doing user research.
 
@@ -61,24 +61,24 @@ Some services, eg where users are large corporations, will not require assisted 
 
 ### Background
 
--   [sampling methodologies](/web/20150324140526/https://www.gov.uk/service-manual/user-centred-design/user-research/sampling-methodologies.html)
--   [user research briefs](/web/20150324140526/https://www.gov.uk/service-manual/user-centred-design/user-research/user-research-briefs.html)
--   [survey design](/web/20150324140526/https://www.gov.uk/service-manual/user-centred-design/user-research/survey-design.html)
--   [user research tools](/web/20150324140526/https://www.gov.uk/service-manual/user-centred-design/user-research/user-research-tools.html)
+- [sampling methodologies](https://web.archive.org/web/20150324140526/https://www.gov.uk/service-manual/user-centred-design/user-research/sampling-methodologies.html)
+- [user research briefs](https://web.archive.org/web/20150324140526/https://www.gov.uk/service-manual/user-centred-design/user-research/user-research-briefs.html)
+- [survey design](https://web.archive.org/web/20150324140526/https://www.gov.uk/service-manual/user-centred-design/user-research/survey-design.html)
+- [user research tools](https://web.archive.org/web/20150324140526/https://www.gov.uk/service-manual/user-centred-design/user-research/user-research-tools.html)
 
 ### Qualitative user research techniques
 
--   [ethnographic research](/web/20150324140526/https://www.gov.uk/service-manual/user-centred-design/user-research/ethnographic-research.html)
--   [expert review](/web/20150324140526/https://www.gov.uk/service-manual/user-centred-design/user-research/expert-review.html)
--   [guerrilla testing](/web/20150324140526/https://www.gov.uk/service-manual/user-centred-design/user-research/guerrilla-testing.html)
--   [same day user testing](/web/20150324140526/https://www.gov.uk/service-manual/user-centred-design/user-research/same-day-user-testing.html)
--   [lab-based user testing](/web/20150324140526/https://www.gov.uk/service-manual/user-centred-design/user-research/lab-based-user-testing.html)
--   [focus groups and one-to-one interviews](/web/20150324140526/https://www.gov.uk/service-manual/user-centred-design/user-research/focus-groups-mini-groups-interviews.html)
--   [community user groups](/web/20150324140526/https://www.gov.uk/service-manual/user-centred-design/user-research/community-user-groups.html)
+- [ethnographic research](https://web.archive.org/web/20150324140526/https://www.gov.uk/service-manual/user-centred-design/user-research/ethnographic-research.html)
+- [expert review](https://web.archive.org/web/20150324140526/https://www.gov.uk/service-manual/user-centred-design/user-research/expert-review.html)
+- [guerrilla testing](https://web.archive.org/web/20150324140526/https://www.gov.uk/service-manual/user-centred-design/user-research/guerrilla-testing.html)
+- [same day user testing](https://web.archive.org/web/20150324140526/https://www.gov.uk/service-manual/user-centred-design/user-research/same-day-user-testing.html)
+- [lab-based user testing](https://web.archive.org/web/20150324140526/https://www.gov.uk/service-manual/user-centred-design/user-research/lab-based-user-testing.html)
+- [focus groups and one-to-one interviews](https://web.archive.org/web/20150324140526/https://www.gov.uk/service-manual/user-centred-design/user-research/focus-groups-mini-groups-interviews.html)
+- [community user groups](https://web.archive.org/web/20150324140526/https://www.gov.uk/service-manual/user-centred-design/user-research/community-user-groups.html)
 
 ### Quantitative
 
--   [user research surveys](/web/20150324140526/https://www.gov.uk/service-manual/user-centred-design/user-research/user-research-surveys.html)
--   [remote usability/summative testing](/web/20150324140526/https://www.gov.uk/service-manual/user-centred-design/user-research/remote-usability.html)
--   [online research panels](/web/20150324140526/https://www.gov.uk/service-manual/user-centred-design/user-research/online-research-panels.html)
--   [online omnibus surveying](/web/20150324140526/https://www.gov.uk/service-manual/user-centred-design/user-research/online-omnibus-survey.html)
+- [user research surveys](https://web.archive.org/web/20150324140526/https://www.gov.uk/service-manual/user-centred-design/user-research/user-research-surveys.html)
+- [remote usability/summative testing](https://web.archive.org/web/20150324140526/https://www.gov.uk/service-manual/user-centred-design/user-research/remote-usability.html)
+- [online research panels](https://web.archive.org/web/20150324140526/https://www.gov.uk/service-manual/user-centred-design/user-research/online-research-panels.html)
+- [online omnibus surveying](https://web.archive.org/web/20150324140526/https://www.gov.uk/service-manual/user-centred-design/user-research/online-omnibus-survey.html)
