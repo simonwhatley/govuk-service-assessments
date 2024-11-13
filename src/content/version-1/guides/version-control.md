@@ -1,5 +1,5 @@
 ---
-title: Vrsion control
+title: Version control
 description:
 layout: page
 eleventyComputed:

@@ -24,7 +24,7 @@ The [Equality Act 2010](http://www.legislation.gov.uk/ukpga/2010/15/introduction
 
 You have a duty to [make adjustments for disabled persons](http://www.legislation.gov.uk/ukpga/2010/15/part/2/chapter/2/crossheading/adjustments-for-disabled-persons) so that they’re not excluded from your service, making every reasonable attempt to provide access.
 
-The Royal National Institute of Blind People (RNIB) has a [useful guide to the UK law](https://web.archive.org/web/20151011220214/http://www.rnib.org.uk/services-we-offer-advice-professionals/equality-act-compliance) and how it affects the accessibility of your site or service.
+The Royal National Institute of Blind People (RNIB) has a [useful guide to the UK law](http://www.rnib.org.uk/services-we-offer-advice-professionals/equality-act-compliance) and how it affects the accessibility of your site or service.
 
 ## Carrying out accessibility testing
 

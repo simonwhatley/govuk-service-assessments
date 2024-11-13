@@ -155,7 +155,7 @@ The Risk Management Document Set or RMADS is the result of your formal accredita
 
 ### IT Health Check
 
-The IT Health Check (ITHC) forms part of the formal Accreditation. In essence it’s a penetration test carried out by a CESG approved supplier (specifically a CHECK certified individual). Read guidance on [penetration and vulnerability testing](https://web.archive.org/web/20150330042352/https://www.gov.uk/service-manual/operations/penetration-testing) for more details.
+The IT Health Check (ITHC) forms part of the formal Accreditation. In essence it’s a penetration test carried out by a CESG approved supplier (specifically a CHECK certified individual). Read guidance on [penetration and vulnerability testing](/version-1/guides/penetration-testing/) for more details.
 
 ### Ongoing
 

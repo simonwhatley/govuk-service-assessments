@@ -25,7 +25,7 @@ GDS can help you hire some roles. We have job descriptions for:
 - [web ops](/version-1/guides/web-operations/)
 - [content designer](/version-1/guides/content-designer/)
 
-Other descriptions will be made available. Please [contact the team](https://web.archive.org/web/20150911190741/https://www.gov.uk/service-manual/feedback) if you have particular descriptions in mind.
+Other descriptions will be made available. Please [contact the team](https://www.gov.uk/service-manual/feedback) if you have particular descriptions in mind.
 
 GDS can give you some advice on certain candidates or interviews and setting contracts.
 
@@ -42,9 +42,9 @@ When you are considering an individual or company to work with, they should give
 - how they will share knowledge and provide coaching and mentoring to civil servants who are developing and/or will be responsible for the service
 - how they will deliver in an Agile way; possibly while working with departments who work in waterfall or PRINCE delivery method
 - their commitment to work on-site with civil servants to share knowledge
-- how they will ‘bake in’ [quality](https://web.archive.org/web/20150911190741/https://www.gov.uk/service-manual/agile/quality.html) to the process
+- how they will ‘bake in’ [quality](/version-1/gudies/quality/) to the process
 
-They should also be aware of the [departmental digital strategies](https://web.archive.org/web/20150911190741/https://www.gov.uk/government/collections/government-digital-strategy-reports-and-research) and how they will need to work with them.
+They should also be aware of the [departmental digital strategies](https://www.gov.uk/government/collections/government-digital-strategy-reports-and-research) and how they will need to work with them.
 
 GDS can give you advice on buying this sort of capability through existing processes like G-Cloud, Spot-buy etc. You can now use the [Digital Marketplace](https://www.gov.uk/digital-marketplace).
 

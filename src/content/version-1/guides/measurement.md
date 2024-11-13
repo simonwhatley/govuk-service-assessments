@@ -23,6 +23,6 @@ These aren’t the only things your service should measure. Identify unique indi
 
 ## What happens to your data
 
-Once live, the performance of your service will be monitored and displayed on the [Performance Platform](/version-1/guides/performance-platform.html). This data will be presented in modules capable of being uniquely configured, and (where possible) will be visible to the public.
+Once live, the performance of your service will be monitored and displayed on the [Performance Platform](/version-1/guides/performance-platform/). This data will be presented in modules capable of being uniquely configured, and (where possible) will be visible to the public.
 
-Use this data to [investigate how well a service is performing, and as a prompt for further investigation and testing](https://web.archive.org/web/20150325180159/https://www.gov.uk/service-manual/measurement/using-data.html).
+Use this data to [investigate how well a service is performing, and as a prompt for further investigation and testing](/version-1/guides/using-data/).

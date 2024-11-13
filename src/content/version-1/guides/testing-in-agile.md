@@ -25,13 +25,6 @@ Too often the aim of testing is to validate what has been produced and nothing e
 - [Clear and consistent view of testing](#clear-and-consistent-view-of-testing)
 - [Optimise value](#optimise-value)
 - [Types of testing](#types-of-testing)
-  - [Code testing](#code-testing)
-  - [Exploratory testing](#exploratory-testing)
-  - [Load and performance testing](#load-and-performance-testing)
-  - [Penetration testing](#penetration-testing)
-  - [Accessibility testing](#accessibility-testing)
-  - [Crowdsourced testing](#crowdsourced-testing)
-  - [Test your ideas](#test-your-ideas)
 
 ## Building quality in
 
@@ -49,7 +42,7 @@ Your team should be able to see a problem in the quality of your system. Every p
 
 A successful agile project relies on fast feedback loops. Getting feedback and getting it fast means you can actually be agile and change when you need to change.
 
-Your testing should be about giving and getting that fast feedback – at a time when it’s useful. [Automated code testing techniques](https://web.archive.org/web/20150324173659/https://www.gov.uk/service-manual/making-software/code-testing) have their place and you can use them, but don’t make them the centre of your approach to testing.
+Your testing should be about giving and getting that fast feedback – at a time when it’s useful. [Automated code testing techniques](/version-1/guides/code-testing/) have their place and you can use them, but don’t make them the centre of your approach to testing.
 
 ## Tests are an asset of the product
 
@@ -91,23 +84,23 @@ These tests run in continuous integration, which means that they form part of yo
 
 ### Code testing
 
-Read the guidance about [testing code](https://web.archive.org/web/20150324173659/https://www.gov.uk/service-manual/making-software/code-testing.html).
+Read the guidance about [testing code](/version-1/guides/code-testing/).
 
 ### Exploratory testing
 
-Read the guidance about [exploratory testing](https://web.archive.org/web/20150324173659/https://www.gov.uk/service-manual/making-software/exploratory-testing.html).
+Read the guidance about [exploratory testing](/version-1/guides/exploratory-testing/).
 
 ### Load and performance testing
 
-Read the guidance about [load and performance testing](https://web.archive.org/web/20150324173659/https://www.gov.uk/service-manual/operations/load-and-performance-testing.html)
+Read the guidance about [load and performance testing](/version-1/guides/load-and-performance-testing/)
 
 ### Penetration testing
 
-Read the guidance about [penetration testing](https://web.archive.org/web/20150324173659/https://www.gov.uk/service-manual/operations/penetration-testing.html)
+Read the guidance about [penetration testing](/version-1/guides/penetration-testing/)
 
 ### Accessibility testing
 
-Read the guidance about [accessibility testing](https://web.archive.org/web/20150324173659/https://www.gov.uk/service-manual/user-centred-design/user-research/accessibility-testing.html)
+Read the guidance about [accessibility testing](/version-1/guides/accessibility-testing/)
 
 ### Crowdsourced testing
 

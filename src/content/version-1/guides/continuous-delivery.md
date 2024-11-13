@@ -51,11 +51,11 @@ The deployment pipeline has 4 stages:
 
 ### The commit stage
 
-When your developer checks into [version control](https://web.archive.org/web/20150324173644/https://www.gov.uk/service-manual/making-software/version-control) (where all code, including previous versions, are stored), [a range of tests](https://web.archive.org/web/20150324173644/https://www.gov.uk/service-manual/making-software/testing-in-agile) should be run against the latest version of the code. Any quick, easy-to-identify defects, like [compile errors](/https://en.wikipedia.org/wiki/Compilation_error) or [unit test failures](https://en.wikipedia.org/wiki/Unit_testing) will be found at this stage. If the tests pass, the code progresses to the next stage and should be considered for release into production.
+When your developer checks into [version control](https://web.archive.org/web/20150324173644/https://www.gov.uk/service-manual/making-software/version-control) (where all code, including previous versions, are stored), [a range of tests](/version-1/guides/testing-in-agile/) should be run against the latest version of the code. Any quick, easy-to-identify defects, like [compile errors](https://en.wikipedia.org/wiki/Compilation_error) or [unit test failures](https://en.wikipedia.org/wiki/Unit_testing) will be found at this stage. If the tests pass, the code progresses to the next stage and should be considered for release into production.
 
 ### Shared sandbox environment
 
-Send the code to a shared [sandbox](https://web.archive.org/web/20150324173644/https://www.gov.uk/service-manual/making-software/sandbox-and-staging-servers.html) (testing) environment. This is the first environment where the application is deployed and run. It’s also the first stage where it can be visually inspected for [quality](https://web.archive.org/web/20150324173644/https://www.gov.uk/service-manual/agile/quality.html) by anybody on the team.
+Send the code to a shared [sandbox](https://web.archive.org/web/20150324173644/https://www.gov.uk/service-manual/making-software/sandbox-and-staging-servers.html) (testing) environment. This is the first environment where the application is deployed and run. It’s also the first stage where it can be visually inspected for [quality](/version-1/guides/quality/) by anybody on the team.
 
 Make the sandbox environment as similar to the production (live) version as far as is practical. For example, if production uses Postgres, the sandbox should also use Postgres and not another database like MySQL or SQLite.
 
@@ -63,7 +63,7 @@ The purpose is to find any defects in the code. If a defect is found, stop the v
 
 ### Specialist testing environments
 
-You may need to perform additional testing for specialist requirements, like [load and performance testing](https://web.archive.org/web/20150324173644/https://www.gov.uk/service-manual/operations/load-and-performance-testing.html), [penetration testing](https://web.archive.org/web/20150324173644/https://www.gov.uk/service-manual/operations/penetration-testing.html), or [accessibility testing](https://web.archive.org/web/20150324173644/https://www.gov.uk/service-manual/user-centred-design/user-research/accessibility-testing.html). The amount of environments you’ll need will depend on the requirements and conditions of your individual projects.
+You may need to perform additional testing for specialist requirements, like [load and performance testing](/version-1/guides/load-and-performance-testing/), [penetration testing](/version-1/guides/penetration-testing/), or [accessibility testing](/version-1/guides/accessibility-testing/). The amount of environments you’ll need will depend on the requirements and conditions of your individual projects.
 
 When you are satisfied with the quality of the code, move it to the live production environment.
 

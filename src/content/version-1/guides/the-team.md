@@ -45,7 +45,7 @@ A core digital delivery team needs to be able to:
 - design, build, test, demo and iterate software solutions (the ‘making’!)
 - [test solutions](/version-1/guides/user-research/) on real users
 - [deploy and host](https://web.archive.org/web/20150330042003/https://www.gov.uk/service-manual/operations/hosting) the software
-- find solutions for [accrediting and handling of data](https://web.archive.org/web/20150330042003/https://www.gov.uk/service-manual/making-software/information-security)
+- find solutions for [accrediting and handling of data](/version-1/guides/information-security)
 - [supporting the live running of the service](https://web.archive.org/web/20150330042003/https://www.gov.uk/service-manual/operations/) (monitoring, fixing things when they break, responding to users)
 
 There is no hard and fast rule on the roles or team structure needed to fulfil these functions, but a core team will probably consist of:
