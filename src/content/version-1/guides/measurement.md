@@ -17,7 +17,7 @@ The [digital by default service standard](/version-1/) states 4 key performance 
 - [cost per transaction](/version-1/guides/cost-per-transaction/)
 - [user satisfaction](/version-1/guides/user-satisfaction/)
 - [completion rate](/version-1/guides/completion-rate/)
-- [digital take-up](/version-1/guides/digital-takeup/)
+- [digital take-up](/version-1/guides/digital-take-up/)
 
 These aren’t the only things your service should measure. Identify unique indicators to your service to help judge its effectiveness. Read our [guidance on establishing KPIs specific to your service](/version-1/guides/other-metrics/).
 

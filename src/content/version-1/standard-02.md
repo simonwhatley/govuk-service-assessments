@@ -34,7 +34,7 @@ eleventyComputed:
       - text: The team
         href: "/{{ version }}/guides/the-team/"
       - text: Service managers
-        href: "/{{ version }}/guides/service-managers/"
+        href: "/{{ version }}/guides/service-manager/"
 ---
 
 {% if related.items.length %}
