@@ -8,13 +8,13 @@ eleventyComputed:
 
 ## Operating your service
 
-- [Sample stories](https://web.archive.org/web/20150325054001/https://www.gov.uk/service-manual/operations/web-operations-stories)
-- [Cloud security](https://web.archive.org/web/20150325054001/https://www.gov.uk/service-manual/operations/cloud-security)
-- [Monitoring](https://web.archive.org/web/20150325054001/https://www.gov.uk/service-manual/operations/monitoring)
-- [Hosting](https://web.archive.org/web/20150325054001/https://www.gov.uk/service-manual/operations/hosting)
-- [Devops](https://web.archive.org/web/20150325054001/https://www.gov.uk/service-manual/operations/devops)
-- [Availability](https://web.archive.org/web/20150325054001/https://www.gov.uk/service-manual/operations/uptime-and-availability)
-- [Operating service.gov.uk subdomains](https://web.archive.org/web/20150325054001/https://www.gov.uk/service-manual/operations/operating-servicegovuk-subdomains)
+- [Sample stories](/version-1/guides/web-operations-stories/)
+- [Cloud security](/version-1/guides/cloud-security/)
+- [Monitoring](/version-1/guides/monitoring/)
+- [Hosting](/version-1/guides/hosting/)
+- [Devops](/version-1/guides/devops/)
+- [Availability](/version-1/guides/uptime-and-availability)
+- [Operating service.gov.uk subdomains](/version-1/guides/operating-servicegovuk-subdomains/)
 
 ## Testing
 
@@ -23,5 +23,5 @@ eleventyComputed:
 
 ## User support
 
-- [Helpdesk](https://web.archive.org/web/20150325054001/https://www.gov.uk/service-manual/operations/helpdesk)
-- [Managing user support](https://web.archive.org/web/20150325054001/https://www.gov.uk/service-manual/operations/managing-user-support)
+- [Helpdesk](/version-1/guides/helpdesk/)
+- [Managing user support](/version-1/guides/managing-user-support/)
