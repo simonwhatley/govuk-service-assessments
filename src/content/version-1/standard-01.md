@@ -32,7 +32,7 @@ eleventyComputed:
   related:
     items:
       - text: Know your users
-        href: "/{{ version }}/guides/know-your-users/"
+        href: "/{{ version }}/guides/user-centred-design/"
       - text: User needs
         href: "/{{ version }}/guides/user-needs/"
       - text: Assisted digital

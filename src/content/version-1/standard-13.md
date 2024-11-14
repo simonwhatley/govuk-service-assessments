@@ -32,7 +32,7 @@ eleventyComputed:
   related:
     items:
       - text: Design and content
-        href: "/{{ version }}/guides/design-and-content/"
+        href: "/{{ version }}/guides/user-centred-design/"
       - text: Service user experience
         href: "/{{ version }}/guides/service-user-experience/"
 ---
