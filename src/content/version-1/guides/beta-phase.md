@@ -60,5 +60,7 @@ At the end of the beta phase, you’ll have:
 - tested the assisted digital support for your service
 - a working system that can be used, for real, by end users
 
+---
+
 - **[Next phase: live](/version-1/guides/live-phase/)**
 - [Previous phase: alpha](/version-1/guides/alpha-phase/)

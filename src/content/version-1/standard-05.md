@@ -36,7 +36,7 @@ eleventyComputed:
       - text: Operating a service
         href: "/{{ version }}/guides/operating-a-service/"
       - text: Technology guides
-        href: "/{{ version }}/guides/technology-guides/"
+        href: "/{{ version }}/guides/technology/"
 ---
 
 {% if related.items.length %}

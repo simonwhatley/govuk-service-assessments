@@ -32,5 +32,7 @@ You’ll repeat the whole process (discovery, alpha, beta and live) for smaller 
 
 You’ll have identified the roles required to run your service, including the [service manager](https://web.archive.org/web/20150327102711/https://www.gov.uk/service-manual/the-team/service-manager.html) and [user support](https://web.archive.org/web/20150327102711/https://www.gov.uk/service-manual/operations/managing-user-support.html) teams, while building the service. As different areas of your service are iterated and improved the team size will expand and contract, accommodating specialists as appropriate.
 
+---
+
 - **[Final phase: retirement](/version-1/guides/retirement-phase/)**
 - [Previous phase: beta](/version-1/guides/beta-phase/)

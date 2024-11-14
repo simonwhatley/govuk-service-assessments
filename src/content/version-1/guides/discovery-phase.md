@@ -52,4 +52,6 @@ You will leave the discovery phase with:
 - understanding of existing services, including those run by non-government sources
 - understanding of how many of your users will need assisted digital support, and what their user needs are
 
+---
+
 - **[Next phase: alpha](/version-1/guides/alpha-phase/)**

@@ -106,7 +106,7 @@ Whether designing and building in-house or outsourcing, your solutions need to c
 
 ### Exemptions
 
-On a case-by-case basis, an exemption may be agreed in advance if there’s an exceptional reason why using open standards is inappropriate. The government’s Chief Technology Officer will agree this, or it could also be through Departmental Accounting Officer procedures for cases below the Cabinet Office’s [spend controls](/web/20150324052622/https://www.gov.uk/government/publications/cabinet-office-controls-guidance-version-3-1) threshold for IT.
+On a case-by-case basis, an exemption may be agreed in advance if there’s an exceptional reason why using open standards is inappropriate. The government’s Chief Technology Officer will agree this, or it could also be through Departmental Accounting Officer procedures for cases below the Cabinet Office’s [spend controls](https://web.archive.org/web/20150324052622/https://www.gov.uk/government/publications/cabinet-office-controls-guidance-version-3-1) threshold for IT.
 
 ## Further reading
 

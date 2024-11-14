@@ -6,13 +6,13 @@ eleventyComputed:
   permalink: "{{ page.filePathStem | replace('/content/','/') }}/"
 ---
 
-Your service must measure [the 4 key performance indicators](https://web.archive.org/web/20151012003935/https://www.gov.uk/service-manual/measurement/index.html).
+Your service must measure [the 4 key performance indicators](/version-1/guides/measurement/).
 
 But there are other metrics that will help improve your service. Measure those things too.
 
 ## Understand user and stakeholder needs
 
-Different sets of users within each department will typically have their own requirements for each service. On a daily basis, a [service manager](https://web.archive.org/web/20151012003935/https://www.gov.uk/service-manual/the-team/service-manager.html) will need to see a range of metrics that help them make decisions about the service.
+Different sets of users within each department will typically have their own requirements for each service. On a daily basis, a [service manager](/version-1/guides/service-manager/) will need to see a range of metrics that help them make decisions about the service.
 
 Identify the various stakeholders in your organisation and prioritise their requirements. These could be:
 
