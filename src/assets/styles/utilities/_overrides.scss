@@ -1,4 +1,4 @@
 a[href*="https://web.archive.org"]::after {
-  content: " (archived content)";
-  color: govuk-colour("dark-grey");
+  content: " (opens in web archive)";
+  color: inherit;
 }
