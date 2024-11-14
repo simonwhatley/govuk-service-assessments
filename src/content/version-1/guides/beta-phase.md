@@ -2,7 +2,7 @@
 title: Beta phase
 subtitle: Scaling up and going public
 description: |
-  You’ve tested your solutions to [user needs](https://web.archive.org/web/20150328073638/https://www.gov.uk/service-manual/user-centred-design/user-needs) and built up a clear picture of what it will take to [build](https://web.archive.org/web/20150328073638/https://www.gov.uk/service-manual/making-software) and [operate](https://web.archive.org/web/20150328073638/https://www.gov.uk/service-manual/operations) your service. Now you will build an end-to-end prototype, test it in public and prepare to run it.
+  You’ve tested your solutions to [user needs](/version-1/guides/user-needs/) and built up a clear picture of what it will take to [build](/version-1/guides/making-software/) and [operate](/version-1/guides/operations/) your service. Now you will build an end-to-end prototype, test it in public and prepare to run it.
 layout: page
 eleventyComputed:
   permalink: "{{ page.filePathStem | replace('/content/','/') }}/"
@@ -14,11 +14,11 @@ eleventyComputed:
 
 The objective of this phase is to build a fully working prototype which you test with users. You’ll continuously improve on the prototype until it’s ready to go live, replacing or integrating with any existing services.
 
-This is achieved by providing the [user stories](https://web.archive.org/web/20150328073638/https://www.gov.uk/service-manual/agile/writing-user-stories) in the backlog created in the [alpha phase](https://web.archive.org/web/20150328073638/https://www.gov.uk/service-manual/phases/alpha). This is the time to resolve any outstanding technical or process-related challenges, get the service [accredited](https://web.archive.org/web/20150328073638/https://www.gov.uk/service-manual/making-software/information-security) and plan to [go live](https://web.archive.org/web/20150328073638/https://www.gov.uk/service-manual/phases/live).
+This is achieved by providing the [user stories](/version-1/guides/writing-user-stories/) in the backlog created in the [alpha phase](/version-1/guides/alpha-phase/). This is the time to resolve any outstanding technical or process-related challenges, get the service [accredited](/version-1/guides/making-software/information-security) and plan to [go live](/version-1/guides/live-phase/).
 
-You’ll also be resolving technical and process challenges, meeting for the first time many of the technical criteria outlined in the [service standard](https://web.archive.org/web/20150328073638/https://www.gov.uk/service-manual/digital-by-default). You should be [rapidly releasing](https://web.archive.org/web/20150328073638/https://www.gov.uk/service-manual/making-software/release-strategies) updates and improvements into the [development environment](https://web.archive.org/web/20150328073638/https://www.gov.uk/service-manual/making-software/development-environment), and [measuring the impact](https://web.archive.org/web/20150328073638/https://www.gov.uk/service-manual/measurement) of your changes to the key performance indicators (KPIs) established in your [discovery](https://web.archive.org/web/20150328073638/https://www.gov.uk/service-manual/phases/discovery) and [alpha](https://web.archive.org/web/20150328073638/https://www.gov.uk/service-manual/phases/alpha) phases.
+You’ll also be resolving technical and process challenges, meeting for the first time many of the technical criteria outlined in the [service standard](/version-1/). You should be [rapidly releasing](/version-1/guides/release-strategies/) updates and improvements into the [development environment](/version-1/guides/development-environment/), and [measuring the impact](/version-1/guides/measurement/) of your changes to the key performance indicators (KPIs) established in your [discovery](/version-1/guides/discovery-phase/) and [alpha](/version-1/guides/alpha-phase/) phases.
 
-You’ll also [test the assisted digital support](https://web.archive.org/web/20150328073638/https://www.gov.uk/service-manual/assisted-digital/action-plan#beta-stage) for the digital service. You might test one or more of the options you developed in the alpha phase.
+You’ll also [test the assisted digital support](/version-1/guides/assisted-digital-action-plan/#beta-stage) for the digital service. You might test one or more of the options you developed in the alpha phase.
 
 ## How to publish a beta
 
@@ -43,11 +43,11 @@ A public beta is made open to everyone. It can exist alongside an existing versi
 
 The exact duration of your beta will depend on the scope of your project, but an appropriately sized team shouldn’t take more than a few months to create a beta.
 
-Following the release of your beta you’ll spend some time iterating on the service until it is ready to go [live](https://web.archive.org/web/20150328073638/https://www.gov.uk/service-manual/phases/live).
+Following the release of your beta you’ll spend some time iterating on the service until it is ready to go [live](/version-1/guides/live-phase/).
 
 ## Team requirements
 
-You’ll now know [what size team](https://web.archive.org/web/20150328073638/https://www.gov.uk/service-manual/the-team) you need to create the service, scoping it in response to the findings of your [alpha prototype(s)](https://web.archive.org/web/20150328073638/https://www.gov.uk/service-manual/phases/alpha). It will be run by a single, suitably skilled [service manager](https://web.archive.org/web/20150328073638/https://www.gov.uk/service-manual/the-team/service-manager), and will include [designers](https://web.archive.org/web/20150328073638/https://www.gov.uk/service-manual/the-team/designer), [developers](https://web.archive.org/web/20150328073638/https://www.gov.uk/service-manual/the-team/developer), [web operations](https://web.archive.org/web/20150328073638/https://www.gov.uk/service-manual/the-team/web-operations) specialists and performance analysts as appropriate.
+You’ll now know [what size team](/version-1/guides/the-team/) you need to create the service, scoping it in response to the findings of your [alpha prototype(s)](/version-1/guides/alpha-phase/). It will be run by a single, suitably skilled [service manager](/version-1/guides/service-manager/), and will include [designers](/version-1/guides/designer/), [developers](/version-1/guides/developer/), [web operations](/version-1/guides/web-operations/) specialists and performance analysts as appropriate.
 
 ## Outputs
 
@@ -55,8 +55,8 @@ At the end of the beta phase, you’ll have:
 
 - delivered a (private or public) end-to-end prototype of the service
 - a collection of prioritised work to be done (your backlog)
-- a [user testing plan](https://web.archive.org/web/20150328073638/https://www.gov.uk/service-manual/user-centred-design/user-research)
-- [accurate metrics and measurements](https://web.archive.org/web/20150328073638/https://www.gov.uk/service-manual/measurement) to monitor your KPIs
+- a [user testing plan](/version-1/guides/user-research/)
+- [accurate metrics and measurements](/version-1/guides/measurement/) to monitor your KPIs
 - tested the assisted digital support for your service
 - a working system that can be used, for real, by end users
 

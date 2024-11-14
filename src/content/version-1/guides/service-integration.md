@@ -17,7 +17,7 @@ For the model to be effective the component services need to be well defined and
 
 -   being able to define different service requirements for critical and non-critical services (for example, some commodity public cloud services may require online service support or service desk only, whereas mission critical IT systems will require a more integrated service model)
 -   a performance regime that ensures organisations don’t pay for services they can’t or don’t use
--   explicit service integration arrangements that focus on [service performance](/version-1/guides/monitoring/), usability and availability from a [user perspective](/web/20150514003210/https://www.gov.uk/service-manual/user-centred-design), not just from a supplier’s commercial perspective
+-   explicit service integration arrangements that focus on [service performance](/version-1/guides/monitoring/), usability and availability from a [user perspective](https://web.archive.org/web/20150514003210/https://www.gov.uk/service-manual/user-centred-design), not just from a supplier’s commercial perspective
 -   skills and capabilities that support transitioning to, and managing services in a new commodity-based environment
 -   a focus on [open standards](/version-1/guides/open-standards-and-licensing/) and interoperability to support workflow, performance management and service management, billing and payment
 
@@ -27,7 +27,7 @@ The level of service integration will differ depending on the complexity of the 
 
 ![Diagram showing what service integration looks like for government](/assets/content/version-1/guides/images/service-integration-diagram.png)
 
-The design of the service integration function will differ by department. It may be completely operated in-house. Or it might consist of a thin in-house capability ultimately responsible for the integrated end to end operation and management of quality IT services, underpinned by outsourced integration services for specific elements – for example [performance monitoring](/version-1/guides/analytics-tools/), [service desk](/version-1/guides/helpdesk/), or service level reporting. The [G-Cloud](/web/20150514003210/https://www.gov.uk/how-to-use-cloudstore) framework offers a number of services to support service integration.
+The design of the service integration function will differ by department. It may be completely operated in-house. Or it might consist of a thin in-house capability ultimately responsible for the integrated end to end operation and management of quality IT services, underpinned by outsourced integration services for specific elements – for example [performance monitoring](/version-1/guides/analytics-tools/), [service desk](/version-1/guides/helpdesk/), or service level reporting. The [G-Cloud](https://web.archive.org/web/20150514003210/https://www.gov.uk/how-to-use-cloudstore) framework offers a number of services to support service integration.
 
 Particularly for smaller departments and simple services, care needs to be taken not to over-engineer the service integration approach – effective use of commodity standards-based IT should mean that integration and support requirements are much less onerous than managing a locked-down bespoke system.
 

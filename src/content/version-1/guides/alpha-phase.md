@@ -68,7 +68,7 @@ The outputs for the alpha phase are:
 
 ## An ideal alpha
 
-For a worked example, we have written up some information on an [ideal alpha](https://web.archive.org/web/20150505160658/https://www.gov.uk/service-manual/phases/ideal-alphas).
+For a worked example, we have written up some information on an [ideal alpha](/version-1/guides/ideal-alphas).
 
 ---
 

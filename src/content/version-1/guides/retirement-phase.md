@@ -40,7 +40,7 @@ Once GOV.UK is updated the vast majority of users will begin to be directed to t
 
 ### Make sure your subdomain continues to work
 
-If you operate a `service.gov.uk` subdomain, please read [your technical responsibilities for ending your service](https://web.archive.org/web/20150324140447/https://www.gov.uk/service-manual/operations/operating-servicegovuk-subdomains#lifecycle-of-service-subdomains).
+If you operate a `service.gov.uk` subdomain, please read [your technical responsibilities for ending your service](/version-1/guides/operating-servicegovuk-subdomains#lifecycle-of-service-subdomains).
 
 ## Data
 
