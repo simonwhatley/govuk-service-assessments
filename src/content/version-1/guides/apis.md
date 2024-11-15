@@ -35,7 +35,7 @@ Use standard formats for content, and follow established web patterns for authen
 
 Building a service to enjoy mass adoption and support from a wide, disparate community of developers and programming environments while being able to reach a worldwide audience is difficult. While proprietary and open technologies abound for machine-to-machine communication, none of them have the web’s interoperability, reach and ability to scale.
 
-Standards are powerful agreements, and nowhere are agreements more quickly established and adopted than on the web. Using HTTP (Hypertext Transfer Protocol) and URLs (uniform resource locator), the core technologies of the web, along with emergent standards such as [JSON](https://web.archive.org/web/20151011220020/http://www.json.org/) and [OAuth](https://en.wikipedia.org/wiki/OAuth) changes a website from [a retail shop window into a wholesaler](https://web.archive.org/web/20151011220020/https://www.gov.uk/government/publications/directgov-2010-and-beyond-revolution-not-evolution-a-report-by-martha-lane-fox), meeting our design principle to [build digital services, not websites](https://www.gov.uk/design-principles#eighth).
+Standards are powerful agreements, and nowhere are agreements more quickly established and adopted than on the web. Using HTTP (Hypertext Transfer Protocol) and URLs (uniform resource locator), the core technologies of the web, along with emergent standards such as [JSON](http://www.json.org/) and [OAuth](https://en.wikipedia.org/wiki/OAuth) changes a website from [a retail shop window into a wholesaler](https://web.archive.org/web/20151011220020/https://www.gov.uk/government/publications/directgov-2010-and-beyond-revolution-not-evolution-a-report-by-martha-lane-fox), meeting our design principle to [build digital services, not websites](https://www.gov.uk/design-principles#eighth).
 
 ### Give each thing a bookmarkable URL
 
@@ -49,7 +49,7 @@ These principles enable network effects which arise through linking and allow in
 
 ### Use HTTP methods as Tim intended
 
-Ensure all [HTTP GET](https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol#Request_methods) requests are [safe](https://web.archive.org/web/20151011220020/http://www.w3.org/2001/tag/doc/whenToUseGet.html) and actions which change state are conducted using a [POST](https://en.wikipedia.org/wiki/POST_\(HTTP\)), PUT or DELETE method.
+Ensure all [HTTP GET](https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol#Request_methods) requests are [safe](https://www.w3.org/2001/tag/doc/whenToUseGet.html) and actions which change state are conducted using a [POST](https://en.wikipedia.org/wiki/POST_\(HTTP\)), PUT or DELETE method.
 
 Use PUT and DELETE with caution, as they are commonly blocked by firewalls, intranet proxies, hotel Wi-Fi and mobile operators: always offer a POST alternative.
 
@@ -73,7 +73,7 @@ Where possible, also offer other formats most suited to a specific domain, such 
 
 This advice builds on our [more general guidance on data and content publication formats](/version-1/guides/choosing-appropriate-formats/).
 
-Include hyperlinks to alternative representations as [link headers](https://web.archive.org/web/20151011220020/http://www.w3.org/TR/html51/document-metadata.html#the-link-element) as well as in content.
+Include hyperlinks to alternative representations as [link headers](https://www.w3.org/TR/html51/document-metadata.html#the-link-element) as well as in content.
 
 Consider also encoding metadata inside HTML content using semantic markup: [Microformats](http://microformats.org/), [RDFa](https://en.wikipedia.org/wiki/Rdfa) or [schema.org](http://schema.org/).
 

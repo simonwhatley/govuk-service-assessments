@@ -17,7 +17,7 @@ For the model to be effective the component services need to be well defined and
 
 -   being able to define different service requirements for critical and non-critical services (for example, some commodity public cloud services may require online service support or service desk only, whereas mission critical IT systems will require a more integrated service model)
 -   a performance regime that ensures organisations don’t pay for services they can’t or don’t use
--   explicit service integration arrangements that focus on [service performance](/version-1/guides/monitoring/), usability and availability from a [user perspective](https://web.archive.org/web/20150514003210/https://www.gov.uk/service-manual/user-centred-design), not just from a supplier’s commercial perspective
+-   explicit service integration arrangements that focus on [service performance](/version-1/guides/monitoring/), usability and availability from a [user perspective](/version-1/guides/user-centred-design), not just from a supplier’s commercial perspective
 -   skills and capabilities that support transitioning to, and managing services in a new commodity-based environment
 -   a focus on [open standards](/version-1/guides/open-standards-and-licensing/) and interoperability to support workflow, performance management and service management, billing and payment
 

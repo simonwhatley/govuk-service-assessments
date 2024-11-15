@@ -173,12 +173,12 @@
 
     th {
       @extend .govuk-table__header;
-      padding: govuk-spacing(2);
+      // padding: govuk-spacing(2);
     }
 
     td {
       @extend .govuk-table__cell;
-      padding: govuk-spacing(2);
+      // padding: govuk-spacing(2);
     }
 
     td *:first-child {

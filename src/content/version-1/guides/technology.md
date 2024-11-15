@@ -50,4 +50,4 @@ Understanding the interoperability of services and devices is crucial to being a
 - understand the [architecture](/version-1/guides/architecture/) of services and technology across team, departments and government
 - provide [end user devices](/version-1/guides/end-user-devices/) which meet user needs
 - have a good understanding of what effective [service integration](/version-1/guides/service-integration/) looks like
-- understand the role of [GOV.UK Verify](https://web.archive.org/web/20150324151320/https://www.gov.uk/service-manual/identity-assurance/index.html) when providing services to citizens
+- understand the role of [GOV.UK Verify](/version-1/guides/identity-assurance/) when providing services to citizens

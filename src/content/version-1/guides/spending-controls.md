@@ -38,7 +38,7 @@ The controls process has changed over time to ensure:
 
 ## What will be examined
 
-GDS will examine and challenge all technology-related spending over a certain threshold – no public commitment or expenditure should be made above these thresholds without prior approval. The thresholds are set out in our [technology code of practice](https://web.archive.org/web/20151002053405/https://www.gov.uk/service-manual/technology/code-of-practice):
+GDS will examine and challenge all technology-related spending over a certain threshold – no public commitment or expenditure should be made above these thresholds without prior approval. The thresholds are set out in our [technology code of practice](/version-1/guides/code-of-practice):
 
 These thresholds cover all technology expenditure, including:
 

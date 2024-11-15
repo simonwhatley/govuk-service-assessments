@@ -120,4 +120,4 @@ Examples of where GDS used this effectively include:
 
 ### Test your ideas
 
-Don’t forget, don’t just test the product itself – test your ideas. For information on how to do this read [the guidance about user research](https://web.archive.org/web/20150324173659/https://www.gov.uk/service-manual/user-centred-design/user-research/index.html).
+Don’t forget, don’t just test the product itself – test your ideas. For information on how to do this read [the guidance about user research](/version-1/guides/user-research/).

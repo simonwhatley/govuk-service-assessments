@@ -29,7 +29,7 @@ Continue to build upon and analyse the research you have commissioned on user ne
 
 Following demonstration of your alpha, you may choose to discard the code and start fresh in the [beta](/version-1/guides/beta-phase/). If, however, your code is effective you may continue to iterate against your prototype.
 
-[Develop options for the assisted digital support](https://web.archive.org/web/20150505160658/https://www.gov.uk/service-manual/assisted-digital/action-plan#alpha-stage) for your service. To help develop the options, continue to build upon and analyse the research you have commissioned on user needs. Bring in the expertise of organisations working with people who are offline and users themselves. Run workshops to develop your options.
+[Develop options for the assisted digital support](/version-1/guides/assisted-digital-action-plan/#alpha-stage) for your service. To help develop the options, continue to build upon and analyse the research you have commissioned on user needs. Bring in the expertise of organisations working with people who are offline and users themselves. Run workshops to develop your options.
 
 ## What should be in your alpha
 

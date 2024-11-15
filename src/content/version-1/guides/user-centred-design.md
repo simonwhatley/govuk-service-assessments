@@ -15,13 +15,13 @@ eleventyComputed:
 - [Design patterns](https://web.archive.org/web/20150505160951/https://www.gov.uk/service-manual/user-centred-design/resources/patterns/index.html) Common patterns for forms and transactions
 - [Working with prototypes](/version-1/guides/working-with-prototypes/) Learning by doing
 - [Accessibility](/version-1/guides/accessibility/) How to make services that everyone can use
-- [Browsers and devices](https://web.archive.org/web/20150505160951/https://www.gov.uk/service-manual/user-centred-design/browsers-and-devices) Which ones to test with, and how best to support them
+- [Browsers and devices](/version-1/guides/browsers-and-devices/) Which ones to test with, and how best to support them
 - [Service user experience](/version-1/guides/service-user-experience/) Guidance for creating a consistent user experience
 - [Header and footer](https://web.archive.org/web/20150505160951/https://www.gov.uk/service-manual/user-centred-design/resources/header-footer) Guidance on using the GOV.UK header
-- [Print forms](https://web.archive.org/web/20150505160951/https://www.gov.uk/service-manual/user-centred-design/print-forms) Designing or redesigning paper components for transactions
+- [Print forms](/version-1/guides/printed-forms) Designing or redesigning paper components for transactions
 - [How users read](/version-1/guides/how-users-read/) Reading age, reading online, plain English, learning disabilities
-- [Data visualisation](https://web.archive.org/web/20150505160951/https://www.gov.uk/service-manual/user-centred-design/data-visualisation) Creating valuable and meaningful graphics to help analyse data
-- [Shared asset libraries](https://web.archive.org/web/20150505160951/https://www.gov.uk/service-manual/user-centred-design/resources/shared-asset-libraries) Sharing your frontend assets so that they can be easily reused
-- [Sass repositories](https://web.archive.org/web/20150505160951/https://www.gov.uk/service-manual/user-centred-design/resources/sass-repositories) Sharing blocks of code and techniques
+- [Data visualisation](/version-1/guides/data-visualisation/) Creating valuable and meaningful graphics to help analyse data
+- [Shared asset libraries](/version-1/guides/shared-asset-libraries/) Sharing your frontend assets so that they can be easily reused
+- [Sass repositories](/version-1/guides/sass-repositories/) Sharing blocks of code and techniques
 
 [See all guides for designers](https://web.archive.org/web/20150505160951/https://www.gov.uk/service-manual/designers)

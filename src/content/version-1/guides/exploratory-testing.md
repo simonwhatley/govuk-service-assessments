@@ -77,7 +77,7 @@ Mind-maps are seen as appropriate for exploratory testing as they reflect the no
 
 You can limit your exploratory test session to a set timescale, a practice also known as timeboxing. This can help you focus on the project’s specific goals and scope, rather than drift into unfocused exploration.
 
-More on these techniques can be found in an article posted online by Jonathan Bach: [http://www.satisfice.com/articles/sbtm.pdf](https://web.archive.org/web/20151002175446/http://www.satisfice.com/articles/sbtm.pdf)
+More on these techniques can be found in an article posted online by Jonathan Bach: [http://www.satisfice.com/articles/sbtm.pdf](http://www.satisfice.com/articles/sbtm.pdf)
 
 ## Collecting evidence
 
