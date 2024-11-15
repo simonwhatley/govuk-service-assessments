@@ -31,8 +31,6 @@ eleventyComputed:
           active: true
 ---
 
-## Live
-
 ### Questions
 
 - How will you deploy in the beta service and how will you test before deploying?

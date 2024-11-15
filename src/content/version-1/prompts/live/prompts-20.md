@@ -31,8 +31,6 @@ eleventyComputed:
           active: true
 ---
 
-## Live
-
 ### Questions
 
 - What did you learn from user research and usability testing during the beta?

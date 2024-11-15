@@ -32,8 +32,6 @@ eleventyComputed:
           active: true
 ---
 
-## Live
-
 The main objective is to ensure that you have someone on the team who is dedicated to doing the user research, that there are plans to continue doing user research, and that there is evidence that outcomes from the user research will be fed into the ongoing development/design of the service. Responses should cover both the digital and assisted digital support.
 
 When doing user research for assisted digital, ensure that research is done specifically with (potential) users of this particular service who have the lowest level of digital skills. Recruitment and research with this audience will need to be done using offline methods.

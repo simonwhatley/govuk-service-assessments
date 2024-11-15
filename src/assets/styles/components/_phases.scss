@@ -1,0 +1,154 @@
+////
+/// @group components/phases
+////
+
+$alpha-colour: govuk-colour("pink");
+$discovery-colour: govuk-colour("bright-purple");
+$beta-colour: govuk-colour("orange");
+$live-colour: govuk-colour("light-green");
+$retirement-colour: govuk-colour("mid-grey");
+
+.service-life {
+  margin: 0;
+
+  h2 {
+    margin-top: 0;
+    // @include bold-36;
+
+    a {
+      color: $govuk-text-colour;
+      text-decoration: none;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}
+
+// Phases list (main styles are in phases.scss)
+// .phases-list {
+//   li {
+//     p {
+//       @include govuk-font($size: 19);
+//     }
+//   }
+// }
+
+.phases {
+  .phase-nav{
+    margin: 3em 0;
+    padding: 0;
+    li {
+      list-style-type: none;
+      padding-left: 0;
+    }
+  }
+}
+
+// Phases
+.phases-list {
+  list-style: none;
+  // @include ie-lte(7) {
+  //   list-style-image: none;
+  // }
+  padding: 0;
+  padding-left: 1.5em;
+
+  p {
+    @include govuk-font($size: 19);
+  }
+
+  > * {
+    display: block;
+    padding: 0 0 0.7em 2em;
+    margin: 0;
+    @include govuk-font($size: 19);
+
+    // Tube line
+    border-left: dotted 0.6em;
+
+    // Tube station
+    &:before{
+      content: "";
+      display: block;
+      border: 0.3em solid;
+      background: govuk-colour("white");
+      width: 1.2em;
+      margin: 0.5em -3.2em;
+    }
+
+    &:first-child{
+      padding-top: 0.5em;
+      margin-top: 5em;
+
+      // Interchange tube station
+      &:before{
+        border: 0.6em solid;
+        height: 1.2em;
+        border-radius: 1.2em;
+        margin: -2.8em -3.45em;
+      }
+      h3{
+        margin-top: 1em;
+      }
+    }
+
+    &.discovery,
+    &.discovery:before {
+      border-color: $discovery-colour;
+    }
+    &.alpha,
+    &.alpha:before {
+      border-color: $alpha-colour;
+    }
+    &.beta,
+    &.beta:before {
+      border-color: $beta-colour;
+    }
+    &.live,
+    &.live:before {
+      border-color: $live-colour;
+    }
+    &.retirement{
+      border-left-color: transparent;
+      h3{
+        margin-top: -2.2em;
+      }
+    }
+    &.retirement:before {
+      border: 0.6em solid;
+      height: 1.2em;
+      border-radius: 1.2em;
+      margin: 0.5em -3.45em;
+      border-color: $retirement-colour;
+    }
+
+    p {
+      margin: 0.75em 0;
+      a {
+        @include govuk-font($size: 19);
+      }
+    }
+
+    h3 {
+      margin-top: -1.3em;
+      border-bottom: 0;
+
+      a {
+        color: $govuk-text-colour;
+        text-decoration: none;
+
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+
+  .link-list {
+    h3 {
+      margin-top: 1em;
+    }
+  }
+}

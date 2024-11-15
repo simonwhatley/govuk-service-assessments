@@ -32,8 +32,6 @@ eleventyComputed:
           active: true
 ---
 
-## Live
-
 ### Questions
 
 - Describe how you are making new source code open and reuseable?

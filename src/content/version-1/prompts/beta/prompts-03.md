@@ -31,8 +31,6 @@ eleventyComputed:
           active: false
 ---
 
-## Beta
-
 ### Questions
 
 - Have you engaged with the right people?

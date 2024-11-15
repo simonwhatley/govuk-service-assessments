@@ -31,8 +31,6 @@ eleventyComputed:
           active: true
 ---
 
-## Live
-
 ### Questions
 
 - Talk us through how you have worked in an agile way during the beta and how you will continue to do so after the service is live?

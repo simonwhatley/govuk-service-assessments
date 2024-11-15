@@ -31,8 +31,6 @@ eleventyComputed:
           active: false
 ---
 
-## Alpha
-
 ### Questions
 
 - Has a designer and content designer been involved during the alpha?

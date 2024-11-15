@@ -32,8 +32,6 @@ eleventyComputed:
           active: false
 ---
 
-## Beta
-
 ### Questions
 
 - Have you agreed what metrics are going on the performance platform?

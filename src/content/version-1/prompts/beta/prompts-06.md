@@ -31,8 +31,6 @@ eleventyComputed:
           active: false
 ---
 
-## Beta
-
 ### Questions
 
 - Talk us through how you have worked in an agile way during the alpha and how you will do so in the beta?

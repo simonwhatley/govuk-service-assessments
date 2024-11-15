@@ -3,6 +3,7 @@ caption: Standard 9
 title: Create a service that is simple and intuitive enough that users succeed first time, unaided.
 version: "version-1"
 standard: "standard-9"
+section: "overview"
 tags:
   - standard
   - version-1
@@ -28,4 +29,18 @@ eleventyComputed:
         - text: Live
           href: "/{{ version }}/{{ standard }}/live"
           active: false
+  related:
+    items:
+      - text: Completion rate
+        href: "/{{ version }}/guides/completion-rate/"
 ---
+
+{% if related.items.length %}
+Related guides:
+
+{% for item in related.items %}
+
+- [{{item.text}}]({{item.href}})
+  {{ item.description if item.description.length }}
+{% endfor %}
+{% endif %}

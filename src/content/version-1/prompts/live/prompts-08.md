@@ -31,8 +31,6 @@ eleventyComputed:
           active: true
 ---
 
-## Live
-
 ### Questions
 
 - What testing did you do during the beta?

@@ -31,8 +31,6 @@ eleventyComputed:
           active: true
 ---
 
-## Live
-
 ### Questions
 
 - Have you engaged with the right people?

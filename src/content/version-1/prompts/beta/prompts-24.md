@@ -31,8 +31,6 @@ eleventyComputed:
           active: false
 ---
 
-## Beta
-
 ### Questions
 
 - How are you measuring the performance of the old service to provide a baseline for the new service?

@@ -3,6 +3,7 @@ caption: Standard 11
 title: Plan (with GDS) for the phasing out of any existing alternative channels, where appropriate.
 version: "version-1"
 standard: "standard-11"
+section: "overview"
 tags:
   - standard
   - version-1
@@ -29,4 +30,18 @@ eleventyComputed:
         - text: Live
           href: "/{{ version }}/{{ standard }}/live"
           active: false
+  related:
+    items:
+      - text: Retirement phase
+        href: "/{{ version }}/guides/retirement-phase/"
 ---
+
+{% if related.items.length %}
+Related guides:
+
+{% for item in related.items %}
+
+- [{{item.text}}]({{item.href}})
+  {{ item.description if item.description.length }}
+{% endfor %}
+{% endif %}

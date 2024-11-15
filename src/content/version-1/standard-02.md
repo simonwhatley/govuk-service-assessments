@@ -3,6 +3,7 @@ caption: Standard 2
 title: Put in place a sustainable multidisciplinary team that can design, build and operate the service, led by a suitably skilled and senior service manager with decision-making responsibility.
 version: "version-1"
 standard: "standard-2"
+section: "overview"
 tags:
   - standard
   - version-1
@@ -28,4 +29,20 @@ eleventyComputed:
         - text: Live
           href: "/{{ version }}/{{ standard }}/live"
           active: false
+  related:
+    items:
+      - text: The team
+        href: "/{{ version }}/guides/the-team/"
+      - text: Service managers
+        href: "/{{ version }}/guides/service-manager/"
 ---
+
+{% if related.items.length %}
+Related guides:
+
+{% for item in related.items %}
+
+- [{{item.text}}]({{item.href}})
+  {{ item.description if item.description.length }}
+{% endfor %}
+{% endif %}

@@ -32,8 +32,6 @@ eleventyComputed:
           active: true
 ---
 
-## Live
-
 ### Questions
 
 - What have you instrumented and why? Have you modelled user journeys, and are you able to track progression through your service so you can identify completions and areas of poor performance?

@@ -13,7 +13,7 @@ const markdownItAnchorOptions = {
   renderPermalink: (slug, opts, state, idx) => {
     const linkContent = state.tokens[idx + 1].children[0].content
 
-    // Create the openning <div> for the wrapper
+    // Create the opening <div> for the wrapper
     const headingWrapperTokenOpen = Object.assign(
       new state.Token('div_open', 'div', 1),
       {
@@ -39,6 +39,7 @@ const markdownItAnchorOptions = {
     //   </span>
     // </a >
 
+    // Create the tokens for the full accessible anchor link
     const anchorTokens = [
       Object.assign(new state.Token('link_open', 'a', 1), {
         attrs: [
@@ -69,16 +70,10 @@ const markdownItAnchorOptions = {
     state.tokens.splice(idx, 0, headingWrapperTokenOpen)
 
     // insert the anchor link tokens after the wrapper opening and the 3 tokens of the heading
-    // state.tokens.splice(idx + 3 + 1, 0, ...anchorTokens)
     state.tokens.splice(idx + 3, 0, ...anchorTokens)
 
     // insert the wrapper closing after all these
-    state.tokens.splice(
-      // idx + 3 + 1 + anchorTokens.length,
-      idx + 3 + anchorTokens.length,
-      0,
-      headingWrapperTokenClose
-    )
+    state.tokens.splice(idx + 3 + anchorTokens.length, 0, headingWrapperTokenClose)
   }
 }
 

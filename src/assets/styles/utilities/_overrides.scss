@@ -1,0 +1,4 @@
+a[href*="https://web.archive.org"]::after {
+  content: " (opens in web archive)";
+  color: inherit;
+}

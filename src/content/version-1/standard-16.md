@@ -3,6 +3,7 @@ caption: Standard 16
 title: Use open standards and common government platforms (for example, identity assurance) where available.
 version: "version-1"
 standard: "standard-16"
+section: "overview"
 tags:
   - standard
   - version-1
@@ -28,4 +29,18 @@ eleventyComputed:
         - text: Live
           href: "/{{ version }}/{{ standard }}/live"
           active: false
+  related:
+    items:
+      - text: Open standards and licensing
+        href: "/{{ version }}/guides/open-standards-and-licensing/"
 ---
+
+{% if related.items.length %}
+Related guides:
+
+{% for item in related.items %}
+
+- [{{item.text}}]({{item.href}})
+  {{ item.description if item.description.length }}
+{% endfor %}
+{% endif %}

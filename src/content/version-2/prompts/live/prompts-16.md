@@ -32,8 +32,6 @@ eleventyComputed:
           active: true
 ---
 
-## Live
-
 ### Questions
 
 - Have you changed the behaviour, characteristics and dependencies of the new service and the factors that influence the choice of metrics and data sources for those metrics?

@@ -31,8 +31,6 @@ eleventyComputed:
           active: false
 ---
 
-## Alpha
-
 ### Questions
 
 - Talk us through your deployment process for the alpha?

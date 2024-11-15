@@ -4,6 +4,7 @@ title: Collect performance data
 description: Use tools for analysis that collect performance data. Use this data to analyse the success of the service and to translate this into features and tasks for the next phase of development.
 version: "version-2"
 standard: "standard-15"
+section: "overview"
 tags:
   - standard
   - version-2

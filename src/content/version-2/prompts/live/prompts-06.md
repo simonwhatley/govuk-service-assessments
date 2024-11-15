@@ -32,8 +32,6 @@ eleventyComputed:
           active: true
 ---
 
-## Live
-
 ### Questions
 
 - Describe what tech stack changes you’ve made since beta and why.

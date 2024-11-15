@@ -4,6 +4,7 @@ title: Identify performance indicators
 description: Identify performance indicators for the service, including the 4 mandatory key performance indicators (KPIs) defined in the manual. Establish a benchmark for each metric and make a plan to enable improvements.
 version: "version-2"
 standard: "standard-16"
+section: "overview"
 tags:
   - standard
   - version-2

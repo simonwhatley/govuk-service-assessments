@@ -3,6 +3,7 @@ caption: Standard 1
 title: Understand user needs. Research to develop a deep knowledge of who the service users are and what that means for digital and assisted digital service design.
 version: "version-1"
 standard: "standard-1"
+section: "overview"
 tags:
   - standard
   - version-1
@@ -28,4 +29,22 @@ eleventyComputed:
         - text: Live
           href: "/{{ version }}/{{ standard }}/live"
           active: false
+  related:
+    items:
+      - text: Know your users
+        href: "/{{ version }}/guides/user-centred-design/"
+      - text: User needs
+        href: "/{{ version }}/guides/user-needs/"
+      - text: Assisted digital
+        href: "/{{ version }}/guides/assisted-digital/"
 ---
+
+{% if related.items.length %}
+Related guides:
+
+{% for item in related.items %}
+
+- [{{item.text}}]({{item.href}})
+  {{ item.description if item.description.length }}
+{% endfor %}
+{% endif %}

@@ -32,8 +32,6 @@ eleventyComputed:
           active: false
 ---
 
-## Alpha
-
 ### Questions
 
 - Can you talk us through your team for alpha?

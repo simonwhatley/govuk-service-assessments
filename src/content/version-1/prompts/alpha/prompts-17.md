@@ -31,8 +31,6 @@ eleventyComputed:
           active: false
 ---
 
-## Alpha
-
 ### Questions
 
 - How do you deploy in the alpha service and how do you test before deploying?

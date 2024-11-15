@@ -31,8 +31,6 @@ eleventyComputed:
           active: true
 ---
 
-## Live
-
 ### Questions
 
 - How did you test and iterate your assisted digital support in beta, in response to user research and performance measurement?

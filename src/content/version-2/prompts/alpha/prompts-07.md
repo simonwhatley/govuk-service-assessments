@@ -32,8 +32,6 @@ eleventyComputed:
           active: false
 ---
 
-## Alpha
-
 ### Questions
 
 - Describe the perceived threats to your service and how you are designing the prototype to mitigate them?

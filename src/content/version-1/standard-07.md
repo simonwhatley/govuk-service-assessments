@@ -3,6 +3,7 @@ caption: Standard 7
 title: Establish performance benchmarks, in consultation with GDS, using the 4 key performance indicators (KPIs) defined in the manual, against which the service will be measured.
 version: "version-1"
 standard: "standard-7"
+section: "overview"
 tags:
   - standard
   - version-1
@@ -29,4 +30,18 @@ eleventyComputed:
         - text: Live
           href: "/{{ version }}/{{ standard }}/live"
           active: false
+  related:
+    items:
+      - text: Measurement
+        href: "/{{ version }}/guides/measurement/"
 ---
+
+{% if related.items.length %}
+Related guides:
+
+{% for item in related.items %}
+
+- [{{item.text}}]({{item.href}})
+  {{ item.description if item.description.length }}
+{% endfor %}
+{% endif %}

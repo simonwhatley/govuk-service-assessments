@@ -3,6 +3,7 @@ caption: Standard 26
 title: Test the service from beginning to end with the minister responsible for it.
 version: "version-1"
 standard: "standard-26"
+section: "overview"
 tags:
   - standard
   - version-1
@@ -29,3 +30,13 @@ eleventyComputed:
           href: "/{{ version }}/{{ standard }}/live"
           active: false
 ---
+
+{% if related.items.length %}
+Related guides:
+
+{% for item in related.items %}
+
+- [{{item.text}}]({{item.href}})
+  {{ item.description if item.description.length }}
+{% endfor %}
+{% endif %}

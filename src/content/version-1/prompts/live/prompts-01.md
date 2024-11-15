@@ -31,8 +31,6 @@ eleventyComputed:
           active: true
 ---
 
-## Live
-
 ### Questions
 
 - What user research have you completed during the beta? (should be more than just a one off survey)

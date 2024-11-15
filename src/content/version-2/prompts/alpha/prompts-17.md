@@ -32,8 +32,6 @@ eleventyComputed:
           active: false
 ---
 
-## Alpha
-
 ### Questions
 
 - Have you registered your service with the Performance Platform?

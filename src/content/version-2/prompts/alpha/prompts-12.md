@@ -32,8 +32,6 @@ eleventyComputed:
           active: false
 ---
 
-## Alpha
-
 ### Questions
 
 - How did you collect evidence that users of the alpha service are, in the majority of cases, succeeding first time?

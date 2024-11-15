@@ -31,8 +31,6 @@ eleventyComputed:
           active: false
 ---
 
-## Alpha
-
 ### Questions
 
 - What is your plan for increasing digital take up?

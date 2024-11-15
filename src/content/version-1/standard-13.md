@@ -3,6 +3,7 @@ caption: Standard 13
 title: Build a service consistent with the user experience of the rest of GOV.UK by using the design patterns and style guide.
 version: "version-1"
 standard: "standard-13"
+section: "overview"
 tags:
   - standard
   - version-1
@@ -28,4 +29,20 @@ eleventyComputed:
         - text: Live
           href: "/{{ version }}/{{ standard }}/live"
           active: false
+  related:
+    items:
+      - text: Design and content
+        href: "/{{ version }}/guides/user-centred-design/"
+      - text: Service user experience
+        href: "/{{ version }}/guides/service-user-experience/"
 ---
+
+{% if related.items.length %}
+Related guides:
+
+{% for item in related.items %}
+
+- [{{item.text}}]({{item.href}})
+  {{ item.description if item.description.length }}
+{% endfor %}
+{% endif %}

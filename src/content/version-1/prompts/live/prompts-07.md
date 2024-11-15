@@ -31,8 +31,6 @@ eleventyComputed:
           active: true
 ---
 
-## Live
-
 ### Questions
 
 - Can you show us how you are reporting data on the 4 KPI’s on your dashboard?

@@ -3,6 +3,7 @@ caption: Standard 18
 title: Use analytics tools that collect performance data.
 version: "version-1"
 standard: "standard-18"
+section: "overview"
 tags:
   - standard
   - version-1
@@ -28,4 +29,20 @@ eleventyComputed:
         - text: Live
           href: "/{{ version }}/{{ standard }}/live"
           active: false
+  related:
+    items:
+      - text: Analytics tools
+        href: "/{{ version }}/guides/analytics-tools/"
+      - text: Performance platform
+        href: "/{{ version }}/guides/performance-platform/"
 ---
+
+{% if related.items.length %}
+Related guides:
+
+{% for item in related.items %}
+
+- [{{item.text}}]({{item.href}})
+  {{ item.description if item.description.length }}
+{% endfor %}
+{% endif %}

@@ -31,8 +31,6 @@ eleventyComputed:
           active: true
 ---
 
-## Live
-
 ### Questions
 
 - How did you identify users’ perceived risks and how do you know it’s working?

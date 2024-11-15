@@ -15,19 +15,20 @@
       <h1 class="govuk-heading-xl">
         {{ site.name }}
       </h1>
+
       {%- if content | length  %}
         <div class="app-markdown">
           {{- content | safe -}}
         </div>
       {% endif -%}
 
-      {% if collections.home.length > 0 %}
+      {# {% if collections.home.length > 0 %}
         <ol class="govuk-list">
         {% for item in collections.home %}
           <li class="app-service-standard-point">
             <h2 class="govuk-heading-m govuk-!-margin-bottom-3 app-service-standard-point__title">
               <span class="app-service-standard-point__number">{{ loop.index }}.</span>
-              {{ item.data.title | nl2br | safe }} {# {{ ' - current' if loop.last }} #}
+              {{ item.data.title | nl2br | safe }}
               {{ govukTag({
                 text: "Current",
                 classes: "govuk-tag--turquoise"
@@ -46,7 +47,7 @@
         </ol>
       {% else %}
         <p class="govuk-body">No versions found.</p>
-      {% endif %}
+      {% endif %} #}
 
     </div>
   </div>

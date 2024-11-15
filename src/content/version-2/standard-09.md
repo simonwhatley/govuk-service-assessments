@@ -4,6 +4,7 @@ title: Use open standards and common platforms
 description: Use open standards and common government platforms where available, including GOV.UK Verify as an option for identity assurance.
 version: "version-2"
 standard: "standard-9"
+section: "overview"
 tags:
   - standard
   - version-2

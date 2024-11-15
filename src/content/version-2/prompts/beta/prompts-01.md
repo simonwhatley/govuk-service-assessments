@@ -32,8 +32,6 @@ eleventyComputed:
           active: false
 ---
 
-## Beta
-
 In the beta phase, the main purpose is to establish that the team has continued to build the service in a way that meets user needs, and this has been done in a way that makes the service easy for all users. We are particularly looking to see that findings from the user research are reflected in the design of the service as it progresses through this phase. Responses should cover both digital and assisted digital support.
 
 When doing user research for assisted digital, ensure that research is done specifically with (potential) users of this particular service who have the lowest level of digital skills. Recruitment and research with this audience will need to be done using offline methods.

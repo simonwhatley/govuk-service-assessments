@@ -32,8 +32,6 @@ eleventyComputed:
           active: true
 ---
 
-## Live
-
 ### Questions
 
 - Explain the impact upon the users of the service being unavailable for any length of time and how has that changed since beta?

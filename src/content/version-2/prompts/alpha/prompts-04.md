@@ -32,8 +32,6 @@ eleventyComputed:
           active: false
 ---
 
-## Alpha
-
 ### Questions
 
 - Talk us through how you are working in an agile way.

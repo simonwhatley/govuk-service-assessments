@@ -4,6 +4,7 @@ title: Evaluate tools and systems
 description: Evaluate what tools and systems will be used to build, host, operate and measure the service, and how to procure them.
 version: "version-2"
 standard: "standard-6"
+section: "overview"
 tags:
   - standard
   - version-2

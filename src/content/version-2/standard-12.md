@@ -4,6 +4,7 @@ title: Make sure users succeed first time
 description: Create a service which is simple to use and intuitive enough that users succeed the first time.
 version: "version-2"
 standard: "standard-12"
+section: "overview"
 tags:
   - standard
   - version-2

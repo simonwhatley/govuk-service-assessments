@@ -32,8 +32,6 @@ eleventyComputed:
           active: false
 ---
 
-## Beta
-
 ### Questions
 
 - Explain the impact upon the users of the beta service being unavailable for any length of time

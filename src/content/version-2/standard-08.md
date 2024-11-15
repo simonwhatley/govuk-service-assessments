@@ -4,6 +4,7 @@ title: Make all new source code open
 description: Make all new source code open and reusable, and publish it under appropriate licences (or provide a convincing explanation as to why this cannot be done for specific subsets of the source code).
 version: "version-2"
 standard: "standard-8"
+section: "overview"
 tags:
   - standard
   - version-2

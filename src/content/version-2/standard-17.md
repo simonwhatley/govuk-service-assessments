@@ -4,6 +4,7 @@ title: Report performance data on the Performance Platform
 description: Why you should report data and how you’ll be assessed.
 version: "version-2"
 standard: "standard-17"
+section: "overview"
 tags:
   - standard
   - version-2

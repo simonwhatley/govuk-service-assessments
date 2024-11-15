@@ -3,6 +3,7 @@ caption: Standard 21
 title: Establish a benchmark for user satisfaction across the digital and assisted digital service. Report performance data on the Performance Platform.
 version: "version-1"
 standard: "standard-21"
+section: "overview"
 tags:
   - standard
   - version-1
@@ -28,4 +29,20 @@ eleventyComputed:
         - text: Live
           href: "/{{ version }}/{{ standard }}/live"
           active: false
+  related:
+    items:
+      - text: User satisfaction
+        href: "/{{ version }}/guides/user-satisfaction/"
+      - text: Performance Platform
+        href: "/{{ version }}/guides/performance-platform/"
 ---
+
+{% if related.items.length %}
+Related guides:
+
+{% for item in related.items %}
+
+- [{{item.text}}]({{item.href}})
+  {{ item.description if item.description.length }}
+{% endfor %}
+{% endif %}
