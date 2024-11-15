@@ -34,7 +34,7 @@ The service-owning dept/agency will be given delegated authority to manage the d
 
 This section gives some guidance about which subdomains a service manager should create once they have been given control of `servicename.service.gov.uk`.
 
-**Maximum number of visible subdomains**
+### Maximum number of visible subdomains
 
 The user-facing live service SHOULD be operated using at most three user-visible subdomains of `servicename.service.gov.uk`:
 
@@ -46,11 +46,11 @@ You SHOULD NOT create separate domains for application programming interfaces (A
 
 Service managers should notify the Government Digital Service technical architects (via your transformation team contact) if you intend to create user-visible subdomains other than the three listed above. We’re developing some patterns for more unusual system designs as well as for mainstream transactional services, and we’re always up for a discussion about exceptions and edge cases.
 
-**Usernames and passwords**
+### Usernames and passwords
 
 If the service is a private alpha or private beta release then it should be protected by a username and password known only to the development team and the users who are testing the service. If a service, or part of a service, is a public alpha or beta releases then it should be clearly marked as such with a text label on every page (ie don’t use an image containing the word alpha or beta) and in every API response.
 
-**Multiple environments**
+### Multiple environments
 
 It is good practice to have multiple ‘environments’ for the development, testing and live (aka production) versions of any service. The [development and testing environments](/version-1/guides/sandbox-and-staging-servers/) allow the team to assess the correctness and quality of the service before it goes live. Typically, the subdomains used to access a development or testing instance of the service are structured in the same way as the subdomains used in the live version of the service.
 
@@ -66,13 +66,13 @@ Therefore, all services accessed through `service.gov.uk` domains (including API
 
 Once a service manager has verified that their HTTPS setup is working fine they SHOULD enable [HSTS](https://en.wikipedia.org/wiki/HTTP_Strict_Transport_Security) on the production domains (`www.`, `admin.` and `assets.`), by setting an HTTP response header such as
 
-```
+```text
 Strict-Transport-Security: max-age=1209600, includeSubDomains;
 ```
 
 representing a commitment to HTTPS-only traffic for 14 days. Once the service manager is confident that HSTS is configured correctly, they SHOULD increase the commitment to months or years:
 
-```
+```text
 Strict-Transport-Security: max-age=31536000, includeSubDomains;
 ```
 
@@ -92,7 +92,7 @@ As a result, services need to ask search engines not to index pages on their dom
 
 - have a `robots.txt` file on the `www`, `admin` and `assets` subdomains asking search engines not to index any part of the site. Example content for `robots.txt` is given below, and more details can be found on [The Web Robots Pages](http://www.robotstxt.org/faq/prevent.html):
 
-    ```
+    ```text
     User-agent: *
     Disallow: /
     ```

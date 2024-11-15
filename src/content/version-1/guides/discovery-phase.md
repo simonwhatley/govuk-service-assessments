@@ -33,7 +33,7 @@ This information is found through:
 
 [A small team will be required](/version-1/guides/the-team/), consisting of your stakeholders and any core team members that have been identified, including the [service manager](/version-1/guides/service-manager/).
 
-# Timescales
+## Timescales
 
 The phase should not take longer than 4 to 8 weeks. During the final week you should be setting up the broad scope of a project and an initial set of [user stories](/version-1/guides/writing-user-stories/) (also known as a backlog) to work to. This is known as an ‘inception’. At the end of the phase a decision should be made whether to proceed to the [alpha phase](/version-1/guides/alpha-phase/).
 

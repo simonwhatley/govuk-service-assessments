@@ -19,27 +19,27 @@ GDS define open standards for software interoperability, data, and document form
 - [market support](#market-support)
 - [licensing rights](#licensing-rights)
 
-#### Collaboration
+### Collaboration
 
 The standard is maintained by working together in a decision-making process that is consensus-based and independent of any individual supplier. Involvement in the development and maintenance of the standard is accessible to all interested parties.
 
-#### Transparency
+### Transparency
 
 The decision-making process is transparent and a review is carried out by subject matter experts, which is open to the public.
 
-#### Due process
+### Due process
 
 To guarantee quality, the standard is taken on by a specification or standardisation organisation, or a forum or consortium with a feedback and approval process.
 
-#### Fair access
+### Fair access
 
 The standard is published, thoroughly documented, and publicly available at zero or low cost.
 
-#### Market support
+### Market support
 
 Other than creating innovative solutions, the standard is supported by the market and displays platform, application and vendor independence.
 
-#### Licensing rights
+### Licensing rights
 
 Rights are essential to the implementation of the standard, and for communicating with other implementations using that same standard. They’re licensed on a royalty-free basis that’s compatible with both [open source](http://opensource.org/licenses/alphabetical) and proprietary licensed solutions.
 

@@ -33,7 +33,7 @@ It is generally advised to write your markup with a mobile first attitude. That 
 
 There are two main types of cross browser CSS that we are concerned with. Firstly using different techniques to achieve a consistent effect and secondly using vendor prefixes to apply consistent behaviour for newer features. For example:
 
-```
+```css
 .related-box {
   float: left;
   @extend %contain-floats;
