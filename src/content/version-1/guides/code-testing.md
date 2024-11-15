@@ -31,12 +31,8 @@ It is common to talk about behaviour-driven development (BDD) as an alternative 
 
 Any code written for your service should have a set of tests operating at 2 levels:
 
-- [Approaches](#approaches)
-- [Types of testing](#types-of-testing)
-  - [Acceptance testing](#acceptance-testing)
-  - [Unit testing](#unit-testing)
-- [When to write tests](#when-to-write-tests)
-- [Test early and often](#test-early-and-often)
+- [Acceptance testing](#acceptance-testing)
+- [Unit testing](#unit-testing)
 
 ### Acceptance testing
 
