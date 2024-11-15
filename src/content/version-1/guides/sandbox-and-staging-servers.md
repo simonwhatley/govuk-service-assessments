@@ -1,7 +1,6 @@
 ---
 title: Sandbox and staging servers
 subtitle: Working in a development enviroment
-description:
 layout: page
 eleventyComputed:
   permalink: "{{ page.filePathStem | replace('/content/','/') }}/"

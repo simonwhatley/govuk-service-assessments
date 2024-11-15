@@ -1,7 +1,6 @@
 ---
 title: Development environments
 subtitle: Early infrastructure needs for agile projects
-description:
 layout: page
 eleventyComputed:
   permalink: "{{ page.filePathStem | replace('/content/','/') }}/"

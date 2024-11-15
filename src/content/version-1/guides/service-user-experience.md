@@ -1,7 +1,6 @@
 ---
 title: What your service should look like
 subtitle: Guidance for creating a consistent user experience
-description:
 layout: page
 eleventyComputed:
   permalink: "{{ page.filePathStem | replace('/content/','/') }}/"

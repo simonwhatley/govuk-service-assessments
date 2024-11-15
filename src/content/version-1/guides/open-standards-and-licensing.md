@@ -1,7 +1,6 @@
 ---
 title: Open standards and licensing
 subtitle: Use open standards to build your service
-description:
 layout: page
 eleventyComputed:
   permalink: "{{ page.filePathStem | replace('/content/','/') }}/"

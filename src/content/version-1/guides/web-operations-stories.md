@@ -1,7 +1,6 @@
 ---
 title: User stories for web operations
 subtitle: A useful starting point when understanding the scope of infrastructure work
-description:
 layout: page
 eleventyComputed:
   permalink: "{{ page.filePathStem | replace('/content/','/') }}/"

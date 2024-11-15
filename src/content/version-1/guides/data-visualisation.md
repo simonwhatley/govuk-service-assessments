@@ -1,7 +1,6 @@
 ---
 title: Data visualisation
 subtitle: Creating valuable and meaningful graphics to help analyse data
-description:
 layout: page
 eleventyComputed:
   permalink: "{{ page.filePathStem | replace('/content/','/') }}/"

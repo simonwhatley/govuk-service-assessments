@@ -1,7 +1,6 @@
 ---
 title: Creating accessible PDFs
 subtitle: How to make PDFs that everyone can use
-description:
 layout: page
 eleventyComputed:
   permalink: "{{ page.filePathStem | replace('/content/','/') }}/"

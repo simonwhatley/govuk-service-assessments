@@ -1,7 +1,6 @@
 ---
 title: Developer skills
 subtitle: What developer do and what to look for
-description:
 layout: page
 eleventyComputed:
   permalink: "{{ page.filePathStem | replace('/content/','/') }}/"

@@ -1,7 +1,6 @@
 ---
 title: An introduction to user research techniques
 subtitle: Ways to understand your users and their needs
-description:
 layout: page
 eleventyComputed:
   permalink: "{{ page.filePathStem | replace('/content/','/') }}/"

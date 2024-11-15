@@ -1,7 +1,6 @@
 ---
 title: Running retrospectives
 subtitle: Reviewing a team’s work and the way it was done
-description:
 layout: page
 eleventyComputed:
   permalink: "{{ page.filePathStem | replace('/content/','/') }}/"

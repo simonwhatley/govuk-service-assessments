@@ -1,7 +1,6 @@
 ---
 title: Service integration
 subtitle: Managing providers in an efficient way
-description:
 layout: page
 eleventyComputed:
   permalink: "{{ page.filePathStem | replace('/content/','/') }}/"

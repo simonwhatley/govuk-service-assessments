@@ -1,7 +1,6 @@
 ---
 title: Release strategies
 subtitles: How regular releases can reduce risk
-description:
 layout: page
 eleventyComputed:
   permalink: "{{ page.filePathStem | replace('/content/','/') }}/"

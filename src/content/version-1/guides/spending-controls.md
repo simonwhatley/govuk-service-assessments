@@ -1,7 +1,6 @@
 ---
 title: Spending controls
 subtitle: Navigating the controls process
-description:
 layout: page
 eleventyComputed:
   permalink: "{{ page.filePathStem | replace('/content/','/') }}/"
@@ -65,7 +64,7 @@ Users should refer to Cabinet Office [controls guidance](https://web.archive.org
 
 Departments should engage early with GDS to agree the appropriate points for approval, before the first approval is needed (usually after the discovery phase, at strategic outline case or before a prior information notice is issued). This early engagement will avoid departments proceeding too far without approval and reduces the risk of irregular expenditure.
 
-Full details of current requirements are detailed in the [Cabinet Office ICT Spend Control Form](https://web.archive.org/web/20151002053405/https://www.gov.uk/government/publications/cabinet-office-controls). You can start the process by e-mailing [gdsapprovals@digital.cabinet-office.gov.uk](https://web.archive.org/web/20151002053405/mailto:gdsapprovals@digital.cabinet-office.gov.uk). If your request contains ‘Restricted’ information it should be sent to [gdsapprovals@govdigital.gsi.gov.uk](https://web.archive.org/web/20151002053405/mailto:gdsapprovals@govdigital.gsi.gov.uk). Note that your organisation may have established a single point of contact for engaging with GDS, so check first within your organisation.
+Full details of current requirements are detailed in the [Cabinet Office ICT Spend Control Form](https://web.archive.org/web/20151002053405/https://www.gov.uk/government/publications/cabinet-office-controls). You can start the process by e-mailing [gdsapprovals@digital.cabinet-office.gov.uk](mailto:gdsapprovals@digital.cabinet-office.gov.uk). If your request contains ‘Restricted’ information it should be sent to [gdsapprovals@govdigital.gsi.gov.uk](mailto:gdsapprovals@govdigital.gsi.gov.uk). Note that your organisation may have established a single point of contact for engaging with GDS, so check first within your organisation.
 
 If your project cost exceeds your department’s main delegated authority set by Treasury it will be classed as a major project. GDS and HMT have released a [guidance clarification](https://web.archive.org/web/20151002053405/https://www.gov.uk/government/publications/the-green-book-appraisal-and-evaluation-in-central-governent) explaining how agile approval can be streamlined in these cases. You will still need to engage with the [Major Projects Authority](https://web.archive.org/web/20151002053405/https://www.gov.uk/government/groups/major-projects-authority) (MPA).
 

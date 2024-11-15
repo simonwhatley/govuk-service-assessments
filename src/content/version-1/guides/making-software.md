@@ -1,7 +1,6 @@
 ---
 title: Making software
 subtitle: Information and guidance for building services
-description:
 layout: page
 eleventyComputed:
   permalink: "{{ page.filePathStem | replace('/content/','/') }}/"

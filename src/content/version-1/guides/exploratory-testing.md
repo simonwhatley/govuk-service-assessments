@@ -1,7 +1,6 @@
 ---
 title: Exploratory testing
 subtitle: What is exploratory testing and how to use it
-description:
 layout: page
 eleventyComputed:
   permalink: "{{ page.filePathStem | replace('/content/','/') }}/"

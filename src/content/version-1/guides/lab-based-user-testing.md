@@ -1,7 +1,6 @@
 ---
 title: Lab-based user testing
 subtitle: Getting input into products and services
-description:
 layout: page
 eleventyComputed:
   permalink: "{{ page.filePathStem | replace('/content/','/') }}/"

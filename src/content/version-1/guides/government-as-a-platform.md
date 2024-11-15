@@ -1,7 +1,6 @@
 ---
 title: Government as a platform
 subtitle: Services built on a shared core
-description:
 layout: page
 eleventyComputed:
   permalink: "{{ page.filePathStem | replace('/content/','/') }}/"

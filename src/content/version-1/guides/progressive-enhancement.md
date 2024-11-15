@@ -1,7 +1,6 @@
 ---
 title: Progressive enhancement
 subtitle: How to create pages that work regardless of browser capability
-description:
 layout: page
 eleventyComputed:
   permalink: "{{ page.filePathStem | replace('/content/','/') }}/"

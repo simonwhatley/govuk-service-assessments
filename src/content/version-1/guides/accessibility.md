@@ -1,7 +1,6 @@
 ---
 title: Accessibility
 subtitle: How to make services that everyone can use
-description:
 layout: page
 eleventyComputed:
   permalink: "{{ page.filePathStem | replace('/content/','/') }}/"

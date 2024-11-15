@@ -1,7 +1,6 @@
 ---
 title: Cloud security
 subtitle: Secure use of third party cloud services
-description:
 layout: page
 eleventyComputed:
   permalink: "{{ page.filePathStem | replace('/content/','/') }}/"

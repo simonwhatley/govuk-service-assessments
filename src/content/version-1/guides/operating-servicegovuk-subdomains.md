@@ -1,7 +1,6 @@
 ---
 title: Operating a service.gov.uk subdomain
 subtitle: Consistency across central government digital services
-description:
 layout: page
 eleventyComputed:
   permalink: "{{ page.filePathStem | replace('/content/','/') }}/"

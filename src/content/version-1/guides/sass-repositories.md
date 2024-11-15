@@ -1,7 +1,6 @@
 ---
 title: Sass repositories
 subtitle: A library of CSS mixins in the Sass format
-description:
 layout: page
 eleventyComputed:
   permalink: "{{ page.filePathStem | replace('/content/','/') }}/"

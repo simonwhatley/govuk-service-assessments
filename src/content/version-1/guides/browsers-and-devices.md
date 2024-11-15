@@ -1,7 +1,6 @@
 ---
 title: Browsers and devices
 subtitle: Which ones to test with, and how best to support them
-description:
 layout: page
 eleventyComputed:
   permalink: "{{ page.filePathStem | replace('/content/','/') }}/"

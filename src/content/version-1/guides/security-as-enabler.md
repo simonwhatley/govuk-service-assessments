@@ -1,7 +1,6 @@
 ---
 title: Security as enabler
 subtitle: Using technological change to build secure services
-description:
 layout: page
 eleventyComputed:
   permalink: "{{ page.filePathStem | replace('/content/','/') }}/"

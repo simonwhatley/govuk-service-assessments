@@ -1,7 +1,6 @@
 ---
 title: User research skills
 subtitle: What user researchers do and what to look for
-description:
 layout: page
 eleventyComputed:
   permalink: "{{ page.filePathStem | replace('/content/','/') }}/"

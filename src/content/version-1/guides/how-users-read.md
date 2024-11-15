@@ -1,7 +1,6 @@
 ---
 title: How users read
 subtitle: Reading age, reading online, plain English, and learning disabilities
-description:
 layout: page
 eleventyComputed:
   permalink: "{{ page.filePathStem | replace('/content/','/') }}/"

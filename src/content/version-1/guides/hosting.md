@@ -1,7 +1,6 @@
 ---
 title: Hosting
 subtitle: Deciding where your service will live
-description:
 layout: page
 eleventyComputed:
   permalink: "{{ page.filePathStem | replace('/content/','/') }}/"

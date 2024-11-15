@@ -1,7 +1,6 @@
 ---
 title: Configuration management
 subtitle: Manage a team’s approach to software configuration
-description:
 layout: page
 eleventyComputed:
   permalink: "{{ page.filePathStem | replace('/content/','/') }}/"

@@ -1,7 +1,6 @@
 ---
 title: Delivery manager
 subtitle: Enabling teams to deliver high-quality services
-description:
 layout: page
 eleventyComputed:
   permalink: "{{ page.filePathStem | replace('/content/','/') }}/"

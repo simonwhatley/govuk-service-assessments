@@ -1,7 +1,6 @@
 ---
 title: Service managers
 subtitle: Learn what a service manager does, and how to be a good one
-description:
 layout: page
 eleventyComputed:
   permalink: "{{ page.filePathStem | replace('/content/','/') }}/"

@@ -1,7 +1,6 @@
 ---
 title: Printed forms
 subtitle: Designing or redesigning paper components for transactions
-description:
 layout: page
 eleventyComputed:
   permalink: "{{ page.filePathStem | replace('/content/','/') }}/"

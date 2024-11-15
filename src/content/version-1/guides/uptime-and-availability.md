@@ -1,7 +1,6 @@
 ---
 title: Uptime and availability
 subtitle: Keeping the government online
-description:
 layout: page
 eleventyComputed:
   permalink: "{{ page.filePathStem | replace('/content/','/') }}/"

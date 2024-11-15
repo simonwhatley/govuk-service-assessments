@@ -1,7 +1,6 @@
 ---
 title: Performance platform
 subtitle: Displaying performance metrics
-description:
 layout: page
 eleventyComputed:
   permalink: "{{ page.filePathStem | replace('/content/','/') }}/"

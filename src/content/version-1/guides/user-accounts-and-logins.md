@@ -1,7 +1,6 @@
 ---
 title: User accounts and logins
 subtitle: How to do them and how to avoid them
-description:
 layout: page
 eleventyComputed:
   permalink: "{{ page.filePathStem | replace('/content/','/') }}/"

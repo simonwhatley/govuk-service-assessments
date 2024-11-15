@@ -1,7 +1,6 @@
 ---
 title: Vulnerability and penetration testing
 subtitle: Identify insecurities in your service
-description:
 layout: page
 eleventyComputed:
   permalink: "{{ page.filePathStem | replace('/content/','/') }}/"

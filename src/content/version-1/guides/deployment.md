@@ -1,7 +1,6 @@
 ---
 title: Deploying software
 subtitle: Principles to ensure frequent, low-risk deployments
-description:
 layout: page
 eleventyComputed:
   permalink: "{{ page.filePathStem | replace('/content/','/') }}/"

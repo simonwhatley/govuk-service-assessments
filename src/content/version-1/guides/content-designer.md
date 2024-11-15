@@ -1,7 +1,6 @@
 ---
 title: Content designer
 subtitle: Writing high quality content for sites and services
-description:
 layout: page
 eleventyComputed:
   permalink: "{{ page.filePathStem | replace('/content/','/') }}/"

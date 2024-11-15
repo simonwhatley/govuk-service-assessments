@@ -1,7 +1,6 @@
 ---
 title: Assisted digital
 subtitle: Information for service managers
-description:
 layout: page
 eleventyComputed:
   permalink: "{{ page.filePathStem | replace('/content/','/') }}/"

@@ -1,7 +1,6 @@
 ---
 title: Helpdesk
 subtitle: How to incorporate user enquiries into design
-description:
 layout: page
 eleventyComputed:
   permalink: "{{ page.filePathStem | replace('/content/','/') }}/"

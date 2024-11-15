@@ -1,7 +1,6 @@
 ---
 title: APIs
 subtitle: Using and creating Application Programming Interfaces
-description:
 layout: page
 eleventyComputed:
   permalink: "{{ page.filePathStem | replace('/content/','/') }}/"

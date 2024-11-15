@@ -1,7 +1,6 @@
 ---
 title: Testing code
 subtitle: How to make sure your code does what it’s suppose to
-description:
 layout: page
 eleventyComputed:
   permalink: "{{ page.filePathStem | replace('/content/','/') }}/"

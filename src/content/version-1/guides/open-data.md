@@ -1,7 +1,6 @@
 ---
 title: Open data
 subtitle: Accessible, machine-readable data about services
-description:
 layout: page
 eleventyComputed:
   permalink: "{{ page.filePathStem | replace('/content/','/') }}/"

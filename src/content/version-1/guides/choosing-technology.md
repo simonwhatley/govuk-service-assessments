@@ -1,7 +1,6 @@
 ---
 title: Choosing technology
 subtitle: How to go about choosing what software tools to use
-description:
 layout: page
 eleventyComputed:
   permalink: "{{ page.filePathStem | replace('/content/','/') }}/"

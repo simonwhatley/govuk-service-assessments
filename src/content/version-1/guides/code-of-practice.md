@@ -1,7 +1,6 @@
 ---
 title: Technology code of practice
 subtitle: Guidelines for the approval of technology spending
-description:
 layout: page
 eleventyComputed:
   permalink: "{{ page.filePathStem | replace('/content/','/') }}/"

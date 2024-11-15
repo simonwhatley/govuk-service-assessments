@@ -1,7 +1,6 @@
 ---
 title: Information security
 subtitle: Making sure user data stays secure
-description:
 layout: page
 eleventyComputed:
   permalink: "{{ page.filePathStem | replace('/content/','/') }}/"

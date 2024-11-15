@@ -1,7 +1,6 @@
 ---
 title: Shared asset libraries
 subtitle: How GOV.UK uses shared asset libraries, and where we provide our code
-description:
 layout: page
 eleventyComputed:
   permalink: "{{ page.filePathStem | replace('/content/','/') }}/"

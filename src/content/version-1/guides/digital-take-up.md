@@ -1,7 +1,6 @@
 ---
 title: Digital take-up
 subtitle: How to draw up a channel shift strategy for your service
-description:
 layout: page
 eleventyComputed:
   permalink: "{{ page.filePathStem | replace('/content/','/') }}/"

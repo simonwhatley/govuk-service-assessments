@@ -1,7 +1,6 @@
 ---
 title: Completion rate
 subtitle: Services all users can finish
-description:
 layout: page
 eleventyComputed:
   permalink: "{{ page.filePathStem | replace('/content/','/') }}/"

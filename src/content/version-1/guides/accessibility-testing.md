@@ -1,7 +1,6 @@
 ---
 title: Accessibility testing
 subtitle: Testing to see if your sevice is inclusive
-description:
 layout: page
 eleventyComputed:
   permalink: "{{ page.filePathStem | replace('/content/','/') }}/"

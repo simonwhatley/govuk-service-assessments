@@ -1,7 +1,6 @@
 ---
 title: Standalone apps
 subtitle: Government’s position on mobile apps
-description:
 layout: page
 eleventyComputed:
   permalink: "{{ page.filePathStem | replace('/content/','/') }}/"

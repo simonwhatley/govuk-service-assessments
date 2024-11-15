@@ -1,7 +1,6 @@
 ---
 title: Monitoring
 subtitle: Tracking the status of a service
-description:
 layout: page
 eleventyComputed:
   permalink: "{{ page.filePathStem | replace('/content/','/') }}/"

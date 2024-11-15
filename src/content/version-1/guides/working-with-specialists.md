@@ -1,7 +1,6 @@
 ---
 title: Working with specialist suppliers
 subtitle: How people outside government can help build your service
-description:
 layout: page
 eleventyComputed:
   permalink: "{{ page.filePathStem | replace('/content/','/') }}/"

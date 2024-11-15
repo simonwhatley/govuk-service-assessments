@@ -1,7 +1,6 @@
 ---
 title: Managing software dependencies
 subtitle: Making use of third party libraries and frameworks
-description:
 layout: page
 eleventyComputed:
   permalink: "{{ page.filePathStem | replace('/content/','/') }}/"

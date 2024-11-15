@@ -1,7 +1,6 @@
 ---
 title: Version control
 subtitle: Make sure the team can work together on code
-description:
 layout: page
 eleventyComputed:
   permalink: "{{ page.filePathStem | replace('/content/','/') }}/"

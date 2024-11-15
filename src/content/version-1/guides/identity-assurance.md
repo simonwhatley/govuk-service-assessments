@@ -1,7 +1,6 @@
 ---
 title: GOV.UK Verify guidance
 subtitle: For government service providers
-description:
 layout: page
 eleventyComputed:
   permalink: "{{ page.filePathStem | replace('/content/','/') }}/"

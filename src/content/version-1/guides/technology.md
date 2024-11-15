@@ -1,7 +1,6 @@
 ---
 title: Guidence for CTOs
 subtitle:
-description:
 layout: page
 eleventyComputed:
   permalink: "{{ page.filePathStem | replace('/content/','/') }}/"

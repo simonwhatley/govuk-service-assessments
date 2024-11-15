@@ -1,7 +1,6 @@
 ---
 title: Working with prototypes
 subtitle: Learn by doing
-description:
 layout: page
 eleventyComputed:
   permalink: "{{ page.filePathStem | replace('/content/','/') }}/"

@@ -1,7 +1,6 @@
 ---
 title: Choosing appropriate formats
 subtitle: Help your users by providing content in a format they can use
-description:
 layout: page
 eleventyComputed:
   permalink: "{{ page.filePathStem | replace('/content/','/') }}/"

@@ -1,7 +1,6 @@
 ---
 title: DevOps
 subtitle: Bringing development and operations together
-description:
 layout: page
 eleventyComputed:
   permalink: "{{ page.filePathStem | replace('/content/','/') }}/"

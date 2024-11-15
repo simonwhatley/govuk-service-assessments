@@ -1,7 +1,6 @@
 ---
 title: Quality
 subtitle: How to define it, measure it and maintain it
-description:
 layout: page
 eleventyComputed:
   permalink: "{{ page.filePathStem | replace('/content/','/') }}/"

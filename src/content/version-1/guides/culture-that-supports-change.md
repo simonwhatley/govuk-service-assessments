@@ -1,7 +1,6 @@
 ---
 title: Creating a culture that supports change
 subtitle: The freedom to meet changing needs and expectations
-description:
 layout: page
 eleventyComputed:
   permalink: "{{ page.filePathStem | replace('/content/','/') }}/"

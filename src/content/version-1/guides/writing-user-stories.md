@@ -1,7 +1,6 @@
 ---
 title: Writing user stories
 subtitle: How to write a useful user story
-description:
 layout: page
 eleventyComputed:
   permalink: "{{ page.filePathStem | replace('/content/','/') }}/"

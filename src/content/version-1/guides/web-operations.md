@@ -1,7 +1,6 @@
 ---
 title: Web operations skills
 subtitle: Helping develop secure, maintainable and available systems
-description:
 layout: page
 eleventyComputed:
   permalink: "{{ page.filePathStem | replace('/content/','/') }}/"

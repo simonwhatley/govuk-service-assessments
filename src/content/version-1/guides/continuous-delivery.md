@@ -1,7 +1,6 @@
 ---
 title: Continuous delivery
 subtitle: Making releases boring
-description:
 layout: page
 eleventyComputed:
   permalink: "{{ page.filePathStem | replace('/content/','/') }}/"

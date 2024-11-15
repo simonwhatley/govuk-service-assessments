@@ -1,7 +1,6 @@
 ---
 title: Managing user support
 subtitle: Use helpdesk enquiries to improve services
-description:
 layout: page
 eleventyComputed:
   permalink: "{{ page.filePathStem | replace('/content/','/') }}/"

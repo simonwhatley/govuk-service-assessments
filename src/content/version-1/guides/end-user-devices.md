@@ -1,7 +1,6 @@
 ---
 title: End user devices
 subtitle: Delivering IT that meets the needs of users
-description:
 layout: page
 eleventyComputed:
   permalink: "{{ page.filePathStem | replace('/content/','/') }}/"

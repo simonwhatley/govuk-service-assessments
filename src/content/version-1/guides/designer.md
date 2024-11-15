@@ -1,7 +1,6 @@
 ---
 title: Design skills
 subtitle: What designers do and what to look for
-description:
 layout: page
 eleventyComputed:
   permalink: "{{ page.filePathStem | replace('/content/','/') }}/"

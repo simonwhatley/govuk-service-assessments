@@ -1,7 +1,6 @@
 ---
 title: Digital performance analust
 subtitle:
-description:
 layout: page
 eleventyComputed:
   permalink: "{{ page.filePathStem | replace('/content/','/') }}/"

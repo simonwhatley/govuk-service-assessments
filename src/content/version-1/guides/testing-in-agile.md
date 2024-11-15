@@ -1,7 +1,6 @@
 ---
 title: Testing in an agile environment
 subtitle: How to get testing right
-description:
 layout: page
 eleventyComputed:
   permalink: "{{ page.filePathStem | replace('/content/','/') }}/"

@@ -1,7 +1,6 @@
 ---
 title: Load and performance testing
 subtitle: How to avoid your service collapsing under pressure
-description:
 layout: page
 eleventyComputed:
   permalink: "{{ page.filePathStem | replace('/content/','/') }}/"

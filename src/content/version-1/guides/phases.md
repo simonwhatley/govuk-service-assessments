@@ -1,7 +1,6 @@
 ---
 title: Service design phases
 subtitle: Learn about the discover, alpha, beta, and live phases of service design
-description:
 layout: page
 eleventyComputed:
   permalink: "{{ page.filePathStem | replace('/content/','/') }}/"

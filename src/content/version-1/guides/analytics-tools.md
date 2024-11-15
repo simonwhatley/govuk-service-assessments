@@ -1,7 +1,6 @@
 ---
 title: Analytics tools
 subtitle: Choosing the right tools for your service
-description:
 layout: page
 eleventyComputed:
   permalink: "{{ page.filePathStem | replace('/content/','/') }}/"

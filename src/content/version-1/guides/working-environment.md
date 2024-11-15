@@ -1,7 +1,6 @@
 ---
 title: Your working environment
 subtitle: The physical space and tools that bring out the best in a team
-description:
 layout: page
 eleventyComputed:
   permalink: "{{ page.filePathStem | replace('/content/','/') }}/"

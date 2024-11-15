@@ -1,7 +1,6 @@
 ---
 title: What agile looks like
 subtitle: Common features of agile projects
-description:
 layout: page
 eleventyComputed:
   permalink: "{{ page.filePathStem | replace('/content/','/') }}/"
