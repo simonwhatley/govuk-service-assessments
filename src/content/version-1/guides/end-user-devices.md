@@ -12,10 +12,10 @@ This guidance aims to address historic issues with poor user experiences of devi
 
 These issues have been compounded by:
 
--   overly expensive end user devices and associated services
--   an inability to change user IT to meet user needs
--   a growing divergence from the modern user-friendly consumer IT being exploited in other sectors
--   an entrenchment of incumbent products and suppliers through technical and commercial dependencies or “lock in”.
+- overly expensive end user devices and associated services
+- an inability to change user IT to meet user needs
+- a growing divergence from the modern user-friendly consumer IT being exploited in other sectors
+- an entrenchment of incumbent products and suppliers through technical and commercial dependencies or “lock in”.
 
 ## The mandate for change
 

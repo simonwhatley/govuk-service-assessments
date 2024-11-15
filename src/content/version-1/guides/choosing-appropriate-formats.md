@@ -20,7 +20,6 @@ You should publish documents in file formats that reflect the nature of the info
 
 - If you’re publishing a written report that contains statistical tables, provide the tables alongside or in addition to your report in suitable data formats.
 
-
 In summary, consider your users, and the uses to which they’ll put your published data and content. If in doubt, treat the native format of the web, HTML, as a good fallback option. Web browsers are available on all platforms and devices, and web pages tend to be both passably accessible and machine-readable.
 
 ## Don’t assume your users can read proprietary formats
@@ -32,6 +31,5 @@ Wherever possible, publish in accessible, patent-free, [open formats](https://en
 - For tabular data, provide CSV or [TSV](https://en.wikipedia.org/wiki/Tab-separated_values) rather than Excel spreadsheets (.xls/.xlsx).
 
 - For other structured data, see our guidance on [representations for the consumer](/version-1/guides/apis/#representations-are-for-the-consumer). Wherever possible, choose an open format over a proprietary one.
-
 
 Again, if in doubt, you should treat the native format of the web, HTML, as your best default option.

@@ -102,9 +102,9 @@ If your team is new to agile, be wary of familiar situations and reactions from 
 
 - your core team isn’t full-time or is working on multiple projects – your team is the unit of delivery and you need 100%, so push back on managers and stakeholders if this is happening
 - you don’t have a dedicated team area – sit your team together, preferably in your own room, with space on the walls to draw ideas and stick up cards and post-its
-    - rearrange your workspace or use tools in innovative ways to improve your teams’ working environment and increase productivity – you’ll challenge some longstanding working practices, but this is very important
+  - rearrange your workspace or use tools in innovative ways to improve your teams’ working environment and increase productivity – you’ll challenge some longstanding working practices, but this is very important
 - there’s no continuous integration/development environment – if your teams aren’t insisting on this from the beginning you’ve probably got the wrong team:
-    - iterative software development is, in many areas, dependent on the ability to continuously deploy and run automated tests
+  - iterative software development is, in many areas, dependent on the ability to continuously deploy and run automated tests
 - you have a separate quality assurance (QA) department – if your team pass software they’ve developed over to a QA department, they’ve got the wrong attitude to delivering production-ready software; embed a quality culture into the team
 
 This is by no means a complete list, but these are most common things to watch out for.

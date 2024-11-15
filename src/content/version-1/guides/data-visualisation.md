@@ -36,10 +36,10 @@ Explanatory text will be needed in some cases, but it should not simply repeat t
 
 ### Checklist
 
-1.  Who are your audience?
-2.  How much detail do they need?
-3.  What story does the data tell?
-4.  Do you need a visualisation?
+1. Who are your audience?
+2. How much detail do they need?
+3. What story does the data tell?
+4. Do you need a visualisation?
 
 ## Choosing your visualisation and templates
 
@@ -55,9 +55,9 @@ Each chart has its own strength. Below are the core 5 with templates (a [Google 
 
 Strengths - comparing items, or a small number of time periods.
 
--   Negative values below the x-axis.
--   If needed, the target should be a single line that is visible but not too thick.
--   Limit stacked columns to 3 segments.
+- Negative values below the x-axis.
+- If needed, the target should be a single line that is visible but not too thick.
+- Limit stacked columns to 3 segments.
 
 ### Bar chart
 
@@ -65,8 +65,8 @@ Strengths - comparing items, or a small number of time periods.
 
 Strengths - comparing items, especially if they have long names or many items.
 
--   Arranbad-ge bars in size order, from biggest to smallest (unless there’s good reason, ie data needs to be represented alphabetically).
--   Negative values to the left of the y axis.
+- Arranbad-ge bars in size order, from biggest to smallest (unless there’s good reason, ie data needs to be represented alphabetically).
+- Negative values to the left of the y axis.
 
 ### Line chart
 
@@ -74,9 +74,9 @@ Strengths - comparing items, especially if they have long names or many items.
 
 Strengths - comparing over time or between variables for a single item (eg site traffic vs site performance)
 
--   Limit number of data sets to 4.
--   Keep axis labels horizontal.
--   Use line points to differentiate between data types (use line dots for projections and estimates only).
+- Limit number of data sets to 4.
+- Keep axis labels horizontal.
+- Use line points to differentiate between data types (use line dots for projections and estimates only).
 
 ### Pie chart
 
@@ -84,8 +84,8 @@ Strengths - comparing over time or between variables for a single item (eg site 
 
 Strengths - simple share of total. Use with caution as column or bar charts are often better. Limit to 2 segments to avoid confusion.
 
--   The largest segment should be at 12 o’clock going clockwise.
--   Label the chart directly and avoid text inside segments.
+- The largest segment should be at 12 o’clock going clockwise.
+- Label the chart directly and avoid text inside segments.
 
 ### Scatter chart
 
@@ -93,16 +93,16 @@ Strengths - simple share of total. Use with caution as column or bar charts are 
 
 Strengths - relationships between variables where there are many items (eg volume vs cost for numerous transactions)
 
--   Limit items to two to avoid confusion.
--   Include trend line if required. This should be a single solid line.
+- Limit items to two to avoid confusion.
+- Include trend line if required. This should be a single solid line.
 
 There is more help on choosing the right chart [here](/assets/content/version-1/guides/images/types-of-charts.jpg). It is important to not confuse your audience.
 
 ### Checklist
 
-1.  What visualisations are available?
-2.  Have you chosen the right visualisation for the data?
-3.  What about [infographics](https://en.wikipedia.org/wiki/Information_graphics)?
+1. What visualisations are available?
+2. Have you chosen the right visualisation for the data?
+3. What about [infographics](https://en.wikipedia.org/wiki/Information_graphics)?
 
 ### Worked example
 
@@ -112,39 +112,39 @@ Choosing the correct visualisation is important and at GDS we reviewed what was 
 
 ![Bad Pie Chart - Image 6](/assets/content/version-1/guides/images/bad-pie-chart.png)
 
--   Too many segments make them hard to compare.
--   Too many colours made the chart confusing.
--   The chart includes cost recovery as a negative which cannot be represented properly in a pie.
+- Too many segments make them hard to compare.
+- Too many colours made the chart confusing.
+- The chart includes cost recovery as a negative which cannot be represented properly in a pie.
 
 #### After
 
 ![Good stacked chart - Image 7](/assets/content/version-1/guides/images/good-stacked-chart.png)
 
--   This stacked chart is much clearer.
--   Comparisons can easily be made and sorting the data provides quick insight.
--   The stacked chart provides additional information which could not be visualised in the pie.
+- This stacked chart is much clearer.
+- Comparisons can easily be made and sorting the data provides quick insight.
+- The stacked chart provides additional information which could not be visualised in the pie.
 
 ## Creating your visualisation
 
 Keep in mind these useful tips when creating your charts:
 
--   start axes at zero unless there’s good reason not to (ie data is clustered at high values)
--   don’t say too much, limit the number of data sets
--   if needed, put legend at the top of the chart in the same order as the data in the chart
--   maximise the space available to the chart and remove chartjunk
--   include units of measurement in the chart title or directly on the axis, avoid doing both
--   keep colours simple, do not repeat/alternate or use opposites - use the GDS Colour palette
--   use the same colour when reporting a single data set
+- start axes at zero unless there’s good reason not to (ie data is clustered at high values)
+- don’t say too much, limit the number of data sets
+- if needed, put legend at the top of the chart in the same order as the data in the chart
+- maximise the space available to the chart and remove chartjunk
+- include units of measurement in the chart title or directly on the axis, avoid doing both
+- keep colours simple, do not repeat/alternate or use opposites - use the GDS Colour palette
+- use the same colour when reporting a single data set
 
 Keeping your visualisation simple will help the data tell its own story.
 
 [Chartjunk](https://en.wikipedia.org/wiki/Chartjunk) is anything in your visualisation using ink that actively reduces clarity. Avoid:
 
--   3D effects
--   borders
--   unnecessary axes lines
--   random colours or backgrounds
--   unnecessary text
+- 3D effects
+- borders
+- unnecessary axes lines
+- random colours or backgrounds
+- unnecessary text
 
 Know your audience so you give the right amount of supporting information. External or non-technical audiences will need more explanation but internal or expert audiences may find this tedious. Don’t use the text to simply repeat what’s being said by the data.
 
@@ -156,12 +156,12 @@ Colour blindness makes it difficult for a user to differentiate between data set
 
 ### Checklist
 
-1.  Have you removed the [chartjunk](https://en.wikipedia.org/wiki/Chartjunk)?
-2.  Have you got the right amount of supporting information?
-3.  Have you got the right amount of data?
-4.  Have you used the GDS colour palette?
-5.  Will the colours work for people with colour blindness or greyscale?
-6.  Are your colours appropriate for the data?
+1. Have you removed the [chartjunk](https://en.wikipedia.org/wiki/Chartjunk)?
+2. Have you got the right amount of supporting information?
+3. Have you got the right amount of data?
+4. Have you used the GDS colour palette?
+5. Will the colours work for people with colour blindness or greyscale?
+6. Are your colours appropriate for the data?
 
 ### Worked example: GDS performance dashboard
 
@@ -189,23 +189,23 @@ When presenting data be aware of axes and scales. Data can be misrepresented by 
 
 ### Checklist
 
-1.  Have you referenced data with a URL?
-2.  Have you provided contact details (eg a mailto link)?
-3.  Is it clear whether data is internal or public?
-4.  Have you been open and transparent with data?
+1. Have you referenced data with a URL?
+2. Have you provided contact details (eg a mailto link)?
+3. Is it clear whether data is internal or public?
+4. Have you been open and transparent with data?
 
 ### Worked example
 
 ![Bad Line chart - image10](/assets/content/version-1/guides/images/bad-line-chart.png)
 
--   Chart only shows a select few data points
--   The small range on y-axis has exaggerated the fluctuations in data
--   Y-axis starts at 60 but chart suggests data has reached lowest possible value
+- Chart only shows a select few data points
+- The small range on y-axis has exaggerated the fluctuations in data
+- Y-axis starts at 60 but chart suggests data has reached lowest possible value
 
 ![Good line chart - image 11](/assets/content/version-1/guides/images/good-line-chart-2.png)
 
--   Y-axis has been formatted to show the full range of data
--   The data fluctuations can be seen in the context of the wider data series.
+- Y-axis has been formatted to show the full range of data
+- The data fluctuations can be seen in the context of the wider data series.
 
 ## Further reading
 

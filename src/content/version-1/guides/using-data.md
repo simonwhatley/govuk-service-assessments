@@ -69,8 +69,8 @@ Best practices include:
 
 ## Monitor, iterate, and improve
 
-1.  Test a range of actions for improving performance and monitor to see which work well. Pilot these on a portion of your users to minimise risk.
-2.  Implement the best performing solutions widely and then repeat this process continuously as what you measure will change over the course of your product or project’s lifetime.
+1. Test a range of actions for improving performance and monitor to see which work well. Pilot these on a portion of your users to minimise risk.
+2. Implement the best performing solutions widely and then repeat this process continuously as what you measure will change over the course of your product or project’s lifetime.
 
 Any service that meets user needs will include an element of user feedback. Monitor this and act on it. Doing so will help to continually improve the service for your users.
 

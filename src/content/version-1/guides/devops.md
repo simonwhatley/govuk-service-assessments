@@ -81,8 +81,8 @@ DevOps isn’t a project management methodology, but use these good habits in yo
 - [cross-functional teams](/version-1/guides/the-team/) – make sure your teams are made up of people from different functions (this helps with the team owning the end-to-end quality of service and makes it easier to break down silos)
 - [widely shared metrics](/version-1/guides/measurement/) – it’s important for everyone to know what ‘good’ looks like so share high and low level metrics as widely as possible as it builds understanding
 - automating repetitive tasks – use software development to automate tasks across the service as it:
-    - encourages a better understanding of the whole service
-    - frees up smart people from doing repetitive manual tasks
+  - encourages a better understanding of the whole service
+  - frees up smart people from doing repetitive manual tasks
 - post-mortems – issues will happen so it’s critical that everyone across different teams learns from them; running post-mortems (an analysis session after an event) with people from different groups is a great way of spreading knowledge
 - [regular releases](/version-1/guides/release-strategies/) – the capacity for releasing software is often limited in siloed organisations, because the responsibilities of the different parts of the release are often spread out across teams – getting to a point where you can release regularly (even many times a day) requires extreme collaboration and clever automation
 

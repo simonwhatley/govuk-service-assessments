@@ -27,10 +27,10 @@ The content designer’s job is to make sure that doesn’t happen.
 Content designers must be able to:
 
 - [identify user needs](/version-1/guides/user-centred-design/) – based on:
-    - legacy content
-    - source material provided by policy colleagues
-    - feedback from users and stakeholders
-    - analytics data both from the site and from search engines
+  - legacy content
+  - source material provided by policy colleagues
+  - feedback from users and stakeholders
+  - analytics data both from the site and from search engines
 - gain an in-depth knowledge of a wide range of subjects – so they can make informed decisions about the best way to present information to users
 - develop content plans and strategies – high-level plans showing how the identified user needs will be met
 - [write great content](https://www.gov.uk/guidance/content-design/writing-for-gov-uk) – in [plain English](https://www.gov.uk/guidance/content-design/writing-for-gov-uk#plain-english), optimised for the web and according to [house style](https://www.gov.uk/guidance/style-guide/)

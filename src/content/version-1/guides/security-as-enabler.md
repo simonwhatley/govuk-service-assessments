@@ -76,13 +76,13 @@ Good information risk management practices allow organisations to understand the
 
 If someone tells you that “Security says No”, or that “CESG say No”, you should ask for more information to learn what the risks actually are, and what techniques and tools are available to help manage those risks.
 
-### 2\. Accreditation of government systems is costly, time consuming, and doesn’t help secure them.
+### 2\. Accreditation of government systems is costly, time consuming, and doesn’t help secure them
 
 Accreditation effort should always be proportional to the complexity, threat and impact of a system. It is vital that the effort spent should scale to match the challenge at hand. Can the business accept the risks of undertaking a given activity? Accreditation documentation only needs to contain the information needed to enable this decision.
 
 Clearly, any accreditation activity which just generates documentation that’s never read is not adding value, nor helping to secure information. When performed well, accreditation helps risk owners have confidence that all aspects of a system’s security have been appropriately considered, and that proper through-life security processes are in place to maintain information security.
 
-### 3\. Open source software is more / less secure than proprietary code.
+### 3\. Open source software is more / less secure than proprietary code
 
 Experience has shown that the licensing model for software is not an accurate gauge for the security of the finished item. There are very securely developed open source projects and proprietary products. The opposite is also true. The experience and competence of those developing code is of primary importance.
 
@@ -98,7 +98,7 @@ Secondly, only those products which provide a security enforcing function need t
 
 Finally, CESG certification of a product is a component of risk management – it doesn’t absolve an organisation of their responsibilities to information security. While using certified products should certainly speed up the risk management process, it isn’t mandatory.
 
-### 5\. Restricted systems need to have bespoke security controls.
+### 5\. Restricted systems need to have bespoke security controls
 
 Restricted systems can be built today using assured commodity security products – many of which are found natively in the operating systems of modern platforms.
 
@@ -114,7 +114,7 @@ Attackers may be disgruntled insiders, seeking to disrupt or embarrass an organi
 
 Are you specifically being targeted? Maybe not – but your systems and internet presence probably are being attacked on a daily basis for a wide range of reasons.
 
-### 7\. Impact Levels define security requirements.
+### 7\. Impact Levels define security requirements
 
 Asking a someone to build an “IL3 system” or to “protect at IL5” is a misuse of the Business Impact Level framework, and will generally cause confusion and an ineffective approach to securing information. Business Impact Levels are intended to help organisations to think about the consequences of certain events, and thus steer where effort should be used when managing information risks.
 

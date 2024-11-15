@@ -82,17 +82,17 @@ Offline parts of the process can still be measured, but this is likely to be don
 To successfully measure your service completion rate, GDS recommend that:
 
 - during the discovery phase you
-    - make sure all transaction pages have unique URLs
-    - develop a plan to measure completion rate throughout product development
-    - assess the available analytics tools
+  - make sure all transaction pages have unique URLs
+  - develop a plan to measure completion rate throughout product development
+  - assess the available analytics tools
 - in your alpha phase you
-    - benchmark task completion rate via usability testing and establish reasons for failed transactions
-    - procure digital analytics tools
+  - benchmark task completion rate via usability testing and establish reasons for failed transactions
+  - procure digital analytics tools
 - during your beta phase you
-    - conduct another round of usability testing to ensure that task completion rates improve
+  - conduct another round of usability testing to ensure that task completion rates improve
 - when a service is live you
-    - analyse task completion rates so you can continually improve the service
-    - carry out further usability testing to continually identify any usability problems and feed into service design
+  - analyse task completion rates so you can continually improve the service
+  - carry out further usability testing to continually identify any usability problems and feed into service design
 
 ### Completion rate measurement frequency
 

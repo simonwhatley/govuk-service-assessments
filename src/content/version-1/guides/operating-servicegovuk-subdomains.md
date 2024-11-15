@@ -99,7 +99,6 @@ As a result, services need to ask search engines not to index pages on their dom
 
 - have an HTTP 301 redirection from the top-level index page of the `www` and `assets` subdomains to the relevant start page on GOV.UK. (Note: this means that the service start page on GOV.UK SHOULD NOT link to the root of the `www` domain.)
 
-
 ## Origin servers for CDN\-based provider of DDOS protection
 
 If you have contracted with [CDN](https://en.wikipedia.org/wiki/Content_delivery_network)\-based [DDOS](https://en.wikipedia.org/wiki/DDOS#Distributed_attack)\-protection suppliers then you should register these additional subdomains for use by your suppliers:

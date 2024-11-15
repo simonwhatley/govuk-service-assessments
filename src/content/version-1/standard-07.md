@@ -40,6 +40,7 @@ eleventyComputed:
 Related guides:
 
 {% for item in related.items %}
+
 - [{{item.text}}]({{item.href}})
   {{ item.description if item.description.length }}
 {% endfor %}

@@ -90,10 +90,10 @@ To prepare for these sessions, you need to:
 - prepare some theories about your design, eg changing the words on the button will encourage people to read the page more carefully
 - decide how you’ll know when these theories have been proved or disproved, eg you’ll know this is true because you’ll observe people taking more time to read the page
 - decide the type/demographic of users you want to talk to
-    - age
-    - location
-    - suitability to task
-    - other factors
+  - age
+  - location
+  - suitability to task
+  - other factors
 - start recruitment at least a week before testing (GDS recommend that you find participants through a recruitment agency)
 - prepare a discussion guide that explains how the sessions should be run and the important research outcomes
 - create a participant release form that authorises the recording of the session
@@ -114,10 +114,10 @@ In each user testing session:
 - make sure that the live stream of the session is available for external viewers
 - keep research theories at the top of your mind so you don’t forget any important topics
 - write down notes on post-its of important observations
-    - use yellow, super-sticky post-it notes for observations
-    - only 1 observation per post it note
-    - use a marker pen and write in capital letters (easier to read when writing quickly)
-    - if you’re not sure if it’s important, still write it down
+  - use yellow, super-sticky post-it notes for observations
+  - only 1 observation per post it note
+  - use a marker pen and write in capital letters (easier to read when writing quickly)
+  - if you’re not sure if it’s important, still write it down
 - get a written transcript of the session (either during the session or have it transcribed at a later time)
 
 A day of research should be followed by a period of analysis before making any significant design changes. The analysis stage is described in detail below.

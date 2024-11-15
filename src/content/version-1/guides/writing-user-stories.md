@@ -128,6 +128,6 @@ See [Chapter 4 of User Stories Applied](http://www.mountaingoatsoftware.com/book
 
 ## Further reading
 
-1.  Mastering the Requirements Process, 3rd Ed, Suzanne Robertson & James Robertson, 2012
-2.  Twelve Principles of the Agile Manifesto – [http://agilemanifesto.org/principles.html](http://agilemanifesto.org/principles.html)
-3.  User Stories Applied, Mike Cohn, 2004. Free chapter on “[Writing User Stories](/assets/content/version-1/guides/documents/User-Stories-Applied-Mike-Cohn.pdf)” available at [http://www.mountaingoatsoftware.com/books/user-stories-applied](http://www.mountaingoatsoftware.com/books/user-stories-applied)
+1. Mastering the Requirements Process, 3rd Ed, Suzanne Robertson & James Robertson, 2012
+2. Twelve Principles of the Agile Manifesto – [http://agilemanifesto.org/principles.html](http://agilemanifesto.org/principles.html)
+3. User Stories Applied, Mike Cohn, 2004. Free chapter on “[Writing User Stories](/assets/content/version-1/guides/documents/User-Stories-Applied-Mike-Cohn.pdf)” available at [http://www.mountaingoatsoftware.com/books/user-stories-applied](http://www.mountaingoatsoftware.com/books/user-stories-applied)

@@ -86,10 +86,10 @@ The different levels of assurance available and how they are reached are defined
 
 Each relying party will need to go through the programme’s induction process. This process consists of 4 structured stages:
 
-1.  Introduction – identify a need for GOV.UK Verify.
-2.  Needs Analysis – identify the service’s GOV.UK Verify requirements (levels and types), users and dependencies. Agree a provisional date for connection to hub.
-3.  Planning – complete a readiness assessment. Agree a detailed plan setting out what the service and GDS will each do and when. Get internal approvals within GDS and the relying party’s organisation.
-4.  Connect to hub – agree a memorandum of understanding between the GOV.UK Verify Programme and the department responsible for the service.
+1. Introduction – identify a need for GOV.UK Verify.
+2. Needs Analysis – identify the service’s GOV.UK Verify requirements (levels and types), users and dependencies. Agree a provisional date for connection to hub.
+3. Planning – complete a readiness assessment. Agree a detailed plan setting out what the service and GDS will each do and when. Get internal approvals within GDS and the relying party’s organisation.
+4. Connect to hub – agree a memorandum of understanding between the GOV.UK Verify Programme and the department responsible for the service.
 
 Government providers of digital services that want to find out more about GOV.UK Verify, with a view to becoming relying parties, should contact [Janet Hughes](mailto:janet.hughes@digital.cabinet-office.gov.uk).
 

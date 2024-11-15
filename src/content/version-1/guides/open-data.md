@@ -40,20 +40,20 @@ The [Open Data Certificates](https://certificates.theodi.org/) from the [Open Da
 
 The Open Data Principles that you must follow are:
 
-1.  Public data policy and practice will be clearly driven by the public and businesses that want and use the data, including what data is released when and in what form.
-2.  Public data will be published in reusable, machine-readable form.
-3.  Public data will be released under the same open licence which enables free reuse, including commercial reuse.
-4.  Public data will be available and easy to find through a single, easy-to use, online access point ([data.gov.uk](http://data.gov.uk/)).
-5.  Public data will be published using [open standards](https://web.archive.org/web/20151002174648/https://www.gov.uk/government/publications/open-standards-principles/open-standards-principles#open-standard---definition), and following relevant recommendations of the [World Wide Web Consortium (W3C)](http://www.w3.org/).
-6.  Public data from different departments about the same subject will be published in the same, standard formats and with the same definitions.
-7.  Public data underlying the Government’s own websites will be published in reusable form.
-8.  Public data will be timely and fine-grained.
-9.  Release data quickly, and then work to make sure that it is available in [open standard formats](/version-1/guides/choosing-appropriate-formats/), including [linked data forms](http://data.gov.uk/blog/what-linked-data).
-10.  Public data will be freely available to use in any lawful way.
-11.  Public data will be available without application or registration, and without requiring details of the user.
-12.  Public bodies should actively encourage the reuse of their public data.
-13.  Public bodies should maintain and publish inventories of their data holdings.
-14.  Public bodies should publish relevant metadata about their datasets and this should be available through a single online access point; and they should publish supporting descriptions of the format provenance and meaning of the data.
+1. Public data policy and practice will be clearly driven by the public and businesses that want and use the data, including what data is released when and in what form.
+2. Public data will be published in reusable, machine-readable form.
+3. Public data will be released under the same open licence which enables free reuse, including commercial reuse.
+4. Public data will be available and easy to find through a single, easy-to use, online access point ([data.gov.uk](http://data.gov.uk/)).
+5. Public data will be published using [open standards](https://web.archive.org/web/20151002174648/https://www.gov.uk/government/publications/open-standards-principles/open-standards-principles#open-standard---definition), and following relevant recommendations of the [World Wide Web Consortium (W3C)](http://www.w3.org/).
+6. Public data from different departments about the same subject will be published in the same, standard formats and with the same definitions.
+7. Public data underlying the Government’s own websites will be published in reusable form.
+8. Public data will be timely and fine-grained.
+9. Release data quickly, and then work to make sure that it is available in [open standard formats](/version-1/guides/choosing-appropriate-formats/), including [linked data forms](http://data.gov.uk/blog/what-linked-data).
+10. Public data will be freely available to use in any lawful way.
+11. Public data will be available without application or registration, and without requiring details of the user.
+12. Public bodies should actively encourage the reuse of their public data.
+13. Public bodies should maintain and publish inventories of their data holdings.
+14. Public bodies should publish relevant metadata about their datasets and this should be available through a single online access point; and they should publish supporting descriptions of the format provenance and meaning of the data.
 
 ## Building on open data
 

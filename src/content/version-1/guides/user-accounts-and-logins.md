@@ -36,8 +36,8 @@ If, after careful review and design work, there’s no option but to build a log
 It’s probably safe to carry on if you’re building a service for a small number of clearly identified agents. Make sure that any authentication and authorisation code written for your system is carefully separated from the application so that you can:
 
 - specifically monitor use of the system for attempts to gain access, like
-    - unusually high numbers of failed login attempts over a short period of time
-    - a sequence of failed logins on a given account over a long period of time
+  - unusually high numbers of failed login attempts over a short period of time
+  - a sequence of failed logins on a given account over a long period of time
 - separate user data from other data you hold to avoid collecting a large amount of identifiable information
 - swap to a new identity system, like the [GOV.UK Verify](/version-1/guides/identity-assurance/) scheme, without invasive changes to the rest of your codebase
 

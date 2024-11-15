@@ -69,5 +69,5 @@ Using specialist skills and facilities is a good way to make sure testing is tho
 
 - [penetration testing](/version-1/guides/penetration-testing/) - having people outside of the team carry out this task helps challenge assumptions and identify weaknesses, giving a valuable outside perspective
 - hiring quality assurance specialists – they can make sure all quality-related activities are coordinated, and that your team gets the training and resources needed to make a high-quality service by:
-    - having a clear remit and working with your team to build quality into everything they do, instead of just adding a gate review to the development process
-    - being a short-term role, leaving your team capable of managing quality as part of their standard development and iteration of your service
+  - having a clear remit and working with your team to build quality into everything they do, instead of just adding a gate review to the development process
+  - being a short-term role, leaving your team capable of managing quality as part of their standard development and iteration of your service

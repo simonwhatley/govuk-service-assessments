@@ -16,7 +16,7 @@ This is a vital part of a process often known as ‘[product discovery](/version
 - developing a sense of how you might serve those needs
 - estimating the effort involved in building and running a service to do so
 
-We built alpha.gov.uk as a prototype of what would later become the single domain www.gov.uk. It was built quickly without much concern to scalability, resilience, or any of the other considerations of a ‘real’ product, because none of those matter unless the core concept is sound. That allowed us to get feedback early and also understand some of the trickier concepts we would have to grapple with, like the fuzzy lines between different audiences, the operational processes that would be required, and so on.
+We built alpha.gov.uk as a prototype of what would later become the single domain <www.gov.uk>. It was built quickly without much concern to scalability, resilience, or any of the other considerations of a ‘real’ product, because none of those matter unless the core concept is sound. That allowed us to get feedback early and also understand some of the trickier concepts we would have to grapple with, like the fuzzy lines between different audiences, the operational processes that would be required, and so on.
 
 ## Ideas can be ugly
 

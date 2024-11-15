@@ -51,8 +51,8 @@ A core digital delivery team needs to be able to:
 There is no hard and fast rule on the roles or team structure needed to fulfil these functions, but a core team will probably consist of:
 
 - a [service manager](/version-1/guides/service-manager/) (the ‘product owner’)
-    - probably supported by a product manager
-    - supported by one or more [digital performance analysts](/version-1/guides/performance-analyst/)
+  - probably supported by a product manager
+  - supported by one or more [digital performance analysts](/version-1/guides/performance-analyst/)
 - a [delivery manager](/version-1/guides/delivery-manager)
 - a tech lead
 - one or more [designers](/version-1/guides/designer/)

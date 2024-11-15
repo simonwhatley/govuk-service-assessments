@@ -109,8 +109,8 @@ We expect alphas to normally consist of:
 - an inception
 - a series of iterations of design, development and test
 - either:
-    - alpha termination
-    - alpha to Beta transition
+  - alpha termination
+  - alpha to Beta transition
 
 ## Executing
 
@@ -151,14 +151,14 @@ The iterative process we would recommend should be a straight up agile process c
 We would encourage the following format:
 
 - Day 1
-    - Retrospective (1 hour)
-    - Iteration Planning (2 hours)
-    - Start iteration
+  - Retrospective (1 hour)
+  - Iteration Planning (2 hours)
+  - Start iteration
 - Day 2
-    - User research on previous iterations prototypes
-    - Analysis of test results
+  - User research on previous iterations prototypes
+  - Analysis of test results
 - Day 5
-    - Demo
+  - Demo
 
 This structure might move around a bit, but you will want to do the user research early in the iteration to give plenty of time to feed into the next iteration. This enables fast turnaround on the stories.
 

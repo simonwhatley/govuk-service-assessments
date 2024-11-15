@@ -14,11 +14,11 @@ Service integration models have been around for some time, but are now evolving 
 
 For the model to be effective the component services need to be well defined and understood. It’s important to avoid any ambiguity about the boundaries of both responsibilities and accountabilities. Key features of an effective model are:
 
--   being able to define different service requirements for critical and non-critical services (for example, some commodity public cloud services may require online service support or service desk only, whereas mission critical IT systems will require a more integrated service model)
--   a performance regime that ensures organisations don’t pay for services they can’t or don’t use
--   explicit service integration arrangements that focus on [service performance](/version-1/guides/monitoring/), usability and availability from a [user perspective](/version-1/guides/user-centred-design), not just from a supplier’s commercial perspective
--   skills and capabilities that support transitioning to, and managing services in a new commodity-based environment
--   a focus on [open standards](/version-1/guides/open-standards-and-licensing/) and interoperability to support workflow, performance management and service management, billing and payment
+- being able to define different service requirements for critical and non-critical services (for example, some commodity public cloud services may require online service support or service desk only, whereas mission critical IT systems will require a more integrated service model)
+- a performance regime that ensures organisations don’t pay for services they can’t or don’t use
+- explicit service integration arrangements that focus on [service performance](/version-1/guides/monitoring/), usability and availability from a [user perspective](/version-1/guides/user-centred-design), not just from a supplier’s commercial perspective
+- skills and capabilities that support transitioning to, and managing services in a new commodity-based environment
+- a focus on [open standards](/version-1/guides/open-standards-and-licensing/) and interoperability to support workflow, performance management and service management, billing and payment
 
 The level of service integration will differ depending on the complexity of the business services and/or customers that are being supported, and the complexity of the services that are being delivered to those businesses. As the services and businesses become more critical or complex, the level of service integration becomes deeper.
 

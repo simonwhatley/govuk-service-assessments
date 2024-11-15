@@ -173,11 +173,11 @@ Start understanding risks and get involved with the assurance and accreditation 
 - procure a CLAS consultant if needed for the Accreditation work
 - set up a contact at CESG who can offer assistance and some technical guidance, if possible
 - produce supporting documentation, eg
-    - architecture documentation
-    - risks and mitigations
-    - operating processes
-    - references to GPGs
-    - controls
+  - architecture documentation
+  - risks and mitigations
+  - operating processes
+  - references to GPGs
+  - controls
 - work with the CLAS consultant on completing the RMADS required
 - arrange the ITHC
 - present to the SIRO to get final sign-off

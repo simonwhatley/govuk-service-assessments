@@ -12,8 +12,8 @@ While the information and guidance within the manual will be useful for teams in
 
 To establish whether your service needs to meet the service standard, ask yourself if your service is:
 
--   completely new and/or being redesigned?
--   the responsibility of a central government department, agency or non-departmental public body?
+- completely new and/or being redesigned?
+- the responsibility of a central government department, agency or non-departmental public body?
 
 If you have answered ‘yes’ to both of these then the service must meet the standard before it can go live.
 
