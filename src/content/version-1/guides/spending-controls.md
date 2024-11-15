@@ -14,7 +14,7 @@ The government’s [Spend Controls](https://web.archive.org/web/20151002053405/h
 - strategic supplier management, including disputes
 - commercial models
 - ICT
-- Digital Service Delivery (including [GOV.UK Verify](https://web.archive.org/web/20151002053405/https://www.gov.uk/service-manual/identity-assurance))
+- Digital Service Delivery (including [GOV.UK Verify](/version-1/guides/identity-assuranc/))
 - external recruitment
 - consultancy
 - redundancy and compensation

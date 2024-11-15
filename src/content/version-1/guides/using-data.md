@@ -87,14 +87,14 @@ Taking an iterative approach to service development will increase the speed of i
 
 To find out more about ways to use data, try reading:
 
-- an article on [online customer satisfaction scores](https://web.archive.org/web/20150621111027/http://www.theguardian.com/money/2010/dec/22/amazon-top-consumer-satisfaction) for retailers, based on the Customer Satisfaction Index, written for _The Guardian_
-- [The role of the data scientist](https://web.archive.org/web/20150621111027/http://radar.oreilly.com/2010/06/what-is-data-science.html) by Mike Loukides
+- an article on [online customer satisfaction scores](http://www.theguardian.com/money/2010/dec/22/amazon-top-consumer-satisfaction) for retailers, based on the Customer Satisfaction Index, written for _The Guardian_
+- [The role of the data scientist](http://radar.oreilly.com/2010/06/what-is-data-science.html) by Mike Loukides
 - [Costing customer time](https://web.archive.org/web/20150621111027/https://www.gov.uk/government/publications/costing-customer-time), a method for calculating the cost of a transaction for both the service provider and the user (HMRC developed a method for calculating the cost of a users time when interacting with government – this is important because some channels may be quicker to use than others)
-- [Designing with Data](https://web.archive.org/web/20150621111027/http://designingwithdata.co.uk/), an excellent book by Brian Suda which helps you to design beautiful and powerful data visualisations
-- [Juice Analytics](https://web.archive.org/web/20150621111027/http://www.juiceanalytics.com/), a website with lots of useful resources on how to design and develop useful data visualisations and dashboards
-- Edward Tufte’s [The Visual Display of Quantitative Information](https://web.archive.org/web/20150621111027/http://www.edwardtufte.com/tufte/books_vdqi), an original piece of work on data visualisation and introduces the concept of chartjunk
-- the [Flowing Data](https://web.archive.org/web/20150621111027/http://flowingdata.com/) blog by Nathan Yau, a useful source of data visualisation news
-- the [D3 Gallery](https://web.archive.org/web/20150621111027/https://github.com/mbostock/d3/wiki/Gallery), a stunning collection of data visualisations
-- a [nicely presented overview](https://web.archive.org/web/20150621111027/http://selection.datavisualization.ch/) of some of the tools available for data visualisation
-- this [article in Wired](https://web.archive.org/web/20150621111027/http://www.wired.com/2012/04/ff_abtesting/all/1), which shows how A/B testing was used to good effect in Obama’s election campaign
-- this [article in eConsultancy](https://web.archive.org/web/20150621111027/https://econsultancy.com/blog/2454-q-a-lovefilm-s-craig-sullivan-on-a-b-and-multi-variate-testing), which shows how multivariate testing was used to improve conversion rates at Lovefilm
+- [Designing with Data](http://designingwithdata.co.uk/), an excellent book by Brian Suda which helps you to design beautiful and powerful data visualisations
+- [Juice Analytics](http://www.juiceanalytics.com/), a website with lots of useful resources on how to design and develop useful data visualisations and dashboards
+- Edward Tufte’s [The Visual Display of Quantitative Information](http://www.edwardtufte.com/tufte/books_vdqi), an original piece of work on data visualisation and introduces the concept of chartjunk
+- the [Flowing Data](http://flowingdata.com/) blog by Nathan Yau, a useful source of data visualisation news
+- the [D3 Gallery](https://github.com/mbostock/d3/wiki/Gallery), a stunning collection of data visualisations
+- a [nicely presented overview](http://selection.datavisualization.ch/) of some of the tools available for data visualisation
+- this [article in Wired](http://www.wired.com/2012/04/ff_abtesting/all/1), which shows how A/B testing was used to good effect in Obama’s election campaign
+- this [article in eConsultancy](https://econsultancy.com/blog/2454-q-a-lovefilm-s-craig-sullivan-on-a-b-and-multi-variate-testing), which shows how multivariate testing was used to improve conversion rates at Lovefilm

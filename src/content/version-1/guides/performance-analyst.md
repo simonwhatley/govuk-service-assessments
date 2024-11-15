@@ -12,7 +12,7 @@ Digital Performance Analysts sit at the heart of [a team](/version-1/guides/the-
 
 They support service managers by generating new and useful information and translating it into actions that will allow them to iteratively improve their service for users.
 
-You will have excellent analytical and problem solving skills will enable you to quickly develop recommendations based on the quantitative and qualitative evidence gathered via [web analytics](https://web.archive.org/web/20150911211803/https://www.gov.uk/service-manual/making-software/analytics-tools.html), [financial data](https://web.archive.org/web/20150911211803/https://www.gov.uk/service-manual/measurement/cost-per-transaction.html) and [user feedback](https://web.archive.org/web/20150911211803/https://www.gov.uk/service-manual/operations/helpdesk.html).
+You will have excellent analytical and problem solving skills will enable you to quickly develop recommendations based on the quantitative and qualitative evidence gathered via [web analytics](/version-1/guides/analytics-tools/), [financial data](/version-1/guides/cost-per-transaction/) and [user feedback](/version-1/guides/helpdesk/).
 
 You will need to be confident in explaining technical concepts to senior civil servants with limited technological background. You will be comfortable working with data, from gathering and analysis through to design and presentation. Commercial experience of performance management is an advantage.
 

@@ -34,4 +34,4 @@ See an example of a [user researcher job description](https://web.archive.org/we
 
 ## Further reading
 
-[Specific guidance for user researchers](https://web.archive.org/web/20150911183933/https://www.gov.uk/service-manual/user-researchers) working on digital by default services. [An introduction to user research techniques](https://web.archive.org/web/20150911183933/https://www.gov.uk/service-manual/user-centred-design/user-research) for each stage of the project.
+[Specific guidance for user researchers](https://web.archive.org/web/20150911183933/https://www.gov.uk/service-manual/user-researchers) working on digital by default services. [An introduction to user research techniques](/version-1/guides/user-research/) for each stage of the project.

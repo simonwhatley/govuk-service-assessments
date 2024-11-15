@@ -22,8 +22,8 @@ The Digital by Default Service Standard is a set of criteria for digital teams b
 
 The standard:
 
-- needs to be met by all new or redesigned [transactional government services](https://web.archive.org/web/20150505160648/https://www.gov.uk/service-manual/digital-by-default/scope-of-the-standard) going live after April 2014
-- [has to be maintained](https://web.archive.org/web/20150505160648/https://www.gov.uk/service-manual/digital-by-default/maintaining-the-standard) after a government service has gone live
+- needs to be met by all new or redesigned [transactional government services](/version-1/scope-of-the-standard/) going live after April 2014
+- [has to be maintained](/version-1/maintaining-the-standard/) after a government service has gone live
 - aims to make digital services so good that people prefer to carry out the transaction online rather than by phone, post or in person
 
 The service manual will help digital teams meet the standard and select people with the skills they need.

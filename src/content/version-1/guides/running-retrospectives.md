@@ -12,7 +12,7 @@ A central principle of agile is quick feedback loops – you demonstrate somethi
 
 ![X-prop retrospective](/assets/content/version-1/guides/images/retrospectives.jpg)
 
-A retrospective is a meeting at the end of a [sprint](https://web.archive.org/web/20150928005414/https://www.gov.uk/service-manual/agile/features-of-agile.html) where your team get a chance to talk about what went well and badly in that sprint, and take some actions to improve matters. It can also cover a larger scope, eg a full project retrospective.
+A retrospective is a meeting at the end of a [sprint](/version-1/guides/features-of-agile/) where your team get a chance to talk about what went well and badly in that sprint, and take some actions to improve matters. It can also cover a larger scope, eg a full project retrospective.
 
 A retrospective takes this form:
 
@@ -143,8 +143,8 @@ Agile development practices will help you work better, and the retrospective all
 
 You may find these resources useful:
 
-- [The Agile Retrospective Wiki](https://web.archive.org/web/20150928005414/http://retrospectivewiki.org/index.php?title=Agile_Retrospective_Resource_Wiki) – it has some very useful resources, including [plans for different types of retrospectives](https://web.archive.org/web/20150928005414/http://retrospectivewiki.org/index.php?title=Retrospective_Plans).
-- [Agile Retrospectives: Making Good Teams Great](https://web.archive.org/web/20150928005414/https://pragprog.com/book/dlret/agile-retrospectives).
-- [Getting Value out of Agile Retrospectives](https://web.archive.org/web/20150928005414/https://leanpub.com/gettingvalueoutofagileretrospectives) – Free eBook with many exercises for facilitating retrospectives, supported with the “what” and “why” of retrospectives, the business value and benefits that they bring, and advice for introducing and improving retrospectives.
+- [The Agile Retrospective Wiki](http://retrospectivewiki.org/index.php?title=Agile_Retrospective_Resource_Wiki) – it has some very useful resources, including [plans for different types of retrospectives](http://retrospectivewiki.org/index.php?title=Retrospective_Plans).
+- [Agile Retrospectives: Making Good Teams Great](https://pragprog.com/book/dlret/agile-retrospectives).
+- [Getting Value out of Agile Retrospectives](https://leanpub.com/gettingvalueoutofagileretrospectives) – Free eBook with many exercises for facilitating retrospectives, supported with the “what” and “why” of retrospectives, the business value and benefits that they bring, and advice for introducing and improving retrospectives.
 
-Retrospective plan photo by [Anna Shipman](https://web.archive.org/web/20150928005414/https://twitter.com/annashipman). Voting with stickers photo by [Pete Herlihy](https://web.archive.org/web/20150928005414/https://twitter.com/yahoo_pete). All other photographs by [Paul Downey](https://web.archive.org/web/20150928005414/https://twitter.com/psd).
+Retrospective plan photo by [Anna Shipman](https://twitter.com/annashipman). Voting with stickers photo by [Pete Herlihy](https://twitter.com/yahoo_pete). All other photographs by [Paul Downey](https://twitter.com/psd).

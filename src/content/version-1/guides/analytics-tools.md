@@ -10,7 +10,7 @@ There are various web analytics tools available to help you measure how people a
 
 ## High-level requirements
 
-It’s essential that your chosen analytics tools provide an open [Application Programming Interface](https://web.archive.org/web/20150324173624/https://www.gov.uk/service-manual/making-software/apis.html) (API) with no restrictions on exporting data.
+It’s essential that your chosen analytics tools provide an open [Application Programming Interface](/version-1/guides/apis/) (API) with no restrictions on exporting data.
 
 Also, when deciding which analytics tool is most appropriate for your service, consider:
 
@@ -53,37 +53,37 @@ As part of keeping your users’ data secure, find out:
 
 There are many digital/web analytics vendors in the marketplace, along with open source solutions.
 
-A [search for ‘analytics tools comparison’](https://web.archive.org/web/20150324173624/https://www.bing.com/search?q=analytics+tools+comparison) provides a number of useful resources where you can compare the capabilities and strengths of different services. [See some more examples](#further-reading).
+A [search for ‘analytics tools comparison’](https://www.bing.com/search?q=analytics+tools+comparison) provides a number of useful resources where you can compare the capabilities and strengths of different services. [See some more examples](#further-reading).
 
 ## Configuring analytics tools
 
 Install and configure analytics tools that meet your needs. Where possible, use platforms that enable the data to be piped automatically into other systems.
 
-Use [APIs](https://web.archive.org/web/20150324173624/https://en.wikipedia.org/wiki/Application_programming_interface) (Application Programming Interfaces) as they will stop you from having to input data manually and allow the grouping of data across multiple platforms.
+Use [APIs](https://en.wikipedia.org/wiki/Application_programming_interface) (Application Programming Interfaces) as they will stop you from having to input data manually and allow the grouping of data across multiple platforms.
 
 You will need to answer the following:
 
 - have you installed web analytics software?
-- have you configured your web analytics software with the appropriate [conversion funnels](https://web.archive.org/web/20150324173624/https://en.wikipedia.org/wiki/Conversion_funnel)?
+- have you configured your web analytics software with the appropriate [conversion funnels](https://en.wikipedia.org/wiki/Conversion_funnel)?
 - do you have the capability to run user satisfaction surveys?
-- do you have the capability to do [A/B testing](https://web.archive.org/web/20150324173624/https://en.wikipedia.org/wiki/Ab_testing) and [multivariate testing](https://web.archive.org/web/20150324173624/https://en.wikipedia.org/wiki/Multivariate_testing)?
+- do you have the capability to do [A/B testing](https://en.wikipedia.org/wiki/Ab_testing) and [multivariate testing](https://en.wikipedia.org/wiki/Multivariate_testing)?
 
 ## Further reading
 
 Sites that provide vendor comparison information:
 
-- [AboutAnalytics](https://web.archive.org/web/20150324173624/http://www.aboutanalytics.com/)
-- [Web Analytics Tools Comparison: A Recommendation](https://web.archive.org/web/20150324173624/http://www.kaushik.net/avinash/web-analytics-tools-comparison-a-recommendation/) - old, but thoughtful
-- [Analytics tool comparison](https://web.archive.org/web/20150324173624/http://www.slideshare.net/shvmdhwn/analytics-tool-comparison)
-- [Enterprise Web Analytics: A Buyer’s Guide](https://web.archive.org/web/20150324173624/http://marketingland.com/buyers-guides/enterprise-web-analytics-tools-in-the-facebook-era-a-buyers-guide)
+- [AboutAnalytics](http://www.aboutanalytics.com/)
+- [Web Analytics Tools Comparison: A Recommendation](http://www.kaushik.net/avinash/web-analytics-tools-comparison-a-recommendation/) - old, but thoughtful
+- [Analytics tool comparison](http://www.slideshare.net/shvmdhwn/analytics-tool-comparison)
+- [Enterprise Web Analytics: A Buyer’s Guide](http://marketingland.com/buyers-guides/enterprise-web-analytics-tools-in-the-facebook-era-a-buyers-guide)
 
 Sites that provide information on digital analytics:
 
 - [Occam’s Razor by Avinash Kaushik](http://www.kaushik.net/avinash/) has a wealth of useful information on analytics that’s easy to understand
-- [Web Analytics Demystified](https://web.archive.org/web/20150324173624/http://www.webanalyticsdemystified.com/) and the [Digital Analytics Association](https://web.archive.org/web/20150324173624/http://www.digitalanalyticsassociation.org/) have free whitepapers
+- [Web Analytics Demystified](http://www.webanalyticsdemystified.com/) and the [Digital Analytics Association](http://www.digitalanalyticsassociation.org/) have free whitepapers
 
 Sites that provide information on funnels (important for transactions):
 
-- [Conversion Funnels](https://web.archive.org/web/20150324173624/http://wiki.clicktale.com/Article/Conversion_Funnels)
-- [What is a Conversion Funnel?](https://web.archive.org/web/20150324173624/http://www.webics.com.au/blog/conversion-tracking/conversion-funnel/)
+- [Conversion Funnels](http://wiki.clicktale.com/Article/Conversion_Funnels)
+- [What is a Conversion Funnel?](http://www.webics.com.au/blog/conversion-tracking/conversion-funnel/)
 - [Blog post by Morgan Brown with a good discussion on user flows and conversion funnels](http://www.smashingmagazine.com/2012/01/04/stop-designing-pages-start-designing-flows/)

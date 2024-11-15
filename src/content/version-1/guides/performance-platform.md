@@ -44,7 +44,7 @@ Combining these sources will produce information that encourages a greater under
 
 ## Put data in
 
-You will be able to supply your service performance data via standard [Application Programming Interfaces (APIs)](https://web.archive.org/web/20150324140431/http://techterms.com/definition/api). These APIs will be defined, documented and supported by the Performance Platform team. Your service will be responsible for collecting and supplying data to the API.
+You will be able to supply your service performance data via standard [Application Programming Interfaces (APIs)](http://techterms.com/definition/api). These APIs will be defined, documented and supported by the Performance Platform team. Your service will be responsible for collecting and supplying data to the API.
 
 Your service can also send additional data. For instance, there might be data that’s important but there isn’t yet an existing module to make use of it. Your service will be able to start sending it to the platform straight away, so that when an appropriate module is available, the historical data is already there.
 

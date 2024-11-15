@@ -72,9 +72,9 @@ All things being equal, picking technologies that developers and operations staf
 
 You’ll make these processes a lot easier if you:
 
-- deploy your service [early and often](https://web.archive.org/web/20150324140435/https://www.gov.uk/service-manual/making-software/release-strategies.html)
+- deploy your service [early and often](/version-1/guides/release-strategies/)
 - choose component that are easy to deploy and upgrade as part of an [automated pipeline](https://web.archive.org/web/20150324140435/https://www.gov.uk/service-manual/agile/continuous-delivery.html)
-- avoid software that makes testing difficult - [frequent, automated testing](https://web.archive.org/web/20150324140435/https://www.gov.uk/service-manual/making-software/code-testing.html) is essential in agile development
+- avoid software that makes testing difficult - [frequent, automated testing](/version-1/guides/code-testing/) is essential in agile development
 
 ## Lock-in
 
@@ -89,7 +89,7 @@ Being locked in to one vendor, or one way of doing things, can create difficulti
 
 Over time, and after many decisions, you can find yourself in a situation where all your technology decisions are tightly coupled and you are locked-in to one vendor, or one way of doing things. This can have unforeseen financial costs (for example an overnight cost increase). It might also limit how quickly you can iterate on your product in the future (if, for instance, the ideal technology choice isn’t compatible with your current vendor or technology).
 
-When you decide on a certain technology, be sure to have a clear understanding of the cost or implications of moving away from it, and [avoid lock-in](https://web.archive.org/web/20150324140435/https://www.gov.uk/service-manual/making-software/open-standards-and-licensing.html) whenever possible. This could mean choosing not to use certain features (eg non-standard extensions to protocols, APIs or programming languages), so you have the ability to move to another technology as and when.
+When you decide on a certain technology, be sure to have a clear understanding of the cost or implications of moving away from it, and [avoid lock-in](/version-1/guides/open-standards-and-licensing/) whenever possible. This could mean choosing not to use certain features (eg non-standard extensions to protocols, APIs or programming languages), so you have the ability to move to another technology as and when.
 
 In general, avoid making long-term commitments to any particular technology, product or supplier until you fully understand the problem you’re trying to solve. Even then, make sure you maximise your future development options and avoid technology lock-in if at all possible.
 
@@ -114,21 +114,21 @@ In most cases, many projects will have the same need so it makes little sense to
 
 ## Sharing software
 
-Share software that’s developed to meet the needs of government wherever possible under a permissive, GPL\-compatible open source licence (eg [MIT](https://web.archive.org/web/20150324140435/http://opensource.org/licenses/MIT)/[X11](https://web.archive.org/web/20150324140435/http://directory.fsf.org/wiki/License:X11) or [3-clause BSD](https://web.archive.org/web/20150324140435/http://directory.fsf.org/wiki/License:BSD_3Clause)) unless doing so would:
+Share software that’s developed to meet the needs of government wherever possible under a permissive, GPL\-compatible open source licence (eg [MIT](http://opensource.org/licenses/MIT)/[X11](http://directory.fsf.org/wiki/License:X11) or [3-clause BSD](http://directory.fsf.org/wiki/License:BSD_3Clause)) unless doing so would:
 
 - create an unacceptable risk to the security of systems or processes that cannot be mitigated with reasonable efforts
 - break existing contractual arrangements
 - directly threaten national security
 
-Sharing software means it can be widely used and improved by anyone in the world who has a similar need. It’s important that other governments in particular have the opportunity to reuse the software you’ve created, because everyone deserves to have [digital services so good that people prefer to use them](https://web.archive.org/web/20150324140435/https://www.gov.uk/service-manual/digital-by-default).
+Sharing software means it can be widely used and improved by anyone in the world who has a similar need. It’s important that other governments in particular have the opportunity to reuse the software you’ve created, because everyone deserves to have [digital services so good that people prefer to use them](/version-1/).
 
-For example [GovSpeak](https://web.archive.org/web/20150324140435/https://github.com/alphagov/govspeak) and [unicorn herder](https://web.archive.org/web/20150324140435/https://github.com/gds-operations/unicornherder) are small components that were [developed as a part of GOV.UK](https://web.archive.org/web/20150324140435/https://gds.blog.gov.uk/govuk-launch-colophon/). They’re now used by several different organisations, and have received a number of [public contributions](https://web.archive.org/web/20150324140435/https://github.com/gds-operations/unicornherder/commits/master).
+For example [GovSpeak](https://github.com/alphagov/govspeak) and [unicorn herder](https://github.com/gds-operations/unicornherder) are small components that were [developed as a part of GOV.UK](https://gds.blog.gov.uk/govuk-launch-colophon/). They’re now used by several different organisations, and have received a number of [public contributions](https://github.com/gds-operations/unicornherder/commits/master).
 
 In practice, sharing usually means:
 
 - uploading the source code and documentation to a public source code repository
 - keeping it updated with subsequent changes that you make (or accept from other people)
-- putting in place [appropriate information security assurance to reduce and mitigate the risk of an exploit appearing in publicly-viewable software](https://web.archive.org/web/20150324140435/https://www.gov.uk/service-manual/making-software/information-security.html)
+- putting in place [appropriate information security assurance to reduce and mitigate the risk of an exploit appearing in publicly-viewable software](/version-1/guides/information-security/)
 
 > Store the ‘master’ version of your software on an internal source code control system and replicate the latest version to a public repository.
 
@@ -160,7 +160,7 @@ Still, the policy of government is that open source will be selected on the basi
 For more information on how to make sure there’s a level playing field between proprietary and open source software, see the:
 
 - [open source procurement toolkit](https://web.archive.org/web/20150324140435/https://www.gov.uk/government/publications/open-source-procurement-toolkit)
-- section of this manual covering the [use of open standards](https://web.archive.org/web/20150324140435/https://www.gov.uk/service-manual/making-software/open-standards-and-licensing.html)
+- section of this manual covering the [use of open standards](/version-1/guides/open-standards-and-licensing/)
 
 > Make sure that any decision to use existing software, whether open source or proprietary, doesn’t stop you from sharing new software created under a permissive, GPL\-compatible open source licence.
 
@@ -173,9 +173,9 @@ Make sure developers have:
 - the ability to install and experiment with open source software
 - environments to easily publish prototype services on the web
 - convenient access to a wide variety of network connected devices for testing websites
-- unrestricted access to collaboration tools like [GitHub](https://web.archive.org/web/20150324140435/https://github.com/), [Stack Overflow](https://web.archive.org/web/20150324140435/https://stackoverflow.com/) and [IRC](https://web.archive.org/web/20150324140435/https://en.wikipedia.org/wiki/Internet_Relay_Chat)
+- unrestricted access to collaboration tools like [GitHub](https://github.com/), [Stack Overflow](https://stackoverflow.com/) and [IRC](/wiki/Internet_Relay_Chat)
 
-Larger open source projects often develop an extension model that makes it possible for others to continue to use the service in a variety of often unexpected and possibly undesirable ways whilst keeping the core project coherent under the editorship of a small, trusted group of [committers](https://web.archive.org/web/20150324140435/https://en.wikipedia.org/wiki/Committer).
+Larger open source projects often develop an extension model that makes it possible for others to continue to use the service in a variety of often unexpected and possibly undesirable ways whilst keeping the core project coherent under the editorship of a small, trusted group of [committers](https://en.wikipedia.org/wiki/Committer).
 
 Take every opportunity to contribute back to the open source projects you use, which can be in the form of:
 
@@ -187,11 +187,11 @@ Take every opportunity to contribute back to the open source projects you use, w
 - engaging in community discussion groups
 - giving public attribution to projects
 
-Cite the open source code you use, as in the [GOV.UK colophon](https://web.archive.org/web/20150324140435/https://gds.blog.gov.uk/govuk-launch-colophon/) – you can read more about this approach on the [GDS blog entry about coding in the open](https://web.archive.org/web/20150324140435/https://gds.blog.gov.uk/2012/10/12/coding-in-the-open/).
+Cite the open source code you use, as in the [GOV.UK colophon](https://gds.blog.gov.uk/govuk-launch-colophon/) – you can read more about this approach on the [GDS blog entry about coding in the open](https://gds.blog.gov.uk/2012/10/12/coding-in-the-open/).
 
 ## Security
 
-Keys, passwords and other secrets must always be stored safely and securely away from source code [following Kerckhoffs’s principle](https://web.archive.org/web/20150324140435/https://en.wikipedia.org/wiki/Kerckhoffs%27s_principle). This separation of project code from deployed instances of a project is good development practice regardless of whether or not the software itself is shared in public.
+Keys, passwords and other secrets must always be stored safely and securely away from source code [following Kerckhoffs’s principle](https://en.wikipedia.org/wiki/Kerckhoffs%27s_principle). This separation of project code from deployed instances of a project is good development practice regardless of whether or not the software itself is shared in public.
 
 It’s advisable for large, significant projects to have a private space to discuss security issues and develop a patch. This removes the risk of flagging a vulnerability before a fix has been deployed. This is especially advisable if there’s a small number of participating developers.
 
@@ -206,4 +206,4 @@ Choosing technology is important, but it’s probably not quite as important as 
 
 ## Further reading
 
-[Open standards considerations](https://web.archive.org/web/20150324140435/https://www.gov.uk/service-manual/making-software/open-standards-and-licensing.html)
+[Open standards considerations](/version-1/guides/open-standards-and-licensing/)
