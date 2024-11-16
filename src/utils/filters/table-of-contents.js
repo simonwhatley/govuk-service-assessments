@@ -1,4 +1,4 @@
-const cheerio = require("cheerio")
+const cheerio = require('cheerio')
 
 const cleanToc = (items) => {
   items.forEach(item => {
@@ -10,7 +10,7 @@ const cleanToc = (items) => {
   })
 }
 
-module.exports = (content, headingLevels = ['h2','h3']) => {
+module.exports = (content, headingLevels = ['h2', 'h3']) => {
   // Load the HTML content using cheerio
   const $ = cheerio.load(content)
 
@@ -19,9 +19,9 @@ module.exports = (content, headingLevels = ['h2','h3']) => {
   const levelStack = [{ items: toc }]
 
   // Iterate over the specified heading levels
-  $(headingLevels.join(",")).each((index, element) => {
-    let text = $(element).text().replace(/#Permalink.*/, "").trim()
-    const id = $(element).attr("id")
+  $(headingLevels.join(',')).each((index, element) => {
+    const text = $(element).text().replace(/#Permalink.*/, '').trim()
+    const id = $(element).attr('id')
     const tagName = $(element).get(0).tagName
 
     if (id) {
@@ -29,7 +29,7 @@ module.exports = (content, headingLevels = ['h2','h3']) => {
 
       // Create the toc item
       const tocItem = {
-        text: text,
+        text,
         href: `#${id}`
       }
 
