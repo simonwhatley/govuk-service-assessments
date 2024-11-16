@@ -19,6 +19,7 @@ module.exports = eleventyConfig => {
   eleventyConfig.addFilter('pretty', require('./src/utils/filters/pretty'))
   eleventyConfig.addFilter('slugify', require('./src/utils/filters/slugify'))
   eleventyConfig.addFilter('squash', require('./src/utils/filters/squash'))
+  eleventyConfig.addFilter('toc', require('./src/utils/filters/table-of-contents'))
 
   // Passthrough
   // eleventyConfig.addPassthroughCopy('./src/assets/images')
