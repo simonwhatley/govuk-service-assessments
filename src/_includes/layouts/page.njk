@@ -21,12 +21,26 @@
       </h1>
 
       <p class="govuk-body-l">{{ description | markdown("inline") | safe }}</p>
-
-      {%- if content | length  %}
+    </div>
+  </div>
+  {%- if content | length  %}
+    <div class="govuk-grid-row">
+      {% if content | toc | length %}
+        <aside class="govuk-grid-column-one-third">
+          {{ appContentsList({
+            heading: {
+              text: 'Contents'
+            },
+            items: content | toc,
+            classes: "govuk-!-margin-bottom-7"
+          }) }}
+        </aside>
+      {% endif %}
+      <article class="govuk-grid-column-two-thirds">
         <div class="app-markdown">
           {{- content | safe -}}
         </div>
-      {% endif -%}
+      </article>
     </div>
-  </div>
+  {% endif -%}
 {% endblock %}
