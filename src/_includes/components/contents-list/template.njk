@@ -1,4 +1,4 @@
-<nav aria-label="Contents" class="app-contents-list govuk-!-margin-bottom-4" role="navigation">
+<nav aria-label="Contents" class="app-contents-list {{- ' ' + params.classes if params.classes }}" role="navigation">
   {%- if params.heading %}
     <h{{ params.heading.headingLevel | default(2) }} class="app-contents-list__title {{- ' ' + params.heading.classes if params.heading.classes }}" {%- for attribute, value in params.heading.attributes %} {{ attribute }}="{{ value }}"{% endfor %}>
       {{- params.heading.html | safe if params.heading.html else params.heading.text -}}
@@ -7,7 +7,7 @@
   {% if params.items | length %}
     <{{ 'ol' if params.listStyle == 'numbered' else 'ul' }} class="app-contents-list__list">
       {% for item in params.items %}
-        <li class="app-contents-list__list-item app-contents-list__list-item--parent">
+        <li class="app-contents-list__list-item app-contents-list__list-item--parent  {{- ' ' + item.classes if item.classes }}">
           <span class="app-contents-list__list-item-dash" aria-hidden="true"></span>
           {%- if item.active %}
             {{- item.html | safe if item.html else item.text -}}
@@ -19,7 +19,7 @@
           {% if item.items | length %}
             <ol class="app-contents-list__nested-list">
               {% for item in item.items %}
-                <li class="app-contents-list__list-item app-contents-list__list-item--dashed">
+                <li class="app-contents-list__list-item app-contents-list__list-item--dashed {{- ' ' + item.classes if item.classes }}">
                   <span class="app-contents-list__list-item-dash" aria-hidden="true"></span>
                   {%- if item.active %}
                     {{- item.html | safe if item.html else item.text -}}
