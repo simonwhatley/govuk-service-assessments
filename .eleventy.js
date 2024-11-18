@@ -37,20 +37,27 @@ module.exports = eleventyConfig => {
   // Enable data deep merge
   eleventyConfig.setDataDeepMerge(true)
 
-  // Browsersync Overrides
-  // eleventyConfig.setBrowserSyncConfig({
-  //   callbacks: {
-  //     ready: (err, browserSync) => {
-  //       const content = fs.readFileSync('dist/404.html')
+  eleventyConfig.setServerOptions({
+    port: 9000, // Set your preferred port number here
+    // You can also configure other options such as:
+    // host: "0.0.0.0",
+    // open: true
+  })
 
-  //       browserSync.addMiddleware('*', (req, res) => {
-  //         // Provides the 404 content without redirect.
-  //         res.write(content)
-  //         res.end()
-  //       })
-  //     }
-  //   }
-  // })
+  // Browsersync Overrides
+  eleventyConfig.setBrowserSyncConfig({
+    callbacks: {
+      ready: (err, browserSync) => {
+        const content = fs.readFileSync('dist/404.html')
+
+        browserSync.addMiddleware('*', (req, res) => {
+          // Provides the 404 content without redirect.
+          res.write(content)
+          res.end()
+        })
+      }
+    }
+  })
 
   // Collections
   eleventyConfig.addCollection('home', (collection) => {
@@ -83,6 +90,7 @@ module.exports = eleventyConfig => {
   eleventyConfig.addLayoutAlias('standards', 'layouts/standards.njk')
   eleventyConfig.addLayoutAlias('standards-v1', 'layouts/standards-v1.njk')
   eleventyConfig.addLayoutAlias('standard', 'layouts/standard.njk')
+  eleventyConfig.addLayoutAlias('error', 'layouts/error.njk')
 
   // Short codes
   eleventyConfig.addShortcode('now', () => `${new Date()}`)
