@@ -2,6 +2,8 @@
 /// @group components/phases
 ////
 
+// stylelint-disable max-nesting-depth
+
 $alpha-colour: govuk-colour("pink");
 $discovery-colour: govuk-colour("bright-purple");
 $beta-colour: govuk-colour("orange");
@@ -39,21 +41,22 @@ $retirement-colour: govuk-colour("mid-grey");
   .phase-nav{
     margin: 3em 0;
     padding: 0;
+
     li {
-      list-style-type: none;
       padding-left: 0;
+      list-style-type: none;
     }
   }
 }
 
 // Phases
 .phases-list {
-  list-style: none;
   // @include ie-lte(7) {
   //   list-style-image: none;
   // }
   padding: 0;
   padding-left: 1.5em;
+  list-style: none;
 
   p {
     @include govuk-font($size: 19);
@@ -61,34 +64,35 @@ $retirement-colour: govuk-colour("mid-grey");
 
   > * {
     display: block;
-    padding: 0 0 0.7em 2em;
     margin: 0;
-    @include govuk-font($size: 19);
+    padding: 0 0 0.7em 2em;
 
     // Tube line
     border-left: dotted 0.6em;
+    @include govuk-font($size: 19);
 
     // Tube station
     &:before{
       content: "";
       display: block;
-      border: 0.3em solid;
-      background: govuk-colour("white");
       width: 1.2em;
       margin: 0.5em -3.2em;
+      border: 0.3em solid;
+      background: govuk-colour("white");
     }
 
     &:first-child{
-      padding-top: 0.5em;
       margin-top: 5em;
+      padding-top: 0.5em;
 
       // Interchange tube station
       &:before{
-        border: 0.6em solid;
         height: 1.2em;
-        border-radius: 1.2em;
         margin: -2.8em -3.45em;
+        border: 0.6em solid;
+        border-radius: 1.2em;
       }
+
       h3{
         margin-top: 1em;
       }
@@ -98,34 +102,41 @@ $retirement-colour: govuk-colour("mid-grey");
     &.discovery:before {
       border-color: $discovery-colour;
     }
+
     &.alpha,
     &.alpha:before {
       border-color: $alpha-colour;
     }
+
     &.beta,
     &.beta:before {
       border-color: $beta-colour;
     }
+
     &.live,
     &.live:before {
       border-color: $live-colour;
     }
+
     &.retirement{
       border-left-color: transparent;
+
       h3{
         margin-top: -2.2em;
       }
     }
+
     &.retirement:before {
-      border: 0.6em solid;
       height: 1.2em;
-      border-radius: 1.2em;
       margin: 0.5em -3.45em;
+      border: 0.6em solid;
+      border-radius: 1.2em;
       border-color: $retirement-colour;
     }
 
     p {
       margin: 0.75em 0;
+
       a {
         @include govuk-font($size: 19);
       }
@@ -152,3 +163,5 @@ $retirement-colour: govuk-colour("mid-grey");
     }
   }
 }
+
+// stylelint-enable max-nesting-depth
