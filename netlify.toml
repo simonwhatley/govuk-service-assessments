@@ -13,3 +13,10 @@ X-XSS-Protection = "1; mode=block"
 # no-cache,
 # no-store,
 # must-revalidate'''
+
+[build]
+command = "npm run build"
+publish = "dist"
+
+[build.processing.html]
+pretty_urls = true
