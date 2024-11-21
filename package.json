@@ -18,7 +18,7 @@
   "scripts": {
     "dev": "gulp start:dev & gulp watch",
     "start": "gulp start",
-    "build": "gulp build",
+    "build": "gulp build & eleventy",
     "lint:scripts": "standard",
     "lint:scripts:fix": "standard --fix",
     "lint:markdown": "markdownlint 'src/content/**/*.md' --disable MD013 MD024",
