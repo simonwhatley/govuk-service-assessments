@@ -8,7 +8,7 @@ requireDir('./gulp', {
   recurse: true
 })
 
-gulp.task('generate', shell.task('npx @11ty/eleventy --serve'))
+gulp.task('generate', shell.task('npx @11ty/eleventy --serve --quiet'))
 
 gulp.task('generate:dev', shell.task('ELEVENTY_ENV=development npx @11ty/eleventy --serve'))
 
@@ -21,12 +21,17 @@ gulp.task('assets', gulp.parallel(
 
 gulp.task('build', gulp.series(
   'clean',
-  'assets',
-  'generate'
+  'assets'
 ))
 
-gulp.task('build:dev', gulp.series(
+gulp.task('start:dev', gulp.series(
   'clean',
   'assets',
   'generate:dev'
+))
+
+gulp.task('start', gulp.series(
+  'clean',
+  'assets',
+  'generate'
 ))
