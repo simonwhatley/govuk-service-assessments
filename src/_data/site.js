@@ -1,4 +1,4 @@
-module.exports = {
+export default {
   name: 'Service assessment playbook',
   description: '',
   url: 'https://govuk-service-assessments.onrender.com/',
