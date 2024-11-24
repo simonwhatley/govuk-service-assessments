@@ -1,33 +1,39 @@
-const glob = require("glob")
+import * as glob from 'glob'
+import fs from 'fs'
+import eleventyNavigationPlugin from '@11ty/eleventy-navigation'
+import eleventyRssPlugin from '@11ty/eleventy-plugin-rss'
+import markdownLibrary from './src/utils/libraries/markdown.js'
+import dateFilter from './src/utils/filters/date.js'
+import excerptFilter from './src/utils/filters/excerpt.js'
+import markdownFilter from './src/utils/filters/markdown.js'
+import prettyFilter from './src/utils/filters/pretty.js'
+import slugifyFilter from './src/utils/filters/slugify.js'
+import squashFilter from './src/utils/filters/squash.js'
+import tocFilter from './src/utils/filters/table-of-contents.js'
 
-module.exports = eleventyConfig => {
+export default (eleventyConfig) => {
   // Plugins
-  eleventyConfig.addPlugin(require('@11ty/eleventy-navigation'))
-  eleventyConfig.addPlugin(require('@11ty/eleventy-plugin-rss'))
+  eleventyConfig.addPlugin(eleventyNavigationPlugin)
+  eleventyConfig.addPlugin(eleventyRssPlugin)
 
   // Template libraries
-  eleventyConfig.setLibrary('md', require('./src/utils/libraries/markdown'))
+  eleventyConfig.setLibrary('md', markdownLibrary)
 
   // Filters
-  eleventyConfig.addFilter('permalink', str => {
-    return str.replace(/\.html/g, '')
-  })
-
-  eleventyConfig.addFilter('date', require('./src/utils/filters/date'))
-  eleventyConfig.addFilter('excerpt', require('./src/utils/filters/excerpt'))
-  eleventyConfig.addFilter('markdown', require('./src/utils/filters/markdown'))
-  eleventyConfig.addFilter('pretty', require('./src/utils/filters/pretty'))
-  eleventyConfig.addFilter('slugify', require('./src/utils/filters/slugify'))
-  eleventyConfig.addFilter('squash', require('./src/utils/filters/squash'))
-  eleventyConfig.addFilter('toc', require('./src/utils/filters/table-of-contents'))
+  eleventyConfig.addFilter('permalink', (str) => str.replace(/\.html/g, ''))
+  eleventyConfig.addFilter('date', dateFilter)
+  eleventyConfig.addFilter('excerpt', excerptFilter)
+  eleventyConfig.addFilter('markdown', markdownFilter)
+  eleventyConfig.addFilter('pretty', prettyFilter)
+  eleventyConfig.addFilter('slugify', slugifyFilter)
+  eleventyConfig.addFilter('squash', squashFilter)
+  eleventyConfig.addFilter('toc', tocFilter)
 
   // Passthrough
-  // eleventyConfig.addPassthroughCopy('./src/assets/images')
   eleventyConfig.addPassthroughCopy({ 'node_modules/govuk-frontend/dist/govuk/assets': 'assets' })
 
   // Pass-through copy of images, PDFs, and other assets from content
   const assetFiles = glob.sync('src/content/**/*.{jpg,jpeg,png,gif,svg,pdf,odt,docx,xlsx,pptx}')
-
   assetFiles.forEach((file) => {
     // Get destination path based on the source file
     const destinationPath = file.replace(/^src\/content/, 'assets/content')
@@ -38,10 +44,7 @@ module.exports = eleventyConfig => {
   eleventyConfig.setDataDeepMerge(true)
 
   eleventyConfig.setServerOptions({
-    port: 9000, // Set your preferred port number here
-    // You can also configure other options such as:
-    // host: "0.0.0.0",
-    // open: true
+    port: 9000
   })
 
   // Browsersync Overrides
@@ -55,34 +58,34 @@ module.exports = eleventyConfig => {
           res.write(content)
           res.end()
         })
-      }
-    }
+      },
+    },
   })
 
   // Collections
-  eleventyConfig.addCollection('home', (collection) => {
-    return collection
+  eleventyConfig.addCollection('home', (collection) =>
+    collection
       .getFilteredByTags('overview', 'version')
       .sort((a, b) => a.fileSlug.toLowerCase().localeCompare(b.fileSlug.toLowerCase()))
-  })
+  )
 
-  eleventyConfig.addCollection('version-1', (collection) => {
-    return collection
+  eleventyConfig.addCollection('version-1', (collection) =>
+    collection
       .getFilteredByTags('version-1', 'standard')
       .sort((a, b) => a.fileSlug.toLowerCase().localeCompare(b.fileSlug.toLowerCase()))
-    })
+  )
 
-  eleventyConfig.addCollection('version-2', (collection) => {
-    return collection
+  eleventyConfig.addCollection('version-2', (collection) =>
+    collection
       .getFilteredByTags('version-2', 'standard')
       .sort((a, b) => a.fileSlug.toLowerCase().localeCompare(b.fileSlug.toLowerCase()))
-  })
+  )
 
-  eleventyConfig.addCollection('version-3', (collection) => {
-    return collection
+  eleventyConfig.addCollection('version-3', (collection) =>
+    collection
       .getFilteredByTags('version-3', 'standard')
       .sort((a, b) => a.fileSlug.toLowerCase().localeCompare(b.fileSlug.toLowerCase()))
-  })
+  )
 
   // Layouts
   eleventyConfig.addLayoutAlias('home', 'layouts/home.njk')
@@ -92,7 +95,7 @@ module.exports = eleventyConfig => {
   eleventyConfig.addLayoutAlias('standard', 'layouts/standard.njk')
   eleventyConfig.addLayoutAlias('error', 'layouts/error.njk')
 
-  // Short codes
+  // Shortcodes
   eleventyConfig.addShortcode('now', () => `${new Date()}`)
   eleventyConfig.addShortcode('year', () => `${new Date().getFullYear()}`)
 
@@ -104,11 +107,11 @@ module.exports = eleventyConfig => {
       includes: '_includes',
       components: '_includes/components',
       input: 'src',
-      output: 'dist'
+      output: 'dist',
     },
     markdownTemplateEngine: 'njk',
     htmlTemplateEngine: 'njk',
     dataTemplateEngine: 'njk',
-    passthroughFileCopy: true
+    passthroughFileCopy: true,
   }
 }
