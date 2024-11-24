@@ -1,16 +1,18 @@
-'use strict'
+import gulp from 'gulp'
+import sass from 'gulp-sass'
+import dartSass from 'sass'
+import autoprefixer from 'gulp-autoprefixer'
+import config from './config.json'
 
-const gulp = require('gulp')
-const sass = require('gulp-sass')(require('sass'))
-// const autoprefixer = require('gulp-autoprefixer')
+const sassCompiler = sass(dartSass)
 
-const config = require('./config.json')
-
-gulp.task('styles', () => {
-  return gulp.src(config.paths.buildSrc + '/assets/styles/*.scss')
-    .pipe(sass({
+export const styles = () => {
+  return gulp.src(`${config.paths.buildSrc}/assets/styles/*.scss`)
+    .pipe(sassCompiler({
       outputStyle: 'compressed'
-    }).on('error', sass.logError))
-    // .pipe(autoprefixer('Last 3 versions'))
-    .pipe(gulp.dest(config.paths.buildDest + '/assets/styles'))
-})
+    }).on('error', sassCompiler.logError))
+    .pipe(autoprefixer('Last 3 versions'))
+    .pipe(gulp.dest(`${config.paths.buildDest}/assets/styles`))
+}
+
+gulp.task('styles', styles)

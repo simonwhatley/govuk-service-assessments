@@ -1,14 +1,14 @@
-'use strict'
+import gulp from 'gulp'
+import config from './config.json'
 
-const gulp = require('gulp')
-const config = require('./config.json')
-
-gulp.task('watch', (done) => {
+export const watch = (done) => {
   gulp.watch([
-    config.paths.buildSrc + '/assets/images/**/*',
-    config.paths.buildSrc + '/assets/scripts/**/*',
-    config.paths.buildSrc + '/assets/styles/**/*',
-    config.paths.buildSrc + '/_includes/components/**/*.{js,scss}'
+    `${config.paths.buildSrc}/assets/images/**/*`,
+    `${config.paths.buildSrc}/assets/scripts/**/*`,
+    `${config.paths.buildSrc}/assets/styles/**/*`,
+    `${config.paths.buildSrc}/_includes/components/**/*.{js,scss}`
   ], gulp.series('build'))
   done()
-})
+}
+
+gulp.task('watch', watch)
