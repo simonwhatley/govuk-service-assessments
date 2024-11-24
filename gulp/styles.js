@@ -1,12 +1,12 @@
 import gulp from 'gulp'
 import sass from 'gulp-sass'
-import dartSass from 'sass'
+import * as dartSass from 'sass'
 import autoprefixer from 'gulp-autoprefixer'
-import config from './config.json'
+import config from './config.json' assert { type: 'json' }
 
 const sassCompiler = sass(dartSass)
 
-export const styles = () => {
+export default () => {
   return gulp.src(`${config.paths.buildSrc}/assets/styles/*.scss`)
     .pipe(sassCompiler({
       outputStyle: 'compressed'
@@ -14,5 +14,3 @@ export const styles = () => {
     .pipe(autoprefixer('Last 3 versions'))
     .pipe(gulp.dest(`${config.paths.buildDest}/assets/styles`))
 }
-
-gulp.task('styles', styles)

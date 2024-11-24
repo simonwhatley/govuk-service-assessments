@@ -1,37 +1,28 @@
-'use strict'
+import gulp from 'gulp'
 
-const gulp = require('gulp')
-const requireDir = require('require-dir')
-const shell = require('gulp-shell')
+import clean from './gulp/clean.js'
+import styles from './gulp/styles.js'
+import scripts from './gulp/scripts.js'
+import watch from './gulp/watch.js'
 
-requireDir('./gulp', {
-  recurse: true
-})
+gulp.task('clean', clean)
+gulp.task('styles', styles)
+gulp.task('scripts', scripts)
+gulp.task('watch', watch)
 
-gulp.task('generate', shell.task('npx @11ty/eleventy --serve --quiet'))
-
-gulp.task('generate:dev', shell.task('ELEVENTY_ENV=development npx @11ty/eleventy --serve'))
-
-gulp.task('assets', gulp.parallel(
+export const assets = gulp.parallel(
   // 'fonts',
   // 'images',
   // 'scripts',
   'styles'
-))
+)
 
-gulp.task('build', gulp.series(
-  'clean',
-  'assets'
-))
+gulp.task('assets', assets)
 
-gulp.task('start:dev', gulp.series(
-  'clean',
-  'assets',
-  'generate:dev'
-))
+export const build = gulp.series('clean', 'assets')
 
-gulp.task('start', gulp.series(
-  'clean',
-  'assets',
-  'generate'
-))
+gulp.task('build', build)
+
+export const start = gulp.series('clean', 'assets')
+
+gulp.task('start', start)

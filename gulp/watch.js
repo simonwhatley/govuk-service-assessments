@@ -1,7 +1,7 @@
 import gulp from 'gulp'
-import config from './config.json'
+import config from './config.json' assert { type: 'json' }
 
-export const watch = (done) => {
+export default (done) => {
   gulp.watch([
     `${config.paths.buildSrc}/assets/images/**/*`,
     `${config.paths.buildSrc}/assets/scripts/**/*`,
@@ -10,5 +10,3 @@ export const watch = (done) => {
   ], gulp.series('build'))
   done()
 }
-
-gulp.task('watch', watch)

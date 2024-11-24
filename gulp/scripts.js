@@ -1,9 +1,7 @@
 import gulp from 'gulp'
-import config from './config.json'
+import config from './config.json' assert { type: 'json' }
 
-export const scripts = () => {
+export default () => {
   return gulp.src(`${config.paths.buildSrc}/assets/scripts/*.js`)
     .pipe(gulp.dest(`${config.paths.buildDest}/assets/scripts`))
 }
-
-gulp.task('scripts', scripts)

@@ -1,10 +1,7 @@
-import gulp from 'gulp'
 import { rimrafSync } from 'rimraf'
-import config from './config.json'
+import config from './config.json' assert { type: 'json' }
 
-export const clean = (done) => {
+export default (done) => {
   rimrafSync(config.paths.buildDest)
   return done()
 }
-
-gulp.task('clean', clean)
