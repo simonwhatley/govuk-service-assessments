@@ -38,10 +38,7 @@ module.exports = eleventyConfig => {
   eleventyConfig.setDataDeepMerge(true)
 
   eleventyConfig.setServerOptions({
-    port: 9000, // Set your preferred port number here
-    // You can also configure other options such as:
-    // host: "0.0.0.0",
-    // open: true
+    port: 9000
   })
 
   // Browsersync Overrides
