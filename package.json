@@ -16,8 +16,8 @@
   },
   "license": "MIT",
   "scripts": {
-    "dev": "gulp start:dev & gulp watch",
-    "start": "gulp start",
+    "dev": "gulp start & gulp watch & eleventy --serve",
+    "start": "gulp start & eleventy --serve --quiet",
     "build": "gulp build & eleventy",
     "lint:scripts": "standard",
     "lint:scripts:fix": "standard --fix",
