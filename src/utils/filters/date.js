@@ -1,4 +1,4 @@
-const { DateTime } = require('luxon')
+import { DateTime } from 'luxon'
 
 /**
  * Format a data using tokens
@@ -8,7 +8,8 @@ const { DateTime } = require('luxon')
  * @example {{ date | date("OPTIONAL FORMAT STRING") }}
  *
  */
-module.exports = (dateObject, format) => {
+
+export default (dateObject, format) => {
   // Convert dateObj to Luxon DateTime object, using UTC
   // See: https://11ty.dev/docs/dates/#dates-off-by-one-day
   let date = DateTime.fromJSDate(dateObject, {

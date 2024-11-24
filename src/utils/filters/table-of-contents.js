@@ -1,4 +1,4 @@
-const cheerio = require('cheerio')
+import * as cheerio from 'cheerio'
 
 const cleanToc = (items) => {
   items.forEach(item => {
@@ -10,7 +10,7 @@ const cleanToc = (items) => {
   })
 }
 
-module.exports = (content, headingLevels = ['h2', 'h3']) => {
+export default (content, headingLevels = ['h2', 'h3']) => {
   // Load the HTML content using cheerio
   const $ = cheerio.load(content)
 

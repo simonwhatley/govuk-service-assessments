@@ -6,7 +6,8 @@
  * @return {String} Permalinkable URL, i.e. /page/
  *
  */
-module.exports = string => {
+
+export default (string) => {
   string = String(string)
   return string.replace(/(?:index)?\.html/g, '')
 }

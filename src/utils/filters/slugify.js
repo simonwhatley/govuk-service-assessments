@@ -5,7 +5,8 @@
  * @return {String} URL friendly string
  *
  */
-module.exports = (text) => {
+
+export default (text) => {
   if (!text.length) {
     return null
   }

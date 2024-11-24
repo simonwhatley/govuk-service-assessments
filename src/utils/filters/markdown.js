@@ -1,4 +1,4 @@
-const markdown = require('../libraries/markdown')
+import markdown from '../libraries/markdown.js'
 
 /**
  * Convert Markdown string to HTML
@@ -8,7 +8,8 @@ const markdown = require('../libraries/markdown')
  * @return {String} HTML
  *
  */
-module.exports = (string, value) => {
+
+export default (string, value) => {
   if (string) {
     if (value === 'inline') {
       return markdown.renderInline(string)
