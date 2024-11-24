@@ -1,9 +1,6 @@
 {
   "name": "govuk-service-assessments",
   "description": "",
-  "engines": {
-    "node": "20.11.0"
-  },
   "keywords": [
     "govuk",
     "service-assessments",
@@ -15,6 +12,10 @@
     "url": "https://patreon.com/simonwhatley"
   },
   "license": "MIT",
+  "engines": {
+    "node": "20.11.0"
+  },
+  "type": "module",
   "scripts": {
     "dev": "gulp start:dev & gulp watch",
     "start": "gulp start",
