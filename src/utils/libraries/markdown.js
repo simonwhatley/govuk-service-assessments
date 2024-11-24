@@ -1,6 +1,14 @@
-const markdownit = require('markdown-it')
-const markdownItAnchor = require('markdown-it-anchor')
-const slugify = require('../filters/slugify')
+import markdownit from 'markdown-it'
+import markdownItAnchor from 'markdown-it-anchor'
+import markdownItAbbr from 'markdown-it-abbr'
+import markdownItDeflist from 'markdown-it-deflist'
+import markdownItFootnote from 'markdown-it-footnote'
+import markdownItIns from 'markdown-it-ins'
+import markdownItMark from 'markdown-it-mark'
+import markdownItSub from 'markdown-it-sub'
+import markdownItSup from 'markdown-it-sup'
+import markdownItTOC from 'markdown-it-table-of-contents'
+import slugify from '../filters/slugify.js'
 
 // based on accessible anchor links by Nicolas Hoizey
 // https://nicolas-hoizey.com/articles/2021/02/25/accessible-anchor-links-with-markdown-it-and-eleventy/
@@ -28,16 +36,6 @@ const markdownItAnchorOptions = {
         attrs: [['class', 'app-heading-wrapper']]
       }
     )
-
-    // Create the tokens for the full accessible anchor link
-    // <a class="app-header-anchor" href="#your-own-platform-is-the-nearest-you-can-get-help-to-setup">
-    //   <span aria-hidden="true">
-    //     ${opts.permalinkSymbol}
-    //   </span>
-    //   <span class="visually-hidden">
-    //     Section titled Your "own" platform is the nearest you can (get help to) setup
-    //   </span>
-    // </a >
 
     // Create the tokens for the full accessible anchor link
     const anchorTokens = [
@@ -77,7 +75,7 @@ const markdownItAnchorOptions = {
   }
 }
 
-module.exports = (() => {
+export default () => {
   const opts = {
     html: true,
     breaks: true,
@@ -88,15 +86,15 @@ module.exports = (() => {
   const parser = markdownit(opts)
 
   parser
-    .use(require('markdown-it-abbr'))
+    .use(markdownItAbbr)
     .use(markdownItAnchor, markdownItAnchorOptions)
-    .use(require('markdown-it-deflist'))
-    .use(require('markdown-it-footnote'))
-    .use(require('markdown-it-ins'))
-    .use(require('markdown-it-mark'))
-    .use(require('markdown-it-sub'))
-    .use(require('markdown-it-sup'))
-    .use(require('markdown-it-table-of-contents'), {
+    .use(markdownItDeflist)
+    .use(markdownItFootnote)
+    .use(markdownItIns)
+    .use(markdownItMark)
+    .use(markdownItSub)
+    .use(markdownItSup)
+    .use(markdownItTOC, {
       containerHeaderHtml: '<h2 class="govuk-heading-s" id="contents">Contents</h2>',
       includeLevel: [2, 3]
     })
@@ -104,4 +102,4 @@ module.exports = (() => {
   parser.linkify.set({ fuzzyLink: false })
 
   return parser
-})()
+}
