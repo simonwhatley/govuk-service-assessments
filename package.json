@@ -67,7 +67,7 @@
     "sass": "^1.83.4"
   },
   "devDependencies": {
-    "markdownlint-cli": "^0.43.0",
+    "markdownlint-cli": "^0.44.0",
     "standard": "^17.1.2",
     "stylelint": "^16.13.2",
     "stylelint-config-recommended-scss": "^14.1.0",
