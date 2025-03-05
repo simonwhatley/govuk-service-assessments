@@ -48,7 +48,7 @@
     "govuk-frontend": "^5.9.0",
     "gulp": "^5.0.0",
     "gulp-autoprefixer": "^9.0.0",
-    "gulp-sass": "^6.0.0",
+    "gulp-sass": "^6.0.1",
     "gulp-shell": "^0.8.0",
     "luxon": "^3.5.0",
     "markdown-it": "^14.1.0",
