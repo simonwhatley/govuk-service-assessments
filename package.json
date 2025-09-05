@@ -50,7 +50,7 @@
     "gulp-autoprefixer": "^9.0.0",
     "gulp-sass": "^6.0.1",
     "gulp-shell": "^0.8.0",
-    "luxon": "^3.7.1",
+    "luxon": "^3.7.2",
     "markdown-it": "^14.1.0",
     "markdown-it-abbr": "^2.0.0",
     "markdown-it-anchor": "^9.2.0",
