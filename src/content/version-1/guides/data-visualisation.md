@@ -96,7 +96,7 @@ Strengths - relationships between variables where there are many items (eg volum
 - Limit items to two to avoid confusion.
 - Include trend line if required. This should be a single solid line.
 
-There is more help on choosing the right chart [here](/assets/content/version-1/guides/images/types-of-charts.jpg). It is important to not confuse your audience.
+There is more help on [choosing the right chart](/assets/content/version-1/guides/images/types-of-charts.jpg). It is important to not confuse your audience.
 
 ### Checklist
 
