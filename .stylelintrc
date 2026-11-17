@@ -19,15 +19,6 @@ rules:
   # https://stylelint.io/user-guide/rules/at-rule-no-unknown
   at-rule-no-unknown: null
   
-  # Always require a newline after a closing brace of a rule
-  # https://stylelint.io/user-guide/rules/block-closing-brace-newline-after
-  block-closing-brace-newline-after:
-  - always
-    # Exceptions for conditionals, particularly useful for SCSS.
-  - ignoreAtRules: 
-    - if
-    - else
-
   # Disallow using CSS named colours
   # https://stylelint.io/user-guide/rules/color-named
   color-named: never
@@ -54,6 +45,11 @@ rules:
     /transition/:
     - /all/
   
+  # Require string notation for @import, as Sass cannot resolve partials
+  # imported with url()
+  # https://stylelint.io/user-guide/rules/import-notation
+  import-notation: string
+
   # Disallow unknown functions
   # https://stylelint.io/user-guide/rules/list/function-no-unknown/
   function-no-unknown: null
@@ -87,10 +83,6 @@ rules:
   # than a previous rule.
   # https://stylelint.io/user-guide/rules/no-descending-specificity
   no-descending-specificity: null
-  
-  # Disallow prefixing decimals with a 0
-  # https://stylelint.io/user-guide/rules/number-leading-zero
-  number-leading-zero: never
   
   # Require all class selectors to be in a hyphenated BEM format
   # https://stylelint.io/user-guide/rules/selector-class-pattern
@@ -163,14 +155,6 @@ rules:
   # Require a space between an @if {} ending and an @else beginning
   # https://github.com/kristerkari/stylelint-scss/tree/master/src/rules/at-if-closing-brace-space-after
   scss/at-if-closing-brace-space-after: always-intermediate
-  
-  # Disallow importing partials with a underscore prefix
-  # https://github.com/kristerkari/stylelint-scss/tree/master/src/rules/at-import-no-partial-leading-underscore
-  scss/at-import-no-partial-leading-underscore: true
-  
-  # Disallow importing partials with a underscore prefix
-  # https://github.com/kristerkari/stylelint-scss/tree/master/src/rules/at-import-partial-extension
-  scss/at-import-partial-extension: never
   
   # Disallow parenthesis when including a mixin with no parameters
   # https://github.com/kristerkari/stylelint-scss/tree/master/src/rules/at-mixin-argumentless-call-parentheses

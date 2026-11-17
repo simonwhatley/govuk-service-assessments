@@ -8,7 +8,10 @@ default: true
 extends: null
 
 # MD001/heading-increment/header-increment - Heading levels should only increment by one level at a time
-MD001: true
+MD001:
+  # Don't treat the front matter title as an h1. Layouts render the title
+  # (and often a section h2) outside the Markdown, so content can start at h3.
+  front_matter_title: ""
 
 # # MD002/first-heading-h1/first-header-h1 - First heading should be a top-level heading
 # MD002:
@@ -200,11 +203,8 @@ MD041:
 MD042: true
 
 # MD043/required-headings/required-headers - Required heading structure
-MD043:
-  # List of headings
-  headings: []
-  # List of headings
-  headers: []
+# Disabled: pages don't share a single required heading structure
+MD043: false
 
 # MD044/proper-names - Proper names should have the correct capitalization
 MD044:
