@@ -12,6 +12,14 @@
 {% block content %}
   <div class="govuk-grid-row">
     <div class="govuk-grid-column-two-thirds">
+      {% set independentBannerHtml %}
+        <p class="govuk-notification-banner__heading">This is an independent guide, not an official GOV.UK publication</p>
+        <p class="govuk-body">It is not produced or endorsed by the Government Digital Service or any other government department. For official guidance, read the <a class="govuk-notification-banner__link" href="https://www.gov.uk/service-manual">Service Manual</a> and the <a class="govuk-notification-banner__link" href="https://www.gov.uk/service-manual/service-standard">Service Standard</a>.</p>
+      {% endset %}
+      {{ govukNotificationBanner({
+        html: independentBannerHtml
+      }) }}
+
       <h1 class="govuk-heading-xl">
         {{ site.name }}
       </h1>

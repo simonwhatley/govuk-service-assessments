@@ -15,11 +15,17 @@
 
 {%- from "components/breadcrumbs/macro.njk" import appBreadcrumbs -%}
 {%- from "components/contents-list/macro.njk" import appContentsList -%}
+{%- from "components/header/macro.njk" import appHeader -%}
 {%- from "components/secondary-navigation/macro.njk" import appSecondaryNavigation -%}
 
 {% block pageTitle -%}
-  {{ title + " - " if title }}{{ caption + " - " if caption }}{{ site.name }} - GOV.UK
+  {{ title + " - " if title }}{{ caption + " - " if caption }}{{ site.name }}
 {%- endblock %}
+
+{% block headIcons %}
+  <link rel="icon" sizes="any" href="/favicon.svg" type="image/svg+xml">
+  <link rel="manifest" href="/manifest.json">
+{% endblock %}
 
 {% block head %}
   {% include "../partials/head.njk" %}

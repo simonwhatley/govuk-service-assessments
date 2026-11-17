@@ -1,20 +1,33 @@
-{{ govukFooter({
-  meta: {
-    items: [{
-      text: "Design Principles",
-      href: "https://www.gov.uk/guidance/government-design-principles"
-    }, {
-      text: "Design System",
-      href: "https://design-system.service.gov.uk/"
-    }, {
-      text: "Service Manual",
-      href: "https://www.gov.uk/service-manual"
-    }, {
-      text: "Service Standard",
-      href: "https://www.gov.uk/service-manual/service-standard"
-    }, {
-      text: "Style guide",
-      href: "https://www.gov.uk/guidance/style-guide"
-    }]
-  }
-}) }}
+{%- set footerLinks = [{
+  text: "Design Principles",
+  href: "https://www.gov.uk/guidance/government-design-principles"
+}, {
+  text: "Design System",
+  href: "https://design-system.service.gov.uk/"
+}, {
+  text: "Service Manual",
+  href: "https://www.gov.uk/service-manual"
+}, {
+  text: "Service Standard",
+  href: "https://www.gov.uk/service-manual/service-standard"
+}, {
+  text: "Style guide",
+  href: "https://www.gov.uk/guidance/style-guide"
+}] -%}
+
+<footer class="govuk-footer">
+  <div class="govuk-width-container">
+    <div class="govuk-footer__meta">
+      <div class="govuk-footer__meta-item govuk-footer__meta-item--grow">
+        <h2 class="govuk-visually-hidden">Support links</h2>
+        <ul class="govuk-footer__inline-list">
+          {%- for item in footerLinks %}
+          <li class="govuk-footer__inline-list-item">
+            <a class="govuk-footer__link" href="{{ item.href }}">{{ item.text }}</a>
+          </li>
+          {%- endfor %}
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer>
