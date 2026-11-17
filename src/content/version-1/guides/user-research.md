@@ -40,9 +40,9 @@ Typically this will involve some initial fact finding in the early stages to und
 | --- | --- | --- | --- |
 | Desk Research | Heuristic evaluation | Lab based testing | User surveys |
 | Ethnography | Guerrilla testing | Remote usability testing | Remote usability testing |
-| Focus Groups |  | Focus groups |  |
-| Card Sorting |  | One-to-one interviews | |
-| User surveys |  |  |  |
+| Focus Groups | | Focus groups | |
+| Card Sorting | | One-to-one interviews | |
+| User surveys | | | |
 
 ## Assisted digital research
 
