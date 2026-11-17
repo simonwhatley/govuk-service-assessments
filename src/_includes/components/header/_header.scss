@@ -1,0 +1,7 @@
+// Product name shown in place of the GOV.UK crown and logotype
+.app-header__product-name {
+  @include govuk-font-size($size: 24, $line-height: 1);
+  @include govuk-typography-weight-bold;
+  display: inline-block;
+  padding: govuk-spacing(1) 0;
+}
