@@ -24,6 +24,7 @@ module.exports = eleventyConfig => {
   // Passthrough
   // eleventyConfig.addPassthroughCopy('./src/assets/images')
   eleventyConfig.addPassthroughCopy({ 'node_modules/govuk-frontend/dist/govuk/assets': 'assets' })
+  eleventyConfig.addPassthroughCopy({ 'src/assets/images/favicon.svg': 'favicon.svg' })
 
   // Pass-through copy of images, PDFs, and other assets from content
   const assetFiles = glob.sync('src/content/**/*.{jpg,jpeg,png,gif,svg,pdf,odt,docx,xlsx,pptx}')
