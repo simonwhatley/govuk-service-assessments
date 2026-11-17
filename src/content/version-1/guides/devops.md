@@ -27,11 +27,11 @@ This is what DevOps aims to correct. It is not a methodology or framework, but a
 - [measurement](#measurement)
 - [sharing](#sharing)
 
-### Culture
+## Culture
 
 DevOps needs a change in attitude so shared ownership and collaboration are the common working practices in building and managing a service. This culture change is especially important for established organisations.
 
-### Automation
+## Automation
 
 Many business processes are ready to be automated. Automation removes manual, error-prone tasks – allowing people to concentrate on the quality of the service. Common areas that benefit from automation are:
 
@@ -43,11 +43,11 @@ Many business processes are ready to be automated. Automation removes manual, er
 - orchestration (the arrangement and maintenance of complex computer systems)
 - testing
 
-### Measurement
+## Measurement
 
 Data can be incredibly powerful for implementing change, especially when it’s used to get people from different groups involved in the quality of the end-to-end service delivery. Collecting information from different teams and being able to compare it across former silos can implement change on its own.
 
-### Sharing
+## Sharing
 
 People from different backgrounds (ie development and operations) often have different, but overlapping skill sets. Sharing between groups will spread an understanding of the different areas behind a successful service, so encourage it. Resolving issues will then be more about working together and not negotiating contracts.
 
