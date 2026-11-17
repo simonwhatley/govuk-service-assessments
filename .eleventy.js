@@ -3,7 +3,7 @@ const glob = require("glob")
 module.exports = eleventyConfig => {
   // Plugins
   eleventyConfig.addPlugin(require('@11ty/eleventy-navigation'))
-  eleventyConfig.addPlugin(require('@11ty/eleventy-plugin-rss'))
+  eleventyConfig.addPlugin(require('@11ty/eleventy-plugin-rss').rssPlugin)
 
   // Template libraries
   eleventyConfig.setLibrary('md', require('./src/utils/libraries/markdown'))
